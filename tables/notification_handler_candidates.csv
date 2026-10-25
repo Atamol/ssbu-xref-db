@@ -1,0 +1,5 @@
+ref_addr,target_string,target_addr,function,function_entry
+0x710022ccc4,"NintendoNotificationEventManager",0x710427ff79,FUN_710022cc40,0x710022cc40
+0x710022ceb0,"NintendoNotificationEventManager",0x710427ff79,FUN_710022ce20,0x710022ce20
+0x710022d684,"NotificationEventManager",0x710433970e,FUN_710022d600,0x710022d600
+0x710022d960,"NotificationEventManager",0x710433970e,FUN_710022d8d0,0x710022d8d0

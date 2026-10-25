@@ -1,0 +1,1372 @@
+func_offset,func_name,is_defined,ref_count,unique_targets,categories,sample_targets
+0x225b990,FUN_710225b990,1,2542,2542,Battle/state,ITEM_LUA_SCRIPT_STATUS_FUNC_STATUS_SETTING | ITEM_LUA_SCRIPT_STATUS_FUNC_STATUS | ITEM_LUA_SCRIPT_STATUS_FUNC_STATUS_COROUTINE | ITEM_LUA_SCRIPT_STATUS_FUNC_TERM | ITEM_VARIATION_INVALID
+0x20fbb90,FUN_71020fbb90,1,2177,2117,Pia;Battle/state;Connection;Identity;Hash/Lua,MESH_VISIBILITY_FALSE | MESH_VISIBILITY_TRUE | MESH_VISIBILITY_NONE | ItemAppearRule | STAGE_GIMMICK_TYPE_AREA
+0x1f89310,FUN_7101f89310,1,366,366,Battle/state,MELEE_CP | 0x71044020ce | ITEM_SHOOT | FINAL | STAGE_TGT_CHS
+0x1f45620,FUN_7101f45620,1,83,43,Battle/state,ItemManager | ItemParamAccessor | StageManager | stage_all_stop | final_module_hit_success
+0x235d040,FUN_710235d040,1,55,15,Hash/Lua;Battle/state,OnlineMeleeConventionSequenceScene | OnlineMeleeTournamentSequenceScene | MeleeAllBattleSequenceScene | MeleeNormalSequenceScene | HomeRunContestSequenceScene
+0x1e40880,FUN_7101e40880,1,54,6,Battle/state,gauge_on | gauge_off | type_school | type_gym | type_search
+0x1b69480,FUN_7101b69480,1,38,38,Battle/state;Crypto,stock | charge_bar | charge | charge_max_off | charge_max_00
+0x1a23a80,FUN_7101a23a80,1,35,5,Battle/state,ready_out | scene_title_btn | scene_title_txt_00 | replay | chara_select_btn3_05_ready_00
+0x3959290,FUN_7103959290,1,31,15,Matchmaking,arenas.dirty_decay_ms | arenas.muzzy_decay_ms | arenas | arenas.narenas | Arenas
+0x2aa2190,FUN_7102aa2190,1,30,30,UI/misc,BlockN3 | BlockN4 | BlockN9 | BlockN10 | BlockN15
+0x2a952d0,FUN_7102a952d0,1,25,14,Network base,IPP0017 | IPP0003 | IPP0010 | IPP0005 | IPP0006
+0x1744340,FUN_7101744340,1,25,25,Battle/state;Hash/Lua,melee_time | melee_time_total | melee_normal_count | melee_team_compe_count | melee_sp_various_count
+0x1740140,FUN_7101740140,1,24,22,Battle/state;Matchmaking;Identity,rule_spirits | rule_handi_damage | rule_select_stage | rule_charge_final | rule_item_appear
+0x1bd7a40,FUN_7101bd7a40,1,23,17,Battle/state;Matchmaking;Identity,type_new | room_bg_name_hige | room_member_name_on | room_status_info_ng | room_status_info_ok
+0x1fa11c0,FUN_7101fa11c0,1,19,17,Battle/state;NEX session;Pia,model | 0x71042c3080 | stage_id | dead_up_camera_hit_count | dead_up_type
+0x392a220,FUN_710392a220,1,18,3,Connection,Invalid conf value | Error setting dss | Invalid conf pair
+0x1e50b10,FUN_7101e50b10,1,18,2,Battle/state,gauge_on | gauge_off
+0xbdc0,FUN_710000bdc0,1,18,16,Connection;Pia,"CONNECT | Host: | Host: %s
+ | Proxy-Connection: | Proxy-Connection: Keep-Alive
+"
+0x14aa930,FUN_71014aa930,1,17,17,Battle/state,StateLoadAsyncForHomeRunContest | StateSetupBatterOrder | StateShowPlayerInformation | StateShowBatterOrder | StateShowRemainingTimes
+0x14d2130,FUN_71014d2130,1,17,17,Battle/state,StateWaitForSyncWhenBeginning | StateHowToPlayDescription | StateAppearanceProduction | StateEndProduction | StateSuddenDeathPreparations
+0x41f880,FUN_710041f880,1,17,17,Battle/state;Pia;Hash/Lua,MenuSequenceScene | LocalSequenceScene | MeleeNormalSequenceScene | MeleeAllBattleSequenceScene | MeleeTeamCompeSequenceScene
+0x35e2f00,FUN_71035e2f00,1,17,9,Battle/state;Pia,0x7104431cb9 | local_offset | stage_visible_type | stage_transition_type | stage_transition_visible
+0x2a98fe0,FUN_7102a98fe0,1,17,15,Network base,IPP0001 | IPP0002 | IPP0003 | IPP0004 | IPP0017
+0x1e4e150,FUN_7101e4e150,1,15,6,Battle/state,gauge_off | type_gym | type_school | type_search | type_00
+0x1f42290,FUN_7101f42290,1,15,1,Battle/state,transition_%02d
+0x35e0e50,FUN_71035e0e50,1,15,5,Battle/state;Pia;Connection,model.xmb | MeshArray | 0x710435a8be | error | model.numdlb
+0x30a9aa0,FUN_71030a9aa0,1,14,5,Network base,IPP0004 | IPP0005 | IPP0001 | IPP0002 | IPP0003
+0x1f340,FUN_710001f340,1,14,13,Pia;Connection;NEX protocol;Network base,"localhost/ | Invalid file://hostname/, expected localhost or 127.0.0.1... | Protocol ""%s"" not supported or disabled in libcurl | Invalid IPv6 address format
+ | Port number out of range"
+0x171ff00,FUN_710171ff00,1,13,11,Battle/state;Network base,melee_kind | melee_rule | time_sec | stock | charge
+0xc9d0,FUN_710000c9d0,1,12,8,Connection;Pia;Numeric,"Connection: | Connection: TE
+TE: gzip
+ | Host: | Host: %s%s%s
+ | Host: %s%s%s:%hu
+"
+0x1714c00,FUN_7101714c00,1,12,7,Pia;Battle/state;UI/misc,lang:%s | stage | stage_type | melee_mode | melee_kind
+0x2d06f40,FUN_7102d06f40,1,12,9,Network base,IPP0302 | IPP0102 | IPP0201 | IPP0202 | IPP0204
+0x151e4b0,FUN_710151e4b0,1,12,12,Battle/state,StateLoadAsyncForStaffRoll | StateWaitForSyncWhenBeginning | StateAppearanceProduction | StateMeleeForStaffRoll | StateEndProduction
+0x1c27fb0,FUN_7101c27fb0,1,12,11,Battle/state,rule_new | rule_preset | rule_etc | rule_make | rule_stamina
+0x1ca4730,FUN_7101ca4730,1,12,6,Battle/state,type_others | type_item | item_off | item_on | mode_other
+0x226f500,FUN_710226f500,1,12,5,Identity;Battle/state,nintendogshi | start_item_capture | start_weapon_capture | item_throw | start_zoom_out
+0x2123d40,FUN_7102123d40,1,12,11,Battle/state,0x71042b7753 | START | RESULT | 0x71042eafa2 | ITEM_METAL
+0x19ac280,FUN_71019ac280,1,11,6,Battle/state,type_06 | type_04 | type_05 | type_03 | type_02
+0x1bb4ae0,FUN_7101bb4ae0,1,11,11,Battle/state;Crypto,menu_main_to_others | menu_main_to_items | menu_others_to_main | menu_items_to_main | menu_item_out
+0x28420,FUN_7100028420,1,11,11,Connection,invalid stored block lengths | invalid block type | invalid code lengths set | invalid literal/lengths set | invalid code -- missing end-of-block
+0x2d69fa0,FUN_7102d69fa0,1,11,11,Network base,IPP0001 | IPP0301 | IPP0601 | IPP0901 | IPP1101
+0x2bd3290,FUN_7102bd3290,1,10,4,Network base,IPP0201 | IPP0202 | IPP0203 | IPP0204
+0x1b2a1f0,FUN_7101b2a1f0,1,10,10,Battle/state,stage_sub_list_selector_ | STAGE_SUB_LIST_NUM | STAGE_SUB_LIST_PAGE_SCROLL_VALUE | stage_bgm_make_list | finalize_bgm
+0x2efd240,FUN_7102efd240,1,10,5,Network base,IPP0004 | IPP0005 | IPP0001 | IPP0002 | IPP0003
+0x2219310,FUN_7102219310,1,10,10,Battle/state,0x71042c3080 | item_private | item_manager | item_collision_manager | item_hud
+0x1ea210,FUN_71001ea210,1,10,1,Battle/state,0x710449ce5b
+0x29f6010,FUN_71029f6010,1,10,10,Network base;Battle/state,IPP0001 | IPP0101 | IPP0105 | IPP0102 | IPP0106
+0x32d0460,FUN_71032d0460,1,10,1,Battle/state,ready_in
+0x1d0a1c0,FUN_7101d0a1c0,1,9,5,Battle/state,replay_icon_anim_%d | mode_replay_on | replay_on | replay_selected | replay_winner_%d
+0x1eb58d0,FUN_7101eb58d0,1,9,4,Crypto,key_help_01_fadeout | key_help_02_fadeout | key_help_03_fadeout | key_help_00_fadeout
+0x1b7a8f0,FUN_7101b7a8f0,1,9,9,Battle/state;Matchmaking,time_onoff | time_num_00 | time_num_01 | time_num_02 | time_num_03
+0x1d9d070,FUN_7101d9d070,1,9,9,Battle/state,rule_spirits_campaign_boss | rule_spirits_board | rule_spirits_campaign_fb_dark | rule_spirits_campaign_sb_dark | rule_spirits_campaign_sb_light
+0x1eb5c90,FUN_7101eb5c90,1,9,4,Crypto,key_help_01_fadeout | key_help_02_fadeout | key_help_03_fadeout | key_help_00_fadeout
+0x18d5f60,FUN_71018d5f60,1,9,9,Battle/state,SCENE_EXIT_CODE_ORE_SOUND | SCENE_EXIT_CODE_TEST | MODE_TELEVISION | MODE_PORTABLE | MODE_HEADPHONE
+0x3371290,FUN_7103371290,1,8,8,Crypto;UI/misc;Network base,key_context | POPUP_RESULT_NONE | POPUP_RESULT_BUTTON1 | POPUP_RESULT_BUTTON2 | POPUP_RESULT_OK
+0x1c62870,FUN_7101c62870,1,8,8,NEX core;Battle/state,next_off | state_catch_ok | stage_other | stage_random | rule_btn_disp_on
+0x2eab970,FUN_7102eab970,1,8,4,Network base,IPP0002 | IPP0003 | IPP0004 | IPP0005
+0x134f5c0,FUN_710134f5c0,1,8,8,Battle/state,MeleeManager::process | StageManager::pre_process | StageSwapManager::update | ItemManager::process_begin | StageManager::process_fix_position
+0x13444c0,FUN_71013444c0,1,8,8,Battle/state,StateSampleAsync | StateInitializeAsync | StateLoadAsync | StateSetupAsync | StateRightExpression
+0x183be60,FUN_710183be60,1,8,3,Battle/state,ready_out | scene_title_txt_00 | chara_select_btn3_05_ready_00
+0x283aad0,FUN_710283aad0,1,7,6,Pia,landscape_loop_space_main_set | landscape_change_spacelight_main_set | landscape_loop_light_main_set | landscape_change_lightdark_main_set | landscape_loop_dark_main_set
+0x2cdb3e0,FUN_7102cdb3e0,1,7,5,Network base,IPP0002 | IPP0003 | IPP0004 | IPP0001 | IPP0005
+0x19b98c0,FUN_71019b98c0,1,7,7,Identity;Battle/state,0x7104400cf5 | item_collector | item_throw_to_target | item_swinger | homerun_batter
+0xfa1c0,FUN_71000fa1c0,1,7,7,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::SendLeaveMeshCompanion | NexMatchJointSessionJob::ResendInvitationAsCompanion | NexMatchJointSessionJob::StartCreateMatchmakeSession
+0x205c800,FUN_710205c800,1,7,7,Battle/state;NEX session;Pia,ModelModule | joint_global_position | joint_global_position_with_offset | joint_global_offset_from_top | joint_global_rotation
+0xf7a50,FUN_71000f7a50,1,7,6,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::SendDestroyInvitation | NexMatchJointSessionJob::WaitCloseJointSessionParticipation | NexMatchJointSessionJob::SendInvitationAsCompanion
+0x43ab90,FUN_710043ab90,1,7,7,Network base,IPP0002 | IPP0003 | IPP0004 | IPP0005 | IPP0006
+0x1d5aa30,FUN_7101d5aa30,1,7,7,Battle/state;Matchmaking,ready_eff | 0x71042f866d | gsp_type | type_%dp | gsp_up
+0x109430,FUN_7100109430,1,7,2,NEX core,NexMatchRandomMatchmakeJob::LeaveMatchmakeSession | NexMatchRandomMatchmakeJob::CleanupForRetryJoinMesh
+0xfec40,FUN_71000fec40,1,7,5,NEX core,NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::StartCreateNextMesh | NexMatchJointSessionJob::StartGetNextMeshHostStationLocation | NexMatchJointSessionJob::WaitStartRetryJoinMesh
+0x223ff20,FUN_710223ff20,1,7,7,Battle/state,homerun_contest_change_finish_camera | homerun_contest_change_fly_camera | homerun_contest_change_landing_camera | homerun_contest_change_timeup_fly_camera | homerun_contest_change_normal_camera
+0x2eadc80,FUN_7102eadc80,1,7,4,Network base,IPP0002 | IPP0004 | IPP0003 | IPP0005
+0x23e70,FUN_7100023e70,1,7,3,Crypto;NEX protocol;Battle/state,machine | login | 0x710436b2d3
+0xf3f40,FUN_71000f3f40,1,7,2,NEX core,NexMatchJoinSessionJob::MeshCleanup | NexMatchJoinSessionJob::CleanupForRetryJoinMesh
+0x200a5a0,FUN_710200a5a0,1,7,7,Battle/state,start_clatter | start_clatter_motion_rate | item_light_throw_fb_kind | item_light_throw_fb4_kind | item_light_throw_air_fb_kind
+0x1c70620,FUN_7101c70620,1,7,7,Battle/state,type_rule_contents | type_txt_italic | type_rule_warning | type_rule_stock | type_rule_stamina
+0x4227b0,FUN_71004227b0,1,7,7,Battle/state,ReplaySetupScene | MeleeReplayNormalSequenceScene | MeleeReplayCompetitionContinuationSequenceScene | ReplayExitScene | ReplayLoadScene
+0x1eb51f0,FUN_7101eb51f0,1,6,3,Crypto,key_help_01_fadeout | key_help_02_fadeout | key_help_03_fadeout
+0x124840,FUN_7100124840,1,6,4,Pia,LanProcessHostMigrationJob::HostMigrationFailure | LanProcessHostMigrationJob::LanWaitCheckOldHostDisconnection | LanProcessHostMigrationJob::LanPrepareForBecomingHostMulti | LanProcessHostMigrationJob::WaitNewHostGreeting
+0xf2880,FUN_71000f2880,1,6,5,NEX core,nex::NexMatchJoinSessionJob::CompleteFailure | NexMatchJoinSessionJob::WaitLeaveBufferMatchmakeSession | NexMatchJoinSessionJob::CompleteFailure | NexMatchJoinSessionJob::WaitLeaveMatchmakeSessionCompanions | NexMatchJoinSessionJob::WaitLeaveCurrentMatchmakeSession
+0x2d39a30,FUN_7102d39a30,1,6,6,Battle/state,stage_01Plains | stage_02BirchForest | stage_03Savanna | stage_04Taiga | stage_05SnowyTundra
+0x1a9a070,FUN_7101a9a070,1,6,2,Battle/state,type_pause_00 | type_play_00
+0xf82a0,FUN_71000f82a0,1,6,5,NEX core,NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::SendDestroyInvitation | NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::SendInvitationAsCompanion | NexMatchJointSessionJob::GetMatchmakeSessionOwners
+0x1082f0,FUN_71001082f0,1,6,5,NEX core,nex::NexMatchRandomMatchmakeJob::CompleteFailure | NexMatchRandomMatchmakeJob::WaitLeaveBufferMatchmakeSession | NexMatchRandomMatchmakeJob::WaitLeaveMatchmakeSessionComp... | NexMatchRandomMatchmakeJob::CompleteFailure | NexMatchRandomMatchmakeJob::WaitLeaveCurrentMatchmakeSession
+0x4262b0,FUN_71004262b0,1,6,6,Hash/Lua;Battle/state,OnlineTournamentEntranceScene | OnlineTournamentAmiiboReadScene | OnlineTournamentTableScene | OnlineTournamentShowRankScene | OnlineTournamentReplaySelectScene
+0x1f87300,FUN_7101f87300,1,6,6,Battle/state,0x7104431cb9 | dead_top | dead_bottom | dead_left | dead_right
+0x18a82a0,FUN_71018a82a0,1,6,1,Battle/state,mode_%02d
+0x2dfe1b0,FUN_7102dfe1b0,1,6,6,Network base,IPP0001 | IPP0002 | IPP0003 | IPP0004 | IPP0005
+0x23d4940,FUN_71023d4940,1,6,6,Battle/state,MELEE_TYPE_NORMAL | MELEE_TYPE_TEAM | MELEE_TYPE_BATTLE_ROYAL | MELEE_TYPE_ONE_TO_MANY | MELEE_TYPE_CORPS
+0x1f3d240,FUN_7101f3d240,1,6,6,Battle/state,type_movie | type_image | type_movie_nobgm | type_movie_bgm_ng | type_sound
+0x101bd0,FUN_7100101bd0,1,6,4,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitCompanionStation | NexMatchJointSessionJob::WaitCompletionInvitation
+0x1b52a70,FUN_7101b52a70,1,6,5,Matchmaking;Battle/state,gsp_onoff | gsp_icon_onoff | result_off | result_in | gsp_type
+0x18b3d90,FUN_71018b3d90,1,6,6,Battle/state,mode_single | mode_double | mode_melee | mode_1on1 | state_open
+0x2137e70,FUN_7102137e70,1,6,3,Battle/state,ItemInkPaintModuleImpl | ItemDamageModuleImpl | ItemMotionAnimcmdModuleImpl
+0xf74b0,FUN_71000f74b0,1,6,5,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::CloseJointSessionParticipation | NexMatchJointSessionJob::SendInvitationAsCompanion | NexMatchJointSessionJob::WaitCloseMatchmakeSession
+0x1eb54e0,FUN_7101eb54e0,1,6,3,Crypto,key_help_01_fadeout | key_help_02_fadeout | key_help_03_fadeout
+0x1c13400,FUN_7101c13400,1,6,6,Battle/state,rule_icon_off | rule_icon_on | rule_detail | rule_time | rule_stamina
+0x110e60,FUN_7100110e60,1,6,5,NEX core,NexProcessHostMigrationJob::HostMigrationFailure | NexProcessHostMigrationJob::WaitNewHostFinished | NexProcessHostMigrationJob::WaitNewHostGreeting | NexProcessHostMigrationJob::NexCheckOldHostDisconnection | NexProcessHostMigrationJob::NexPrepareForBecomingHostMulti
+0xfd6b0,FUN_71000fd6b0,1,6,4,NEX core,NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::StartLeavePreviousMatchmakeSession | NexMatchJointSessionJob::WaitMeshRestart | NexMatchJointSessionJob::WaitLeavePreviousMesh
+0x19ad760,FUN_71019ad760,1,6,2,Battle/state,type_03 | type_00
+0x26bcd60,FUN_71026bcd60,1,6,6,Network base,IPP0201 | IPP0202 | IPP0101 | IPP0102 | IPP0001
+0x1ce2ec0,FUN_7101ce2ec0,1,6,3,Battle/state,mode_%02d | mode_01 | mode_00
+0x156720,FUN_7100156720,1,6,6,Pia;Identity;Network base;NEX session,0x710435a8be | Local | 0x7104318364 | BandwidthCheck | Session
+0xfc7d0,FUN_71000fc7d0,1,6,5,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::SendNextSessionId | NexMatchJointSessionJob::WaitUntilLeaderLeavesMesh | NexMatchJointSessionJob::WaitNextSessionId
+0x100820,FUN_7100100820,1,5,5,NEX core,NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::MeshRestart | NexMatchJointSessionJob::WaitCompanionStation | NexMatchJointSessionJob::WaitStartRetryJoinMesh | NexMatchJointSessionJob::StartLeaveMesh
+0x33093b0,FUN_71033093b0,1,5,3,Battle/state,mode_option_button_controller | mode_make_mii_edit | mode_spirits_board_set
+0x2ef6bd0,FUN_7102ef6bd0,1,5,5,Network base,IPP0001 | IPP0002 | IPP0003 | IPP0004 | IPP0005
+0x1001a0,FUN_71001001a0,1,5,5,NEX core,NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::StartJoinNextMesh | NexMatchJointSessionJob::MeshRestart | NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::WaitStartRetryJoinMesh
+0x2a9d0,FUN_710002a9d0,1,5,3,Connection,invalid distance code | invalid distance too far back | invalid literal/length code
+0xfd9e0,FUN_71000fd9e0,1,5,4,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::SendPreparedForMigrateSession | NexMatchJointSessionJob::GetNextMatchmakeSessionInfo
+0x35c7aa0,FUN_71035c7aa0,1,5,5,Battle/state,model.numdlb | model.numatb | model.numshexb | model.adjb | item_silhouette_opaque
+0xf3a60,FUN_71000f3a60,1,5,4,NEX core;NEX session,nex::NexMatchJoinSessionJob::CompleteFailure | NexMatchJoinSessionJob::LeaveMatchmakeSession | JoinSessionJob::MeshStartup | NexMatchJoinSessionJob::CompleteFailure
+0xf0ae0,FUN_71000f0ae0,1,5,4,NEX core;Connection,NexConnectStationJob::ResolveCurrentAddress | NexConnectStationJob::PrepareNatTraversal | NexConnectStationJob::PrepareNatTraversalByRelay | ConnectStationJob::ConnectionFailed
+0xf9ae0,FUN_71000f9ae0,1,5,4,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::SendInvitationAsCompanion | NexMatchJointSessionJob::SendAnswerToInvitation
+0xfb30,FUN_710000fb30,1,5,3,Pia;Connection,Proxy-Connection: | Connection: | Proxy-authenticate:
+0x105b50,FUN_7100105b50,1,5,3,NEX core,NexMatchCreateSessionJob::UnregisterGathering | nex::NexMatchCreateSessionJob::CompleteFailure | NexMatchCreateSessionJob::CompleteFailure
+0x124370,FUN_7100124370,1,5,4,Pia,LanProcessHostMigrationJob::HostMigrationFailure | LanProcessHostMigrationJob::LanPrepareForBecomingHostMulti | LanProcessHostMigrationJob::WaitNewHostGreeting | LanProcessHostMigrationJob::LanCheckOldHostDisconnection
+0xf53b0,FUN_71000f53b0,1,5,5,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::SendAnswerToDestroyInvitation | NexMatchJointSessionJob::CloseMatchmakeSession | NexMatchJointSessionJob::SendAnswerToInvitation
+0x2838140,FUN_7102838140,1,5,5,Battle/state,stage_Median | stage_Light_loop | stage_Dark_loop | stage_Light | stage_Dark
+0x111430,FUN_7100111430,1,5,5,NEX core,NexProcessHostMigrationJob::HostMigrationFailure | NexProcessHostMigrationJob::WaitNewHostFinished | NexProcessHostMigrationJob::NexWaitCheckOldHostDisconnection | NexProcessHostMigrationJob::NexPrepareForBecomingHostMulti | NexProcessHostMigrationJob::WaitNewHostGreeting
+0x1390d00,FUN_7101390d00,1,5,5,Battle/state,gauge_sec_onoff | gauge_00 | gauge_01 | gauge_colanim_00 | gauge_colanim_01
+0xfcc60,FUN_71000fcc60,1,5,5,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::SendLeaveMeshCompanion | NexMatchJointSessionJob::ResendNextSessionId | NexMatchJointSessionJob::SendPreparedForMigrateSession
+0xffca0,FUN_71000ffca0,1,5,5,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitHostStationId | NexMatchJointSessionJob::WaitUntilCompanionCompletion | NexMatchJointSessionJob::SendCompletionForMigrateSession
+0x1f94540,FUN_7101f94540,1,5,5,Hash/Lua;Battle/state,LuaAutomaticTest | start_melee | start_measuring_load | item_name | item_group
+0x2ccfe70,FUN_7102ccfe70,1,5,3,Network base,IPP0001 | IPP0005 | IPP0002
+0x1a2b570,FUN_7101a2b570,1,5,4,Connection;Battle/state,disconnect_off | disconnect_on | ready_in | ready_out
+0x11ddb0,FUN_710011ddb0,1,5,5,Pia,LanMatchJointSessionJob::WaitNextSessionId | LanMatchJointSessionJob::StartJoinMatchmakeSession | LanMatchJointSessionJob::SendInvitationAsCompanion | LanMatchJointSessionJob::StartRandomMatchmake | LanMatchJointSessionJob::SendAnswerToInvitation
+0x111da0,FUN_7100111da0,1,5,5,NEX core,NexProcessHostMigrationJob::HostMigrationFailure | NexProcessHostMigrationJob::WaitNewHostFinished | NexProcessHostMigrationJob::WaitNewHostGreeting | NexProcessHostMigrationJob::NexPrepareForBecomingHostMulti | NexProcessHostMigrationJob::NexCheckOldHostDisconnection
+0x2bcdca0,FUN_7102bcdca0,1,5,4,Network base,IPP0002 | IPP0003 | IPP0004 | IPP0005
+0x1c44ff0,FUN_7101c44ff0,1,5,4,Battle/state,type_1 | type_3 | type_2 | type_4
+0x2e98490,FUN_7102e98490,1,5,5,Network base,IPP0001 | IPP0002 | IPP0003 | IPP0004 | IPP0005
+0xf9e90,FUN_71000f9e90,1,5,4,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitUntilLeaderLeavesMesh | NexMatchJointSessionJob::WaitNextSessionId
+0x421ee0,FUN_7100421ee0,1,5,5,Pia;Battle/state,LocalTopScene | LocalModeSelectScene | MeleeRuleScene | MeleeNormalSequenceScene | MeleeTeamCompeSequenceScene
+0x170dfb0,FUN_710170dfb0,1,5,5,Battle/state,stage | stage_type | melee_mode | melee_kind | melee_rule
+0x18c4f50,FUN_71018c4f50,1,5,5,Battle/state,MENU_VIBRATION | ITEM_INDEX_INIT | SCENE_EXIT_CODE_TEST | start_test_play | is_playing
+0x1cceed0,FUN_7101cceed0,1,5,5,Battle/state,mode_03 | mode_04 | mode_01 | mode_02 | mode_00
+0x102730,FUN_7100102730,1,5,4,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitHostStationId | NexMatchJointSessionJob::WaitCompanionStation
+0x425fe0,FUN_7100425fe0,1,5,5,Hash/Lua;Battle/state,OnlineMeleeRoomTopScene | OnlineMeleeRoomScene | MeleeRuleScene | StageSelectScene | OnlineMeleeRoomChangeRuleScene
+0xf97e0,FUN_71000f97e0,1,5,4,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::CloseMatchmakeSession | NexMatchJointSessionJob::WaitForInvitationAsCompanion
+0x429840,FUN_7100429840,1,4,4,Battle/state,stage_morning | stage_daytime | stage_evening | stage_night
+0x104000,FUN_7100104000,1,4,4,NEX core;NEX session,nex::NexMatchLeaveSessionJob::SendMonitoringData | LeaveSessionJob::LeaveMesh | nex::NexMatchLeaveSessionJob::LeaveMesh | NexMatchLeaveSessionJob::WaitGetMatchmakeSessionOwners
+0x1e691f0,FUN_7101e691f0,1,4,4,Battle/state,gauge_in | gauge_out | gauge_loop | gauge_progress
+0x10a020,FUN_710010a020,1,4,4,NEX core,nex::NexMatchRandomMatchmakeJob::CompleteFailure | NexMatchRandomMatchmakeJob::StartNatSession | NexMatchRandomMatchmakeJob::LeaveMatchmakeSession | NexMatchRandomMatchmakeJob::ChangeParticipation
+0x1ec59d0,FUN_7101ec59d0,1,4,4,Crypto,key_help_00_fadeout | key_help_01_fadeout | key_help_02_fadeout | key_help_03_fadeout
+0x120850,FUN_7100120850,1,4,3,Pia,LanMatchRandomMatchmakeJob::LeaveMesh | LanMatchRandomMatchmakeJob::CompleteFailure | LanMatchRandomMatchmakeJob::WaitRequestSessionInfo
+0xff840,FUN_71000ff840,1,4,3,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitCreateNextMesh
+0x18821d0,FUN_71018821d0,1,4,3,Battle/state,SCENE_EXIT_CODE_SELECT | MODE_NORMAL | MODE_VIP
+0x2749210,FUN_7102749210,1,4,4,Battle/state,stage_default | stage_kiila | stage_darz | stage_both
+0x292da30,FUN_710292da30,1,4,4,Network base,IPP0002 | IPP0102 | IPP0202 | IPP0302
+0x1020a0,FUN_71001020a0,1,4,3,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitForAnswerToCompletionInvitation
+0x130b0,FUN_71000130b0,1,4,2,Connection,Error while processing content unencoding: %s | Error while processing content unencoding: Unknown failur...
+0x1068d0,FUN_71001068d0,1,4,4,NEX core,NexMatchBrowseMatchmakeJob::WaitFindSessionByOwner | NexMatchBrowseMatchmakeJob::WaitFindSessionByParticipant | NexMatchBrowseMatchmakeJob::WaitFindSessionBySessionId | NexMatchBrowseMatchmakeJob::BrowseMatchmake
+0x30fa3c0,FUN_71030fa3c0,1,4,1,Network base,IPP0001
+0x1d20930,FUN_7101d20930,1,4,1,Battle/state,result_rank_off
+0xfb100,FUN_71000fb100,1,4,3,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitRandomMatchmake
+0x1b438a0,FUN_7101b438a0,1,4,4,Battle/state,type_pokesta1_info | type_pokesta2_info | type_pokesta1 | type_pokesta2
+0x3905ad0,FUN_7103905ad0,1,4,4,Hash/Lua,LUA_PATH_5_3 | LUA_PATH | LUA_CPATH_5_3 | LUA_CPATH
+0x10b140,FUN_710010b140,1,4,4,NEX core,NexMatchCommunityManagementJob::FindCommunityByOwner | NexMatchCommunityManagementJob::FindOfficialCommunity | NexMatchCommunityManagementJob::FindCommunityByParticipant | NexMatchCommunityManagementJob::FindCommunityByCommunityId
+0x1f13090,FUN_7101f13090,1,4,2,Battle/state,state_enable | state_disable
+0x30ae260,FUN_71030ae260,1,4,1,Network base,IPP0006
+0x104180,FUN_7100104180,1,4,3,NEX core,nex::NexMatchLeaveSessionJob::SendMonitoringData | NexMatchLeaveSessionJob::GetMatchmakeSessionOwners | nex::NexMatchLeaveSessionJob::LeaveMesh
+0x123980,FUN_7100123980,1,4,3,Pia,LanProcessHostMigrationJob::HostMigrationFailure | LanProcessHostMigrationJob::WaitNewHostGreeting | LanProcessHostMigrationJob::LanPrepareForBecomingHost
+0x1109a0,FUN_71001109a0,1,4,4,NEX core,NexProcessHostMigrationJob::HostMigrationFailure | NexProcessHostMigrationJob::WaitNewHostFinished | NexProcessHostMigrationJob::WaitNewHostGreeting | NexProcessHostMigrationJob::NexGetMatchMakingClientHost
+0x1f23030,FUN_7101f23030,1,4,2,Battle/state,mode_movie | mode_picture
+0x1241f0,FUN_71001241f0,1,4,3,Pia,LanProcessHostMigrationJob::HostMigrationFailure | LanProcessHostMigrationJob::LanWaitMatchMakingClientHost | LanProcessHostMigrationJob::LanCheckMatchMakingClientHost
+0xfa9e0,FUN_71000fa9e0,1,4,3,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitCreateMatchmakeSession
+0x13930c0,FUN_71013930c0,1,4,4,Battle/state,timeup | ready | Ready! | victory
+0x101210,FUN_7100101210,1,4,4,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::ProcessComplete | NexMatchJointSessionJob::UpdateJointSessionOpenStatus
+0x10a210,FUN_710010a210,1,4,3,NEX core,NexMatchRandomMatchmakeJob::LeaveMatchmakeSession | nex::NexMatchRandomMatchmakeJob::CompleteFailure | NexMatchRandomMatchmakeJob::WaitChangeParticipation
+0x422250,FUN_7100422250,1,4,4,Battle/state,StageSelectScene | MeleeRuleScene | MeleeAllBattleResultScene | MeleeAllBattleTieGameScene
+0xf7210,FUN_71000f7210,1,4,3,NEX core,NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::StartLeaveCurrentMatchmakeSession | NexMatchJointSessionJob::WaitLeaveMesh
+0x1479370,FUN_7101479370,1,4,4,Battle/state;Matchmaking;Crypto,result_type | 0x71042f866d | gsp_type | key_help
+0x1e85360,FUN_7101e85360,1,4,4,Battle/state,states_enable_open | states_close | states_open_off | states_open_on
+0x32b81b0,FUN_71032b81b0,1,4,2,Battle/state;Crypto,type_%d | key_%d
+0xf8aa0,FUN_71000f8aa0,1,4,4,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::SendInvitationAsCompanion | NexMatchJointSessionJob::WaitGetMatchmakeSessionOwners
+0x107aa0,FUN_7100107aa0,1,4,4,NEX core,NexMatchRandomMatchmakeJob::CompleteFailure | nex::NexMatchRandomMatchmakeJob::CompleteFailure | NexMatchRandomMatchmakeJob::RandomMatchmake | NexMatchRandomMatchmakeJob::WaitLeaveJoinedMatchmakeSession
+0x1e7d350,FUN_7101e7d350,1,4,4,Battle/state,states_open_off | states_open_on | states_close | states_close_enable_open
+0xf22b0,FUN_71000f22b0,1,4,4,NEX core,NexMatchJoinSessionJob::MeshCleanup | nex::NexMatchJoinSessionJob::CompleteFailure | NexMatchJoinSessionJob::JoinMatchmakeSession | NexMatchJoinSessionJob::WaitLeaveJoinedMatchmakeSession
+0x18f2c0,FUN_710018f2c0,1,4,4,NEX session,LeaveWithHostMigrationJob::StartDisconnectStations | LeaveWithHostMigrationJob::SendStartMultiMigrationMessage | LeaveWithHostMigrationJob::WaitHostMigrationProcess | LeaveWithHostMigrationJob::SendStartMigrationMessage
+0x1b8eb50,FUN_7101b8eb50,1,4,4,Battle/state,mode_gc | mode_joycon_single | mode_other | mode_other_vr
+0x1e3db10,FUN_7101e3db10,1,4,4,Battle/state,item_up_1 | item_down_0 | item_up_%d | item_down_%d
+0xfc2f0,FUN_71000fc2f0,1,4,4,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitCompanionStationPrepared | NexMatchJointSessionJob::SendPreparedForMigrateSession
+0x106350,FUN_7100106350,1,4,3,NEX core,nex::NexMatchDestroySessionJob::SendMonitoringData | NexMatchDestroySessionJob::UnregisterCurrentMatchmakeSession | NexMatchDestroySessionJob::WaitUnregisterBufferMatchmakeS...
+0x2b5b9e0,FUN_7102b5b9e0,1,4,4,Pia,LandMisc_Island_Static | LandMisc_Ground_Static | LandMisc_Island_SuddenDeath | LandMisc_Ground_SuddenDeath
+0x3375860,FUN_7103375860,1,4,4,Crypto;Battle/state,key_context | SCENE_EXIT_CODE_NONE | SCENE_EXIT_CODE_NORMAL | SCENE_EXIT_CODE_CANCEL
+0x1d7da70,FUN_7101d7da70,1,4,4,Crypto,key_01_on | keyhelp_on | keyhelp_off | key_01_off
+0x1e9aa40,FUN_7101e9aa40,1,4,4,Battle/state,gauge_progress | gauge_parts_off | gauge_parts_on | gauge_off
+0x2ea7150,FUN_7102ea7150,1,4,4,Network base,IPP0002 | IPP0003 | IPP0004 | IPP0005
+0xfe3b0,FUN_71000fe3b0,1,4,3,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitLeavePreviousMatchmakeSession
+0x17cbd0,FUN_710017cbd0,1,4,3,Pia,LocalProcessHostMigrationJobNew::WaitNewHostGreeting | LocalProcessHostMigrationJobNew::HostMigrationFailure | LocalProcessHostMigrationJobNew::LocalPrepareForBecomingHost
+0xff3e0,FUN_71000ff3e0,1,4,3,NEX core,NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::MeshRestart
+0x1c1fa30,FUN_7101c1fa30,1,4,4,Battle/state,rule_icon_compe | rule_icon_tourn | rule_icon_in | rule_icon_out
+0x2eaaea0,FUN_7102eaaea0,1,4,4,Network base,IPP0002 | IPP0003 | IPP0004 | IPP0005
+0xfd440,FUN_71000fd440,1,4,3,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::StartLeavePreviousMesh
+0x2318650,FUN_7102318650,1,4,2,Battle/state,MeleeScene | HomeRunContestScene
+0x1341d50,FUN_7101341d50,1,4,4,Battle/state,StateWaitForMelee | StateSetupCamera | StateMelee | StateWaitForRuleToFinish
+0x2068680,FUN_7102068680,1,4,4,NEX session;Pia;Battle/state,joint_local_tra | joint_local_rotation | joint_rotate | start_flip_interpolation
+0x1afed00,FUN_7101afed00,1,4,2,Battle/state,type_02 | type_00
+0xf24c0,FUN_71000f24c0,1,4,4,NEX core,NexMatchJoinSessionJob::MeshCleanup | nex::NexMatchJoinSessionJob::CompleteFailure | NexMatchJoinSessionJob::LeaveMatchmakeSession | NexMatchJoinSessionJob::WaitJoinMatchmake
+0x19acd40,FUN_71019acd40,1,4,4,Battle/state,type_06 | type_02 | type_00 | type_01
+0x1bbcca0,FUN_7101bbcca0,1,4,4,Battle/state,type_off | type_monster | type_assist | type_master
+0xd5530,FUN_71000d5530,1,4,4,NEX core,NexJoinMeshJob::LeaveMeshWithHostMigration | NexJoinMeshJob::WaitCheckHostConnection | NexJoinMeshJob::LeaveMesh | NexJoinMeshJob::WaitCheckKickoutJob
+0x1e564a0,FUN_7101e564a0,1,4,2,Battle/state,menu_switch_edit | menu_switch_spirits
+0x30a5e40,FUN_71030a5e40,1,4,3,Network base,IPP0004 | IPP0005 | IPP0006
+0x104540,FUN_7100104540,1,4,4,NEX core;NEX session,nex::NexMatchLeaveSessionJob::SendMonitoringData | LeaveSessionJob::LeaveCurrentMatchmakeSession | nex::NexMatchLeaveSessionJob::LeaveMesh | NexMatchLeaveSessionJob::WaitLeaveMatchmakeSessionCompanions
+0x10d570,FUN_710010d570,1,4,4,NEX core,NexMatchUpdateSessionSettingJob::ModifyAttribute | NexMatchUpdateSessionSettingJob::UpdateSessionSetting | NexMatchUpdateSessionSettingJob::UpdateApplicationData | NexMatchUpdateSessionSettingJob::UpdateAttributes
+0xfad70,FUN_71000fad70,1,4,3,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitJoinMatchmakeSession
+0xf3580,FUN_71000f3580,1,4,3,NEX core,NexMatchJoinSessionJob::LeaveMatchmakeSession | nex::NexMatchJoinSessionJob::CompleteFailure | NexMatchJoinSessionJob::WaitGetStationLocation
+0x1c18c70,FUN_7101c18c70,1,4,4,Battle/state,ITEM_PANEL_MAX | ITEM_PANEL_LIST_NUM | ITEM_PANEL_ALL_ON_OFF | ITEM_APPEAR_NUM
+0x168c4d0,FUN_710168c4d0,1,4,4,NEX core;Battle/state;Matchmaking,gathering_id | gamemode | rating | matching_retry
+0xedf0,FUN_710000edf0,1,4,4,Crypto;Pia,Digest | Proxy-authorization: | Proxy- | Proxy
+0x19a7fb0,FUN_71019a7fb0,1,4,3,Battle/state,type_00 | type_05 | type_04
+0xfe620,FUN_71000fe620,1,4,3,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::MeshRestart
+0x422e70,FUN_7100422e70,1,4,4,Battle/state,MeleeVrSetupScene | MeleeVrResetScene | StageSelectScene | MeleeRuleScene
+0x426670,FUN_7100426670,1,4,4,Hash/Lua;Battle/state,OnlineShareScene | MeleeReplaySequenceScene | OnlineShareTestPlayStageSequenceScene | OnlineSharePlayMovieScene
+0xff630,FUN_71000ff630,1,4,3,NEX core,NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::WaitGetNextMeshHostStationLocation
+0x100640,FUN_7100100640,1,4,3,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitJoinNextMesh
+0x18157f0,FUN_71018157f0,1,4,2,Battle/state,type_0%d | type_00
+0x1cac700,FUN_7101cac700,1,4,2,Battle/state,type_00 | type_01
+0x1fc7f30,FUN_7101fc7f30,1,4,4,Pia;Battle/state,LANDING_EFFECT | LANDING_EFFECT_FLIP | START_TRACE | START_INFO_FLASH_EYE
+0x108ec0,FUN_7100108ec0,1,4,3,NEX core,nex::NexMatchRandomMatchmakeJob::CompleteFailure | NexMatchRandomMatchmakeJob::LeaveMatchmakeSession | NexMatchRandomMatchmakeJob::CompleteFailure
+0x2dcec00,FUN_7102dcec00,1,4,3,Battle/state;Network base,stage_sunny | IPP0001 | IPP0002
+0xf8ed0,FUN_71000f8ed0,1,4,4,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::SendInvitationAsCompanion | NexMatchJointSessionJob::ResendDestroyInvitation
+0x1746780,FUN_7101746780,1,4,3,NEX core;Matchmaking;Battle/state,gathering_id | rating | start_rtt_max
+0x1854680,FUN_7101854680,1,4,4,Battle/state,MELEE_NORMAL | MELEE_TEAM_COMPE | MELEE_SPECIAL_VARIOS | MELEE_SPECIAL_SUDDENDEATH
+0x104f30,FUN_7100104f30,1,4,4,NEX core,NexMatchCreateSessionJob::CompleteFailure | nex::NexMatchCreateSessionJob::CompleteFailure | NexMatchCreateSessionJob::CreateMatchmakeSession | NexMatchCreateSessionJob::WaitLeaveJoinedMatchmakeSession
+0x11cf50,FUN_710011cf50,1,4,3,Pia,LanMatchJoinSessionJob::LeaveMesh | lan::LanMatchJoinSessionJob::CompleteFailure | LanMatchJoinSessionJob::WaitRequestSessionInfo
+0xfdf60,FUN_71000fdf60,1,4,3,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitGetNextMatchmakeSessionInfo
+0x38fcce0,FUN_71038fcce0,1,4,4,Hash/Lua;Battle/state,0x71042f68fa | format mismatch in | lua_Integer | lua_Number
+0x1f1ee70,FUN_7101f1ee70,1,4,4,Battle/state;Crypto,0x71042c3080 | keyhelp_change | keyhelp_add | time_rec
+0xf0790,FUN_71000f0790,1,4,4,Connection;NEX core,ConnectStationJob::ConnectionFailed | NexConnectStationJob::ResolveCurrentAddress | NexConnectStationJob::WaitForNatTraversalCompleted | NexConnectStationJob::WaitForNatTraversalStarted
+0x17c7b0,FUN_710017c7b0,1,4,3,Pia,LocalProcessHostMigrationJobNew::WaitLocalHostMigrationCl... | LocalProcessHostMigrationJobNew::HostMigrationFailure | LocalProcessHostMigrationJobNew::LocalPrepareForBecomingHost
+0xf77a0,FUN_71000f77a0,1,4,4,NEX core,NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::CloseJointSessionParticipation | NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::SendInvitationAsCompanion
+0xfcff0,FUN_71000fcff0,1,4,4,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitCompanionStationPrepared | NexMatchJointSessionJob::SendPreparedForMigrateSession
+0xd5800,FUN_71000d5800,1,3,3,NEX core,NexJoinMeshJob::LeaveMeshWithHostMigration | NexJoinMeshJob::LeaveMesh | NexJoinMeshJob::CompleteProcess
+0x121000,FUN_7100121000,1,3,3,Pia,LanMatchRandomMatchmakeJob::WaitForRetryRandomMatchmake | LanMatchRandomMatchmakeJob::LeaveMatchmakeSession | LanMatchRandomMatchmakeJob::RandomMatchmake
+0x124030,FUN_7100124030,1,3,3,Pia,LanProcessHostMigrationJob::WaitNewHostGreeting | LanProcessHostMigrationJob::HostMigrationFailure | LanProcessHostMigrationJob::LanGetMatchMakingClientHost
+0x3840,FUN_7100003840,1,3,3,Pia,"host! | Local port: %hu
+ | Local Interface %s is ip %s using address family %i
+"
+0xf3050,FUN_71000f3050,1,3,3,NEX core,NexMatchJoinSessionJob::LeaveMatchmakeSession | nex::NexMatchJoinSessionJob::CompleteFailure | NexMatchJoinSessionJob::WaitNotification
+0xf1060,FUN_71000f1060,1,3,3,NEX core;Connection,NexConnectStationJob::PrepareNatTraversal | NexConnectStationJob::WaitForNatTraversalCompleted | ConnectStationJob::ConnectionFailed
+0x20f6260,FUN_71020f6260,1,3,3,Battle/state,0x71044028c7 | start_inhaled | item_module_accessor
+0x1ee9990,FUN_7101ee9990,1,3,3,Battle/state,rule_life | rule_stock | rule_time
+0x108090,FUN_7100108090,1,3,3,NEX core,nex::NexMatchRandomMatchmakeJob::CompleteFailure | NexMatchRandomMatchmakeJob::LeaveMatchmakeSession | NexMatchRandomMatchmakeJob::WaitNotification
+0x3918310,FUN_7103918310,1,3,3,Connection,invalid option '%%%c' to 'format' | invalid format (repeated flags) | invalid format (width or precision too long)
+0x13f090,FUN_710013f090,1,3,3,NEX session,JoinSessionJob::WaitLeaveMeshWithHostMigration | JoinSessionJob::WaitLeaveMesh | JoinSessionJob::WaitDestroyMesh
+0xf6080,FUN_71000f6080,1,3,3,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::CloseMatchmakeSession
+0x4268d0,FUN_71004268d0,1,3,3,Hash/Lua;Battle/state,OnlineWatchFullScene | OnlineWatchShopTopScene | MeleeReplaySequenceScene
+0x2b7da20,FUN_7102b7da20,1,3,3,Network base,IPP0001 | IPP0002 | IPP0003
+0x1048c0,FUN_71001048c0,1,3,3,NEX core,nex::NexMatchLeaveSessionJob::SendMonitoringData | nex::NexMatchLeaveSessionJob::LeaveMesh | NexMatchLeaveSessionJob::LeaveMatchmakeSessionCompanions
+0x1b4b150,FUN_7101b4b150,1,3,3,Battle/state,type_punchout | type_ko | type_suddendeath
+0x2f40210,FUN_7102f40210,1,3,3,Network base,IPP0003 | IPP0001 | IPP0002
+0x390c280,FUN_710390c280,1,3,1,Pia,local variables
+0xfc110,FUN_71000fc110,1,3,3,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitNotification
+0x155130,FUN_7100155130,1,3,3,Pia,Pia Send | Pia Send Unicast | Pia Send Broadcast
+0x18b68a0,FUN_71018b68a0,1,3,2,Battle/state,waiting | replay_%s
+0xf3970,FUN_71000f3970,1,3,2,NEX core,NexMatchJoinSessionJob::LeaveMatchmakeSession | NexMatchJoinSessionJob::WaitStartNatSession
+0xfb990,FUN_71000fb990,1,3,3,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitNotification
+0x1bd7000,FUN_7101bd7000,1,3,3,Battle/state;Identity,type_00 | friend_off | friend_on
+0xfe1b0,FUN_71000fe1b0,1,3,3,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::SendPreparedForMigrateSession
+0x1209c0,FUN_71001209c0,1,3,3,Pia,LanMatchRandomMatchmakeJob::CompleteProcess | LanMatchRandomMatchmakeJob::RandomMatchmake | LanMatchRandomMatchmakeJob::LeaveMesh
+0x1031f0,FUN_71001031f0,1,3,3,NEX core,NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitHostMigrated | NexMatchJointSessionJob::StartLeaveCurrentMatchmakeSession
+0x1839f0,FUN_71001839f0,1,3,3,Pia,LocalDestroyNetworkJob::WaitForCancel | LocalDestroyNetworkJob::WaitUntilAllClientsReceiveUpdateS... | LocalDestroyNetworkJob::SendDestroyNetworkMessage
+0x1bdc040,FUN_7101bdc040,1,3,2,Matchmaking,room_member_name_off | room_member_name_on
+0x1c61bd0,FUN_7101c61bd0,1,3,2,NEX core,next_off | next_on
+0x1c7ebd0,FUN_7101c7ebd0,1,3,2,Crypto,key_off | key_on
+0x1bd43a0,FUN_7101bd43a0,1,3,2,Matchmaking,room_member_name_off | room_member_name_on
+0xffa10,FUN_71000ffa10,1,3,3,NEX core,NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::WaitCompanionStation
+0x123a30,FUN_7100123a30,1,3,3,Pia,LanProcessHostMigrationJob::HostMigrationFailure | LanProcessHostMigrationJob::WaitNewHostGreeting | LanProcessHostMigrationJob::LanPrepareForBecomingHost
+0x1b5b3f0,FUN_7101b5b3f0,1,3,3,NEX core;Battle/state,next_in | result_all_in | result_all_off
+0x19a93d0,FUN_71019a93d0,1,3,2,Battle/state,type_02 | type_01
+0x1c2abb0,FUN_7101c2abb0,1,3,3,Battle/state,STAGE_PANEL_MAX | STAGE_PANEL_LIST_NUM | STAGE_PANEL_ALL_ON_OFF
+0xf3270,FUN_71000f3270,1,3,3,NEX core,nex::NexMatchJoinSessionJob::CompleteFailure | NexMatchJoinSessionJob::LeaveMatchmakeSession | NexMatchJoinSessionJob::GetStationLocation
+0xf9270,FUN_71000f9270,1,3,3,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitForAnswerToDestroyInvitation
+0x1c8b340,FUN_7101c8b340,1,3,3,Battle/state,rule_hp | rule_stock | rule_time
+0x20a9880,FUN_71020a9880,1,3,3,Battle/state,is_play_motion_camera | is_play | is_play_status
+0x111aa0,FUN_7100111aa0,1,3,3,NEX core,NexProcessHostMigrationJob::WaitUpdateSessionOpenStatus | NexProcessHostMigrationJob::HostMigrationFailure | NexProcessHostMigrationJob::HostMigrationSuccess
+0x1bddb60,FUN_7101bddb60,1,3,3,Matchmaking,room_status_friend | room_status_acq | room_status_any
+0x1ab9340,FUN_7101ab9340,1,3,3,Battle/state,stockicon_5vs5 | stockicon%02d | stockicon_3vs3
+0x108ae0,NexMatchRandomMatchmakeJob_WaitNotification_step,1,3,3,NEX core,nex::NexMatchRandomMatchmakeJob::CompleteFailure | NexMatchRandomMatchmakeJob::LeaveMatchmakeSession | NexMatchRandomMatchmakeJob::StartNatSession
+0xf4300,FUN_71000f4300,1,3,3,NEX core,NexMatchJoinSessionJob::WaitForRetryJoinMesh | NexMatchJoinSessionJob::GetStationLocation | NexMatchJoinSessionJob::LeaveMatchmakeSession
+0x120b00,FUN_7100120b00,1,3,3,Pia,LanMatchRandomMatchmakeJob::LeaveMatchmakeSession | LanMatchRandomMatchmakeJob::WaitForRetryRandomMatchmake | LanMatchRandomMatchmakeJob::RandomMatchmake
+0xf4b10,FUN_71000f4b10,1,3,3,NEX core,NexMatchJoinSessionJob::LeaveMatchmakeSession | nex::NexMatchJoinSessionJob::CompleteFailure | NexMatchJoinSessionJob::GetStationLocation
+0x1bf02a0,FUN_7101bf02a0,1,3,3,Identity,BANNER_SPIRITS | BANNER_TOURNAMENT | BANNER_CONVENTION
+0x186b50,FUN_7100186b50,1,3,3,Connection,ConnectStationJob::WaitForConnection | ConnectStationJob::ConnectionSucceeded | ConnectStationJob::ConnectionFailed
+0x2bca9f0,FUN_7102bca9f0,1,3,3,Network base,IPP0004 | IPP0005 | IPP0006
+0x2144140,FUN_7102144140,1,3,3,Battle/state,start_finalbg | start_movie | start_movie_on_rendering_2d
+0x2087180,FUN_7102087180,1,3,3,Battle/state,is_playing | is_playing_status | is_playing_voice
+0x18f380,FUN_710018f380,1,3,2,NEX session,LeaveWithHostMigrationJob::WaitDisconnectStations | LeaveWithHostMigrationJob::CleanupMesh
+0x11cbb0,FUN_710011cbb0,1,3,2,Pia,LanMatchJoinSessionJob::LeaveMatchmakeSession | LanMatchJoinSessionJob::WaitGetStationLocation
+0xd53a0,FUN_71000d53a0,1,3,2,NEX core,NexJoinMeshJob::CompleteProcess | NexJoinMeshJob::WaitBandwidthCheck
+0x2ef6140,FUN_7102ef6140,1,3,1,Battle/state,resultstage_set_win%d
+0x233a980,FUN_710233a980,1,3,3,Battle/state,MeleeReplayNormalSequenceScene | HomeRunReplaySequenceScene | MeleeReplayCompetitionContinuationSequenceScene
+0x10a3f0,FUN_710010a3f0,1,3,3,NEX core,nex::NexMatchRandomMatchmakeJob::CompleteFailure | NexMatchRandomMatchmakeJob::LeaveMatchmakeSession | NexMatchRandomMatchmakeJob::StartNatSession
+0x1ee1200,FUN_7101ee1200,1,3,2,Crypto,keyhelp_normal | keyhelp_gc
+0xfbbe0,FUN_71000fbbe0,1,3,3,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::SendNextSessionId
+0x1ba9a40,FUN_7101ba9a40,1,3,3,Battle/state,time_00 | time_01 | time_02
+0xf1410,FUN_71000f1410,1,3,3,Connection;NEX core,ConnectStationJob::ConnectionFailed | NexConnectStationJob::ResolveCurrentAddress | NexConnectStationJob::WaitForNatTraversalStartedByRelay
+0x110c30,FUN_7100110c30,1,3,3,NEX core,NexProcessHostMigrationJob::NexWaitMatchMakingClientHost | NexProcessHostMigrationJob::HostMigrationFailure | NexProcessHostMigrationJob::NexPrepareForBecomingHostMulti
+0x1c45de0,FUN_7101c45de0,1,3,3,Battle/state,type_1_blue | type_1_oran | type_1_red
+0x18dc30,FUN_710018dc30,1,3,2,NEX session,KickoutManageJob::ClientStartLeaveMesh | KickoutManageJob::ClientFinalize
+0x102420,FUN_7100102420,1,3,3,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitHostStationId
+0x2a4c60,FUN_71002a4c60,1,3,3,NEX protocol;NEX session;Battle/state,parameter | sessionId | gameModeId
+0x112440,FUN_7100112440,1,3,3,NEX core,NexProcessHostMigrationJob::HostMigrationFailure | NexProcessHostMigrationJob::WaitNewHostFinished | NexProcessHostMigrationJob::WaitNewHostGreeting
+0xfb490,FUN_71000fb490,1,3,3,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitUntilCompanionLeavesMesh
+0x1054b0,FUN_71001054b0,1,3,3,NEX core,NexMatchCreateSessionJob::UnregisterGathering | nex::NexMatchCreateSessionJob::CompleteFailure | NexMatchCreateSessionJob::WaitNotification
+0x107cb0,FUN_7100107cb0,1,3,3,NEX core,NexMatchRandomMatchmakeJob::CompleteFailure | nex::NexMatchRandomMatchmakeJob::CompleteFailure | NexMatchRandomMatchmakeJob::WaitRandomMatchmake
+0x1254c0,FUN_71001254c0,1,3,3,Pia,LanProcessHostMigrationJob::HostMigrationFailure | LanProcessHostMigrationJob::LanPrepareForBecomingHostMulti | LanProcessHostMigrationJob::LanPrepareForBecomingHost
+0x183cc0,FUN_7100183cc0,1,3,3,Pia,LocalDestroyNetworkJob::WaitForCancel | LocalDestroyNetworkJob::StartDestroyNetwork | LocalDestroyNetworkJob::WaitUntilAllClientsDisconnection
+0x1eddd30,FUN_7101eddd30,1,3,3,Battle/state,TYPE_WIN | TYPE_LOSE | TYPE_ABORT
+0x176d30,FUN_7100176d30,1,3,3,Pia,LocalHostMigrationJob::WaitForCancel | LocalHostMigrationJob::ConnectNetwork | LocalHostMigrationJob::ScanNetwork
+0x18ed30,FUN_710018ed30,1,3,2,NEX session,LeaveMeshJob::WaitLeavingProcess | LeaveMeshJob::LeaveSuccess
+0x17c550,FUN_710017c550,1,3,3,Pia,LocalProcessHostMigrationJobNew::WaitLocalHostMigrationCl... | LocalProcessHostMigrationJobNew::HostMigrationFailure | LocalProcessHostMigrationJobNew::LocalPrepareForBecomingHost
+0xf8d40,FUN_71000f8d40,1,3,2,NEX core,NexMatchJointSessionJob::GetMatchmakeSessionOwners | NexMatchJointSessionJob::ProcessFailure
+0x2d097a0,FUN_7102d097a0,1,3,3,Network base,IPP0002 | IPP0003 | IPP0004
+0x2f3ff70,FUN_7102f3ff70,1,3,3,Network base,IPP0001 | IPP0002 | IPP0003
+0x1cda440,FUN_7101cda440,1,3,2,Identity,friend_icon_hide | friend_icon_show
+0xfddd0,FUN_71000fddd0,1,3,3,NEX core,NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::StartLeavePreviousMesh
+0x1035f0,FUN_71001035f0,1,3,2,NEX core,NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitLeaveBufferMatchmakeSession
+0x1747490,FUN_7101747490,1,3,3,NEX core;Battle/state;Matchmaking,gathering_id | gamemode | rating
+0x108de0,FUN_7100108de0,1,3,2,NEX core,NexMatchRandomMatchmakeJob::LeaveMatchmakeSession | NexMatchRandomMatchmakeJob::WaitStartNatSession
+0x2dd1720,FUN_7102dd1720,1,3,2,Battle/state,stage_rain | stage_sunny
+0xf7df0,FUN_71000f7df0,1,3,3,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitForAnswerToInvitation
+0x1e957e0,FUN_7101e957e0,1,3,3,Battle/state,type_supporter_off | type_supporter_on | gauge_on
+0xf8600,FUN_71000f8600,1,3,3,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitForAnswerToDestroyInvitation
+0xfa600,FUN_71000fa600,1,3,3,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitForAnswerToInvitation
+0x17ce30,FUN_710017ce30,1,3,2,Pia,LocalProcessHostMigrationJobNew::HostMigrationFailure | LocalProcessHostMigrationJobNew::SendGreetingMessage
+0x1c60fa0,FUN_7101c60fa0,1,3,2,NEX core,next_off | next_on
+0x2ee9c80,FUN_7102ee9c80,1,3,2,Network base;Battle/state,IPP0002 | stage_light_on
+0x105660,FUN_7100105660,1,3,3,NEX core,NexMatchCreateSessionJob::CompleteFailure | nex::NexMatchCreateSessionJob::CompleteFailure | NexMatchCreateSessionJob::WaitUnregisterGathering
+0x28384f0,FUN_71028384f0,1,3,3,Battle/state,stage_Dark_Median | stage_Light_Dark | stage_Median_Light
+0x183e60,FUN_7100183e60,1,3,3,Pia,LocalDestroyNetworkJob::WaitForCancel | LocalDestroyNetworkJob::StartDestroyNetwork | LocalDestroyNetworkJob::SendDestroyNetworkMessage
+0xd5680,FUN_71000d5680,1,3,3,NEX core,NexJoinMeshJob::LeaveMeshWithHostMigration | NexJoinMeshJob::LeaveMesh | NexJoinMeshJob::CompleteProcess
+0x2336c90,FUN_7102336c90,1,3,3,Battle/state,MenuSequenceScene | MeleeRuleScene | StageSelectScene
+0x1f16d0,FUN_71001f16d0,1,3,1,Battle/state,0x710449ce5b
+0x1246f0,FUN_71001246f0,1,3,3,Pia,LanProcessHostMigrationJob::HostMigrationFailure | LanProcessHostMigrationJob::LanCheckOldHostDisconnection | LanProcessHostMigrationJob::LanPrepareForBecomingHost
+0x26abc90,FUN_71026abc90,1,3,1,Battle/state,ItemPoint_O_OBJ_O_HIR
+0x55af50,FUN_710055af50,1,3,1,Battle/state,item_tags
+0x2eeade0,FUN_7102eeade0,1,3,2,Battle/state,stage_light_on | stage_light_off
+0xfbf00,FUN_71000fbf00,1,3,3,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitNotification
+0x18c96f0,FUN_71018c96f0,1,3,3,Battle/state,ITEM_INDEX_NONE | ITEM_INDEX_FIRST | ITEM_INDEX_LAST
+0x1ef0690,FUN_7101ef0690,1,3,3,Battle/state,type_1 | type_2 | type_3
+0x2f80,FUN_7100002f80,1,3,3,Connection,"Connection time-out | Connection failed
+ | connect to %s port %ld failed: %s
+"
+0x224bda0,FUN_710224bda0,1,3,3,Connection;Battle/state,invalid_bgm_handle | start_bgm | start_zoom_out
+0x1057a0,FUN_71001057a0,1,3,3,NEX core,nex::NexMatchCreateSessionJob::CompleteFailure | NexMatchCreateSessionJob::UnregisterGathering | NexMatchCreateSessionJob::StartNatSession
+0xfe7b0,FUN_71000fe7b0,1,3,3,NEX core,NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::StartLeavePreviousMatchmakeSession | NexMatchJointSessionJob::WaitMeshRestart
+0x1097d0,FUN_71001097d0,1,3,3,NEX core,NexMatchRandomMatchmakeJob::StartNatSession | NexMatchRandomMatchmakeJob::WaitForRetryJoinMesh | NexMatchRandomMatchmakeJob::LeaveMatchmakeSession
+0x1e70e20,FUN_7101e70e20,1,3,3,Battle/state,item_support | item_enforce | item_skill
+0xf37c0,FUN_71000f37c0,1,3,3,NEX core,nex::NexMatchJoinSessionJob::CompleteFailure | NexMatchJoinSessionJob::StartNatSession | NexMatchJoinSessionJob::LeaveMatchmakeSession
+0x102fc0,FUN_7100102fc0,1,3,3,NEX core,NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::StartLeaveBufferMatchmakeSession | NexMatchJointSessionJob::WaitLeaveCurrentMatchmakeSession
+0x19aa670,FUN_71019aa670,1,3,1,Battle/state,type_06
+0x2ab5540,FUN_7102ab5540,1,3,3,Battle/state,stage | stage_wait | stage_loop
+0x1a87e50,FUN_7101a87e50,1,3,3,Pia,lank_middle | lank_hi | lank_low
+0x106010,FUN_7100106010,1,2,2,NEX core,nex::NexMatchCreateSessionJob::CompleteFailure | NexMatchCreateSessionJob::CompleteFailure
+0x25d9250,FUN_71025d9250,1,2,1,Battle/state,stage
+0x176800,FUN_7100176800,1,2,2,Pia,LocalHostMigrationJob::WaitForCancel | LocalHostMigrationJob::WaitAllClientsAck
+0x2a7830,FUN_71002a7830,1,2,2,NEX protocol;Matchmaking,parameter | roomId
+0x125030,FUN_7100125030,1,2,2,Pia,LanProcessHostMigrationJob::HostMigrationFailure | LanProcessHostMigrationJob::LanWaitMatchMakingClientHostL...
+0x19401b0,FUN_71019401b0,1,2,2,Battle/state,item_up_%d | item_down_%d
+0x1d7a1f0,FUN_7101d7a1f0,1,2,2,Battle/state,time_on | time_off
+0x2bb3290,FUN_7102bb3290,1,2,1,Identity;Network base,bandman_g
+0xf4820,FUN_71000f4820,1,2,2,NEX core,nex::NexMatchJoinSessionJob::CompleteFailure | NexMatchJoinSessionJob::LeaveMatchmakeSession
+0x1af1980,FUN_7101af1980,1,2,1,UI/misc,popup_in
+0x2f1c2c0,FUN_7102f1c2c0,1,2,2,Battle/state,stage_bg1 | stage_bg2
+0x2d7b2e0,FUN_7102d7b2e0,1,2,2,Network base,IPP0001 | IPP0901
+0x25ea210,FUN_71025ea210,1,2,1,Battle/state,model.numdlb
+0x2d72280,FUN_7102d72280,1,2,2,Network base,IPP0001 | IPP0301
+0x337d360,FUN_710337d360,1,2,2,Crypto,keyhelp_normal | keyhelp_gc
+0xd3050,FUN_71000d3050,1,2,2,NEX core,NexNatServerAddressResolveJob::StepComplete | NexNatServerAddressResolveJob::StepResolveRelayServerSetting
+0x391e3e0,FUN_710391e3e0,1,2,1,Connection,invalid value (%s) at index %d in table for 'concat'
+0x1daf1a0,FUN_7101daf1a0,1,2,2,Battle/state,item_off | item_on
+0x19b79e0,FUN_71019b79e0,1,2,2,Battle/state,type_touch | type_transmitting
+0x19fe1e0,FUN_71019fe1e0,1,2,2,Battle/state;Pia,gekitui_off | local_off
+0x2a08a20,FUN_7102a08a20,1,2,1,Network base,IPP0001
+0x1c48940,FUN_7101c48940,1,2,2,Battle/state,mode_01 | mode_00
+0x187090,FUN_7100187090,1,2,2,Connection,ConnectStationJob::ConnectionSucceeded | ConnectStationJob::ConnectionFailed
+0xf090,FUN_710000f090,1,2,2,Crypto;NEX protocol,"Digest | Authentication problem. Ignoring this.
+"
+0x110080,FUN_7100110080,1,2,2,NEX core,NexProcessHostMigrationJob::WaitAfterPrepareForBecomingHost | NexProcessHostMigrationJob::HostMigrationFailure
+0x1a07110,FUN_7101a07110,1,2,2,Battle/state,gekitui_on | gekitui_off
+0x4258f0,FUN_71004258f0,1,2,2,Battle/state,MeleeRuleScene | StageSelectScene
+0x17a0a0,FUN_710017a0a0,1,2,2,Pia;NEX session,LocalMatchJoinSessionJob::WaitForCancel | JoinSessionJob::MeshStartup
+0x2d82260,FUN_7102d82260,1,2,2,Network base,IPP0001 | IPP1301
+0x1f89130,FUN_7101f89130,1,2,2,Battle/state,0x7104292688 | item_stat
+0x1bed960,FUN_7101bed960,1,2,2,Battle/state;Network base,0x7104431cb9 | 0x7104401422
+0x4280a0,FUN_71004280a0,1,2,2,Battle/state,StageMakeTopMenuScene | StageMakeEditScene
+0x19a8970,FUN_71019a8970,1,2,2,Battle/state,type_06 | type_05
+0x38fc360,FUN_71038fc360,1,2,1,Connection,error in error handling
+0x11d0e0,FUN_710011d0e0,1,2,2,Pia,LanMatchJoinSessionJob::LeaveMesh | LanMatchJoinSessionJob::CompleteProcess
+0x1f2f100,FUN_7101f2f100,1,2,2,Battle/state,mode_movie | mode_picture
+0x2d8fa20,FUN_7102d8fa20,1,2,2,Network base,IPP0001 | IPP1901
+0x2d92a20,FUN_7102d92a20,1,2,2,Network base,IPP0001 | IPP2101
+0x2d94220,FUN_7102d94220,1,2,2,Network base,IPP0001 | IPP2301
+0x123910,FUN_7100123910,1,2,2,Pia,LanProcessHostMigrationJob::LanCleanupOldHostInfo | LanProcessHostMigrationJob::LanDecideNextHost
+0x4910,FUN_7100004910,1,2,2,Pia,proxy | 0x710436b102
+0x2ab1bb0,FUN_7102ab1bb0,1,2,2,Battle/state,stage | stage_wait
+0x1b31890,FUN_7101b31890,1,2,2,Battle/state,stock | 0x710439d7ab
+0x1d758e0,FUN_7101d758e0,1,2,2,Crypto,keyhelp_off | keyhelp_on
+0x11e950,FUN_710011e950,1,2,2,Pia,LanMatchJointSessionJob::StartCreateNextMesh | LanMatchJointSessionJob::StartGetNextMeshHostStationLocation
+0x105140,FUN_7100105140,1,2,2,NEX core,nex::NexMatchCreateSessionJob::CompleteFailure | NexMatchCreateSessionJob::WaitCreateMatchmake
+0x20d3b50,FUN_71020d3b50,1,2,2,Battle/state,ItemCameraModuleImpl | start_camera_subject
+0x125170,FUN_7100125170,1,2,2,Pia,LanProcessHostMigrationJob::LanWaitSendUpdateSessionMessage | LanProcessHostMigrationJob::HostMigrationFailure
+0x175970,FUN_7100175970,1,2,2,Pia,LocalForceDisconnectNetworkJob::WaitDisconnected | LocalForceDisconnectNetworkJob::WaitHostMigrationEnd
+0x1d760a0,FUN_7101d760a0,1,2,2,Crypto,keyhelp_off | keyhelp_on
+0x20c9380,FUN_71020c9380,1,2,2,Battle/state,start_catch_stop | start_zoom_out
+0x103980,FUN_7100103980,1,2,2,NEX core,NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::StartLeaveBufferMatchmakeSession
+0x1c44850,FUN_7101c44850,1,2,1,Battle/state,type3_4_light
+0x2d76b40,FUN_7102d76b40,1,2,2,Network base,IPP0001 | IPP0601
+0x188180,FUN_7100188180,1,2,2,Connection,DisconnectStationJob::WaitForDisconnection | DisconnectStationJob::DisconnectionSucceeded
+0x1f2180,FUN_71001f2180,1,2,2,NEX core,prudp | prudps
+0x1831b0,FUN_71001831b0,1,2,2,Pia,LocalEventJob::ProcessUpdateEvent | LocalEventJob::WaitBackgroundJobEnd
+0x22ec380,FUN_71022ec380,1,2,2,Battle/state,MeleeNormalSequenceScene | MenuSequenceScene
+0x1099a0,FUN_71001099a0,1,2,2,NEX core,nex::NexMatchRandomMatchmakeJob::CompleteFailure | NexMatchRandomMatchmakeJob::LeaveMatchmakeSession
+0x1101a0,FUN_71001101a0,1,2,2,NEX core,NexProcessHostMigrationJob::SendGreetingMessage | NexProcessHostMigrationJob::HostMigrationFailure
+0x1eb5850,FUN_7101eb5850,1,2,1,Crypto,key_help_00_fadeout
+0x11d1c0,FUN_710011d1c0,1,2,2,Pia,LanMatchJoinSessionJob::WaitForRetryJoinMatchmakeSession | LanMatchJoinSessionJob::MeshCleanup
+0x422a40,FUN_7100422a40,1,2,2,Battle/state,MeleeRuleScene | StageSelectScene
+0x1ac4ba0,FUN_7101ac4ba0,1,2,2,Battle/state,rule_txt_in_off | rule_txt_in_on
+0x4a10,FUN_7100004a10,1,2,2,Pia,proxy | 0x710436b102
+0x1839390,FUN_7101839390,1,2,1,Battle/state,chara_select_btn3_05_ready_00
+0x101a30,FUN_7100101a30,1,2,2,NEX core,NexMatchJointSessionJob::SendCompletionInvitation | NexMatchJointSessionJob::StartLeaveMesh
+0x141230,FUN_7100141230,1,2,2,NEX session,LeaveSessionJob::WaitLeaveMeshWithHostMigration | LeaveSessionJob::WaitLeaveMesh
+0x14f230,FUN_710014f230,1,2,2,NEX session,SessionStatusCheckJob::CheckSessionStatus4JointSession | SessionStatusCheckJob::CheckSessionStatus
+0x39159a0,FUN_71039159a0,1,2,1,Pia,local
+0x2f2b0c0,FUN_7102f2b0c0,1,2,2,Battle/state,stage_fes | stage_daytime
+0x1f3220,FUN_71001f3220,1,2,2,Network base,address | 0x710449ce18
+0x1c35b80,FUN_7101c35b80,1,2,2,Battle/state,final_p%d | final_p8
+0x2f358b0,FUN_7102f358b0,1,2,1,Network base,IPP0002
+0x184270,FUN_7100184270,1,2,2,Pia,LocalDisconnectNetworkJob::WaitForCancel | LocalDisconnectNetworkJob::WaitDisconnectNetwork
+0x3085960,FUN_7103085960,1,2,1,NEX session;Pia,joint_spring
+0xfea60,FUN_71000fea60,1,2,2,NEX core,NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::WaitMeshRestart
+0x2ef5890,FUN_7102ef5890,1,2,2,Battle/state,resultstage_set_walk_%02d | resultstage_set_car_%02d
+0x20df880,FUN_71020df880,1,2,1,Battle/state,start_up_pos_
+0x1b0bb20,FUN_7101b0bb20,1,2,1,Battle/state,finalize
+0x176a80,FUN_7100176a80,1,2,2,Pia,LocalHostMigrationJob::WaitForCancel | LocalHostMigrationJob::WaitScanNetwork
+0x109ab0,FUN_7100109ab0,1,2,2,NEX core,nex::NexMatchRandomMatchmakeJob::CompleteFailure | NexMatchRandomMatchmakeJob::LeaveMatchmakeSession
+0x17cab0,FUN_710017cab0,1,2,2,Pia,LocalProcessHostMigrationJobNew::HostMigrationFailure | LocalProcessHostMigrationJobNew::WaitLocalHostMigrationNe...
+0x2a8a80,FUN_71002a8a80,1,2,2,NEX protocol;Matchmaking,parameter | roomId
+0x38fa930,FUN_71038fa930,1,2,2,Pia;NEX protocol,local | method
+0x105ad0,FUN_7100105ad0,1,2,2,NEX core,NexMatchCreateSessionJob::UnregisterGathering | NexMatchCreateSessionJob::WaitStartNatSession
+0x43f290,FUN_710043f290,1,2,2,Battle/state,stage_roof | stage_roof_break
+0x32eb9f0,FUN_71032eb9f0,1,2,2,Battle/state,type_02 | type_00
+0x1af4340,FUN_7101af4340,1,2,2,Crypto,keyhelp_normal | keyhelp_gc
+0x1052e0,FUN_71001052e0,1,2,2,NEX core,nex::NexMatchCreateSessionJob::CompleteFailure | NexMatchCreateSessionJob::LeaveJoinedMatchmakeSession
+0x19a9b60,FUN_71019a9b60,1,2,1,Battle/state,type_03
+0x1af1b50,FUN_7101af1b50,1,2,1,UI/misc,popup_out
+0x123b10,FUN_7100123b10,1,2,2,Pia,LanProcessHostMigrationJob::SendGreetingMessage | LanProcessHostMigrationJob::HostMigrationFailure
+0x421340,FUN_7100421340,1,2,2,Battle/state,MeleeReplaySequenceScene | StageSelectScene
+0x176310,FUN_7100176310,1,2,2,Pia,LocalHostMigrationJob::WaitForCancel | LocalHostMigrationJob::WaitCreateNetwork
+0x102b00,FUN_7100102b00,1,2,2,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::WaitUpdateJointSessionOpenStatus
+0x2841990,FUN_7102841990,1,2,2,Network base,IPP0202 | IPP0203
+0x1ee42f0,FUN_7101ee42f0,1,2,2,Battle/state,ready_on | ready_off
+0x17a330,FUN_710017a330,1,2,2,Pia,LocalMatchJoinSessionJob::CompleteFailure | LocalMatchJoinSessionJob::WaitLeaveMatchmake
+0x112320,FUN_7100112320,1,2,2,NEX core,NexProcessHostMigrationJob::NexWaitMatchMakingClientHostI... | NexProcessHostMigrationJob::HostMigrationFailure
+0xd5330,FUN_71000d5330,1,2,2,NEX core,NexJoinMeshJob::CompleteProcess | NexJoinMeshJob::StartBandwidthCheck
+0x18852c0,FUN_71018852c0,1,2,2,Battle/state,TYPE_NONE | SCENE_EXIT_CODE_SELECT
+0x1c21290,FUN_7101c21290,1,2,2,Battle/state,rule_icon_out | rule_icon_in
+0x1856ad0,FUN_7101856ad0,1,2,2,Battle/state,mode_melee | mode_standard
+0x2d94980,FUN_7102d94980,1,2,2,Network base,IPP0001 | IPP2301
+0x103b70,FUN_7100103b70,1,2,2,NEX core,NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::StartLeaveBufferMatchmakeSession
+0x1823ae0,FUN_7101823ae0,1,2,2,Identity,friend_on | friend_off
+0x20cb970,FUN_71020cb970,1,2,2,Battle/state,dead_count | stock_count
+0x1ce5ab0,FUN_7101ce5ab0,1,2,2,Battle/state,rule_txt_off | rule_txt_on
+0x123b90,FUN_7100123b90,1,2,2,Pia,LanProcessHostMigrationJob::LanMakeHostCandidateRanking | LanProcessHostMigrationJob::LanCleanupOldHostInfoOnMultiC...
+0x1a3c230,FUN_7101a3c230,1,2,2,Battle/state,ready_in | ready_out
+0x1d07270,FUN_7101d07270,1,2,1,Battle/state,waiting_%s
+0x13f3b0,FUN_710013f3b0,1,2,1,NEX session,JoinSessionJob::LeaveMesh
+0x18b7a20,FUN_71018b7a20,1,2,2,Battle/state,mode_plate | mode_corner
+0x1eb3a40,FUN_7101eb3a40,1,2,1,Crypto,key_help_00_fadeout
+0x1bc3210,FUN_7101bc3210,1,2,2,NEX session,leave_show | leave_hidden
+0x17aba0,FUN_710017aba0,1,2,2,Pia,LocalMatchCreateSessionJob::CompleteFailure | LocalMatchCreateSessionJob::WaitDestroyLocalNetwork
+0x1763d0,FUN_71001763d0,1,2,2,Pia,LocalHostMigrationJob::WaitForCancel | LocalHostMigrationJob::WaitUntilAllClientsConnection
+0x17bbd0,FUN_710017bbd0,1,2,2,Pia,LocalMatchUpdateSessionSettingJob::CompleteFailure | LocalMatchUpdateSessionSettingJob::SignalProcess
+0x2ea9120,FUN_7102ea9120,1,2,2,Network base,IPP0002 | IPP0003
+0x1cc3a00,FUN_7101cc3a00,1,2,1,Battle/state,front_black_out
+0x391b840,FUN_710391b840,1,2,2,Connection;Battle/state,invalid next option for option 'X' | format asks for alignment not power of 2
+0x19ad240,FUN_71019ad240,1,2,1,Battle/state,type_04
+0x102bf0,FUN_7100102bf0,1,2,2,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessFailure
+0x11d3f0,FUN_710011d3f0,1,2,2,Pia,LanMatchJoinSessionJob::MeshCleanup | LanMatchJoinSessionJob::JoinMatchmakeSession
+0x176bf0,FUN_7100176bf0,1,2,2,Pia,LocalHostMigrationJob::WaitForCancel | LocalHostMigrationJob::SearchNewHostNetwork
+0x2d7b130,FUN_7102d7b130,1,2,2,Network base,IPP0001 | IPP0901
+0x2d82130,FUN_7102d82130,1,2,2,Network base,IPP0001 | IPP1301
+0x335f0c0,FUN_710335f0c0,1,2,2,Connection;Crypto,error_se_label_code | key_context
+0x183be0,FUN_7100183be0,1,2,2,Pia,LocalDestroyNetworkJob::WaitForCancel | LocalDestroyNetworkJob::SendDestroyNetworkMessage
+0x1e6be0,FUN_71001e6be0,1,2,1,Battle/state,0x710449ce5b
+0x111c00,FUN_7100111c00,1,2,2,NEX core,NexProcessHostMigrationJob::SendMigrationFinish | NexProcessHostMigrationJob::HostMigrationFailure
+0x104430,FUN_7100104430,1,2,2,NEX core,nex::NexMatchLeaveSessionJob::SendMonitoringData | nex::NexMatchLeaveSessionJob::LeaveMesh
+0x390efb0,FUN_710390efb0,1,2,2,Connection,invalid long string delimiter | invalid escape sequence
+0x1d7cdf0,FUN_7101d7cdf0,1,2,2,Battle/state,time_on | time_off
+0x2f89ed0,FUN_7102f89ed0,1,2,2,Battle/state,stage | stage_beamshadow
+0x1c9c5e0,FUN_7101c9c5e0,1,2,2,Battle/state,mode_edit | itemswitch_on
+0x1eb3dc0,FUN_7101eb3dc0,1,2,1,Crypto,key_help_00_fadeout
+0x1883db0,FUN_7101883db0,1,2,2,Battle/state,type_1_blue | type3_4_light
+0x123c50,FUN_7100123c50,1,2,2,Pia,LanProcessHostMigrationJob::HostMigrationFailure | LanProcessHostMigrationJob::LanSendRankDecision
+0x1e51da0,FUN_7101e51da0,1,2,1,Battle/state,gauge_progress
+0x289aec0,FUN_710289aec0,1,2,2,Battle/state,stage_market | stage
+0x19a85d0,FUN_71019a85d0,1,2,2,Battle/state,type_03 | type_01
+0x1ac65f0,FUN_7101ac65f0,1,2,2,Battle/state,rule_txt_out_off | rule_txt_out_on
+0x103460,FUN_7100103460,1,2,2,NEX core,NexMatchJointSessionJob::ProcessFailure | NexMatchJointSessionJob::StartLeaveCurrentMatchmakeSession
+0x106460,FUN_7100106460,1,2,2,NEX core,nex::NexMatchDestroySessionJob::SendMonitoringData | NexMatchDestroySessionJob::WaitUnregisterCurrentMatchmake...
+0x422c30,FUN_7100422c30,1,2,2,Battle/state,MeleeRuleScene | StageSelectScene
+0x3179f90,FUN_7103179f90,1,2,1,Battle/state,Stage_Rev
+0x110480,FUN_7100110480,1,2,2,NEX core,NexProcessHostMigrationJob::HostMigrationFailure | NexProcessHostMigrationJob::NexWaitRankDecision
+0x32517b0,FUN_71032517b0,1,2,1,Battle/state,start_point%d
+0x1470dd0,FUN_7101470dd0,1,2,2,Matchmaking,0x71042f866d | gsp_type
+0x109cb0,FUN_7100109cb0,1,2,2,NEX core,nex::NexMatchRandomMatchmakeJob::CompleteFailure | NexMatchRandomMatchmakeJob::LeaveMatchmakeSession
+0x123cb0,FUN_7100123cb0,1,2,2,Pia,LanProcessHostMigrationJob::HostMigrationFailure | LanProcessHostMigrationJob::LanSendRankDecision
+0x1d80560,FUN_7101d80560,1,2,1,UI/misc,popup_change_00_01
+0x1f24a0,FUN_71001f24a0,1,2,2,Network base,address | 0x710449ce18
+0x1e63d20,FUN_7101e63d20,1,2,1,Battle/state,gauge_off
+0x422490,FUN_7100422490,1,2,2,Battle/state,StageSelectScene | MeleeRuleScene
+0x428490,FUN_7100428490,1,2,2,Battle/state,StageSelectScene | MeleeScene
+0x1d6fd00,FUN_7101d6fd00,1,2,1,Battle/state,0x710439d7ab
+0x1b8bd60,FUN_7101b8bd60,1,2,2,Battle/state,time_now | time_rec
+0x2d8c600,FUN_7102d8c600,1,2,2,Network base,IPP0001 | IPP1601
+0x2a64f0,FUN_71002a64f0,1,2,2,NEX protocol;Matchmaking,parameter | roomId
+0x2d7f630,FUN_7102d7f630,1,2,2,Network base,IPP0001 | IPP1101
+0x2ac4c0,FUN_71002ac4c0,1,2,2,Battle/state;Matchmaking,result | roomId
+0x10dce0,FUN_710010dce0,1,2,2,NEX core;NEX session,NexMatchUpdateSessionSettingJob::WaitModifyAttribute | UpdateSessionSettingJob::CompleteProcess
+0x186c570,FUN_710186c570,1,2,2,Battle/state,rule_icon_out | rule_icon_off
+0x17c4e0,FUN_710017c4e0,1,2,2,Pia,LocalProcessHostMigrationJobNew::LocalCleanupOldHostInfo | LocalProcessHostMigrationJobNew::LocalDecideNextHost
+0x18d4e0,FUN_710018d4e0,1,2,2,NEX session,JoinMeshJob::WaitLeaveMesh | JoinMeshJob::CompleteCancelWithLeaveMesh
+0x18f4e0,FUN_710018f4e0,1,2,2,NEX session,LeaveWithHostMigrationJob::SendStartMigrationMessage | LeaveWithHostMigrationJob::CleanupMesh
+0x9d00,FUN_7100009d00,1,2,2,Connection;Pia,"Connection timed out after %ld milliseconds | Hostname '%s' was found in DNS cache
+"
+0x3907690,FUN_7103907690,1,2,1,Hash/Lua,luaopen_%s
+0x1e634e0,FUN_7101e634e0,1,2,1,Battle/state,menu_btn_1
+0x3179e10,FUN_7103179e10,1,2,1,Battle/state,Stage_Rev
+0x1c5dcd0,FUN_7101c5dcd0,1,2,2,NEX core;Battle/state,next_off | state_catch_ok
+0x1ca24d0,FUN_7101ca24d0,1,2,2,Battle/state,mode_select_off | mode_select_on
+0x8d20,FUN_7100008d20,1,2,2,Connection,"Connection cache is full, closing the oldest one.
+ | Connection #%ld to host %s left intact
+"
+0x1a04c80,FUN_7101a04c80,1,2,2,Pia,local_off | local_on
+0x11cd30,FUN_710011cd30,1,2,2,Pia,LanMatchJoinSessionJob::CompleteFailure | LanMatchJoinSessionJob::WaitLeaveMatchmakeSession
+0x123d30,FUN_7100123d30,1,2,2,Pia,LanProcessHostMigrationJob::LanWaitRankDecision | LanProcessHostMigrationJob::HostMigrationFailure
+0x233b710,FUN_710233b710,1,2,2,Battle/state,ReplayLoadScene | ReplayDownloadScene
+0xf4520,FUN_71000f4520,1,2,2,NEX core,nex::NexMatchJoinSessionJob::CompleteFailure | NexMatchJoinSessionJob::LeaveMatchmakeSession
+0x232c700,FUN_710232c700,1,2,1,Battle/state,MenuSequenceScene
+0x2d927e0,FUN_7102d927e0,1,2,2,Network base,IPP0001 | IPP2101
+0x1a564e0,FUN_7101a564e0,1,2,2,Battle/state,ready_in | ready_out
+0x183540,FUN_7100183540,1,2,2,Pia,LocalConnectNetworkJob::WaitForCancel | LocalConnectNetworkJob::ProcessSucceeded
+0x2add70,FUN_71002add70,1,2,2,Battle/state;Crypto,result | token
+0x1d124b0,FUN_7101d124b0,1,2,2,Battle/state,result_rank_%d | result_rank_off
+0x120d70,FUN_7100120d70,1,2,2,Pia,LanMatchRandomMatchmakeJob::LeaveMatchmakeSession | LanMatchRandomMatchmakeJob::RandomMatchmake
+0x1d804b0,FUN_7101d804b0,1,2,1,UI/misc,popup_change_00_00
+0x1a9dcc0,FUN_7101a9dcc0,1,2,2,Identity,friend_on | friend_off
+0x1d0e4a0,FUN_7101d0e4a0,1,2,2,Battle/state,replay_off | replay_icon_stop_%d
+0x1f23480,FUN_7101f23480,1,2,2,Battle/state,mode_movie | mode_picture
+0x176560,FUN_7100176560,1,2,2,Pia,LocalHostMigrationJob::WaitForCancel | LocalHostMigrationJob::ChangeAllowParticipatingState
+0x18f560,FUN_710018f560,1,2,2,NEX session,LeaveWithHostMigrationJob::WaitMigrationResponse | LeaveWithHostMigrationJob::CleanupMesh
+0x106590,FUN_7100106590,1,2,2,NEX core,nex::NexMatchDestroySessionJob::SendMonitoringData | NexMatchDestroySessionJob::UnregisterCurrentMatchmakeSession
+0x1eacc60,FUN_7101eacc60,1,2,2,Battle/state,state_in_manager | state_out_manager
+0x30b1680,FUN_71030b1680,1,2,2,Network base,IPP0002 | IPP0003
+0x1ca3c60,FUN_7101ca3c60,1,2,2,Battle/state,mode_select_on | mode_select_off
+0x11d5a0,FUN_710011d5a0,1,2,2,Pia,LanMatchJoinSessionJob::WaitForRetryJoinMatchmakeSession | LanMatchJoinSessionJob::MeshCleanup
+0x1831c30,FUN_7101831c30,1,2,2,Battle/state,ready_in | ready_out
+0x1d40460,FUN_7101d40460,1,2,1,Pia,language_name_label
+0x1988420,FUN_7101988420,1,2,1,Battle/state,menu_all_show
+0x2d8f760,FUN_7102d8f760,1,2,2,Network base,IPP0001 | IPP1901
+0x35a46e0,FUN_71035a46e0,1,2,2,Battle/state,FinalSubstance | FINAL
+0xd2dc0,FUN_71000d2dc0,1,2,2,NEX core,NexNatServerAddressResolveJob::StepComplete | NexNatServerAddressResolveJob::StepRequestRelayServerSetting
+0x1d61c00,FUN_7101d61c00,1,2,1,Crypto,keyhelp_onoff
+0xf15d0,FUN_71000f15d0,1,2,2,NEX core;Connection,NexConnectStationJob::WaitForNatTraversalCompletedByRelay | ConnectStationJob::ConnectionFailed
+0x1926c70,FUN_7101926c70,1,2,1,Battle/state,model.numdlb
+0x12df0,FUN_7100012df0,1,2,2,Connection,Error while processing content unencoding: %s | Error while processing content unencoding: Unknown failur...
+0x18f5e0,FUN_710018f5e0,1,2,2,NEX session,LeaveWithHostMigrationJob::CleanupMesh | LeaveWithHostMigrationJob::WaitMigrationResponse
+0x2d8c720,FUN_7102d8c720,1,2,2,Network base,IPP0001 | IPP1601
+0x175e10,FUN_7100175e10,1,2,2,Pia,LocalHostMigrationJob::WaitForCancel | LocalHostMigrationJob::WaitDisconnectNetwork
+0x1c7f7c0,FUN_7101c7f7c0,1,2,2,Battle/state,rule_off | rule_on
+0x284e490,FUN_710284e490,1,2,1,Battle/state,start
+0x2654470,FUN_7102654470,1,2,1,Network base,IPP0002
+0x11ce30,FUN_710011ce30,1,2,2,Pia;NEX session,LanMatchJoinSessionJob::LeaveMatchmakeSession | JoinSessionJob::MeshStartup
+0x176e30,FUN_7100176e30,1,2,2,Pia,LocalHostMigrationJob::WaitForCancel | LocalHostMigrationJob::WaitConnectNetwork
+0x1a7b780,FUN_7101a7b780,1,2,2,Identity,friend_on | friend_off
+0x2d76cf0,FUN_7102d76cf0,1,2,2,Network base,IPP0001 | IPP0601
+0x3918da0,FUN_7103918da0,1,2,2,Connection,invalid use of '%c' in replacement string | invalid replacement value (a %s)
+0x1e767d0,FUN_7101e767d0,1,2,2,Battle/state,type_00 | type_01
+0x1eb57d0,FUN_7101eb57d0,1,2,1,Crypto,key_help_00_fadeout
+0x2cd34f0,FUN_7102cd34f0,1,2,1,Battle/state,start
+0xf4630,FUN_71000f4630,1,2,2,NEX core,nex::NexMatchJoinSessionJob::CompleteFailure | NexMatchJoinSessionJob::LeaveMatchmakeSession
+0x1d82780,FUN_7101d82780,1,2,2,Battle/state,time_on | time_off
+0x2d92c80,FUN_7102d92c80,1,2,2,Network base,IPP0001 | IPP2201
+0x17ae70,FUN_710017ae70,1,2,2,Pia,LocalMatchDestroySessionJob::SendMonitoringData | LocalMatchDestroySessionJob::WaitDestroyLocalNetwork
+0x1d727a0,FUN_7101d727a0,1,2,2,Crypto,keyhelp_minus_off | keyhelp_minus_on
+0x102e90,FUN_7100102e90,1,2,2,NEX core,NexMatchJointSessionJob::StartLeaveMesh | NexMatchJointSessionJob::ProcessComplete
+0x18de80,FUN_710018de80,1,2,2,NEX session,KickoutManageJob::ClientFinalize | KickoutManageJob::ClientWaitLeaveMesh
+0xf2690,FUN_71000f2690,1,2,2,NEX core,nex::NexMatchJoinSessionJob::CompleteFailure | NexMatchJoinSessionJob::LeaveJoinedMatchmakeSession
+0xf06a0,FUN_71000f06a0,1,2,2,NEX core,NexConnectStationJob::ResolveCurrentAddress | NexConnectStationJob::PrepareNatTraversal
+0x107ea0,FUN_7100107ea0,1,2,2,NEX core,nex::NexMatchRandomMatchmakeJob::CompleteFailure | NexMatchRandomMatchmakeJob::LeaveJoinedMatchmakeSession
+0x2d7f460,FUN_7102d7f460,1,2,2,Network base,IPP0001 | IPP1101
+0x32cdd90,FUN_71032cdd90,1,2,2,Battle/state,ready_out | ready_in
+0x29f8420,FUN_71029f8420,1,2,2,Battle/state,stage_01 | stage
+0x1d0ef00,FUN_7101d0ef00,1,2,2,Battle/state,mode_icon | mode_line
+0x4206a0,FUN_71004206a0,1,2,2,Battle/state;NEX protocol,MeleeReplaySequenceScene | LoginScene
+0x12ef0,FUN_7100012ef0,1,2,2,Connection,Error while processing content unencoding: Unknown failur... | Error while processing content unencoding: %s
+0x1b3beb0,FUN_7101b3beb0,1,2,2,Battle/state,stock_1p | stock_2p
+0x2366d30,FUN_7102366d30,1,2,2,Battle/state,MeleeRuleScene | StageSelectScene
+0x1f4700,FUN_71001f4700,1,2,1,NEX core,prudp:/
+0x1845ea0,FUN_7101845ea0,1,2,1,Battle/state,chara_select_btn3_05_ready_00
+0x17f9650,FUN_71017f9650,1,2,1,Battle/state,type_00
+0x1b08680,FUN_7101b08680,1,2,1,Battle/state,finalize
+0x18b6ed0,FUN_71018b6ed0,1,2,2,Battle/state,waiting | replay_%s
+0x161de00,FUN_710161de00,1,2,1,Network base,0x71043acdd1
+0x391c4f0,FUN_710391c4f0,1,2,2,Connection,invalid pattern capture | invalid capture index %%%d
+0x19366f0,FUN_71019366f0,1,2,1,Connection,connection%d
+0x1c3eea0,FUN_7101c3eea0,1,2,2,Battle/state,finalist_number_%d | final_p%d
+0x18766e0,FUN_71018766e0,1,2,2,Battle/state,STATE_OPTION_TITLE_MSG | STATE_OPTION_BUTTON_NUM
+0x3178c70,FUN_7103178c70,1,2,1,Battle/state,Stage_Rev
+0x18b770,FUN_710018b770,1,2,2,NEX session,JoinMeshJob::WaitJoinResponse | JoinMeshJob::AnalyzeJoinResponse
+0x196770,FUN_7100196770,1,2,2,Pia,MeshProtocolReliable send buffer num | MeshProtocolReliable receive buffer num
+0x24dd520,FUN_71024dd520,1,2,1,UI/misc,popup_in
+0x2d92da0,FUN_7102d92da0,1,2,2,Network base,IPP0001 | IPP2201
+0x4217c0,FUN_71004217c0,1,2,2,Battle/state,MeleeScene | HomeRunContestScene
+0x1cfbe40,FUN_7101cfbe40,1,2,2,Battle/state,waiting_type_alive | waiting_type_lose
+0x1ce780,FUN_71001ce780,1,2,1,Crypto,Encryption Error
+0x1b8ce10,FUN_7101b8ce10,1,2,1,NEX core,next_mov_fade_in
+0x3653cd0,FUN_7103653cd0,1,2,2,Battle/state,MELEE_RESULT_RANK | MeleeResultRank
+0x3179ca0,FUN_7103179ca0,1,2,1,Battle/state,Stage_Rev
+0x1867a0,FUN_71001867a0,1,2,2,Connection,ConnectStationJob::WaitRequestAck | ConnectStationJob::ConnectionFailed
+0x1986e20,FUN_7101986e20,1,2,1,Battle/state,menu_all_hide
+0xd2fb0,FUN_71000d2fb0,1,2,2,NEX core,NexNatServerAddressResolveJob::StepComplete | NexNatServerAddressResolveJob::StepWaitRequestRelayServer...
+0xf17c0,FUN_71000f17c0,1,2,2,NEX core;Connection,NexConnectStationJob::ResolveCurrentAddress | ConnectStationJob::ConnectionFailed
+0x175fc0,FUN_7100175fc0,1,2,2,Pia,LocalHostMigrationJob::WaitForCancel | LocalHostMigrationJob::CreateNetwork
+0x2d72500,FUN_7102d72500,1,2,2,Network base,IPP0001 | IPP0301
+0x1af9670,FUN_7101af9670,1,2,1,Battle/state,type_00
+0x187ff0,FUN_7100187ff0,1,2,2,Connection,DisconnectStationJob::SendDisconnectionRequest | DisconnectStationJob::CutRouteOfRelayConnection
+0x1e37f0,FUN_71001e37f0,1,2,1,Battle/state,0x710449ce5b
+0x32ebcc0,FUN_71032ebcc0,1,2,2,Battle/state,waitingplayer_1 | waitingplayer_2
+0xf7f0,FUN_710000f7f0,1,2,2,Pia;Connection,Host: | Connection
+0x1c10630,FUN_7101c10630,1,2,2,Battle/state,rule_icon_out | rule_icon_in
+0x18cde70,FUN_71018cde70,1,2,2,Battle/state,SCENE_EXIT_CODE_RULE | SCENE_EXIT_CODE_HANDI
+0x3084b00,FUN_7103084b00,1,1,1,Network base,IPP0002
+0x1697160,FUN_7101697160,1,1,1,Network base,Network
+0x20b6200,FUN_71020b6200,1,1,1,NEX session;Pia,joint_id_
+0xd6000,FUN_71000d6000,1,1,1,NEX core,NexCreateMeshJob::SetupLocalStation
+0x11e000,FUN_710011e000,1,1,1,Pia,LanMatchJointSessionJob::WaitForAnswerToInvitation
+0x1d789c0,FUN_7101d789c0,1,1,1,Crypto,keyhelp_off
+0x184800,FUN_7100184800,1,1,1,Pia,LocalAllowParticipatingJob::WaitBackgroundJobEnd
+0x18f800,FUN_710018f800,1,1,1,NEX session,LeaveWithHostMigrationJob::CleanupMesh
+0x1de000,FUN_71001de000,1,1,1,Connection,ConnectionEncoding
+0x19de980,FUN_71019de980,1,1,1,Battle/state,type_0%d
+0x1e629c0,FUN_7101e629c0,1,1,1,NEX core,next_on
+0x1480160,FUN_7101480160,1,1,1,Battle/state,model.numdlb
+0x20d6a20,FUN_71020d6a20,1,1,1,Battle/state,item_id_
+0x2926aa0,FUN_7102926aa0,1,1,1,Network base,IPP0002
+0x1e4a9d0,FUN_7101e4a9d0,1,1,1,Battle/state,menu_out
+0x185020,FUN_7100185020,1,1,1,Pia,LocalEjectClientListCheckJob::CheckTargetList
+0x1e949d0,FUN_7101e949d0,1,1,1,NEX core,next_off
+0x19a71a0,FUN_71019a71a0,1,1,1,Battle/state,type_00
+0x2f37ab0,FUN_7102f37ab0,1,1,1,Network base,IPP0002
+0x1e6e1a0,FUN_7101e6e1a0,1,1,1,Battle/state,menu_out
+0x317f350,FUN_710317f350,1,1,1,Battle/state,StageFiberedProcess
+0x183050,FUN_7100183050,1,1,1,Pia,LocalEventJob::WatchUpdateEvent
+0x29da2d0,FUN_71029da2d0,1,1,1,NEX session;Pia,joint%d
+0x20f3240,FUN_71020f3240,1,1,1,Battle/state,item_
+0x38fb3c0,FUN_71038fb3c0,1,1,1,Connection,error in error handling
+0x426810,FUN_7100426810,1,1,1,Hash/Lua,OnlineShareTestPlayStageScene
+0x1c54190,FUN_7101c54190,1,1,1,Battle/state,state_catch_ok
+0x186040,FUN_7100186040,1,1,1,Pia,LocalScanNetworkJob::WaitForCancel
+0x1ff91a0,FUN_7101ff91a0,1,1,1,Battle/state,result_
+0x1607900,FUN_7101607900,1,1,1,Battle/state,model.numdlb
+0x11e870,FUN_710011e870,1,1,1,Pia,LanMatchJointSessionJob::WaitLeavePreviousMatchmakeSession
+0x2cd6aa0,FUN_7102cd6aa0,1,1,1,Battle/state,"TYPE:[%d]  ROUTE:[%d]  CURRENT_GROUP[%d]
+"
+0x519820,FUN_7100519820,1,1,1,Battle/state,model.numdlb
+0x141060,FUN_7100141060,1,1,1,NEX session,LeaveSessionJob::LeaveMesh
+0x17b860,FUN_710017b860,1,1,1,Pia,LocalMatchBrowseMatchmakeJob::CompleteProcess
+0x18a060,FUN_710018a060,1,1,1,NEX session,JoinMeshJob::SetupLocalStation
+0x107890,FUN_7100107890,1,1,1,NEX core,NexMatchRandomMatchmakeJob::LeaveJoinedMatchmakeSession
+0x10d090,FUN_710010d090,1,1,1,NEX core,NexMatchCommunityManagementJob::WaitLeaveCommunity
+0x11e890,FUN_710011e890,1,1,1,Pia,LanMatchJointSessionJob::MeshRestart
+0x1831900,FUN_7101831900,1,1,1,Battle/state,ready_out
+0x23342b0,FUN_71023342b0,1,1,1,Battle/state,MenuSequenceScene
+0x17461f0,FUN_71017461f0,1,1,1,Battle/state,0x7104292688
+0x1e66160,FUN_7101e66160,1,1,1,Battle/state,menu_in
+0x30a3380,FUN_71030a3380,1,1,1,Network base,IPP0002
+0x1ce5140,FUN_7101ce5140,1,1,1,Battle/state,mode_%02d
+0x23192a0,FUN_71023192a0,1,1,1,Battle/state,MeleeScene
+0x3922b00,FUN_7103922b00,1,1,1,Connection,invalid UTF-8 code
+0x13c880,FUN_710013c880,1,1,1,Pia,pia session heap
+0x1855910,FUN_7101855910,1,1,1,Pia,LocalModeSelectScene
+0x17a880,FUN_710017a880,1,1,1,Pia,LocalMatchCreateSessionJob::WaitCreateLocalNetwork
+0x18a080,FUN_710018a080,1,1,1,NEX session,JoinMeshJob::StartConnectingToHost
+0x23e32a0,FUN_71023e32a0,1,1,1,Crypto,ticket_
+0xf5090,FUN_71000f5090,1,1,1,NEX core,NexMatchJointSessionJob::CallSessionEvent
+0x17f41e0,FUN_71017f41e0,1,1,1,Network base,NetworkLeaveMessage
+0x232d290,FUN_710232d290,1,1,1,Pia,LocalTopScene
+0x1c51160,FUN_7101c51160,1,1,1,Battle/state,state_catch_ok
+0x1c55160,FUN_7101c55160,1,1,1,Battle/state,state_catch_ok
+0x24e7ae0,FUN_71024e7ae0,1,1,1,Battle/state,model.numdlb
+0x10e8a0,FUN_710010e8a0,1,1,1,NEX session,UpdateSessionSettingJob::CompleteProcess
+0x2969a20,FUN_7102969a20,1,1,1,Network base,IPP0002
+0x1850a0,FUN_71001850a0,1,1,1,Pia,LocalEjectClientListCheckJob::EjectTargetClient
+0x1d81160,FUN_7101d81160,1,1,1,UI/misc,popup_change_03
+0x23eca80,FUN_71023eca80,1,1,1,Battle/state,StageSelectScene
+0x1afa110,FUN_7101afa110,1,1,1,Battle/state,type_02
+0x1d03110,FUN_7101d03110,1,1,1,Battle/state,mode_replay_off
+0x11c8d0,FUN_710011c8d0,1,1,1,Pia,LanMatchJoinSessionJob::WaitJoinMatchmake
+0x1e64120,FUN_7101e64120,1,1,1,Battle/state,menu_btn_1
+0x10d8c0,FUN_710010d8c0,1,1,1,NEX core,NexMatchUpdateSessionSettingJob::WaitUpdateApplicationData
+0x11e0c0,FUN_710011e0c0,1,1,1,Pia,LanMatchJointSessionJob::WaitNextSessionId
+0x2b62a60,FUN_7102b62a60,1,1,1,Pia,Land_%s_%02d_%s
+0x1830c0,FUN_71001830c0,1,1,1,Pia,LocalEventJob::WaitConnectionStatusUpdated
+0x18f8c0,FUN_710018f8c0,1,1,1,NEX session,LeaveWithHostMigrationJob::CleanupMesh
+0x38f7350,FUN_71038f7350,1,1,1,Connection,invalid option '%s'
+0x1922970,FUN_7101922970,1,1,1,Crypto,keyhelp
+0x17b0f0,FUN_710017b0f0,1,1,1,Pia,LocalMatchBrowseMatchmakeJob::BrowseMatchmake
+0x16a5980,FUN_71016a5980,1,1,1,Network base,Network
+0x14d91a0,FUN_71014d91a0,1,1,1,Battle/state,model.numdlb
+0x21d02f0,FUN_71021d02f0,1,1,1,Battle/state,result_
+0x22d8d0,FUN_710022d8d0,1,1,1,NEX protocol,NotificationEventManager
+0x2328ac0,FUN_7102328ac0,1,1,1,Battle/state,MeleeScene
+0x1f100,FUN_710001f100,1,1,1,Connection,"Connected to %s (%s) port %ld (#%ld)
+"
+0x1c198c0,FUN_7101c198c0,1,1,1,Battle/state,rule_icon_out
+0x391ba90,FUN_710391ba90,1,1,1,Connection,invalid format option '%c'
+0x1e6b8e0,FUN_7101e6b8e0,1,1,1,Battle/state,menu_number_2
+0x1cac0c0,FUN_7101cac0c0,1,1,1,Battle/state,mode_%02d
+0x29d3b90,FUN_71029d3b90,1,1,1,Network base,IPP0004
+0x107100,FUN_7100107100,1,1,1,NEX core,NexMatchBrowseMatchmakeJob::WaitBrowseMatchmake
+0x132e020,FUN_710132e020,1,1,1,Battle/state,sceneAttributesForShaderFX
+0x1c698d0,FUN_7101c698d0,1,1,1,Battle/state,ready_off
+0x2b62ba0,FUN_7102b62ba0,1,1,1,Pia,Land_%s_%02d_%s
+0x14b3850,FUN_71014b3850,1,1,1,Battle/state,HomeRunContestManager::process
+0x20b9b10,FUN_71020b9b10,1,1,1,Battle/state,start_accel_frame_
+0x38fca90,FUN_71038fca90,1,1,1,Connection,error in error handling
+0x120130,FUN_7100120130,1,1,1,Pia,LanMatchRandomMatchmakeJob::RandomMatchmake
+0x1a32080,FUN_7101a32080,1,1,1,Connection,error_action
+0x1a4e880,FUN_7101a4e880,1,1,1,Connection,error_action
+0x176930,FUN_7100176930,1,1,1,Pia,LocalHostMigrationJob::WaitForCancel
+0x1c7d8e0,FUN_7101c7d8e0,1,1,1,Battle/state,rule_btn_disp_off
+0x36b1a40,FUN_71036b1a40,1,1,1,Battle/state,transition
+0x18d98a0,FUN_71018d98a0,1,1,1,Battle/state,result
+0x183920,FUN_7100183920,1,1,1,Pia,LocalDestroyNetworkJob::TryPrepareDestroyNetwork
+0x18a920,FUN_710018a920,1,1,1,NEX session,JoinMeshJob::SendJoinRequest
+0x209f330,FUN_710209f330,1,1,1,Battle/state,ItemModule
+0x1df120,FUN_71001df120,1,1,1,Connection,ConnectionManager
+0x11f950,FUN_710011f950,1,1,1,Pia,LanMatchDestroySessionJob::MeshCleanup
+0x1e4c0a0,FUN_7101e4c0a0,1,1,1,Battle/state,gauge_off
+0x17a950,FUN_710017a950,1,1,1,Pia,LocalMatchCreateSessionJob::StartLocalSession
+0x198b8d0,FUN_710198b8d0,1,1,1,Battle/state,menu_custom_open
+0xd3140,FUN_71000d3140,1,1,1,NEX core,NexNatServerAddressResolveJob::StepComplete
+0x11f140,FUN_710011f140,1,1,1,Pia,LanMatchCreateSessionJob::CreateMatchmakeSession
+0x11f970,FUN_710011f970,1,1,1,Pia,LanMatchDestroySessionJob::UnregisterCurrentMatchmakeSession
+0x421920,FUN_7100421920,1,1,1,Battle/state,StageSelectScene
+0x2ac940,FUN_71002ac940,1,1,1,Connection,errorMessage
+0x32d0240,FUN_71032d0240,1,1,1,Battle/state,ready_out
+0xf5960,FUN_71000f5960,1,1,1,NEX core,NexMatchJointSessionJob::CallSessionEvent
+0x111960,FUN_7100111960,1,1,1,NEX core,NexProcessHostMigrationJob::NexSendRankDecision
+0xf2170,FUN_71000f2170,1,1,1,NEX core,NexMatchJoinSessionJob::LeaveJoinedMatchmakeSession
+0x11e990,FUN_710011e990,1,1,1,Pia,LanMatchJointSessionJob::WaitCreateNextMesh
+0x11f990,FUN_710011f990,1,1,1,Pia,LanMatchDestroySessionJob::WaitUnregisterCurrentMatchmake...
+0x2328bb0,FUN_7102328bb0,1,1,1,Battle/state,StageSelectScene
+0x22513a0,FUN_71022513a0,1,1,1,Battle/state,start_zoom_out
+0x2b6db30,FUN_7102b6db30,1,1,1,Pia,0x710431718f
+0x109980,FUN_7100109980,1,1,1,NEX core,NexMatchRandomMatchmakeJob::LeaveMatchmakeSession
+0x1a18830,FUN_7101a18830,1,1,1,Battle/state,ready_out
+0x391fa00,FUN_710391fa00,1,1,1,Connection,invalid order function for sorting
+0x1f37860,FUN_7101f37860,1,1,1,Battle/state,mode_to_edit
+0x24d1b0,FUN_710024d1b0,1,1,1,NEX core,Gathering
+0x17440e0,FUN_71017440e0,1,1,1,Battle/state,mode_%02d
+0x17b180,FUN_710017b180,1,1,1,Pia,LocalMatchBrowseMatchmakeJob::WaitBrowseMatchmake
+0x3903230,FUN_7103903230,1,1,1,Battle/state,0x71042b2c97
+0x11e9b0,FUN_710011e9b0,1,1,1,Pia,LanMatchJointSessionJob::WaitGetNextMeshHostStationLocation
+0x27493d0,FUN_71027493d0,1,1,1,Battle/state,stage_change
+0x1629b0,FUN_71001629b0,1,1,1,Pia,Pia SendThreadStream
+0x307c2a0,FUN_710307c2a0,1,1,1,Battle/state,stage
+0x16818c0,FUN_71016818c0,1,1,1,NEX protocol,Logout
+0x4d71e0,FUN_71004d71e0,1,1,1,Battle/state,Stage_Rev
+0x1411a0,FUN_71001411a0,1,1,1,NEX session,LeaveSessionJob::CompleteProcess
+0x335ea80,FUN_710335ea80,1,1,1,Connection,error_se_label_code
+0x1cf0870,FUN_7101cf0870,1,1,1,Battle/state,mode_%02d
+0x11e9d0,FUN_710011e9d0,1,1,1,Pia,LanMatchJointSessionJob::WaitCompanionStation
+0x284d340,FUN_710284d340,1,1,1,Network base,IPP0002
+0x2b63370,FUN_7102b63370,1,1,1,Pia,Land_%s_%02d_%s
+0x18d5040,FUN_71018d5040,1,1,1,Battle/state,MODE_INIT
+0x35ec290,FUN_71035ec290,1,1,1,Battle/state,model.numdlb
+0x1049c0,FUN_71001049c0,1,1,1,NEX session,LeaveSessionJob::LeaveBufferMatchmakeSession
+0x173f8a0,FUN_710173f8a0,1,1,1,Battle/state,0x7104292688
+0x24d1f0,FUN_710024d1f0,1,1,1,NEX core,Gathering
+0x1e5e830,FUN_7101e5e830,1,1,1,Battle/state,gauge_off
+0x1639c0,FUN_71001639c0,1,1,1,Pia,Pia ReceiveThreadStream
+0x1841c0,FUN_71001841c0,1,1,1,Pia,LocalDisconnectNetworkJob::TryPrepareDisconnectNetwork
+0x1883050,FUN_7101883050,1,1,1,Battle/state,type3_4_light
+0x2fdcb20,FUN_7102fdcb20,1,1,1,Network base,IPP0002
+0x10e1f0,FUN_710010e1f0,1,1,1,NEX session,UpdateSessionSettingJob::CompleteProcess
+0x23593d0,FUN_71023593d0,1,1,1,Battle/state,MenuSequenceScene
+0x1739f0,FUN_71001739f0,1,1,1,Pia,LocalCreateNetworkJob::WaitCreateNetwork
+0x18b9f0,FUN_710018b9f0,1,1,1,NEX session,JoinMeshJob::WaitAllConnection
+0x1b9b850,FUN_7101b9b850,1,1,1,Battle/state,menu_in
+0x20d6be0,FUN_71020d6be0,1,1,1,Battle/state,item_id_
+0x17f4090,FUN_71017f4090,1,1,1,Network base,NetworkOwnerMessage
+0x24fcba0,FUN_71024fcba0,1,1,1,Crypto,keyhelp
+0x38fa260,FUN_71038fa260,1,1,1,Hash/Lua,0x7104464729
+0x1a12850,FUN_7101a12850,1,1,1,Battle/state,ready_in
+0x2633b90,FUN_7102633b90,1,1,1,Battle/state,stage
+0x1b50040,FUN_7101b50040,1,1,1,Battle/state,cut_in_pib
+0x1c6c030,FUN_7101c6c030,1,1,1,Crypto,key_off
+0x1d6f820,FUN_7101d6f820,1,1,1,Battle/state,timebar_on
+0x1849e0,FUN_71001849e0,1,1,1,Pia,LocalAllowParticipatingJob::CompleteProcess
+0x189f870,FUN_710189f870,1,1,1,NEX core,next_mov_fade_in
+0x1ca1830,FUN_7101ca1830,1,1,1,Battle/state,itemselect_%02d
+0x4d71b0,FUN_71004d71b0,1,1,1,Battle/state,Stage_Rev
+0x17e1080,FUN_71017e1080,1,1,1,Battle/state,0x71042c3080
+0xf09f0,FUN_71000f09f0,1,1,1,NEX core,NexConnectStationJob::TryCurrentAddress
+0x3908190,FUN_7103908190,1,1,1,Connection,invalid option '%%%c' to 'lua_pushfstring'
+0x1d813d0,FUN_7101d813d0,1,1,1,UI/misc,popup_change_02
+0x6210,FUN_7100006210,1,1,1,Network base,"Address in '%s' found illegal!
+"
+0x1b323a0,FUN_7101b323a0,1,1,1,Battle/state,stage_make
+0x2330820,FUN_7102330820,1,1,1,Pia,LocalTopSceneParameter
+0x187200,FUN_7100187200,1,1,1,Connection,ConnectStationJob::SendRelayConnectionRequest
+0x18f200,FUN_710018f200,1,1,1,NEX session,LeaveWithHostMigrationJob::CheckHostMigrationProcess
+0x1aa200,FUN_71001aa200,1,1,1,Pia,RelayRouteManageJob::WaitAllDirectConnectionReport
+0x32cf130,FUN_71032cf130,1,1,1,Battle/state,ready_out
+0x38fe990,FUN_71038fe990,1,1,1,Connection,error in __gc metamethod (%s)
+0xfa20,FUN_710000fa20,1,1,1,Connection,Invalid TIMEVALUE
+0x1a06380,FUN_7101a06380,1,1,1,Pia,local_off
+0x11e230,FUN_710011e230,1,1,1,Pia,LanMatchJointSessionJob::SendNextSessionId
+0x39199b0,FUN_71039199b0,1,1,1,Battle/state,resulting string too large
+0x1c3fbe0,FUN_7101c3fbe0,1,1,1,NEX session,participate
+0x1e53bc0,FUN_7101e53bc0,1,1,1,Battle/state,menu_switch_spirits
+0x183230,FUN_7100183230,1,1,1,Pia,LocalEventJob::WaitBackgroundJobEnd
+0x2f858d0,FUN_7102f858d0,1,1,1,Battle/state,stage
+0x182cbb0,FUN_710182cbb0,1,1,1,Battle/state,ITEM_INDEX_INIT
+0x1e62bd0,FUN_7101e62bd0,1,1,1,Battle/state,menu_btn_1
+0x197fba0,FUN_710197fba0,1,1,1,Battle/state,type_06
+0x1e5a20,FUN_71001e5a20,1,1,1,Battle/state,0x710449ce5b
+0x111a50,FUN_7100111a50,1,1,1,NEX core,NexProcessHostMigrationJob::UpdateSessionOpenStatus
+0x1e94ba0,FUN_7101e94ba0,1,1,1,NEX core,next_off
+0x17f4330,FUN_71017f4330,1,1,1,Network base,NetworkJoinMessage
+0x1ff53b0,FUN_7101ff53b0,1,1,1,Battle/state,start_final_zoom_out
+0x10c240,FUN_710010c240,1,1,1,NEX core,NexMatchCommunityManagementJob::JoinCommunity
+0x11f240,FUN_710011f240,1,1,1,Pia,LanMatchCreateSessionJob::WaitCreateMatchmake
+0x245a70,FUN_7100245a70,1,1,1,NEX core,prudps
+0x445a10,FUN_7100445a10,1,1,1,Battle/state,ModelOutliner
+0x1e643b0,FUN_7101e643b0,1,1,1,Battle/state,menu_btn_2
+0x188240,FUN_7100188240,1,1,1,Connection,DisconnectStationJob::DisconnectionSucceeded
+0xd5250,FUN_71000d5250,1,1,1,NEX core,NexJoinMeshJob::SetupLocalPlayerInfo
+0x1ef03b0,FUN_7101ef03b0,1,1,1,Battle/state,ready_out
+0x173fb10,FUN_710173fb10,1,1,1,Battle/state,0x7104292688
+0x141a70,FUN_7100141a70,1,1,1,NEX session,LeaveSessionJob::SendMonitoringData
+0x1e61b80,FUN_7101e61b80,1,1,1,Battle/state,menu_in
+0x32ec140,FUN_71032ec140,1,1,1,Battle/state,type_00
+0x39069e0,FUN_71039069e0,1,1,1,Connection,"error loading module '%s' from file '%s':
+	%s"
+0x426a30,FUN_7100426a30,1,1,1,Battle/state,StageSelectScene
+0x176a60,FUN_7100176a60,1,1,1,Pia,LocalHostMigrationJob::ScanNetwork
+0x17b260,FUN_710017b260,1,1,1,NEX session,session::BrowseMatchmakeJob::CompleteProcess
+0x2072870,FUN_7102072870,1,1,1,Connection,invalid_attack_mask
+0x1e9a60,FUN_71001e9a60,1,1,1,Battle/state,0x710449ce5b
+0x2f08870,FUN_7102f08870,1,1,1,Network base,IPP0002
+0x11ea90,FUN_710011ea90,1,1,1,Pia,LanMatchJointSessionJob::WaitHostStationId
+0x120290,FUN_7100120290,1,1,1,Pia,LanMatchRandomMatchmakeJob::WaitRandomMatchmake
+0x232aa0,FUN_7100232aa0,1,1,1,NEX protocol,Protocol
+0x141a90,FUN_7100141a90,1,1,1,NEX session,LeaveSessionJob::SendMonitoringData
+0x1e53b60,FUN_7101e53b60,1,1,1,Battle/state,menu_switch_spirits
+0x11ca80,FUN_710011ca80,1,1,1,Pia,LanMatchJoinSessionJob::GetStationLocation
+0x23290,FUN_7100023290,1,1,1,Connection,Connection time-out
+0x193e300,FUN_710193e300,1,1,1,Battle/state,gauge_on
+0x1e7b370,FUN_7101e7b370,1,1,1,Battle/state,states_forget
+0x183280,FUN_7100183280,1,1,1,Pia,LocalEventJob::WatchUpdateEvent
+0x1883b10,FUN_7101883b10,1,1,1,Hash/Lua,OnlineMeleeConventionTopSceneParameter
+0x24d18d0,FUN_71024d18d0,1,1,1,Battle/state,model.numdlb
+0x232f890,FUN_710232f890,1,1,1,Pia,LocalTopScene
+0x19a7b30,FUN_71019a7b30,1,1,1,Battle/state,type_00
+0x19deb30,FUN_71019deb30,1,1,1,Battle/state,type_0%d
+0x1222a0,FUN_71001222a0,1,1,1,Pia,LanMatchUpdateSessionSettingJob::UpdateSessionSetting
+0x12aaa0,FUN_710012aaa0,1,1,1,Pia,LanMatchmakeUpdateJob::Update
+0x194ab20,FUN_710194ab20,1,1,1,Battle/state,menu_in
+0x1872a0,FUN_71001872a0,1,1,1,Connection,ConnectStationJob::WaitRequestAck
+0x30999b0,FUN_71030999b0,1,1,1,Network base,IPP0002
+0x1cc6370,online_scene_state_handler,1,1,1,Battle/state,type_check
+0x12c0,FUN_71000012c0,1,1,1,Pia,localhost
+0x1042d0,FUN_71001042d0,1,1,1,NEX core,NexMatchLeaveSessionJob::WaitMigrateMatchmakeSessionOwner
+0x1072d0,FUN_71001072d0,1,1,1,NEX session,session::BrowseMatchmakeJob::CompleteProcess
+0x10dad0,FUN_710010dad0,1,1,1,NEX core,NexMatchUpdateSessionSettingJob::WaitUpdateAttributes
+0x23398f0,FUN_71023398f0,1,1,1,Battle/state,MeleeScene
+0x173ad0,FUN_7100173ad0,1,1,1,Pia,LocalCreateNetworkJob::WaitForCancel
+0x198f350,FUN_710198f350,1,1,1,Battle/state,type_03
+0x23790e0,FUN_71023790e0,1,1,1,Hash/Lua,OnlineMeleeRoomTopSceneParameter
+0x2a7d870,FUN_7102a7d870,1,1,1,Network base,IPP0007
+0x18cc350,FUN_71018cc350,1,1,1,Pia,language_name_label
+0x1de2c0,FUN_71001de2c0,1,1,1,Pia,localhost
+0x104af0,FUN_7100104af0,1,1,1,NEX core,NexMatchLeaveSessionJob::MigrateMatchmakeSessionOwner
+0x11e2f0,FUN_710011e2f0,1,1,1,Pia,LanMatchJointSessionJob::WaitCompanionStationPrepared
+0x2b4d850,FUN_7102b4d850,1,1,1,UI/misc,Block
+0x1c50320,FUN_7101c50320,1,1,1,Battle/state,state_catch_ok
+0x1852f0,FUN_71001852f0,1,1,1,Pia,LocalEjectClientListCheckJob::WaitEjectTargetClient
+0x18eaf0,FUN_710018eaf0,1,1,1,NEX session,LeaveMeshJob::SendLeaveRequest
+0xf02e0,FUN_71000f02e0,1,1,1,NEX core,NexConnectStationJob::TestCurrentAddress
+0x17f4b90,FUN_71017f4b90,1,1,1,Battle/state,SceneResetMessage
+0x1122e0,FUN_71001122e0,1,1,1,NEX core,NexProcessHostMigrationJob::NexCheckMatchMakingClientHost...
+0x1c69330,FUN_7101c69330,1,1,1,Matchmaking,room_count%d
+0x216c0e0,FUN_710216c0e0,1,1,1,Battle/state,start_frame_
+0x216e8e0,FUN_710216e8e0,1,1,1,NEX session;Pia,joint_id_
+0x21968e0,FUN_71021968e0,1,1,1,Battle/state,type_
+0xd52f0,FUN_71000d52f0,1,1,1,NEX core,NexJoinMeshJob::StartMonitoringServerAddressResolution
+0x104b10,FUN_7100104b10,1,1,1,NEX core,NexMatchLeaveSessionJob::LeaveMatchmakeSessionCompanions
+0x106310,FUN_7100106310,1,1,1,NEX core,NexMatchDestroySessionJob::MeshCleanup
+0x194a290,FUN_710194a290,1,1,1,Battle/state,menu_in
+0x2358930,FUN_7102358930,1,1,1,Battle/state,model.numdlb
+0x1ccdac0,FUN_7101ccdac0,1,1,1,Battle/state,stockicon%02d
+0x1cd22c0,FUN_7101cd22c0,1,1,1,Battle/state,type_upload
+0x240d150,FUN_710240d150,1,1,1,Battle/state,Stage_Rev
+0x193ea80,FUN_710193ea80,1,1,1,Battle/state,menu_in
+0x1e53af0,FUN_7101e53af0,1,1,1,Battle/state,menu_switch_edit
+0x25aa140,FUN_71025aa140,1,1,1,Battle/state,type_progress
+0xd5310,FUN_71000d5310,1,1,1,NEX core,NexJoinMeshJob::SetupLocalStation
+0x104b30,FUN_7100104b30,1,1,1,NEX session,LeaveSessionJob::LeaveCurrentMatchmakeSession
+0x106330,FUN_7100106330,1,1,1,NEX core,NexMatchDestroySessionJob::UnregisterBufferMatchmakeSession
+0x106b30,FUN_7100106b30,1,1,1,NEX session,session::BrowseMatchmakeJob::CompleteProcess
+0x10b330,FUN_710010b330,1,1,1,NEX core,NexMatchCommunityManagementJob::WaitFindCommunityByCommun...
+0x2338110,FUN_7102338110,1,1,1,Battle/state,MeleeScene
+0x1d7faf0,FUN_7101d7faf0,1,1,1,UI/misc,popup_change_00
+0x2389910,FUN_7102389910,1,1,1,Hash/Lua,OnlineShareSceneParameter
+0x10c320,FUN_710010c320,1,1,1,NEX core,NexMatchCommunityManagementJob::WaitJoinCommunity
+0x38288b0,FUN_71038288b0,1,1,1,Connection,invalid
+0x56c360,FUN_710056c360,1,1,1,Battle/state,model.numdlb
+0x173320,FUN_7100173320,1,1,1,Pia,LocalBackgroundProcessJob::ConnectNetwork
+0x2f709c0,FUN_7102f709c0,1,1,1,Battle/state,stage
+0x1e8b20,FUN_71001e8b20,1,1,1,Battle/state,0x710449ce5b
+0x109350,FUN_7100109350,1,1,1,NEX core,NexMatchRandomMatchmakeJob::LeaveMatchmakeSession
+0x10eb50,FUN_710010eb50,1,1,1,NEX core,NexMatchGenerateSystemPasswordJob::GenerateMatchmakeSyste...
+0x11eb50,FUN_710011eb50,1,1,1,Pia,LanMatchJointSessionJob::StartJoinNextMesh
+0x141b50,FUN_7100141b50,1,1,1,NEX session,LeaveSessionJob::WaitLeaveBufferMatchmakeSession
+0x1747230,FUN_7101747230,1,1,1,Matchmaking,rating
+0x1e662a0,FUN_7101e662a0,1,1,1,Battle/state,menu_out
+0x1e6a2a0,FUN_7101e6a2a0,1,1,1,NEX core,next_off
+0x2306160,FUN_7102306160,1,1,1,Battle/state,StageSelectScene
+0x151aa00,FUN_710151aa00,1,1,1,Battle/state,StatePractice
+0x22b50,FUN_7100022b50,1,1,1,Connection,"Connection %ld seems to be dead!
+"
+0x27cb70,FUN_710027cb70,1,1,1,Connection,invalidurl
+0x122370,FUN_7100122370,1,1,1,Pia,LanMatchUpdateSessionSettingJob::WaitUpdateSessionSetting
+0x1744210,FUN_7101744210,1,1,1,Battle/state,mode_%02d
+0x167370,FUN_7100167370,1,1,1,Pia,pia local heap
+0x276b110,FUN_710276b110,1,1,1,Battle/state,Model
+0x24f9120,FUN_71024f9120,1,1,1,Crypto,keyhelp
+0x3708800,FUN_7103708800,1,1,1,NEX session,session_simple key
+0x1849af0,FUN_7101849af0,1,1,1,Battle/state,StageSelectSceneParameter
+0x1e53a90,FUN_7101e53a90,1,1,1,Battle/state,menu_switch_edit
+0x17ab60,FUN_710017ab60,1,1,1,Pia,LocalMatchCreateSessionJob::DestroyLocalNetwork
+0x184b60,FUN_7100184b60,1,1,1,Pia,LocalAllowParticipatingBackgroundJob::AllowParticipating
+0x1b2360,FUN_71001b2360,1,1,1,NEX core,0x71043294f9
+0x11fb90,FUN_710011fb90,1,1,1,Pia,LanMatchBrowseMatchmakeJob::BrowseMatchmake
+0x141390,FUN_7100141390,1,1,1,NEX session,LeaveSessionJob::LeaveMesh
+0x1868a00,FUN_7101868a00,1,1,1,Battle/state,MeleeRuleSceneParameter
+0x104b80,FUN_7100104b80,1,1,1,NEX session,LeaveSessionJob::SendMonitoringData
+0x10cb80,FUN_710010cb80,1,1,1,NEX core,NexMatchCommunityManagementJob::DestroyCommunity
+0x16052f0,FUN_71016052f0,1,1,1,Battle/state,0x71042c3080
+0x110380,FUN_7100110380,1,1,1,NEX core,NexProcessHostMigrationJob::NexSendRankDecision
+0x36430f0,FUN_71036430f0,1,1,1,Battle/state,FinalSubstanceParameterUpdater
+0x22df1b0,FUN_71022df1b0,1,1,1,Battle/state,MenuSequenceScene
+0x10abb0,FUN_710010abb0,1,1,1,NEX core,NexMatchClearSystemPasswordJob::ClearMatchmakeSystemPassword
+0x11e3b0,FUN_710011e3b0,1,1,1,Pia,LanMatchJointSessionJob::SendNextSessionId
+0x124bb0,FUN_7100124bb0,1,1,1,Pia,LanProcessHostMigrationJob::LanPrepareForBecomingHost
+0x1a20200,FUN_7101a20200,1,1,1,Battle/state,ready_out
+0x1a26200,FUN_7101a26200,1,1,1,Connection,disconnect_off
+0x1b31a10,FUN_7101b31a10,1,1,1,Battle/state,type_normal
+0x1413b0,FUN_71001413b0,1,1,1,NEX session,LeaveSessionJob::WaitHostMigrated
+0x2b5f110,FUN_7102b5f110,1,1,1,Pia,Land_%s_%02d_%c
+0x216e9b0,FUN_710216e9b0,1,1,1,NEX session;Pia,joint_id_
+0x1883b0,FUN_71001883b0,1,1,1,Connection,DisconnectStationJob::DisconnectionSucceeded
+0x21969b0,FUN_71021969b0,1,1,1,Battle/state,type_
+0x17f52d0,FUN_71017f52d0,1,1,1,Battle/state,SceneInitCodeParameter
+0x1253a0,FUN_71001253a0,1,1,1,Pia,LanProcessHostMigrationJob::HostMigrationFailure
+0x232b90,FUN_7100232b90,1,1,1,NEX protocol,Protocol
+0x1c43a70,FUN_7101c43a70,1,1,1,Battle/state,MODE_INIT
+0x1968a20,FUN_7101968a20,1,1,1,Battle/state,stage_edit
+0x27eb90,FUN_710027eb90,1,1,1,Connection,invalidurl
+0x1f13a0,FUN_71001f13a0,1,1,1,Identity,0x710449ce2b
+0x104bd0,FUN_7100104bd0,1,1,1,NEX session,LeaveSessionJob::SendMonitoringData
+0x20abe0,FUN_710020abe0,1,1,1,NEX core,prudp
+0x2b63970,FUN_7102b63970,1,1,1,Pia,Land_%s_%02d_%s
+0x17a3d0,FUN_710017a3d0,1,1,1,Pia,LocalMatchJoinSessionJob::CompleteFailure
+0x1853d0,FUN_71001853d0,1,1,1,Pia,LocalEjectClientListCheckJob::WaitBackgroundJobEnd
+0x1f95230,FUN_7101f95230,1,1,1,Hash/Lua,LuaAutoTest
+0xacbc0,FUN_71000acbc0,1,1,1,Connection,"ConnectionStripeSystem is already initialized.
+"
+0x1c8bd0,FUN_71001c8bd0,1,1,1,Network base,SocketDriver::Socket
+0x35c2890,FUN_71035c2890,1,1,1,Battle/state,model.numdlb
+0xf1bc0,FUN_71000f1bc0,1,1,1,Connection,ConnectStationJob::SendConnectionRequest
+0x10b3c0,FUN_710010b3c0,1,1,1,NEX core,NexMatchCommunityManagementJob::WaitFindCommunityByOwner
+0x11c3c0,FUN_710011c3c0,1,1,1,Pia,LanConnectStationJob::TryCurrentAddress
+0x1733aa0,FUN_7101733aa0,1,1,1,Matchmaking,rating
+0x1533c0,FUN_71001533c0,1,1,1,Pia,Pia Receive
+0x2f73920,FUN_7102f73920,1,1,1,Battle/state,stage
+0xf5bd0,FUN_71000f5bd0,1,1,1,NEX core,NexMatchJointSessionJob::CallSessionEvent
+0x1eff230,FUN_7101eff230,1,1,1,Battle/state,result_on
+0x392a070,FUN_710392a070,1,1,1,Matchmaking,arenas
+0x23dbc0,FUN_710023dbc0,1,1,1,NEX core,prudp:/address=
+0x1f35210,FUN_7101f35210,1,1,1,Battle/state,mode_to_color
+0x24cbc0,FUN_710024cbc0,1,1,1,NEX core,Gathering
+0x1513f0,FUN_71001513f0,1,1,1,Pia,pia transport heap
+0x1833f0,FUN_71001833f0,1,1,1,Pia,LocalConnectNetworkJob::WaitConnectNetwork
+0x10ebe0,FUN_710010ebe0,1,1,1,NEX core,NexMatchGenerateSystemPasswordJob::WaitGenerateMatchmakeS...
+0x191fa60,FUN_710191fa60,1,1,1,Battle/state,menu_in
+0x23899c0,FUN_71023899c0,1,1,1,Battle/state,time_seconds
+0x38f7870,FUN_71038f7870,1,1,1,Hash/Lua,LUABOX
+0x11dc10,FUN_710011dc10,1,1,1,Pia,LanMatchJointSessionJob::CallSessionEvent
+0x11ec10,FUN_710011ec10,1,1,1,Pia,LanMatchJointSessionJob::WaitJoinNextMesh
+0x1e385e0,FUN_7101e385e0,1,1,1,Battle/state,start_effect_aura
+0x2342630,FUN_7102342630,1,1,1,Battle/state,MenuSequenceScene
+0x1e5ede0,FUN_7101e5ede0,1,1,1,NEX core,next_on
+0x18ec10,FUN_710018ec10,1,1,1,NEX session,LeaveMeshJob::WaitLeaveResponse
+0x1e9d5e0,FUN_7101e9d5e0,1,1,1,Identity,nintendo64
+0x17f4d70,FUN_71017f4d70,1,1,1,Battle/state,SceneChangeMessage
+0x30f7f00,FUN_71030f7f00,1,1,1,Network base,IPP0001
+0x203be10,FUN_710203be10,1,1,1,NEX session,leave_cliff
+0x3935f80,FUN_7103935f80,1,1,1,Matchmaking,arena_large
+0x22dfe30,FUN_71022dfe30,1,1,1,Battle/state,MenuSequenceScene
+0x32e8f30,FUN_71032e8f30,1,1,1,UI/misc,popup_out
+0x11ec30,FUN_710011ec30,1,1,1,Pia,LanMatchJointSessionJob::WaitCompanionStation
+0x11fc30,FUN_710011fc30,1,1,1,Pia,LanMatchBrowseMatchmakeJob::WaitBrowseMatchmake
+0x425c60,FUN_7100425c60,1,1,1,Hash/Lua,OnlineMeleeAnyScene
+0x2257e00,FUN_7102257e00,1,1,1,Battle/state,start_zoom_out
+0x275400,FUN_7100275400,1,1,1,Connection,invalidurl
+0x185430,FUN_7100185430,1,1,1,Pia,LocalEjectClientListCheckJob::CheckTargetList
+0x185c30,FUN_7100185c30,1,1,1,Pia,LocalResendMessageJob::ResendMessage
+0x2384610,FUN_7102384610,1,1,1,Hash/Lua,online_tournament
+0x10cc20,FUN_710010cc20,1,1,1,NEX core,NexMatchCommunityManagementJob::WaitDestroyCommunity
+0x22ec10,FUN_710022ec10,1,1,1,NEX protocol,Protocol
+0x24cc10,FUN_710024cc10,1,1,1,NEX core,Gathering
+0x381efc0,FUN_710381efc0,1,1,1,Connection,INVALID
+0x391afd0,FUN_710391afd0,1,1,1,Battle/state,format result too large
+0x1d23590,FUN_7101d23590,1,1,1,Battle/state,result_rank_1_effct_off
+0x13ec50,FUN_710013ec50,1,1,1,NEX session,JoinSessionJob::WaitJoinMesh
+0x2b406f0,FUN_7102b406f0,1,1,1,Network base,IPP0002
+0x1c58580,FUN_7101c58580,1,1,1,Battle/state,state_catch_ng
+0x17a450,FUN_710017a450,1,1,1,NEX session,JoinSessionJob::CompleteProcess
+0x3685f20,FUN_7103685f20,1,1,1,Battle/state,transition
+0x21d0650,FUN_71021d0650,1,1,1,Battle/state,result_
+0x35ecf10,FUN_71035ecf10,1,1,1,Battle/state,model.xmb
+0x10ac40,FUN_710010ac40,1,1,1,NEX core,NexMatchClearSystemPasswordJob::WaitClearMatchmakeSystemP...
+0x382d7d0,FUN_710382d7d0,1,1,1,Connection,invalid
+0x246470,FUN_7100246470,1,1,1,NEX protocol,RendezVousLogout
+0x1e5cdb0,FUN_7101e5cdb0,1,1,1,Battle/state,menu_out
+0xb6c50,FUN_71000b6c50,1,1,1,Pia,Pia BackgroundScheduler
+0x1be440,FUN_71001be440,1,1,1,NEX core,0x71042a24e8
+0x24eb610,FUN_71024eb610,1,1,1,Battle/state,model.numdlb
+0x11e470,FUN_710011e470,1,1,1,Pia,LanMatchJointSessionJob::StartLeavePreviousMesh
+0x22cc40,FUN_710022cc40,1,1,1,Identity,NintendoNotificationEventManager
+0x2328650,FUN_7102328650,1,1,1,Battle/state,HomeRunContestScene
+0x246440,FUN_7100246440,1,1,1,NEX protocol,RendezVousLogin
+0x17ac70,FUN_710017ac70,1,1,1,Pia,LocalMatchCreateSessionJob::CompleteFailure
+0x2196670,FUN_7102196670,1,1,1,Battle/state,type_
+0x10b460,FUN_710010b460,1,1,1,NEX core,NexMatchCommunityManagementJob::WaitFindCommunityByPartic...
+0x10e460,FUN_710010e460,1,1,1,NEX session,UpdateSessionSettingJob::CompleteProcess
+0x2f0c680,FUN_7102f0c680,1,1,1,Network base,IPP0005
+0x172c60,FUN_7100172c60,1,1,1,Pia,LocalBackgroundProcessJob::DestroyNetwork
+0x17b460,FUN_710017b460,1,1,1,Pia,LocalMatchBrowseMatchmakeJob::WaitHostMigration
+0x184460,FUN_7100184460,1,1,1,Pia,LocalDisconnectNetworkJob::WaitForCancel
+0x1f1c60,FUN_71001f1c60,1,1,1,Identity,0x710449ce2b
+0x25036d0,FUN_71025036d0,1,1,1,Battle/state,model.numdlb
+0x173fdf0,FUN_710173fdf0,1,1,1,Battle/state,0x7104292688
+0x20b6680,FUN_71020b6680,1,1,1,NEX session;Pia,joint_id_
+0x20d1680,FUN_71020d1680,1,1,1,Battle/state,ItemKineticModuleImpl
+0x22e06a0,FUN_71022e06a0,1,1,1,Battle/state,battle_end_%d
+0x17f3df0,FUN_71017f3df0,1,1,1,Network base,NetworkRuleMessage
+0x1cf4d40,FUN_7101cf4d40,1,1,1,Battle/state,type_00
+0x182dd10,FUN_710182dd10,1,1,1,Battle/state,ITEM_INDEX_NONE
+0x23306a0,FUN_71023306a0,1,1,1,Pia,LocalModeSelectSceneParameter
+0x18ec80,FUN_710018ec80,1,1,1,NEX session,LeaveMeshJob::StartDisconnectStations
+0x16a65f0,FUN_71016a65f0,1,1,1,Network base,Network
+0xb1490,FUN_71000b1490,1,1,1,Pia,pia common heap
+0x20b9690,FUN_71020b9690,1,1,1,Battle/state,start_accel_frame_
+0x1f9c80,FUN_71001f9c80,1,1,1,Network base,SocketTransport::TransportJob
+0x1074b0,FUN_71001074b0,1,1,1,NEX core,NexMatchBrowseMatchmakeJob::WaitRequestSessionInfo
+0x3906730,FUN_7103906730,1,1,1,Connection,"error loading module '%s' from file '%s':
+	%s"
+0x2a28e00,FUN_7102a28e00,1,1,1,Battle/state,stage
+0x2339e90,FUN_7102339e90,1,1,1,Battle/state,MeleeScene
+0x18a4b0,FUN_710018a4b0,1,1,1,NEX session,JoinMeshJob::WaitUntilConnectToHost
+0x18cad20,FUN_71018cad20,1,1,1,Pia,LANGUAGE_NUM
+0xd2ca0,FUN_71000d2ca0,1,1,1,NEX core,NexNatServerAddressResolveJob::StepResolveNatServerAddress
+0x134b0,FUN_71000134b0,1,1,1,Crypto,Digest
+0x196bd20,FUN_710196bd20,1,1,1,Battle/state,StageMakeTopMenuSceneParameter
+0x17a4a0,FUN_710017a4a0,1,1,1,Pia,LocalMatchJoinSessionJob::MeshCleanup
+0x1f34530,FUN_7101f34530,1,1,1,Battle/state,mode_to_edit
+0x17b4d0,FUN_710017b4d0,1,1,1,Pia,LocalMatchBrowseMatchmakeJob::UpdateCurrentConnectionStatus
+0x18b4d0,FUN_710018b4d0,1,1,1,NEX session,JoinMeshJob::WaitRequestAck
+0x1986550,FUN_7101986550,1,1,1,Battle/state,menu_miiedit_open
+0x1becd0,FUN_71001becd0,1,1,1,Pia,localhost
+0xf64c0,FUN_71000f64c0,1,1,1,NEX core,NexMatchJointSessionJob::CallSessionEvent
+0x2601eb0,FUN_7102601eb0,1,1,1,Battle/state,model.numdlb
+0x3374fe0,FUN_7103374fe0,1,1,1,Crypto,key_context
+0x18c4c0,FUN_710018c4c0,1,1,1,NEX session,JoinMeshJob::StartDisconnectStations
+0x1d89d00,FUN_7101d89d00,1,1,1,Crypto,keyhelp_off
+0x2f85e20,FUN_7102f85e20,1,1,1,Network base,IPP0001
+0x1db5d00,FUN_7101db5d00,1,1,1,Battle/state,time_limit_base
+0x11ecf0,FUN_710011ecf0,1,1,1,Pia,LanMatchJointSessionJob::ProcessComplete
+0x1224f0,FUN_71001224f0,1,1,1,NEX session,UpdateSessionSettingJob::CompleteProcess
+0x216bef0,FUN_710216bef0,1,1,1,Battle/state,start_frame_
+0x3686f80,FUN_7103686f80,1,1,1,Pia,local_post_space
+0x19a7d70,FUN_71019a7d70,1,1,1,Battle/state,type_00
+0x1cad520,FUN_7101cad520,1,1,1,Battle/state,type_check
+0xf44e0,FUN_71000f44e0,1,1,1,NEX core,NexMatchJoinSessionJob::MeshCleanup
+0x5cf0,FUN_7100005cf0,1,1,1,Pia,"Hostname in DNS cache was stale, zapped
+"
+0x194f0,FUN_71000194f0,1,1,1,Connection,"Connection died, retrying a fresh connect
+"
+0x182c570,FUN_710182c570,1,1,1,Battle/state,result
+0x216e6e0,FUN_710216e6e0,1,1,1,NEX session;Pia,joint_id_
+0x274cd0,FUN_7100274cd0,1,1,1,Connection,invalidurl
+0x1c71530,FUN_7101c71530,1,1,1,Battle/state,type_txt_nomal
+0x1e71d10,FUN_7101e71d10,1,1,1,NEX core,next_on
+0x1746470,FUN_7101746470,1,1,1,Battle/state,0x7104292688
+0x2053700,FUN_7102053700,1,1,1,Battle/state,model_constraint_node_top_z
+0x2363730,FUN_7102363730,1,1,1,Battle/state,MenuSequenceScene
+0xf4500,FUN_71000f4500,1,1,1,NEX core,NexMatchJoinSessionJob::LeaveMatchmakeSession
+0x10b500,FUN_710010b500,1,1,1,NEX core,NexMatchCommunityManagementJob::WaitFindOfficialCommunity
+0x2e07ff0,FUN_7102e07ff0,1,1,1,Battle/state,stage
+0x1519c40,FUN_7101519c40,1,1,1,Battle/state,StatePause
+0x2010f10,FUN_7102010f10,1,1,1,Battle/state,start_damage_info_log
+0x1f3e4e0,FUN_7101f3e4e0,1,1,1,Battle/state,transition_on
+0x25abf40,FUN_71025abf40,1,1,1,Battle/state,type_progress
+0x11e530,FUN_710011e530,1,1,1,Pia,LanMatchJointSessionJob::WaitLeavePreviousMesh
+0x11f530,FUN_710011f530,1,1,1,Pia,LanMatchCreateSessionJob::CompleteFailure
+0x1986cb0,FUN_7101986cb0,1,1,1,Battle/state,menu_miiedit_close
+0x2bfff90,FUN_7102bfff90,1,1,1,Network base,IPP0002
+0x106d20,FUN_7100106d20,1,1,1,NEX session,session::BrowseMatchmakeJob::CompleteProcess
+0x2d01fe0,FUN_7102d01fe0,1,1,1,NEX session;Pia,joint_spring_O_OBJ_O_HIR
+0x1c44cf0,FUN_7101c44cf0,1,1,1,Battle/state,type3_4_light
+0x11e550,FUN_710011e550,1,1,1,Pia,LanMatchJointSessionJob::WaitUpdateSessionKey
+0x11fd50,FUN_710011fd50,1,1,1,NEX session,session::BrowseMatchmakeJob::CompleteProcess
+0x35f9e10,FUN_71035f9e10,1,1,1,Battle/state,item_silhouette_opaque
+0x13550,FUN_7100013550,1,1,1,Pia,Proxy-
+0x421d10,FUN_7100421d10,1,1,1,Battle/state,HomeRunContestScene
+0x226bf70,FUN_710226bf70,1,1,1,Pia,landing_speed
+0x17ad40,FUN_710017ad40,1,1,1,Pia,LocalMatchCreateSessionJob::StopLocalSession
+0x1c9d490,FUN_7101c9d490,1,1,1,Battle/state,itemswitch_off
+0x104d70,FUN_7100104d70,1,1,1,NEX core,NexMatchCreateSessionJob::LeaveJoinedMatchmakeSession
+0x11e570,FUN_710011e570,1,1,1,Pia,LanMatchJointSessionJob::SendPreparedForMigrateSession
+0x192f4f0,FUN_710192f4f0,1,1,1,UI/misc,popup_out
+0x2370f50,FUN_7102370f50,1,1,1,Battle/state,MenuSequenceScene
+0x18d570,FUN_710018d570,1,1,1,NEX session,JoinMeshJob::CompleteCancelWithLeaveMesh
+0x19864f0,FUN_71019864f0,1,1,1,Battle/state,menu_custom_close
+0x35d0e30,FUN_71035d0e30,1,1,1,Battle/state,item_silhouette_opaque
+0x15f8430,FUN_71015f8430,1,1,1,Battle/state,0x71042c3080
+0x1c534b0,FUN_7101c534b0,1,1,1,Battle/state,state_catch_ok
+0x175d60,FUN_7100175d60,1,1,1,Pia,LocalHostMigrationJob::DisconnectNetwork
+0x1884cf0,FUN_7101884cf0,1,1,1,Hash/Lua,OnlineMeleeParallelSceneParameter
+0x2395f40,FUN_7102395f40,1,1,1,Hash/Lua,OnlineWatchFullSceneParameter
+0x425dc0,FUN_7100425dc0,1,1,1,Hash/Lua,OnlineMeleeConventionTopScene
+0x183d90,FUN_7100183d90,1,1,1,Pia,LocalDestroyNetworkJob::WaitDestroyNetwork
+0x185590,FUN_7100185590,1,1,1,Pia,LocalEjectClientBackgroundJob::EjectClient
+0x1d8d450,FUN_7101d8d450,1,1,1,NEX core,nextlevel
+0x20f2f80,FUN_71020f2f80,1,1,1,Battle/state,item_
+0x120580,FUN_7100120580,1,1,1,Pia,LanMatchRandomMatchmakeJob::CompleteFailure
+0x1e4a470,FUN_7101e4a470,1,1,1,Battle/state,gauge_off
+0x16814f0,FUN_71016814f0,1,1,1,NEX protocol,Login
+0x1075b0,FUN_71001075b0,1,1,1,NEX session,session::BrowseMatchmakeJob::CompleteProcess
+0x21227b0,FUN_71021227b0,1,1,1,NEX session;Pia,joint_id_
+0x1ff9450,FUN_7101ff9450,1,1,1,Battle/state,result_
+0x10bda0,FUN_710010bda0,1,1,1,NEX core,NexMatchCommunityManagementJob::CreateCommunity
+0x110da0,FUN_7100110da0,1,1,1,NEX core,NexProcessHostMigrationJob::NexPrepareForBecomingHost
+0x4215f0,FUN_71004215f0,1,1,1,Battle/state,StageSelectScene
+0x24a590,FUN_710024a590,1,1,1,NEX protocol,AuthenticationInfo
+0x22dc0,FUN_7100022dc0,1,1,1,Connection,Connection time-out
+0x421d80,FUN_7100421d80,1,1,1,Battle/state,StageSelectScene
+0x141dd0,FUN_7100141dd0,1,1,1,NEX session,LeaveSessionJob::LeaveCurrentMatchmakeSession
+0x1c57c00,FUN_7101c57c00,1,1,1,Battle/state,state_catch_ng
+0x18bdd0,FUN_710018bdd0,1,1,1,NEX session,JoinMeshJob::AnalyzeJoinResponse
+0xc05c0,FUN_71000c05c0,1,1,1,Pia,pia nex heap
+0x1af9c60,FUN_7101af9c60,1,1,1,Battle/state,type_00
+0x2ef5720,FUN_7102ef5720,1,1,1,Battle/state,resultstage_skydome_set_%02d
+0x38f6640,FUN_71038f6640,1,1,1,Connection,invalid key to 'next'
+0x41dd90,FUN_710041dd90,1,1,1,Battle/state,MeleeRuleScene
+0x17a5c0,FUN_710017a5c0,1,1,1,Pia,LocalMatchJoinSessionJob::MeshCleanup
+0x18cdc0,FUN_710018cdc0,1,1,1,NEX session,JoinMeshJob::WaitDisconnectStations
+0x24d1f90,FUN_71024d1f90,1,1,1,Battle/state,model.numdlb
+0x17f3ca0,FUN_71017f3ca0,1,1,1,Network base,NetworkMeleeMessage
+0x3900670,FUN_7103900670,1,1,1,Hash/Lua,Lua 5.3
+0x11f5f0,FUN_710011f5f0,1,1,1,Pia,LanMatchCreateSessionJob::UnregisterGathering
+0x1f18c10,FUN_7101f18c10,1,1,1,UI/misc,blocking_count
+0x24cdc0,FUN_710024cdc0,1,1,1,NEX core,Gathering
+0x1e68400,FUN_7101e68400,1,1,1,NEX core,next_on
+0x179df0,FUN_7100179df0,1,1,1,Pia,LocalMatchJoinSessionJob::JoinMatchmakeSession
+0x359feb0,FUN_710359feb0,1,1,1,Battle/state,model.numdlb
+0xdf0,FUN_7100000df0,1,1,1,Connection,CONNECT_ONLY is required!
+0x11c5e0,FUN_710011c5e0,1,1,1,Connection,ConnectStationJob::SendConnectionRequest
+0x391ce60,FUN_710391ce60,1,1,1,Connection,invalid capture index %%%d
+0x24a5d0,FUN_710024a5d0,1,1,1,NEX protocol,AuthenticationInfo
+0x355fea0,FUN_710355fea0,1,1,1,Battle/state,model/%s/c00
+0x17a5e0,FUN_710017a5e0,1,1,1,Pia,LocalMatchJoinSessionJob::LeaveMatchmakeSession
+0x17f4480,FUN_71017f4480,1,1,1,Network base,NetworkErrorMessage
+0x22ce20,FUN_710022ce20,1,1,1,Identity,NintendoNotificationEventManager
+0x2252c20,FUN_7102252c20,1,1,1,Battle/state,start_sound_effector
+0x170610,FUN_7100170610,1,1,1,Pia,LocalHostMigrationJob::WaitUntilAllClientsConnection
+0x17ad770,FUN_71017ad770,1,1,1,Battle/state,stage
+0x24e9c40,FUN_71024e9c40,1,1,1,Battle/state,model.numdlb
+0x22610,FUN_7100022610,1,1,1,Connection,"Invalid IPv6 address format
+"
+0x255630,FUN_7100255630,1,1,1,NEX session,MatchmakeSession
+0x1e607f0,FUN_7101e607f0,1,1,1,Battle/state,menu_btn_1
+0x1985f80,FUN_7101985f80,1,1,1,Battle/state,menu_custom_open
+0x13a0f20,FUN_71013a0f20,1,1,1,Battle/state,gauge_move
+0x11e630,FUN_710011e630,1,1,1,Pia,LanMatchJointSessionJob::WaitUntilLeaderLeavesMesh
+0x11f630,FUN_710011f630,1,1,1,Pia,LanMatchCreateSessionJob::WaitUnregisterGathering
+0x22d600,FUN_710022d600,1,1,1,NEX protocol,NotificationEventManager
+0x3921db0,FUN_7103921db0,1,1,1,Connection,invalid UTF-8 code
+0x186630,FUN_7100186630,1,1,1,Connection,ConnectStationJob::SendConnectionRequest
+0x1882fa0,FUN_7101882fa0,1,1,1,Hash/Lua,OnlineMeleeAnySceneParameter
+0x1a9e30,FUN_71001a9e30,1,1,1,Pia,RelayRouteManageJob::WaitAllDirectConnectionReport
+0x1cbefe0,FUN_7101cbefe0,1,1,1,Battle/state,mode_%02d
+0x24a610,FUN_710024a610,1,1,1,NEX protocol,AuthenticationInfo
+0x1e5b7d0,FUN_7101e5b7d0,1,1,1,Battle/state,gauge_off
+0x1e6bfd0,FUN_7101e6bfd0,1,1,1,Battle/state,menu_number_2
+0x17f3f40,FUN_71017f3f40,1,1,1,Network base,NetworkEntryMessage
+0x1d77f90,FUN_7101d77f90,1,1,1,Crypto,keyhelp_off
+0xf5e40,FUN_71000f5e40,1,1,1,NEX core,NexMatchJointSessionJob::CallDestroySessionEvent
+0x1cf2f80,FUN_7101cf2f80,1,1,1,Battle/state,stockicon%02d
+0x120640,FUN_7100120640,1,1,1,Pia,LanMatchRandomMatchmakeJob::UnregisterGathering
+0x1d43780,FUN_7101d43780,1,1,1,Battle/state,type_03
+0x255670,FUN_7100255670,1,1,1,NEX session,MatchmakeSession
+0x24ed410,FUN_71024ed410,1,1,1,Battle/state,model.numdlb
+0x1af97f0,FUN_7101af97f0,1,1,1,Battle/state,type_00
+0x3707d10,FUN_7103707d10,1,1,1,NEX session,session_simple key
+0x11fe70,FUN_710011fe70,1,1,1,Pia,LanMatchBrowseMatchmakeJob::WaitRequestSessionInfo
+0x1832fe0,FUN_7101832fe0,1,1,1,Battle/state,ready_out
+0x17b670,FUN_710017b670,1,1,1,Pia,LocalMatchBrowseMatchmakeJob::WaitUpdateCurrentConnection...
+0x317ed70,FUN_710317ed70,1,1,1,Battle/state,StageFiberedProcess
+0x3374d50,FUN_7103374d50,1,1,1,Crypto,key_context
+0x18907e0,FUN_71018907e0,1,1,1,Battle/state,state_catch_ok
+0x1f6670,FUN_71001f6670,1,1,1,Pia,TransportBufferThread(send)
+0x242e50,FUN_7100242e50,1,1,1,NEX core,prudp
+0x19677e0,FUN_71019677e0,1,1,1,Battle/state,StageMakeEditSceneParameter
+0x19a87e0,FUN_71019a87e0,1,1,1,Battle/state,type_03
+0x20d6c70,FUN_71020d6c70,1,1,1,Battle/state,item_id_
+0xf5670,FUN_71000f5670,1,1,1,NEX core,NexMatchJointSessionJob::CallSessionEvent
+0x1f2e60,FUN_71001f2e60,1,1,1,Battle/state,0x710449ce5b
+0x1cf57b0,FUN_7101cf57b0,1,1,1,Battle/state,type_00
+0x1f2e90,FUN_71001f2e90,1,1,1,Battle/state,0x710449ce5b
+0x10be80,FUN_710010be80,1,1,1,NEX core,NexMatchCommunityManagementJob::WaitCreateCommunity
+0x10e680,FUN_710010e680,1,1,1,NEX session,UpdateSessionSettingJob::CompleteProcess
+0x2122480,FUN_7102122480,1,1,1,NEX session;Pia,joint_id_
+0x1e65770,FUN_7101e65770,1,1,1,NEX core,next_off
+0x1d76f40,FUN_7101d76f40,1,1,1,Crypto,keyhelp_delite_off
+0x2a94430,FUN_7102a94430,1,1,1,Network base,IPP0017
+0xea0,FUN_7100000ea0,1,1,1,Connection,CONNECT_ONLY is required!
+0x1066b0,FUN_71001066b0,1,1,1,NEX core,nex::NexMatchDestroySessionJob::SendMonitoringData
+0x1607fc0,FUN_7101607fc0,1,1,1,Battle/state,model.numdlb
+0x3906d30,FUN_7103906d30,1,1,1,Hash/Lua,LUA_NOENV
+0x1166b0,FUN_71001166b0,1,1,1,Pia,pia lan heap
+0x120eb0,FUN_7100120eb0,1,1,1,Pia,LanMatchRandomMatchmakeJob::WaitLeaveMatchmakeSession
+0x20574a0,FUN_71020574a0,1,1,1,Hash/Lua,LuaModule
+0x172eb0,FUN_7100172eb0,1,1,1,Pia,LocalBackgroundProcessJob::DisconnectNetwork
+0xf3ea0,FUN_71000f3ea0,1,1,1,NEX session,JoinSessionJob::CompleteProcess
+0x1226a0,FUN_71001226a0,1,1,1,NEX session,JoinMeshJob::SetupLocalPlayerInfo
+0x255690,FUN_7100255690,1,1,1,NEX session,MatchmakeSession
+0x26644d0,FUN_71026644d0,1,1,1,Battle/state,ItemPoint_O_OBJ_O_HIR
+0x17bea0,FUN_710017bea0,1,1,1,NEX session,UpdateSessionSettingJob::CompleteProcess
+0x1a12f60,FUN_7101a12f60,1,1,1,Connection,error_action
+0x422680,FUN_7100422680,1,1,1,Battle/state,MeleeScene
+0x2754cb0,FUN_7102754cb0,1,1,1,Battle/state,stage
+0x1846d0,FUN_71001846d0,1,1,1,Pia,LocalAllowParticipatingJob::WaitAllowParticipating
+0x1e9b720,FUN_7101e9b720,1,1,1,Battle/state,gauge_off
+0x1eed0,FUN_710001eed0,1,1,1,Connection,"Connected to %s (%s) port %ld (#%ld)
+"
+0x2b61c60,FUN_7102b61c60,1,1,1,Pia,Land_%s_%02d_%s
+0x17b6c0,FUN_710017b6c0,1,1,1,Pia,LocalMatchBrowseMatchmakeJob::UpdateSessionInfo
+0x189ec0,FUN_7100189ec0,1,1,1,NEX session,JoinMeshJob::SetupLocalPlayerInfo
+0x1f16c0,FUN_71001f16c0,1,1,1,Identity,0x710449ce2b
+0x36e0,FUN_71000036e0,1,1,1,Connection,Connection time-out
+0x11e6f0,FUN_710011e6f0,1,1,1,Pia,LanMatchJointSessionJob::StartLeavePreviousMesh
+0x445ea0,FUN_7100445ea0,1,1,1,Battle/state,ResultRank
+0x7b6e0,FUN_710007b6e0,1,1,1,Crypto,Signature check failed ('%c%c%c%c' must be '%c%c%c%c').
+0x1a9ef0,FUN_71001a9ef0,1,1,1,Pia,RelayRouteManageJob::SendRelayRouteDirections
+0x1cfa720,FUN_7101cfa720,1,1,1,Battle/state,melee
+0x38f6d60,FUN_71038f6d60,1,1,1,NEX protocol,method
+0x10c6e0,FUN_710010c6e0,1,1,1,NEX core,NexMatchCommunityManagementJob::UpdateCommunity
+0x3922560,FUN_7103922560,1,1,1,Battle/state,final position out of string
+0x1e52f10,FUN_7101e52f10,1,1,1,Battle/state,menu_switch_edit
+0x18d6e0,FUN_710018d6e0,1,1,1,NEX session,JoinMeshJob::WaitLeaveMesh
+0x106f10,FUN_7100106f10,1,1,1,NEX session,session::BrowseMatchmakeJob::CompleteProcess
+0x11ff10,FUN_710011ff10,1,1,1,NEX session,session::BrowseMatchmakeJob::CompleteProcess
+0x422740,FUN_7100422740,1,1,1,Battle/state,MeleeScene
+0x3623c60,FUN_7103623c60,1,1,1,Battle/state,model.numdlb
+0x1c55ec0,FUN_7101c55ec0,1,1,1,Battle/state,state_catch_ok
+0x1c56ec0,FUN_7101c56ec0,1,1,1,Battle/state,state_catch_ok
+0x17af10,FUN_710017af10,1,1,1,Pia,LocalMatchDestroySessionJob::SendMonitoringData
+0x1874680,FUN_7101874680,1,1,1,Battle/state,STATE_OPTION_INIT
+0x189f10,FUN_7100189f10,1,1,1,NEX session,JoinMeshJob::SetupLocalPlayerInfoFailure
+0x2ef55e0,FUN_7102ef55e0,1,1,1,Battle/state,resultstage_effect_set_%02d
+0x5f10,FUN_7100005f10,1,1,1,Pia,"Hostname %s was found in DNS cache
+"
+0x3906480,FUN_7103906480,1,1,1,Connection,"error loading module '%s' from file '%s':
+	%s"
+0x11df00,FUN_710011df00,1,1,1,Pia,LanMatchJointSessionJob::StartUpdateSessionKey
+0x120700,FUN_7100120700,1,1,1,Pia,LanMatchRandomMatchmakeJob::WaitUnregisterGathering
+0x1925680,FUN_7101925680,1,1,1,Crypto,keyhelp
+0x140f00,FUN_7100140f00,1,1,1,NEX session,LeaveSessionJob::WaitForcedTerminatingOfJointSessionJob
+0x17c9660,FUN_71017c9660,1,1,1,Battle/state,stage
+0xd5f10,FUN_71000d5f10,1,1,1,NEX core,NexCreateMeshJob::SetupLocalPlayerInfo
+0x11c730,FUN_710011c730,1,1,1,Pia,LanMatchJoinSessionJob::JoinMatchmakeSession
+0x11d730,FUN_710011d730,1,1,1,Pia,LanMatchJoinSessionJob::LeaveMatchmakeSession
+0x122730,FUN_7100122730,1,1,1,NEX session,JoinMeshJob::CompleteProcess
+0x176f30,FUN_7100176f30,1,1,1,Pia,LocalHostMigrationJob::WaitForCancel
+0x149e660,FUN_710149e660,1,1,1,Battle/state,start_%s
+0x20ad520,FUN_71020ad520,1,1,1,Battle/state,start_damage_stop_interpolation
+0x124f20,FUN_7100124f20,1,1,1,Pia,LanProcessHostMigrationJob::LanSendRankDecision
+0x233ed00,FUN_710233ed00,1,1,1,Battle/state,MenuSequenceScene
+0x1c51ef0,FUN_7101c51ef0,1,1,1,Battle/state,state_catch_ok
+0x173f20,FUN_7100173f20,1,1,1,Pia,LocalEventCheckBackgroundJob::UpdateConnectionStatus
+0x176720,FUN_7100176720,1,1,1,Pia,LocalHostMigrationJob::WaitChangeAllowParticipatingState
+0x11d750,FUN_710011d750,1,1,1,Pia,LanMatchJoinSessionJob::CompleteFailure
+0x1c3de80,FUN_7101c3de80,1,1,1,Battle/state,type_number_%d
+0x3737c30,FUN_7103737c30,1,1,1,Battle/state,Stage_Rev
+0x1d80690,FUN_7101d80690,1,1,1,UI/misc,popup_change_01
+0x21d0550,FUN_71021d0550,1,1,1,Battle/state,result_
+0x1af9ee0,FUN_7101af9ee0,1,1,1,Battle/state,type_02
+0x103f40,FUN_7100103f40,1,1,1,NEX core,NexMatchLeaveSessionJob::GetMatchmakeSessionOwners
+0x183740,FUN_7100183740,1,1,1,Pia,LocalConnectNetworkJob::WaitForCancel
+0x425f20,FUN_7100425f20,1,1,1,Hash/Lua,OnlineMeleeParallelScene
+0x13f770,FUN_710013f770,1,1,1,NEX session,JoinSessionJob::CompleteProcess
+0x1e4c680,FUN_7101e4c680,1,1,1,NEX core,next_on
+0x185f70,FUN_7100185f70,1,1,1,Pia,LocalScanNetworkJob::WaitScanNetwork
+0x189cee0,FUN_710189cee0,1,1,1,Hash/Lua,OnlineMeleeRoomSceneParameter
+0x17cf610,FUN_71017cf610,1,1,1,Battle/state,stage
+0x24770,FUN_7100024770,1,1,1,Crypto,nonce
+0x141760,FUN_7100141760,1,1,1,NEX session,LeaveSessionJob::MeshCleanup
+0x1e94e90,FUN_7101e94e90,1,1,1,NEX core,next_off
+0x10df90,FUN_710010df90,1,1,1,NEX core,NexMatchUpdateSessionSettingJob::WaitUpdateSessionSetting
+0x16df90,FUN_710016df90,1,1,1,Pia,LocalCreateNetworkJob::WaitCreateNetwork
+0x18df90,FUN_710018df90,1,1,1,NEX session,KickoutManageJob::ClientFinalize
+0x23e8db0,FUN_71023e8db0,1,1,1,Battle/state,MenuSequenceScene
+0x1d0ae40,FUN_7101d0ae40,1,1,1,Battle/state,mode_replay_off
+0x172f80,FUN_7100172f80,1,1,1,Pia,LocalBackgroundProcessJob::CreateNetwork
+0x183f80,FUN_7100183f80,1,1,1,Pia,LocalDestroyNetworkJob::WaitForCancel
+0x186f80,FUN_7100186f80,1,1,1,Connection,ConnectStationJob::ConnectionFailed
+0x1f7780,FUN_71001f7780,1,1,1,Pia,TransportBufferThread(recv 
+0x11e7b0,FUN_710011e7b0,1,1,1,Pia,LanMatchJointSessionJob::StartLeavePreviousMatchmakeSession
+0x1e61e40,FUN_7101e61e40,1,1,1,Battle/state,menu_out
+0x396f430,FUN_710396f430,1,1,1,Identity,BANK%03d
+0x1af1600,FUN_7101af1600,1,1,1,UI/misc,popup_in
+0x407b0,FUN_71000407b0,1,1,1,Crypto,Signature check failed ('%c%c%c%c' must be '%c%c%c%c').
+0x1d6e660,FUN_7101d6e660,1,1,1,Battle/state,timebar_off
+0x1e60650,FUN_7101e60650,1,1,1,Battle/state,gauge_off
+0x2acf90,FUN_71002acf90,1,1,1,Battle/state,result
+0x23b0580,FUN_71023b0580,1,1,1,NEX protocol,Parameter
+0x105fd0,FUN_7100105fd0,1,1,1,NEX core,NexMatchCreateSessionJob::UnregisterGathering
+0x124fd0,FUN_7100124fd0,1,1,1,Pia,LanProcessHostMigrationJob::LanGetMatchMakingClientHostLa...
+0x1417d0,FUN_71001417d0,1,1,1,NEX session,LeaveSessionJob::LeaveCurrentMatchmakeSession
+0x17afd0,FUN_710017afd0,1,1,1,Pia,LocalMatchDestroySessionJob::DestroyLocalNetwork
+0x18efd0,FUN_710018efd0,1,1,1,NEX session,LeaveMeshJob::LeaveSuccess
+0x1896640,FUN_7101896640,1,1,1,Battle/state,chara_select_btn3_05_ready_00
+0x10c7c0,FUN_710010c7c0,1,1,1,NEX core,NexMatchCommunityManagementJob::WaitUpdateCommunity
+0x11dfc0,FUN_710011dfc0,1,1,1,Pia,LanMatchJointSessionJob::WaitJoinMatchmakeSession
+0x13e7c0,FUN_710013e7c0,1,1,1,NEX session,JoinSessionJob::JoinMesh
+0x179fc0,FUN_7100179fc0,1,1,1,Pia,LocalMatchJoinSessionJob::WaitJoinMatchmake
+0x17a7c0,FUN_710017a7c0,1,1,1,Pia,LocalMatchCreateSessionJob::CreateLocalNetwork
+0x1f8fc0,FUN_71001f8fc0,1,1,1,Pia,Transport Job
+0x10cff0,FUN_710010cff0,1,1,1,NEX core,NexMatchCommunityManagementJob::LeaveCommunity
+0x1417f0,FUN_71001417f0,1,1,1,NEX session,LeaveSessionJob::WaitLeaveCurrentMatchmakeSession
+0x2a37c0,FUN_71002a37c0,1,1,1,NEX protocol,parameter
+0xd5fe0,FUN_71000d5fe0,1,1,1,NEX core,NexCreateMeshJob::StartMonitoringServerAddressResolution
+0x20dfde0,FUN_71020dfde0,1,1,1,Battle/state,start_up_pos_
+0x11dfe0,FUN_710011dfe0,1,1,1,Pia,LanMatchJointSessionJob::WaitRandomMatchmake
+0x224fd0,FUN_7100224fd0,1,1,1,Connection,Connection: Upgrade
