@@ -1,0 +1,6 @@
+text_offset,nso_offset,demangled,mangled,namespace,note
+0x227ebb0,0x227ecb0,app::sv_information::stage_id,_ZN3app14sv_information8stage_idEv,app::sv_information,stage_id getter (returns hash40). Returns 0xffffffff if no stage set. SAFE for use outside battle.
+0x15ce640,0x15ce740,app::stage::get_stage_id,_ZN3app5stage12get_stage_idEv,app::stage,stage_id getter (returns hash40). No validation. May crash on null singleton. Prefer sv_information::stage_id.
+0x22847a0,0x22848a0,app::sv_global_parameter::melee_rule_mode,_ZN3app19sv_global_parameter15melee_rule_modeEv,app::sv_global_parameter,rule mode getter. Returns hash40 based on global byte DAT_71052c51b0 (0/9/else → 3 values).
+0x2284840,0x2284940,app::sv_global_parameter::melee_rule_type,_ZN3app19sv_global_parameter15melee_rule_typeEv,app::sv_global_parameter,rule type getter. Returns hash40 from table indexed by global byte DAT_71052c51b2 (0..2 / default).
+0x2284710,0x2284810,app::sv_global_parameter::melee_melee_info_item_appear,_ZN3app19sv_global_parameter28melee_melee_info_item_appearEv,app::sv_global_parameter,item appear rule getter. Returns hash40 from 5-entry table indexed by global byte DAT_71052c5200+4 (0..4) / default 0x16e255077b.

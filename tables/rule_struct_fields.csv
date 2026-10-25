@@ -1,0 +1,19 @@
+text_offset,struct_rel,type,semantic,confidence,source_function
+0x52c51b0,+0x30,u8,battle_mode_enum (= scene context: 0/13/14/16),confirmed,melee_rule_mode / is_normal_melee
+0x52c51b1,+0x31,u8,normal_melee_flag,confirmed,is_normal_melee
+0x52c51b2,+0x32,u8,rule_type (0=time/1=stock/2=stamina_HP),confirmed,melee_rule_type / CHECK_FINISH_CAMERA_IF_NOT_HP_MODE / is_one_on_one
+0x52c51b3,+0x33,u8,unknown_flag,low,initialize_reticle
+0x52c51b9,+0x39,u8,sudden_death_subflag,confirmed,is_sudden_death
+0x52c51ba,+0x3a,u8,sudden_death_enable,confirmed,is_sudden_death
+0x52c51c4,+0x44,u8,team_attack_flag,confirmed,is_team_battle_and_team_attack
+0x52c51c1,+0x41,u8,stock_or_time_candidate (13+ readers READ-only),candidate,multiple
+0x52c51d8,+0x58,u8,rule_numeric_candidate (READ-only),candidate,multiple
+0x52c51da,+0x5a,u8,rule_numeric_candidate (READ-only),candidate,multiple
+0x52c51e0,+0x60,u8,rule_numeric_candidate (READ-only),candidate,multiple
+0x52c51cf,+0x4f,u8,DYNAMIC_STATE (many writers - NOT config),excluded,multiple
+0x52c51e8,+0x68,u8/u64,team_battle_flag,confirmed,is_team_battle_and_team_attack
+0x52c51f8,+0x78,u32,time_limit (frames; 25200=7min),confirmed,socket-sniffer diff + FUN_71014a4da0
+0x52c51fc,+0x7c,u8,stock_count,confirmed,socket-sniffer diff + FUN_71014a4da0
+0x52c51c7,+0x47,u8,FS_meter (rule_charge_final) CANDIDATE - memcpy-set no direct access,candidate,socket-sniffer diff (needs mode-isolated retest)
+0x52c5204,+0x84,u8,item_appear_setting (0..4 / 5 levels),confirmed,melee_melee_info_item_appear
+0x52c5730,+0x5b0,struct[8],per-player sub-struct array (0x260 stride) - stamina HP candidate location,candidate,FUN_71014a4da0 / init FUN_71017a79b0
