@@ -1,0 +1,16 @@
+// addr:      710024a5d0
+// offset:    0x24a5d0
+// name:      FUN_710024a5d0
+// mangled:   
+// signature: undefined FUN_710024a5d0(void)
+
+
+bool FUN_710024a5d0(undefined8 param_1,long param_2)
+
+{
+  bool bVar1;
+  
+  bVar1 = FUN_71001b4e00(*(char **)(param_2 + 0x18),"AuthenticationInfo");
+  return bVar1;
+}
+

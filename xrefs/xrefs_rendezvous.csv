@@ -1,1 +1,7 @@
 Location,Match Value,Depth,Terminal,Ref Type,Operand Index,From Address,From Offset,From Code Unit,Function Address,Function Offset,Function Name,Function Symbol,Function Demangled,Function Namespace,Function Signature,Function Size,Function Basic Blocks,Function Incoming Refs,Function Decompile Path,Function CFG Path,Function Clone Hash,Function Fingerprint,Function Referenced By,Path
+710449f06a,RendezVous,1,0,BRUTE_PTR,-1,7104f5c228,0x4f5c228,?? 60h    `,,,,,,,,0,0,0,,,,,,710449f06a -> 7104f5c228
+710449f04a,RendezVous,1,0,BRUTE_PTR,-1,7104f5c1e8,0x4f5c1e8,?? 40h    @,,,,,,,,0,0,0,,,,,,710449f04a -> 7104f5c1e8
+710449f09a,RendezVous,1,0,BRUTE_PTR,-1,7104f5c208,0x4f5c208,?? 90h,,,,,,,,0,0,0,,,,,,710449f09a -> 7104f5c208
+710449f0ba,RendezVous,1,0,BRUTE_PTR,-1,7104f5c248,0x4f5c248,?? B0h,,,,,,,,0,0,0,,,,,,710449f0ba -> 7104f5c248
+71043acc67,RendezVous,1,1,DATA,0,7100246444,0x246444,"add x0,x0,#0xc67",7100246440,0x246440,FUN_7100246440,,,Global,undefined FUN_7100246440(void),12,1,1,decompiled/FUN_7100246440__7100246440.c,decompiled/FUN_7100246440__7100246440.mmd,58831deafa9e80cc,200b02d0009c3191c0035fd6,,71043acc67 -> 7100246444
+7104291158,RendezVous,1,1,DATA,0,7100246474,0x246474,"add x0,x0,#0x158",7100246470,0x246470,FUN_7100246470,,,Global,undefined FUN_7100246470(void),12,1,1,decompiled/FUN_7100246470__7100246470.c,decompiled/FUN_7100246470__7100246470.mmd,a7937f3acc0676d6,400202f000600591c0035fd6,,7104291158 -> 7100246474

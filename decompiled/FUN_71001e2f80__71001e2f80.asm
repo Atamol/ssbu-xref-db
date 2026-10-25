@@ -1,0 +1,75 @@
+// addr:      71001e2f80
+// offset:    0x1e2f80
+// name:      FUN_71001e2f80
+// mangled:   
+// size:      276
+
+71001e2f80  stp x22,x21,[sp, #-0x30]!
+71001e2f84  stp x20,x19,[sp, #0x10]
+71001e2f88  stp x29,x30,[sp, #0x20]
+71001e2f8c  add x29,sp,#0x20
+71001e2f90  adrp x21,0x71052a4000
+71001e2f94  ldr x21,[x21, #0xda8]
+71001e2f98  adrp x20,0x71052a4000
+71001e2f9c  ldrb w8,[x21]
+71001e2fa0  ldr x20,[x20, #0xdb0]
+71001e2fa4  mov x19,x0
+71001e2fa8  add x22,x20,#0x28
+71001e2fac  cbz w8,0x71001e2fe8
+71001e2fb0  adrp x8,0x71052a4000
+71001e2fb4  ldr x8,[x8, #0xdb8]
+71001e2fb8  ldr x0,[x8]
+71001e2fbc  bl 0x7101717960
+71001e2fc0  ldr w8,[x0]
+71001e2fc4  cbz w8,0x71001e2fe8
+71001e2fc8  ldr x10,[x20, #0xa0]
+71001e2fcc  ldp x9,x10,[x10]
+71001e2fd0  sub x10,x10,x9
+71001e2fd4  asr x10,x10,#0x3
+71001e2fd8  cmp x10,x8
+71001e2fdc  b.ls 0x71001e307c
+71001e2fe0  ldr x8,[x9, x8, LSL #0x3]
+71001e2fe4  add x22,x8,#0x20
+71001e2fe8  ldr x8,[x22]
+71001e2fec  ldr x8,[x8, #0x10]
+71001e2ff0  ldr x0,[x8, #0x18]
+71001e2ff4  ldr w1,[x19, #0x238]
+71001e2ff8  bl 0x71001cd7d0
+71001e2ffc  cbz x0,0x71001e3054
+71001e3000  ldrb w8,[x21]
+71001e3004  add x21,x20,#0x28
+71001e3008  cbz w8,0x71001e3044
+71001e300c  adrp x8,0x71052a4000
+71001e3010  ldr x8,[x8, #0xdb8]
+71001e3014  ldr x0,[x8]
+71001e3018  bl 0x7101717960
+71001e301c  ldr w8,[x0]
+71001e3020  cbz w8,0x71001e3044
+71001e3024  ldr x10,[x20, #0xa0]
+71001e3028  ldp x9,x10,[x10]
+71001e302c  sub x10,x10,x9
+71001e3030  asr x10,x10,#0x3
+71001e3034  cmp x10,x8
+71001e3038  b.ls 0x71001e307c
+71001e303c  ldr x8,[x9, x8, LSL #0x3]
+71001e3040  add x21,x8,#0x20
+71001e3044  ldr x8,[x21]
+71001e3048  ldr x8,[x8, #0x10]
+71001e304c  ldrb w8,[x8, #0x50]
+71001e3050  cbz w8,0x71001e3068
+71001e3054  mov w0,#0x1
+71001e3058  ldp x29,x30,[sp, #0x20]
+71001e305c  ldp x20,x19,[sp, #0x10]
+71001e3060  ldp x22,x21,[sp], #0x30
+71001e3064  ret
+71001e3068  ldrb w0,[x19, #0x321]
+71001e306c  ldp x29,x30,[sp, #0x20]
+71001e3070  ldp x20,x19,[sp, #0x10]
+71001e3074  ldp x22,x21,[sp], #0x30
+71001e3078  ret
+71001e307c  adrp x0,0x71042c4000
+71001e3080  add x0,x0,#0x35f
+71001e3084  mov w1,#0x47
+71001e3088  orr w2,wzr,#0xe0000003
+71001e308c  mov w3,wzr
+71001e3090  bl 0x71001b1300

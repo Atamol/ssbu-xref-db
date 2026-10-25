@@ -1,0 +1,88 @@
+// addr:      710391b940
+// offset:    0x391b940
+// name:      FUN_710391b940
+// mangled:   
+// size:      328
+
+710391b940  stp x29,x30,[sp, #-0x10]!
+710391b944  mov x29,sp
+710391b948  cmp w3,#0x1
+710391b94c  b.lt 0x710391b990
+710391b950  mvn w8,w3
+710391b954  cmn w8,#0x9
+710391b958  orr w8,wzr,#0xfffffff7
+710391b95c  csinv w8,w8,w3,le
+710391b960  orr w9,wzr,#0xfffffffe
+710391b964  sub w9,w9,w8
+710391b968  sxtw x9,w9
+710391b96c  cbz w2,0x710391b9a0
+710391b970  mov x10,xzr
+710391b974  ldrb w8,[x1, x9, LSL ]
+710391b978  bfm x8,x10,#0x38,#0x37
+710391b97c  cmp x9,#0x0
+710391b980  sub x9,x9,#0x1
+710391b984  mov x10,x8
+710391b988  b.gt 0x710391b974
+710391b98c  b 0x710391b9cc
+710391b990  mov x8,xzr
+710391b994  cmp w3,#0x7
+710391b998  b.le 0x710391b9d4
+710391b99c  b 0x710391b9f4
+710391b9a0  add w8,w3,w8
+710391b9a4  mov x11,xzr
+710391b9a8  add x9,x9,#0x1
+710391b9ac  add w10,w8,#0x1
+710391b9b0  ldrb w8,[x1, w10, SXTW ]
+710391b9b4  add w10,w10,#0x1
+710391b9b8  bfm x8,x11,#0x38,#0x37
+710391b9bc  sub x9,x9,#0x1
+710391b9c0  cmp x9,#0x0
+710391b9c4  mov x11,x8
+710391b9c8  b.gt 0x710391b9b0
+710391b9cc  cmp w3,#0x7
+710391b9d0  b.gt 0x710391b9f4
+710391b9d4  cbz w4,0x710391ba5c
+710391b9d8  lsl w9,w3,#0x3
+710391b9dc  sub w9,w9,#0x1
+710391b9e0  mov w10,#0x1
+710391b9e4  lsl x9,x10,x9
+710391b9e8  eor x8,x8,x9
+710391b9ec  sub x8,x8,x9
+710391b9f0  b 0x710391ba5c
+710391b9f4  cmp w3,#0x8
+710391b9f8  b.eq 0x710391ba5c
+710391b9fc  cmn x8,#0x1
+710391ba00  ccmp w4,#0x0,#0x4,le
+710391ba04  orr w10,wzr,#0xff
+710391ba08  mov w9,w3
+710391ba0c  csel w10,wzr,w10,eq
+710391ba10  cbz w2,0x710391ba38
+710391ba14  sub x9,x9,#0x8
+710391ba18  add x11,x1,#0x8
+710391ba1c  ldrb w12,[x11]
+710391ba20  cmp w10,w12
+710391ba24  b.ne 0x710391ba68
+710391ba28  subs x9,x9,#0x1
+710391ba2c  add x11,x11,#0x1
+710391ba30  b.ne 0x710391ba1c
+710391ba34  b 0x710391ba5c
+710391ba38  orr x11,xzr,#-0x9
+710391ba3c  add w12,w9,w11
+710391ba40  ldrb w12,[x1, w12, SXTW ]
+710391ba44  cmp w10,w12
+710391ba48  b.ne 0x710391ba78
+710391ba4c  sub x11,x11,#0x1
+710391ba50  add x12,x9,x11
+710391ba54  cmn x12,#0x1
+710391ba58  b.ne 0x710391ba3c
+710391ba5c  mov x0,x8
+710391ba60  ldp x29,x30,[sp], #0x10
+710391ba64  ret
+710391ba68  adrp x1,0x710427f000
+710391ba6c  add x1,x1,#0x67b
+710391ba70  mov w2,w3
+710391ba74  bl 0x71038f6c50
+710391ba78  adrp x1,0x710427f000
+710391ba7c  add x1,x1,#0x67b
+710391ba80  mov w2,w9
+710391ba84  bl 0x71038f6c50

@@ -1,0 +1,266 @@
+// addr:      7101b0a030
+// offset:    0x1b0a030
+// name:      FUN_7101b0a030
+// mangled:   
+// size:      1040
+
+7101b0a030  sub sp,sp,#0x70
+7101b0a034  stp x22,x21,[sp, #0x40]
+7101b0a038  stp x20,x19,[sp, #0x50]
+7101b0a03c  stp x29,x30,[sp, #0x60]
+7101b0a040  add x29,sp,#0x60
+7101b0a044  mov w19,w1
+7101b0a048  mov x20,x0
+7101b0a04c  tbz w1,#0x0,0x7101b0a060
+7101b0a050  ldr x0,[x20, #0x400]
+7101b0a054  mov w1,#0x1
+7101b0a058  bl 0x710377cc80
+7101b0a05c  b 0x7101b0a128
+7101b0a060  ldr x22,[x20, #0x400]
+7101b0a064  stp xzr,xzr,[sp, #0x30]
+7101b0a068  str xzr,[sp, #0x28]
+7101b0a06c  ldp x8,x9,[x22, #0x168]
+7101b0a070  sub x8,x9,x8
+7101b0a074  asr x1,x8,#0x3
+7101b0a078  add x0,sp,#0x28
+7101b0a07c  bl 0x71019bb740
+7101b0a080  ldp x21,x22,[x22, #0x168]
+7101b0a084  cmp x21,x22
+7101b0a088  b.eq 0x7101b0a0c8
+7101b0a08c  ldr x8,[x21]
+7101b0a090  add x1,x8,#0x8
+7101b0a094  ldp x0,x8,[sp, #0x30]
+7101b0a098  cmp x0,x8
+7101b0a09c  b.eq 0x7101b0a0b4
+7101b0a0a0  bl 0x7103776390
+7101b0a0a4  ldr x8,[sp, #0x30]
+7101b0a0a8  add x8,x8,#0x10
+7101b0a0ac  str x8,[sp, #0x30]
+7101b0a0b0  b 0x7101b0a0bc
+7101b0a0b4  add x0,sp,#0x28
+7101b0a0b8  bl 0x71019bb8f0
+7101b0a0bc  add x21,x21,#0x8
+7101b0a0c0  cmp x22,x21
+7101b0a0c4  b.ne 0x7101b0a08c
+7101b0a0c8  ldp x21,x22,[sp, #0x28]
+7101b0a0cc  cmp x21,x22
+7101b0a0d0  b.eq 0x7101b0a0f0
+7101b0a0d4  mov x0,x21
+7101b0a0d8  mov w1,wzr
+7101b0a0dc  bl 0x7101b11920
+7101b0a0e0  add x21,x21,#0x10
+7101b0a0e4  cmp x22,x21
+7101b0a0e8  b.ne 0x7101b0a0d4
+7101b0a0ec  ldr x21,[sp, #0x28]
+7101b0a0f0  cbz x21,0x7101b0a128
+7101b0a0f4  ldr x22,[sp, #0x30]
+7101b0a0f8  cmp x22,x21
+7101b0a0fc  b.eq 0x7101b0a430
+7101b0a100  ldr x8,[x22, #-0x10]!
+7101b0a104  ldr x8,[x8]
+7101b0a108  mov x0,x22
+7101b0a10c  blr x8
+7101b0a110  cmp x21,x22
+7101b0a114  b.ne 0x7101b0a100
+7101b0a118  ldr x0,[sp, #0x28]
+7101b0a11c  str x21,[sp, #0x30]
+7101b0a120  cbz x0,0x7101b0a128
+7101b0a124  bl 0x710392eb40
+7101b0a128  add x0,x20,#0x3d0
+7101b0a12c  adrp x1,0x71042d6000
+7101b0a130  add x1,x1,#0x9cf
+7101b0a134  add x8,sp,#0x28
+7101b0a138  bl 0x7103776640
+7101b0a13c  ldrh w1,[x20, #0x490]
+7101b0a140  and w2,w19,#0x1
+7101b0a144  add x0,sp,#0x28
+7101b0a148  bl 0x71025af7f0
+7101b0a14c  ldr w8,[x20, #0x278]
+7101b0a150  cmp w8,#0x2
+7101b0a154  b.ne 0x7101b0a3e8
+7101b0a158  ldr x8,[x20, #0x470]
+7101b0a15c  ldr x9,[x8, #0x18]
+7101b0a160  ldr x9,[x9, #0x8]
+7101b0a164  cbz x9,0x7101b0a1fc
+7101b0a168  add x1,x8,#0x10
+7101b0a16c  add x0,sp,#0x8
+7101b0a170  bl 0x7103776390
+7101b0a174  adrp x1,0x7104292000
+7101b0a178  add x1,x1,#0x4e1
+7101b0a17c  add x8,sp,#0x18
+7101b0a180  add x0,sp,#0x8
+7101b0a184  bl 0x7103776640
+7101b0a188  ldr x21,[sp, #0x10]
+7101b0a18c  adrp x22,0x710523d000
+7101b0a190  add x22,x22,#0x988
+7101b0a194  stp x22,xzr,[sp, #0x8]
+7101b0a198  cbz x21,0x7101b0a1bc
+7101b0a19c  ldr x0,[x21, #0x18]
+7101b0a1a0  adrp x8,0x710523d000
+7101b0a1a4  add x8,x8,#0x9a8
+7101b0a1a8  stp x8,xzr,[x21, #0x10]
+7101b0a1ac  cbz x0,0x7101b0a1b4
+7101b0a1b0  bl 0x710392eb40
+7101b0a1b4  mov x0,x21
+7101b0a1b8  bl 0x710392eb40
+7101b0a1bc  ldr x8,[x20, #0x470]
+7101b0a1c0  ldrh w1,[x8]
+7101b0a1c4  and w2,w19,#0x1
+7101b0a1c8  add x0,sp,#0x18
+7101b0a1cc  bl 0x71025af7f0
+7101b0a1d0  ldr x21,[sp, #0x20]
+7101b0a1d4  stp x22,xzr,[sp, #0x18]
+7101b0a1d8  cbz x21,0x7101b0a1fc
+7101b0a1dc  ldr x0,[x21, #0x18]
+7101b0a1e0  adrp x8,0x710523d000
+7101b0a1e4  add x8,x8,#0x9a8
+7101b0a1e8  stp x8,xzr,[x21, #0x10]
+7101b0a1ec  cbz x0,0x7101b0a1f4
+7101b0a1f0  bl 0x710392eb40
+7101b0a1f4  mov x0,x21
+7101b0a1f8  bl 0x710392eb40
+7101b0a1fc  ldr x8,[x20, #0x478]
+7101b0a200  ldr x9,[x8, #0x18]
+7101b0a204  ldr x9,[x9, #0x8]
+7101b0a208  cbz x9,0x7101b0a2a0
+7101b0a20c  add x1,x8,#0x10
+7101b0a210  add x0,sp,#0x8
+7101b0a214  bl 0x7103776390
+7101b0a218  adrp x1,0x7104292000
+7101b0a21c  add x1,x1,#0x4e1
+7101b0a220  add x8,sp,#0x18
+7101b0a224  add x0,sp,#0x8
+7101b0a228  bl 0x7103776640
+7101b0a22c  ldr x21,[sp, #0x10]
+7101b0a230  adrp x22,0x710523d000
+7101b0a234  add x22,x22,#0x988
+7101b0a238  stp x22,xzr,[sp, #0x8]
+7101b0a23c  cbz x21,0x7101b0a260
+7101b0a240  ldr x0,[x21, #0x18]
+7101b0a244  adrp x8,0x710523d000
+7101b0a248  add x8,x8,#0x9a8
+7101b0a24c  stp x8,xzr,[x21, #0x10]
+7101b0a250  cbz x0,0x7101b0a258
+7101b0a254  bl 0x710392eb40
+7101b0a258  mov x0,x21
+7101b0a25c  bl 0x710392eb40
+7101b0a260  ldr x8,[x20, #0x478]
+7101b0a264  ldrh w1,[x8]
+7101b0a268  and w2,w19,#0x1
+7101b0a26c  add x0,sp,#0x18
+7101b0a270  bl 0x71025af7f0
+7101b0a274  ldr x21,[sp, #0x20]
+7101b0a278  stp x22,xzr,[sp, #0x18]
+7101b0a27c  cbz x21,0x7101b0a2a0
+7101b0a280  ldr x0,[x21, #0x18]
+7101b0a284  adrp x8,0x710523d000
+7101b0a288  add x8,x8,#0x9a8
+7101b0a28c  stp x8,xzr,[x21, #0x10]
+7101b0a290  cbz x0,0x7101b0a298
+7101b0a294  bl 0x710392eb40
+7101b0a298  mov x0,x21
+7101b0a29c  bl 0x710392eb40
+7101b0a2a0  ldr x8,[x20, #0x480]
+7101b0a2a4  ldr x9,[x8, #0x18]
+7101b0a2a8  ldr x9,[x9, #0x8]
+7101b0a2ac  cbz x9,0x7101b0a344
+7101b0a2b0  add x1,x8,#0x10
+7101b0a2b4  add x0,sp,#0x8
+7101b0a2b8  bl 0x7103776390
+7101b0a2bc  adrp x1,0x7104292000
+7101b0a2c0  add x1,x1,#0x4e1
+7101b0a2c4  add x8,sp,#0x18
+7101b0a2c8  add x0,sp,#0x8
+7101b0a2cc  bl 0x7103776640
+7101b0a2d0  ldr x21,[sp, #0x10]
+7101b0a2d4  adrp x22,0x710523d000
+7101b0a2d8  add x22,x22,#0x988
+7101b0a2dc  stp x22,xzr,[sp, #0x8]
+7101b0a2e0  cbz x21,0x7101b0a304
+7101b0a2e4  ldr x0,[x21, #0x18]
+7101b0a2e8  adrp x8,0x710523d000
+7101b0a2ec  add x8,x8,#0x9a8
+7101b0a2f0  stp x8,xzr,[x21, #0x10]
+7101b0a2f4  cbz x0,0x7101b0a2fc
+7101b0a2f8  bl 0x710392eb40
+7101b0a2fc  mov x0,x21
+7101b0a300  bl 0x710392eb40
+7101b0a304  ldr x8,[x20, #0x480]
+7101b0a308  ldrh w1,[x8]
+7101b0a30c  and w2,w19,#0x1
+7101b0a310  add x0,sp,#0x18
+7101b0a314  bl 0x71025af7f0
+7101b0a318  ldr x21,[sp, #0x20]
+7101b0a31c  stp x22,xzr,[sp, #0x18]
+7101b0a320  cbz x21,0x7101b0a344
+7101b0a324  ldr x0,[x21, #0x18]
+7101b0a328  adrp x8,0x710523d000
+7101b0a32c  add x8,x8,#0x9a8
+7101b0a330  stp x8,xzr,[x21, #0x10]
+7101b0a334  cbz x0,0x7101b0a33c
+7101b0a338  bl 0x710392eb40
+7101b0a33c  mov x0,x21
+7101b0a340  bl 0x710392eb40
+7101b0a344  ldr x8,[x20, #0x488]
+7101b0a348  ldr x9,[x8, #0x18]
+7101b0a34c  ldr x9,[x9, #0x8]
+7101b0a350  cbz x9,0x7101b0a3e8
+7101b0a354  add x1,x8,#0x10
+7101b0a358  add x0,sp,#0x8
+7101b0a35c  bl 0x7103776390
+7101b0a360  adrp x1,0x7104292000
+7101b0a364  add x1,x1,#0x4e1
+7101b0a368  add x8,sp,#0x18
+7101b0a36c  add x0,sp,#0x8
+7101b0a370  bl 0x7103776640
+7101b0a374  ldr x21,[sp, #0x10]
+7101b0a378  adrp x22,0x710523d000
+7101b0a37c  add x22,x22,#0x988
+7101b0a380  stp x22,xzr,[sp, #0x8]
+7101b0a384  cbz x21,0x7101b0a3a8
+7101b0a388  ldr x0,[x21, #0x18]
+7101b0a38c  adrp x8,0x710523d000
+7101b0a390  add x8,x8,#0x9a8
+7101b0a394  stp x8,xzr,[x21, #0x10]
+7101b0a398  cbz x0,0x7101b0a3a0
+7101b0a39c  bl 0x710392eb40
+7101b0a3a0  mov x0,x21
+7101b0a3a4  bl 0x710392eb40
+7101b0a3a8  ldr x8,[x20, #0x488]
+7101b0a3ac  ldrh w1,[x8]
+7101b0a3b0  and w2,w19,#0x1
+7101b0a3b4  add x0,sp,#0x18
+7101b0a3b8  bl 0x71025af7f0
+7101b0a3bc  ldr x19,[sp, #0x20]
+7101b0a3c0  stp x22,xzr,[sp, #0x18]
+7101b0a3c4  cbz x19,0x7101b0a3e8
+7101b0a3c8  ldr x0,[x19, #0x18]
+7101b0a3cc  adrp x8,0x710523d000
+7101b0a3d0  add x8,x8,#0x9a8
+7101b0a3d4  stp x8,xzr,[x19, #0x10]
+7101b0a3d8  cbz x0,0x7101b0a3e0
+7101b0a3dc  bl 0x710392eb40
+7101b0a3e0  mov x0,x19
+7101b0a3e4  bl 0x710392eb40
+7101b0a3e8  ldr x19,[sp, #0x30]
+7101b0a3ec  adrp x8,0x710523d000
+7101b0a3f0  add x8,x8,#0x988
+7101b0a3f4  stp x8,xzr,[sp, #0x28]
+7101b0a3f8  cbz x19,0x7101b0a41c
+7101b0a3fc  ldr x0,[x19, #0x18]
+7101b0a400  adrp x8,0x710523d000
+7101b0a404  add x8,x8,#0x9a8
+7101b0a408  stp x8,xzr,[x19, #0x10]
+7101b0a40c  cbz x0,0x7101b0a414
+7101b0a410  bl 0x710392eb40
+7101b0a414  mov x0,x19
+7101b0a418  bl 0x710392eb40
+7101b0a41c  ldp x29,x30,[sp, #0x60]
+7101b0a420  ldp x20,x19,[sp, #0x50]
+7101b0a424  ldp x22,x21,[sp, #0x40]
+7101b0a428  add sp,sp,#0x70
+7101b0a42c  ret
+7101b0a430  mov x0,x21
+7101b0a434  str x21,[sp, #0x30]
+7101b0a438  cbnz x0,0x7101b0a124
+7101b0a43c  b 0x7101b0a128

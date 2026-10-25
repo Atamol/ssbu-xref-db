@@ -1,0 +1,73 @@
+// addr:      710041de90
+// offset:    0x41de90
+// name:      FUN_710041de90
+// mangled:   
+// size:      268
+
+710041de90  sub sp,sp,#0x20
+710041de94  stp x29,x30,[sp, #0x10]
+710041de98  add x29,sp,#0x10
+710041de9c  adrp x8,0x7105324000
+710041dea0  mov w1,#0x58
+710041dea4  mov w0,#0x10
+710041dea8  str wzr,[x8, #0xf3c]
+710041deac  bl 0x710392e290
+710041deb0  cbnz x0,0x710041def8
+710041deb4  adrp x8,0x7105332000
+710041deb8  ldr x0,[x8, #0xf00]
+710041debc  cbz x0,0x710041def4
+710041dec0  mov w8,#0x58
+710041dec4  stur wzr,[x29, #-0x4]
+710041dec8  sub x1,x29,#0x4
+710041decc  str x8,[sp]
+710041ded0  ldr x8,[x0]
+710041ded4  ldr x8,[x8, #0x30]
+710041ded8  mov x2,sp
+710041dedc  blr x8
+710041dee0  tbz w0,#0x0,0x710041def4
+710041dee4  mov w1,#0x58
+710041dee8  mov w0,#0x10
+710041deec  bl 0x710392e290
+710041def0  cbnz x0,0x710041def8
+710041def4  mov x0,xzr
+710041def8  adrp x1,0x7105324000
+710041defc  add x1,x1,#0xf40
+710041df00  adrp x8,0x7104412000
+710041df04  add x8,x8,#0x8f0
+710041df08  add x9,x0,#0x58
+710041df0c  str x0,[x1]
+710041df10  adrp x10,0x7104422000
+710041df14  add x10,x10,#0x282
+710041df18  str x9,[x1, #0x10]
+710041df1c  stp x8,x10,[x0]
+710041df20  adrp x8,0x710426f000
+710041df24  add x8,x8,#0xec2
+710041df28  adrp x10,0x71042d6000
+710041df2c  add x10,x10,#0x1a9
+710041df30  stp x8,x10,[x0, #0x10]
+710041df34  adrp x8,0x7104291000
+710041df38  add x8,x8,#0xb22
+710041df3c  adrp x10,0x71043ad000
+710041df40  add x10,x10,#0x68a
+710041df44  stp x8,x10,[x0, #0x20]
+710041df48  adrp x8,0x710424f000
+710041df4c  add x8,x8,#0x40c
+710041df50  adrp x10,0x710434a000
+710041df54  add x10,x10,#0x228
+710041df58  stp x8,x10,[x0, #0x30]
+710041df5c  adrp x8,0x7104422000
+710041df60  add x8,x8,#0x288
+710041df64  adrp x10,0x71042e6000
+710041df68  add x10,x10,#0xfc7
+710041df6c  stp x8,x10,[x0, #0x40]
+710041df70  adrp x8,0x7104454000
+710041df74  add x8,x8,#0x8f3
+710041df78  str x8,[x0, #0x50]
+710041df7c  str x9,[x1, #0x8]
+710041df80  ldp x29,x30,[sp, #0x10]
+710041df84  adrp x0,0x7101be1000
+710041df88  add x0,x0,#0x6c0
+710041df8c  adrp x2,0x7104f17000
+710041df90  add x2,x2,#0x0
+710041df94  add sp,sp,#0x20
+710041df98  b 0x71000001c0

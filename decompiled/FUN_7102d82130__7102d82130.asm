@@ -1,0 +1,79 @@
+// addr:      7102d82130
+// offset:    0x2d82130
+// name:      FUN_7102d82130
+// mangled:   
+// size:      292
+
+7102d82130  str x19,[sp, #-0x20]!
+7102d82134  stp x29,x30,[sp, #0x10]
+7102d82138  add x29,sp,#0x10
+7102d8213c  ldr x8,[x0, #0x38]
+7102d82140  mov w9,#0x1
+7102d82144  strb w9,[x8, #0xa5]
+7102d82148  mov x19,x0
+7102d8214c  ldr x0,[x0, #0x38]
+7102d82150  ldr x8,[x0]
+7102d82154  ldr x8,[x8, #0x38]
+7102d82158  blr x8
+7102d8215c  ldr x8,[x19, #0x8]
+7102d82160  ldr x9,[x8, #0x338]
+7102d82164  ldr x9,[x9]
+7102d82168  ldr x0,[x9, #0x8]
+7102d8216c  cbz x0,0x7102d82188
+7102d82170  ldr x8,[x0]
+7102d82174  ldr x8,[x8, #0x58]
+7102d82178  mov w1,#0xd
+7102d8217c  mov w2,#0xffffffff
+7102d82180  blr x8
+7102d82184  ldr x8,[x19, #0x8]
+7102d82188  ldr x8,[x8, #0x300]
+7102d8218c  ldr x9,[x8, #0x18]
+7102d82190  ldp x8,x9,[x9]
+7102d82194  cmp x8,x9
+7102d82198  b.eq 0x7102d82240
+7102d8219c  mov x10,#0xdf99
+7102d821a0  movk x10,#0xb569, LSL #16
+7102d821a4  movk x10,#0x7, LSL #32
+7102d821a8  mov x11,x8
+7102d821ac  ldr x12,[x11], #0x8
+7102d821b0  ldr x13,[x12, #0xa0]
+7102d821b4  and x13,x13,#0xffffffffff
+7102d821b8  cmp x13,x10
+7102d821bc  b.eq 0x7102d821cc
+7102d821c0  cmp x9,x11
+7102d821c4  b.ne 0x7102d821ac
+7102d821c8  b 0x7102d821f4
+7102d821cc  ldr x10,[x12, #0x130]
+7102d821d0  cbz x10,0x7102d821f4
+7102d821d4  ldp x0,x1,[x10]
+7102d821d8  adrp x2,0x71042a1000
+7102d821dc  add x2,x2,#0x67e
+7102d821e0  bl 0x71025f55b0
+7102d821e4  ldr x8,[x19, #0x8]
+7102d821e8  ldr x8,[x8, #0x300]
+7102d821ec  ldr x9,[x8, #0x18]
+7102d821f0  ldp x8,x9,[x9]
+7102d821f4  cmp x8,x9
+7102d821f8  b.eq 0x7102d82240
+7102d821fc  mov x10,#0xa683
+7102d82200  movk x10,#0x958a, LSL #16
+7102d82204  movk x10,#0x7, LSL #32
+7102d82208  ldr x11,[x8], #0x8
+7102d8220c  ldr x12,[x11, #0xa0]
+7102d82210  and x12,x12,#0xffffffffff
+7102d82214  cmp x12,x10
+7102d82218  b.eq 0x7102d82228
+7102d8221c  cmp x9,x8
+7102d82220  b.ne 0x7102d82208
+7102d82224  b 0x7102d82240
+7102d82228  ldr x8,[x11, #0x130]
+7102d8222c  cbz x8,0x7102d82240
+7102d82230  ldp x0,x1,[x8]
+7102d82234  adrp x2,0x71043ee000
+7102d82238  add x2,x2,#0xcfc
+7102d8223c  bl 0x71025f5420
+7102d82240  strb wzr,[x19, #0x48]
+7102d82244  ldr x0,[x19, #0x40]
+7102d82248  ldp x29,x30,[sp, #0x10]
+7102d8224c  ldr x19,[sp], #0x20
+7102d82250  b 0x7102d9b1b0

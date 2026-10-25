@@ -1,0 +1,15 @@
+key,value
+program,main_decompressed
+domain_file,/main_decompressed_v13.0.5
+executable_path,/C:/Users/rjvse/Master/Sw_Dev_Tools/SSBU_Binary_Data/v.13.0.5/main_decompressed
+executable_md5,8c23335065b2f1154c8dac50f6abefb4
+image_base,7100000000
+ghidra_version,12.1.2
+java_version,26
+game_version,13.0.5
+run_start,2026-10-19T09:29:30+09:00
+run_end,2026-10-19T10:13:53+09:00
+input_count,138
+location_count,29910
+args,root=C:/Users/rjvse/.git/_ssbu/library/ssbu-xref-db
+errors,0

@@ -1,0 +1,71 @@
+// addr:      7101e39ef0
+// offset:    0x1e39ef0
+// name:      FUN_7101e39ef0
+// mangled:   
+// size:      260
+
+7101e39ef0  sub sp,sp,#0x40
+7101e39ef4  str x21,[sp, #0x10]
+7101e39ef8  stp x20,x19,[sp, #0x20]
+7101e39efc  stp x29,x30,[sp, #0x30]
+7101e39f00  add x29,sp,#0x30
+7101e39f04  mov x20,x0
+7101e39f08  add x19,x0,#0x60
+7101e39f0c  ldr x0,[x0, #0x68]
+7101e39f10  fmov s0,0x3f800000
+7101e39f14  adrp x1,0x710428f000
+7101e39f18  add x1,x1,#0xf7d
+7101e39f1c  bl 0x7103778300
+7101e39f20  mov w8,#0x4
+7101e39f24  str w8,[x20, #0x80]
+7101e39f28  adrp x1,0x71042d6000
+7101e39f2c  add x1,x1,#0x8a1
+7101e39f30  mov x8,sp
+7101e39f34  mov x0,x19
+7101e39f38  bl 0x7103776910
+7101e39f3c  ldr x20,[sp, #0x8]
+7101e39f40  ldr x0,[x20]
+7101e39f44  mov w1,wzr
+7101e39f48  bl 0x710377aa20
+7101e39f4c  adrp x21,0x710523d000
+7101e39f50  add x21,x21,#0x9a8
+7101e39f54  stp x21,xzr,[sp]
+7101e39f58  cbz x20,0x7101e39f64
+7101e39f5c  mov x0,x20
+7101e39f60  bl 0x710392eb40
+7101e39f64  adrp x1,0x71043e0000
+7101e39f68  add x1,x1,#0x732
+7101e39f6c  mov x8,sp
+7101e39f70  mov x0,x19
+7101e39f74  bl 0x7103776910
+7101e39f78  ldr x20,[sp, #0x8]
+7101e39f7c  ldr x0,[x20]
+7101e39f80  mov w1,wzr
+7101e39f84  bl 0x710377aa20
+7101e39f88  stp x21,xzr,[sp]
+7101e39f8c  cbz x20,0x7101e39f98
+7101e39f90  mov x0,x20
+7101e39f94  bl 0x710392eb40
+7101e39f98  adrp x1,0x7104308000
+7101e39f9c  add x1,x1,#0xa15
+7101e39fa0  mov x8,sp
+7101e39fa4  mov x0,x19
+7101e39fa8  bl 0x7103776640
+7101e39fac  mov x0,sp
+7101e39fb0  bl 0x71025af650
+7101e39fb4  ldr x19,[sp, #0x8]
+7101e39fb8  adrp x8,0x710523d000
+7101e39fbc  add x8,x8,#0x988
+7101e39fc0  stp x8,xzr,[sp]
+7101e39fc4  cbz x19,0x7101e39fe0
+7101e39fc8  ldr x0,[x19, #0x18]
+7101e39fcc  stp x21,xzr,[x19, #0x10]
+7101e39fd0  cbz x0,0x7101e39fd8
+7101e39fd4  bl 0x710392eb40
+7101e39fd8  mov x0,x19
+7101e39fdc  bl 0x710392eb40
+7101e39fe0  ldp x29,x30,[sp, #0x30]
+7101e39fe4  ldr x21,[sp, #0x10]
+7101e39fe8  ldp x20,x19,[sp, #0x20]
+7101e39fec  add sp,sp,#0x40
+7101e39ff0  ret

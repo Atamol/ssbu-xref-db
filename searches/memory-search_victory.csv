@@ -1,5 +1,5 @@
 Location,Match Bytes,Match Value,Label,Code Unit
-04453ad0,76 69 63 74 6f 72 79,victory,,"ds ""bg_banner_victory_cond"""
-042f6c24,76 69 63 74 6f 72 79,victory,,"ds ""mnu_amiibo_journey_victory_number_n"""
-0426e7f4,76 69 63 74 6f 72 79,victory,,"ds ""rule_victory"""
-0438b76f,76 69 63 74 6f 72 79,victory,,"ds ""victory"""
+71044549d0,76 69 63 74 6f 72 79,victory,s_bg_banner_victory_cond_71044549c6,"ds ""bg_banner_victory_cond"""
+71042f7b24,76 69 63 74 6f 72 79,victory,s_mnu_amiibo_journey_victory_numbe_71042f7b11,"ds ""mnu_amiibo_journey_victory_number_n"""
+710426f6f4,76 69 63 74 6f 72 79,victory,,"ds ""rule_victory"""
+710438c66f,76 69 63 74 6f 72 79,victory,s_victory_710438c66f,"ds ""victory"""

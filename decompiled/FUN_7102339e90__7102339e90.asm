@@ -1,0 +1,71 @@
+// addr:      7102339e90
+// offset:    0x2339e90
+// name:      FUN_7102339e90
+// mangled:   
+// size:      260
+
+7102339e90  stp x22,x21,[sp, #-0x30]!
+7102339e94  stp x20,x19,[sp, #0x10]
+7102339e98  stp x29,x30,[sp, #0x20]
+7102339e9c  add x29,sp,#0x20
+7102339ea0  ldr x8,[x2]
+7102339ea4  ldr x8,[x8, #0x20]
+7102339ea8  ldr x22,[x0, #0xe8]
+7102339eac  mov x21,x0
+7102339eb0  mov x0,x2
+7102339eb4  mov x19,x2
+7102339eb8  mov x20,x1
+7102339ebc  blr x8
+7102339ec0  mov x8,#0xf1d
+7102339ec4  movk x8,#0x7ba5, LSL #16
+7102339ec8  movk x8,#0xc, LSL #32
+7102339ecc  cmp x0,x8
+7102339ed0  b.eq 0x7102339f7c
+7102339ed4  mov x8,#0x70ce
+7102339ed8  movk x8,#0xcd19, LSL #16
+7102339edc  movk x8,#0xb, LSL #32
+7102339ee0  cmp x0,x8
+7102339ee4  b.ne 0x7102339f38
+7102339ee8  ldr w8,[x19, #0x8]
+7102339eec  mov w9,#0xf1af
+7102339ef0  movk w9,#0xcf91, LSL #16
+7102339ef4  cmp w8,w9
+7102339ef8  b.ne 0x7102339f38
+7102339efc  add x0,x19,#0x10
+7102339f00  adrp x1,0x7104463000
+7102339f04  add x1,x1,#0x8b4
+7102339f08  bl 0x71039c0060
+7102339f0c  cbnz w0,0x7102339f38
+7102339f10  ldr w8,[x19, #0x50]
+7102339f14  mov w9,#0x9d67
+7102339f18  movk w9,#0x6476, LSL #16
+7102339f1c  cmp w8,w9
+7102339f20  b.ne 0x7102339f38
+7102339f24  add x0,x19,#0x58
+7102339f28  adrp x1,0x71043bc000
+7102339f2c  add x1,x1,#0x3b9
+7102339f30  bl 0x71039c0060
+7102339f34  cbz w0,0x7102339f5c
+7102339f38  ldr x8,[x21]
+7102339f3c  ldr x3,[x8, #0x78]
+7102339f40  mov x1,x20
+7102339f44  mov x2,x19
+7102339f48  ldp x29,x30,[sp, #0x20]
+7102339f4c  ldp x20,x19,[sp, #0x10]
+7102339f50  mov x0,x21
+7102339f54  ldp x22,x21,[sp], #0x30
+7102339f58  br x3
+7102339f5c  orr w8,wzr,#0x3
+7102339f60  str w8,[x22, #0xd0]
+7102339f64  ldrsw x8,[x22, #0xbc]
+7102339f68  cmp w8,#0x13
+7102339f6c  b.cs 0x7102339f90
+7102339f70  add x8,x22,x8, LSL #0x2
+7102339f74  mov w9,#0x1
+7102339f78  str w9,[x8, #0x70]
+7102339f7c  ldp x29,x30,[sp, #0x20]
+7102339f80  mov w0,#0x1
+7102339f84  ldp x20,x19,[sp, #0x10]
+7102339f88  ldp x22,x21,[sp], #0x30
+7102339f8c  ret
+7102339f90  bl 0x71039c2650

@@ -1,0 +1,77 @@
+// addr:      710216f3e0
+// offset:    0x216f3e0
+// name:      FUN_710216f3e0
+// mangled:   
+// size:      284
+
+710216f3e0  sub sp,sp,#0x50
+710216f3e4  stp x20,x19,[sp, #0x30]
+710216f3e8  stp x29,x30,[sp, #0x40]
+710216f3ec  add x29,sp,#0x40
+710216f3f0  ldr x8,[x0, #0x18]
+710216f3f4  ldr x8,[x8, #0x18]
+710216f3f8  mov x19,x0
+710216f3fc  cmp x8,#0x1
+710216f400  b.lt 0x710216f40c
+710216f404  mov x0,x19
+710216f408  bl 0x71038fec40
+710216f40c  mov x0,x19
+710216f410  bl 0x710391e050
+710216f414  ldr x8,[x19, #0x10]
+710216f418  mov w9,#0x45
+710216f41c  str w9,[x8, #0x8]
+710216f420  str x0,[x8]
+710216f424  ldr x8,[x19, #0x10]
+710216f428  mov x1,x0
+710216f42c  mov w3,#0x2
+710216f430  mov x0,x19
+710216f434  mov w2,wzr
+710216f438  mov w20,#0x2
+710216f43c  add x8,x8,#0x10
+710216f440  str x8,[x19, #0x10]
+710216f444  bl 0x710391d4c0
+710216f448  mov w8,#0xa
+710216f44c  str w8,[sp, #0x8]
+710216f450  mov x8,#-0x10000
+710216f454  stp xzr,xzr,[sp, #0x10]
+710216f458  movk x8,#0x5000, LSL #16
+710216f45c  str x8,[sp, #0x20]
+710216f460  adrp x8,0x71050b5000
+710216f464  add x8,x8,#0x48
+710216f468  mov x0,sp
+710216f46c  mov w2,#0x1
+710216f470  mov x1,x19
+710216f474  strb wzr,[sp, #0x28]
+710216f478  str x8,[sp]
+710216f47c  str wzr,[sp, #0x2c]
+710216f480  bl 0x7101ff91a0
+710216f484  ldr x8,[x19, #0x10]
+710216f488  adrp x9,0x710216f000
+710216f48c  add x9,x9,#0x500
+710216f490  str x9,[x8]
+710216f494  str w20,[x8, #0x8]
+710216f498  ldr x8,[x19, #0x10]
+710216f49c  add x9,x8,#0x10
+710216f4a0  sub x1,x8,#0x10
+710216f4a4  adrp x2,0x710430c000
+710216f4a8  add x2,x2,#0x66a
+710216f4ac  mov x0,x19
+710216f4b0  str x9,[x19, #0x10]
+710216f4b4  bl 0x71038f5390
+710216f4b8  ldr x8,[x19, #0x10]
+710216f4bc  mov w9,#0x13
+710216f4c0  str w9,[x8, #0x8]
+710216f4c4  str xzr,[x8]
+710216f4c8  ldr x8,[x19, #0x10]
+710216f4cc  add x9,x8,#0x10
+710216f4d0  sub x1,x8,#0x10
+710216f4d4  adrp x2,0x7104407000
+710216f4d8  add x2,x2,#0xe73
+710216f4dc  mov x0,x19
+710216f4e0  str x9,[x19, #0x10]
+710216f4e4  bl 0x71038f5390
+710216f4e8  ldp x29,x30,[sp, #0x40]
+710216f4ec  mov w0,#0x1
+710216f4f0  ldp x20,x19,[sp, #0x30]
+710216f4f4  add sp,sp,#0x50
+710216f4f8  ret

@@ -1,0 +1,43 @@
+// addr:      7100243a70
+// offset:    0x243a70
+// name:      FUN_7100243a70
+// mangled:   
+// size:      148
+
+7100243a70  ldr w8,[x0, #0x64]
+7100243a74  cmp w8,#0x4
+7100243a78  b.hi 0x7100243b00
+7100243a7c  adrp x9,0x710449e000
+7100243a80  add x9,x9,#0xd70
+7100243a84  ldrsw x8,[x9, x8, LSL #0x2]
+7100243a88  add x8,x8,x9
+7100243a8c  br x8
+7100243a90  b 0x7100243b10
+7100243a94  b 0x7100243d30
+7100243a98  ldr x8,[x0, #0x3e0]
+7100243a9c  cbz x8,0x7100243ad4
+7100243aa0  ldr x8,[x0, #0x2c0]
+7100243aa4  cbz x8,0x7100243ad4
+7100243aa8  ldr x9,[x0, #0x130]
+7100243aac  cbz x9,0x7100243adc
+7100243ab0  adrp x10,0x71052a7000
+7100243ab4  ldr x10,[x10, #0x7a8]
+7100243ab8  ldr x9,[x9, #0x10]
+7100243abc  cmp x9,#0x0
+7100243ac0  mov x8,xzr
+7100243ac4  csel x9,xzr,x10,eq
+7100243ac8  b 0x7100243ae0
+7100243acc  b 0x7100244300
+7100243ad0  b 0x7100244640
+7100243ad4  mov w8,#0x1
+7100243ad8  b 0x7100243afc
+7100243adc  mov x8,xzr
+7100243ae0  and x10,x8,#0x1
+7100243ae4  orr x10,x10,x9
+7100243ae8  cmp x10,#0x0
+7100243aec  ccmp x8,#0x0,#0x4,ne
+7100243af0  orr w8,wzr,#0x3
+7100243af4  ccmp x9,#0x0,#0x0,eq
+7100243af8  csinc w8,w8,wzr,ne
+7100243afc  str w8,[x0, #0x64]
+7100243b00  ret

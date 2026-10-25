@@ -1,2712 +1,2724 @@
-# scene (funcs=61, hits=130)
+# scene (funcs=184, hits=664)
 
 Top 50 functions by hit count
 
-## 1. `FUN_01d5efa4`  (hits=9)
+## 1. `FUN_710235d040`  (hits=80)
 - **Symbol:** `(no mangled symbol)`
-- **Address:** `01d5efa4`  (offset `0x1d5efa4`)
+- **Address:** `710235d040`  (offset `0x235d040`)
 - **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01d5efa4(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7)`
-- **Size / BBs / Incoming:** 8448 bytes / 608 bb / 2 incoming refs
+- **Signature:** `undefined __cdecl FUN_710235d040(long param_1, undefined8 param_2, undefined * * param_3, byte * * * * param_4, long * * * * param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)`
+- **Size / BBs / Incoming:** 25696 bytes / 1747 bb / 1 incoming refs
 - **Match values:** Scene
-- **Strings touched:** copy_link_cap
-- **Callers:** switchD_01d6b828::caseD_0;FUN_01d5efa4
-- **Callees:** FUN_01465b30;f;FUN_03777e50;FUN_015436c0;FUN_037ad490;FUN_037a1dc0;FUN_03393140;FUN_0149e670;FUN_01d5ab30;FUN_01d5efa4;FUN_0179f6f0;FUN_03776460;FUN_02407380;FUN_01d5b7c0
-- **Files:** [decomp](decompiled/FUN_01d5efa4__01d5efa4.c)  [cfg](decompiled/FUN_01d5efa4__01d5efa4.mmd)
-- **Clone hash:** `d28d57d6f020f28d`
+- **Strings touched:** OnlineMeleeConventionSequenceScene;CollectionReplaySequenceScene;CollectionShopSequenceScene;SpiritsCampaignSequenceScene;TrainingSequenceScene;CollectionMovieSequenceScene;OnlineMeleeTournamentSequenceScene;MeleeAllBattleSequenceScene;MeleeNormalSequenceScene;HomeRunContestSequenceScene;KumiteSequenceScene;OptionSequenceScene;StandardSequenceScene;AmiiboSequenceScene;CollectionGetterSequenceScene;CollectionFighterSequenceScene;OnlineShareSequenceScene;OnlineMeleeParallelSequenceScene;MeleeTeamCompeSequenceScene;ChallengerRoomSequenceScene;MeleeVrSequenceScene;CollectionCardSequenceScene;CollectionPlayingSequenceScene;MeleeTournamentSequenceScene;SpiritsBoardSequenceScene;SoundTestSequenceScene;CollectionTipsSequenceScene;OnlineMeleeAnySequenceScene;OnlineMeleeRoomSequenceScene;CollectionPresentSequenceScene;SpiritsOrganizationSequenceScene;SpiritsBoardSpecialSequenceScene;...
+- **Callers:** FUN_710235cb00
+- **Callees:** FUN_71000001c0;FUN_7101764000;FUN_710323b9e0;FUN_7103726240;FUN_710392eb40;<EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release;<EXTERNAL>::std::__shared_weak_count::__release_weak
+- **Files:** [decomp](../decompiled/FUN_710235d040__710235d040.c)  [cfg](../decompiled/FUN_710235d040__710235d040.mmd)
+- **Clone hash:** `05702ea7b548ecbb`
 
 ```c
 
-/* WARNING: Type propagation algorithm not settling */
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-void FUN_01d5efa4(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16])
+void FUN_710235d040(long param_1,undefined8 param_2,undefined **param_3,byte ****param_4,
+                   long ****param_5,undefined8 param_6,undefined8 param_7,undefined8 param_8)
 
 {
-  float *pfVar1;
-  long *plVar2;
-  int iVar3;
-  long lVar4;
-  uint uVar5;
-  uint uVar6;
-  long lVar7;
-  char cVar8;
-  undefined1 auVar9 [16];
-  undefined1 auVar10 [16];
-  undefined1 auVar11 [16];
-  undefined1 auVar12 [16];
-  undefined1 auVar13 [16];
-  undefined1 auVar14 [16];
-  undefined1 auVar15 [16];
-  undefined1 auVar16 [16];
-  undefined1 auVar17 [16];
-  undefined1 auVar18 [16];
-  undefined1 auVar19 [16];
-  undefined1 auVar20 [16];
-  undefined1 auVar21 [16];
-  undefined1 auVar22 [16];
-  undefined1 auVar23 [16];
-  undefined1 auVar24 [16];
-  undefined1 auVar25 [16];
-  undefined1 auVar26 [16];
-  undefined1 auVar27 [16];
-  undefined1 auVar28 [16];
-  undefined1 auVar29 [16];
-  undefined1 auVar30 [16];
-  undefined1 auVar31 [16];
-// ... (2473 more lines)
-```
-
-## 2. `FUN_01a5e9a0`  (hits=4)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01a5e9a0`  (offset `0x1a5e9a0`)
-- **Namespace:** `Global`
-- **Signature:** `undefined FUN_01a5e9a0(void)`
-- **Size / BBs / Incoming:** 11548 bytes / 585 bb / 1 incoming refs
-- **Match values:** Scene
-- **Strings touched:** CPU_ITEM;hdr_dot_disp_8
-- **Callers:** switchD_01a5f8b8::caseD_1
-- **Callees:** FUN_01b19ac0;FUN_0327c890;FUN_032a7350;FUN_03239470;FUN_01780bf0;FUN_03779dd0;FUN_037786d0;FUN_01b14a60;FUN_0376de80;FUN_032d2db0;FUN_032388b0;FUN_01b10f90;FUN_0325d890;FUN_0327cf00;FUN_037718b0;PIA_OnPacketReceived;...
-- **Files:** [cfg](decompiled/FUN_01a5e9a0__01a5e9a0.mmd)
-
-
-## 3. `FUN_01bbc080`  (hits=3)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01bbc080`  (offset `0x1bbc080`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01bbc080(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, undefined8 param_8, undefined8 param_9, undefined * UNRECOVERED_JUMPTABLE, undefined8 param_11, undefined8 param_12, undefined8 param_13, undefined8 param_14, undefined8 param_15, undefined8 param_16, undefined8 param_17, long param_18, undefined8 param_19, byte param_20)`
-- **Size / BBs / Incoming:** 3988 bytes / 233 bb / 1 incoming refs
-- **Match values:** Scene
-- **Strings touched:** balloonScore_7650_base;initial position out of string
-- **Callers:** switchD_01bcbf60::caseD_2
-- **Callees:** FUN_037782b0;f;FUN_03777e50;FUN_03776190;get_root_view;FUN_01c83d40;FUN_01af54d0;FUN_01c91830;FUN_03777f80;FUN_03779c70;PIA_OnPacketReceived
-- **Files:** [decomp](decompiled/FUN_01bbc080__01bbc080.c)  [cfg](decompiled/FUN_01bbc080__01bbc080.mmd)
-- **Clone hash:** `e9f1daeec3387207`
-
-```c
-
-/* WARNING: Variable defined which should be unmapped: param_18 */
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-void FUN_01bbc080(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],undefined8 param_8,undefined8 param_9,
-                 undefined *UNRECOVERED_JUMPTABLE,undefined8 param_11,undefined8 param_12,
-                 undefined8 param_13,undefined8 param_14,undefined8 param_15,undefined8 param_16,
-                 undefined8 param_17,long param_18,undefined8 param_19,byte param_20)
-
-{
-  char *pcVar1;
-  undefined1 auVar2 [16];
-  undefined1 auVar3 [16];
-  undefined1 auVar4 [16];
-  undefined1 auVar5 [16];
-  undefined1 auVar6 [16];
-  undefined1 auVar7 [16];
-  undefined1 auVar8 [16];
-  undefined1 auVar9 [16];
-  undefined1 auVar10 [16];
-  undefined1 auVar11 [16];
-  undefined1 auVar12 [16];
-  undefined1 auVar13 [16];
-  undefined1 auVar14 [16];
-  undefined1 auVar15 [16];
-  undefined1 auVar16 [16];
-  bool bVar17;
-  bool bVar18;
-  undefined8 *puVar19;
-  uint uVar20;
+  long *plVar1;
+  char *pcVar2;
+  byte bVar3;
+  char cVar4;
+  bool bVar5;
+  long *plVar6;
+  int iVar7;
   undefined8 extraout_x1;
-  undefined8 uVar21;
-  uint uVar22;
-  undefined *puVar23;
-  undefined *extraout_x8;
-  undefined *extraout_x8_00;
-  long lVar24;
-  uint *puVar25;
-// ... (1057 more lines)
-```
-
-## 4. `switchD_01f1baac::caseD_0`  (hits=2)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01f0dc98`  (offset `0x1f0dc98`)
-- **Namespace:** `switchD_01f1baac`
-- **Signature:** `ulong __cdecl caseD_0(long param_1, undefined1[16] param_2, undefined1[16] param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, undefined1[16] param_8, ulong param_9, uint * param_10, undefined * param_11, undefined8 * param_12, undefined * param_13, undefined1 * param_14, ulong param_15, long param_16, undefined8 param_17, undefined8 param_18, uint * param_19, long * param_20, uint * param_21, ulong param_22, undefined8 param_23, ulong * param_24, undefined * param_25, undefined8 param_26, undefined * param_27, ulong param_28, undefined8 param_29, undefined8 param_30, undefined8 param_31, long param_32, long param_33, ulong param_34, undefined8 param_35, ulong param_36, long * param_37, long param_38, long param_39, ulong param_40, long param_41, undefined8 param_42, long * param_43, undefined4 param_44, long * param_45, long param_46, undefined1 * param_47, undefined8 param_48, long * param_49, undefined8 param_50, undefined8 param_51, undefined4 param_52, long * param_53, long param_54, long * param_55, undefined1 param_56, long param_57)`
-- **Size / BBs / Incoming:** 10116 bytes / 545 bb / 2 incoming refs
-- **Match values:** Scene
-- **Strings touched:** copy_link_cap;set_parts_spirits_2d
-- **Callees:** FUN_01ee6160;FUN_01ec1cd0;FUN_01edc928;FUN_0392dde0;FUN_03775ee0;FUN_03771320;FUN_01ec13f0;FUN_03776460;FUN_01f42390;FUN_02407380;FUN_01f3e5e0;FUN_03775c40;FUN_01ee63e0;FUN_01f308c0;FUN_03313a70;f;...
-- **Files:** [decomp](decompiled/caseD_0__01f0dc98.c)  [cfg](decompiled/caseD_0__01f0dc98.mmd)
-- **Clone hash:** `083321b404534873`
-
-```c
-
-/* WARNING: Removing unreachable block (ram,0x01edcbcc) */
-/* WARNING: Variable defined which should be unmapped: param_33 */
-/* WARNING: Variable defined which should be unmapped: param_27 */
-/* WARNING: Type propagation algorithm not settling */
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-ulong switchD_01f1baac::caseD_0
-                (long param_1,undefined1 param_2 [16],undefined1 param_3 [16],
-                undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                undefined1 param_7 [16],undefined1 param_8 [16],ulong param_9,uint *param_10,
-                undefined *param_11,undefined8 *param_12,undefined *param_13,undefined1 *param_14,
-                ulong param_15,long param_16,undefined8 param_17,undefined8 param_18,uint *param_19,
-                long *param_20,uint *param_21,ulong param_22,long *param_23,ulong *param_24,
-                undefined *param_25,undefined8 param_26,undefined *param_27,ulong param_28,
-                undefined1 *param_29,undefined8 param_30,undefined8 param_31,long param_32,
-                long param_33,ulong param_34,undefined8 *param_35,ulong param_36,long *param_37,
-                long param_38,long param_39,ulong param_40,long param_41,undefined8 param_42,
-                long *param_43,undefined4 param_44,long *param_45,long param_46,undefined1 *param_47
-                ,ulong param_48,long *param_49,undefined8 param_50,undefined8 param_51,
-                undefined4 param_52,long *param_53,long param_54,long *param_55,undefined1 param_56,
-                long param_57)
-
-{
-  uint *puVar1;
-  uint *puVar2;
-  uint *puVar3;
-  uint uVar4;
-  char cVar5;
-  undefined1 auVar6 [16];
-  undefined1 auVar7 [16];
-  undefined1 auVar8 [16];
-  undefined1 auVar9 [16];
-  undefined1 auVar10 [16];
-  undefined1 auVar11 [16];
-  undefined1 auVar12 [16];
-  undefined1 auVar13 [16];
-  undefined1 auVar14 [16];
-  undefined1 auVar15 [16];
-  undefined1 auVar16 [16];
-// ... (4151 more lines)
-```
-
-## 5. `FUN_01a42270`  (hits=2)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01a42270`  (offset `0x1a42270`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01a42270(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8, short * param_9)`
-- **Size / BBs / Incoming:** 232 bytes / 4 bb / 1 incoming refs
-- **Match values:** Scene
-- **Callees:** FUN_03777e50;FUN_03776190;FUN_03776460
-- **Files:** [decomp](decompiled/FUN_01a42270__01a42270.c)  [cfg](decompiled/FUN_01a42270__01a42270.mmd)
-- **Clone hash:** `383b2f785cd1eba0`
-
-```c
-
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-void FUN_01a42270(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long param_8,short *param_9)
-
-{
-  undefined1 auVar1 [16];
-  
-  auVar1 = FUN_03776190(param_1,param_2,param_3,param_4,param_5,param_6,param_7);
-  auVar1 = FUN_03776460(auVar1,param_2,param_3,param_4,param_5,param_6,param_7);
-  auVar1 = FUN_03776460(auVar1,param_2,param_3,param_4,param_5,param_6,param_7);
-  auVar1 = FUN_03776460(auVar1,param_2,param_3,param_4,param_5,param_6,param_7);
-  FUN_03776460(auVar1,param_2,param_3,param_4,param_5,param_6,param_7);
-  if ((*(int *)(param_8 + 0xd8) != 2) && (*param_9 != -1)) {
-    FUN_03777e50(0x3f800000,*(long *)(param_8 + 0xa0),0x43df1a5);
-    return;
-  }
-  FUN_03777e50(0x3f800000,*(long *)(param_8 + 0xa0),0x43bd6a5);
-  return;
-}
-
-
-```
-
-## 6. `FUN_01a2af50`  (hits=2)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01a2af50`  (offset `0x1a2af50`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01a2af50(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8, int param_9)`
-- **Size / BBs / Incoming:** 264 bytes / 10 bb / 1 incoming refs
-- **Match values:** Scene
-- **Callers:** FUN_01a608c0
-- **Callees:** FUN_03779e60;FUN_03777e50;FUN_037a1dc0;PIA_OnPacketReceived;FUN_03776460
-- **Files:** [decomp](decompiled/FUN_01a2af50__01a2af50.c)  [cfg](decompiled/FUN_01a2af50__01a2af50.mmd)
-- **Clone hash:** `ca40dd593b251fda`
-
-```c
-
-void FUN_01a2af50(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long param_8,int param_9)
-
-{
-  undefined1 auVar1 [16];
-  undefined1 auVar2 [16];
-  undefined1 auVar3 [16];
-  undefined1 auVar4 [16];
-  char *pcVar5;
-  ulong uVar6;
-  long lVar7;
-  undefined4 extraout_s0;
-  undefined4 extraout_s0_00;
-  undefined4 extraout_s0_01;
-  undefined4 extraout_s0_02;
-  undefined4 uVar8;
-  undefined4 extraout_var;
-  undefined4 extraout_var_00;
-  undefined4 extraout_var_01;
-  undefined4 extraout_var_02;
-  undefined4 uVar9;
-  undefined8 extraout_var_03;
-  undefined8 extraout_var_04;
-  undefined8 extraout_var_05;
-  undefined8 extraout_var_06;
-  undefined8 uVar10;
-  undefined8 *local_40;
-  ulong local_38;
-  ushort local_24 [2];
-  
-  if (param_9 == 0) {
-    FUN_03776460(param_1,param_2,param_3,param_4,param_5,param_6,param_7);
-    uVar6 = local_38;
-    uVar8 = extraout_s0_01;
-    uVar9 = extraout_var_01;
-    uVar10 = extraout_var_05;
-    if (*(long **)(local_38 + 0x10) != (long *)0x0) {
-      local_24[0] = 0;
-// ... (46 more lines)
-```
-
-## 7. `FUN_01cf2320`  (hits=2)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01cf2320`  (offset `0x1cf2320`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01cf2320(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8)`
-- **Size / BBs / Incoming:** 432 bytes / 19 bb / 4 incoming refs
-- **Match values:** Scene
-- **Callers:** FUN_01ce1150;switchD_01cd46ec::caseD_0;FUN_01cf0970
-- **Callees:** FUN_03777e50;FUN_03777c30;PIA_OnPacketReceived;FUN_03776460;FUN_037791a0
-- **Files:** [decomp](decompiled/FUN_01cf2320__01cf2320.c)  [cfg](decompiled/FUN_01cf2320__01cf2320.mmd)
-- **Clone hash:** `d4c5b0fa4e5ff3dc`
-
-```c
-
-void FUN_01cf2320(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long param_8)
-
-{
-  char cVar1;
-  undefined1 auVar2 [16];
-  undefined1 auVar3 [16];
-  undefined1 auVar4 [16];
-  undefined1 auVar5 [16];
-  undefined1 auVar6 [16];
-  undefined1 auVar7 [16];
-  undefined1 auVar8 [16];
-  undefined1 auVar9 [16];
-  ulong uVar10;
-  ulong uVar11;
-  char *pcVar12;
-  undefined4 extraout_s0;
-  undefined4 extraout_s0_00;
-  undefined4 uVar13;
-  undefined4 extraout_s0_01;
-  undefined4 extraout_s0_02;
-  undefined4 extraout_s0_03;
-  undefined4 extraout_s0_04;
-  undefined4 extraout_s0_05;
-  undefined4 extraout_var;
-  undefined4 extraout_var_00;
-  undefined4 uVar14;
-  undefined4 extraout_var_01;
-  undefined4 extraout_var_02;
-  undefined4 extraout_var_03;
-  undefined4 extraout_var_04;
-  undefined4 extraout_var_05;
-  undefined8 extraout_var_06;
-  undefined8 extraout_var_07;
-  undefined8 uVar15;
-  undefined8 extraout_var_08;
-  undefined8 extraout_var_09;
-  undefined8 extraout_var_10;
-// ... (102 more lines)
-```
-
-## 8. `FUN_01c12680`  (hits=2)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01c12680`  (offset `0x1c12680`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01c12680(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, undefined8 param_8, long param_9, long param_10, char * param_11)`
-- **Size / BBs / Incoming:** 2896 bytes / 101 bb / 1 incoming refs
-- **Match values:** Scene
-- **Callers:** FUN_01c11560
-- **Callees:** FUN_03776190;FUN_037a1dc0;FUN_03779dd0;FUN_03779c70;PIA_OnPacketReceived;FUN_03776460
-- **Files:** [decomp](decompiled/FUN_01c12680__01c12680.c)  [cfg](decompiled/FUN_01c12680__01c12680.mmd)
-- **Clone hash:** `f90200858936a756`
-
-```c
-
-void FUN_01c12680(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],undefined8 param_8,long param_9,long param_10,
-                 char *param_11)
-
-{
-  char cVar1;
-  ulong uVar2;
-  ulong uVar3;
-  ulong uVar4;
-  long *plVar5;
-  ulong uVar6;
-  uint uVar7;
-  byte *pbVar8;
+  undefined8 extraout_x1_00;
+  undefined8 extraout_x1_01;
+  undefined8 extraout_x1_02;
+  long lVar8;
   uint uVar9;
   uint uVar10;
-  ushort *puVar11;
+  ulong uVar11;
   byte *pbVar12;
-  undefined1 auVar13 [16];
-  byte abStack_330 [64];
-  undefined8 local_2f0;
-  undefined8 uStack_2e8;
-  undefined8 local_2e0;
-  undefined2 local_2d8;
-  undefined8 local_2d6;
-  undefined4 local_2ce;
-  undefined8 local_2a8;
-  undefined8 local_2a0;
-  undefined8 uStack_298;
-  undefined2 local_290;
-  undefined8 local_28e;
-  undefined1 local_286;
-  undefined8 local_260;
-  byte abStack_258 [64];
-  undefined8 local_218;
-  undefined8 uStack_210;
-  undefined8 local_208;
-  undefined2 local_200;
-  undefined4 local_1fe;
-// ... (427 more lines)
+  uint uVar13;
+  long lVar14;
+  long *plVar15;
+  uint uVar16;
+  long *plVar17;
+  long *plVar18;
+  long *plVar19;
+  undefined8 local_128;
+  undefined8 local_120;
+  undefined1 local_118;
+  undefined2 local_d8;
+  undefined4 local_d4;
+  undefined8 local_d0;
+  byte local_c8 [64];
+  undefined8 local_88;
+  byte local_80 [64];
+  
+  plVar15 = (long *)(param_1 + 8);
+  plVar18 = *(long **)(*plVar15 + 0x20);
+// ... (5027 more lines)
 ```
 
-## 9. `FUN_01ab95a8`  (hits=2)
+## 2. `FUN_710041f880`  (hits=46)
 - **Symbol:** `(no mangled symbol)`
-- **Address:** `01ab95a8`  (offset `0x1ab95a8`)
+- **Address:** `710041f880`  (offset `0x41f880`)
 - **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01ab95a8(undefined8 param_1, undefined1[16] param_2, undefined1[16] param_3, float param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, undefined1[16] param_8, undefined8 param_9, undefined8 param_10, long * param_11, undefined8 param_12, undefined8 param_13, undefined8 param_14, undefined8 param_15, undefined8 param_16, undefined8 param_17, undefined8 param_18, undefined8 param_19)`
-- **Size / BBs / Incoming:** 3396 bytes / 152 bb / 4 incoming refs
+- **Signature:** `undefined __cdecl FUN_710041f880(void)`
+- **Size / BBs / Incoming:** 3608 bytes / 142 bb / 1 incoming refs
 - **Match values:** Scene
-- **Strings touched:** mel_chara_select_smaknowledge;copy_link_cap
-- **Callers:** FUN_01ad9f90
-- **Callees:** FUN_01af0dc0;FUN_037782b0;FUN_03777e50;FUN_03776190;FUN_0392dde0;FUN_03778bf0;FUN_0323ee80;FUN_03775ee0;FUN_03264430;FUN_03776460;FUN_01aba810;FUN_037786d0;nnsocketResolverSetOption;f;FUN_03777c30;FUN_003a4da0;...
-- **Files:** [decomp](decompiled/FUN_01ab95a8__01ab95a8.c)  [cfg](decompiled/FUN_01ab95a8__01ab95a8.mmd)
-- **Clone hash:** `7b6c4f27775c6c68`
+- **Strings touched:** BootSequenceScene;MenuSequenceScene;OptionSequenceScene;HelpSequenceScene;IngameCallSequenceScene;UnlockSequenceScene;LocalSequenceScene;MeleeNormalSequenceScene;MeleeAllBattleSequenceScene;MeleeTeamCompeSequenceScene;MeleeTournamentSequenceScene;SpiritsBoardSequenceScene;SpiritsCampaignSequenceScene;SpiritsCampaignFinalStageSequenceScene;SpiritsBoardSpecialSequenceScene;SpiritsOrganizationSequenceScene;StandardSequenceScene;TrainingSequenceScene;KumiteSequenceScene;HomeRunContestSequenceScene;CharaMakeSequenceScene;AmiiboSequenceScene;ChallengerRoomSequenceScene;OnlineMeleeAnySequenceScene;OnlineMeleeParallelSequenceScene;OnlineMeleeRoomSequenceScene;OnlineWatchSequenceScene;SoundTestSequenceScene;CollectionTipsSequenceScene;CollectionShopSequenceScene;CollectionFighterSequenceScene;CollectionCountSequenceScene;...
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_710041f880__710041f880.c)  [cfg](../decompiled/FUN_710041f880__710041f880.mmd)
+- **Clone hash:** `d251c6a5b4e743fa`
 
 ```c
 
-/* WARNING: Variable defined which should be unmapped: param_17 */
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-void FUN_01ab95a8(undefined8 param_1,undefined1 param_2 [16],undefined1 param_3 [16],float param_4,
-                 undefined1 param_5 [16],undefined1 param_6 [16],undefined1 param_7 [16],
-                 undefined1 param_8 [16],undefined8 param_9,undefined8 param_10,long *param_11,
-                 undefined8 param_12,undefined8 param_13,undefined8 param_14,undefined8 param_15,
-                 undefined8 param_16,undefined8 param_17,undefined8 param_18,undefined8 param_19)
+void FUN_710041f880(void)
 
 {
-  uint *puVar1;
-  char cVar2;
-  byte bVar3;
-  int *piVar4;
-  undefined1 auVar5 [16];
-  undefined1 auVar6 [16];
-  undefined1 auVar7 [16];
-  undefined1 auVar8 [16];
-  undefined1 auVar9 [16];
-  undefined1 auVar10 [16];
-  undefined1 auVar11 [16];
-  undefined1 auVar12 [16];
-  undefined1 auVar13 [16];
-  undefined1 auVar14 [16];
-  undefined1 auVar15 [16];
-  undefined1 auVar16 [16];
-  undefined1 auVar17 [16];
-  undefined1 auVar18 [16];
-  undefined1 auVar19 [16];
-  undefined1 auVar20 [16];
-  undefined1 auVar21 [16];
-  undefined1 auVar22 [16];
-  undefined1 auVar23 [16];
-  undefined1 auVar24 [16];
-  undefined1 auVar25 [16];
-  undefined1 auVar26 [16];
-  undefined1 auVar27 [16];
-  undefined1 auVar28 [16];
-  undefined1 auVar29 [16];
-// ... (1193 more lines)
+  int iVar1;
+  
+  DAT_7105327cd8 = 0;
+  DAT_7105327ce0 = "BootSequenceScene";
+  if (((DAT_7105327fe0 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105327fe0), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105327fe0);
+  }
+  DAT_7105327ce8 = &PTR_PTR_71050b5910;
+  DAT_7105327cf0 = "MenuSequenceScene";
+  if (((DAT_7105327fe8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105327fe8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105327fe8);
+  }
+  DAT_7105327cf8 = &PTR_PTR_71050b5918;
+  DAT_7105327d00 = "OptionSequenceScene";
+  if (((DAT_7105327ff0 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105327ff0), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105327ff0);
+  }
+  DAT_7105327d08 = &PTR_PTR_71050b5920;
+  DAT_7105327d10 = "HelpSequenceScene";
+  if (((DAT_7105327ff8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105327ff8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105327ff8);
+  }
+  DAT_7105327d18 = &PTR_PTR_71050b5928;
+  DAT_7105327d20 = "IngameCallSequenceScene";
+  if (((DAT_71052b9330 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71052b9330), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71052b9330);
+  }
+  DAT_7105327d28 = &PTR_PTR_7104f76410;
+  DAT_7105327d30 = "UnlockSequenceScene";
+  if (((DAT_7105328000 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328000), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328000);
+  }
+  DAT_7105327d38 = &PTR_PTR_71050b5930;
+  DAT_7105327d40 = "LocalSequenceScene";
+  if (((DAT_7105328008 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328008), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328008);
+// ... (207 more lines)
 ```
 
-## 10. `FUN_01bd7b40`  (hits=2)
+## 3. `FUN_7101a23a80`  (hits=27)
 - **Symbol:** `(no mangled symbol)`
-- **Address:** `01bd7b40`  (offset `0x1bd7b40`)
+- **Address:** `7101a23a80`  (offset `0x1a23a80`)
 - **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01bd7b40(undefined1[16] param_1, undefined1[16] param_2, undefined1[16] param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8, ulong param_9, undefined8 * * param_10, ulong param_11, undefined8 param_12, undefined8 param_13, undefined8 param_14, undefined8 param_15)`
-- **Size / BBs / Incoming:** 8540 bytes / 497 bb / 1 incoming refs
-- **Match values:** Scene
-- **Strings touched:** all_in;mnu_insert_popup_get;set_txt_extratxtb_%02d;list_navi_left_hide;copy_link_cap
-- **Callers:** FUN_01bd44a0
-- **Callees:** FUN_03776190;FUN_0062dd20;FUN_0392dde0;get_root_view;FUN_037a1dc0;FUN_03775ee0;FUN_01bda1e0;FUN_03779dd0;FUN_03776460;FUN_02407380;FUN_03313a70;FUN_03777c30;FUN_03771480;FUN_037718b0;FUN_037715d0;PIA_OnPacketReceived;...
-- **Files:** [decomp](decompiled/FUN_01bd7b40__01bd7b40.c)  [cfg](decompiled/FUN_01bd7b40__01bd7b40.mmd)
-- **Clone hash:** `69645f81037a75db`
+- **Signature:** `undefined __cdecl FUN_7101a23a80(long param_1, undefined8 param_2, undefined8 param_3, byte * * * * param_4, long * * * * param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)`
+- **Size / BBs / Incoming:** 8756 bytes / 346 bb / 1 incoming refs
+- **Match values:** scene
+- **Strings touched:** title_on;headcount_on;day_off;controller_entry_off;ready_out;controller_out;back_btn_short;back_btn_long;set_btn_01_back;set_btn_02_back;set_txt_back_01;set_txt_back_00;mel_return_02;mel_over_return_02;mel_return_00;mel_over_return_00;set_btn_02_title;txt_pos_normal;set_txt_title_00;set_txt_onoff;scene_title_btn;mel_chara_select_melee_normal;mel_chara_select_various_normal;mel_chara_select_suddendeath_normal;scene_title_txt_00;title_off;mel_chara_select_challengeboard;mel_chara_select_campaign;mel_chara_select_setorg;mel_chara_select_standard;training_combo_0;mel_chara_select_training;...
+- **Callers:** FUN_7101a20200
+- **Callees:** FUN_7103240d30;FUN_71032d6ce0;FUN_71033112b0;FUN_710337df20;FUN_7103764e60;FUN_7103770b30;FUN_71037717d0;FUN_7103771d60;FUN_7103772070;FUN_71037760f0;FUN_7103776640;FUN_7103776910;FUN_71037780e0;FUN_7103778300;FUN_7103778760;FUN_7103778b80;...
+- **Files:** [decomp](../decompiled/FUN_7101a23a80__7101a23a80.c)  [cfg](../decompiled/FUN_7101a23a80__7101a23a80.mmd)
+- **Clone hash:** `d4786689279755fe`
 
 ```c
 
-/* WARNING: Type propagation algorithm not settling */
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-void FUN_01bd7b40(undefined1 param_1 [16],undefined1 param_2 [16],undefined1 param_3 [16],
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long param_8,ulong param_9,undefined8 **param_10,
-                 ulong param_11,undefined8 param_12,undefined8 param_13,undefined8 param_14,
-                 undefined8 param_15)
+void FUN_7101a23a80(long param_1,undefined8 param_2,undefined8 param_3,byte ****param_4,
+                   long ****param_5,undefined8 param_6,undefined8 param_7,undefined8 param_8)
 
 {
-  byte bVar1;
-  ushort uVar2;
-  bool bVar3;
-  undefined1 auVar4 [16];
-  undefined1 auVar5 [16];
-  undefined1 auVar6 [16];
-  undefined1 auVar7 [16];
-  undefined1 auVar8 [16];
-  undefined1 auVar9 [16];
-  undefined1 auVar10 [16];
-  undefined1 auVar11 [16];
-  undefined1 auVar12 [16];
-  undefined1 auVar13 [16];
-  undefined1 auVar14 [16];
-  undefined1 auVar15 [16];
-  undefined1 auVar16 [16];
-  undefined1 auVar17 [16];
-  undefined1 auVar18 [16];
-  undefined1 auVar19 [16];
-  undefined1 auVar20 [16];
-  undefined1 auVar21 [16];
-  undefined1 auVar22 [16];
-  undefined1 auVar23 [16];
-  undefined1 auVar24 [16];
-  undefined1 auVar25 [16];
-  undefined1 auVar26 [16];
-  undefined1 auVar27 [16];
-  undefined1 auVar28 [16];
-  undefined1 auVar29 [16];
-// ... (2488 more lines)
-```
-
-## 11. `FUN_01ce1150`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01ce1150`  (offset `0x1ce1150`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01ce1150(undefined1[16] param_1, undefined1[16] param_2, undefined1[16] param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, undefined8 param_8, long param_9, int * param_10, long * param_11, undefined8 param_12, undefined8 param_13, undefined8 param_14, undefined8 param_15)`
-- **Size / BBs / Incoming:** 772 bytes / 49 bb / 2 incoming refs
-- **Match values:** Scene
-- **Strings touched:** copy_link_cap
-- **Callers:** FUN_01cdb044;FUN_01ce2fc0
-- **Callees:** FUN_02407380;FUN_03777e50;FUN_03313a70;FUN_01cf2320;FUN_03777c30;FUN_0334c320;FUN_037715d0;PIA_OnPacketReceived;FUN_03771730
-- **Files:** [decomp](decompiled/FUN_01ce1150__01ce1150.c)  [cfg](decompiled/FUN_01ce1150__01ce1150.mmd)
-- **Clone hash:** `e0095977f656e4b4`
-
-```c
-
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-void FUN_01ce1150(undefined1 param_1 [16],undefined1 param_2 [16],undefined1 param_3 [16],
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],undefined8 param_8,long param_9,int *param_10,
-                 long *param_11,undefined8 param_12,undefined8 param_13,undefined8 param_14,
-                 undefined8 param_15)
-
-{
-  char cVar1;
-  uint uVar2;
-  undefined1 auVar3 [16];
-  undefined1 auVar4 [16];
-  undefined1 auVar5 [16];
-  undefined1 auVar6 [16];
-  undefined1 auVar7 [16];
-  undefined1 auVar8 [16];
-  undefined1 auVar9 [16];
-  undefined1 auVar10 [16];
-  undefined1 auVar11 [16];
-  undefined1 auVar12 [16];
-  undefined1 auVar13 [16];
-  undefined1 auVar14 [16];
-  undefined1 auVar15 [16];
-  undefined1 auVar16 [16];
-  undefined1 auVar17 [16];
-  undefined1 auVar18 [16];
-  undefined1 auVar19 [16];
-  undefined1 auVar20 [16];
-  undefined1 auVar21 [16];
-  undefined1 auVar22 [16];
-  undefined1 auVar23 [16];
-  bool bVar24;
-  ushort uVar25;
-  int iVar26;
-  undefined8 uVar27;
-  ulong uVar28;
-  undefined8 uVar29;
-  ulong uVar30;
-// ... (449 more lines)
-```
-
-## 12. `FUN_01d88c10`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01d88c10`  (offset `0x1d88c10`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01d88c10(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, undefined8 * param_8, undefined8 param_9, undefined2 param_10, byte param_11, ulong param_12, ulong param_13, undefined8 param_14, undefined8 param_15)`
-- **Size / BBs / Incoming:** 796 bytes / 25 bb / 1 incoming refs
-- **Match values:** Scene
-- **Strings touched:** mnu_spirits_directory_battle_high_score_none
-- **Callees:** FUN_03777e50;FUN_032cba80
-- **Files:** [decomp](decompiled/FUN_01d88c10__01d88c10.c)  [cfg](decompiled/FUN_01d88c10__01d88c10.mmd)
-- **Clone hash:** `bbf68026658023b2`
-
-```c
-
-void FUN_01d88c10(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],undefined8 *param_8,undefined8 param_9,undefined2 param_10,
-                 byte param_11,ulong param_12,ulong param_13,undefined8 param_14,undefined8 param_15
-                 )
-
-{
-  char cVar1;
-  undefined1 auVar2 [16];
-  ulong *puVar3;
-  ulong uVar4;
-  long lVar5;
+  undefined8 *puVar1;
+  char *pcVar2;
+  undefined8 uVar3;
+  int iVar4;
+  long *plVar5;
   ulong uVar6;
-  char *pcVar7;
-  long lVar8;
-  char local_178 [304];
-  
-  *(byte *)((long)param_8 + 0x355) = param_11 & 1;
-  param_8[0x69] = 0x52ffff0000000000;
-  *(undefined2 *)((long)param_8 + 0x15c) = param_10;
-  *(byte *)((long)param_8 + 0x354) = (byte)param_12 & 1;
-  if (*(char *)(param_8[1] + 0x78) == '\0') {
-    *(undefined4 *)(param_8[1] + 0x68) = 3;
-  }
-  uVar6 = param_12;
-  uVar4 = param_13;
-  auVar2 = FUN_032cba80(param_1,param_2,param_3,param_4,param_5,param_6,param_7,param_8 + 0x1f,
-                        *(long *)*param_8,(ulong *)&DAT_04544850,1,param_12,param_13,param_14,
-                        param_15);
-  auVar2 = FUN_032cba80(auVar2,param_2,param_3,param_4,param_5,param_6,param_7,param_8 + 0x20,
-                        *(long *)*param_8,(ulong *)&DAT_04544858,1,uVar6,uVar4,param_14,param_15);
-  if ((param_13 & 1) == 0) {
-    puVar3 = (ulong *)&DAT_04544868;
-  }
-  else {
-    puVar3 = (ulong *)&DAT_04544860;
-  }
-  FUN_032cba80(auVar2,param_2,param_3,param_4,param_5,param_6,param_7,param_8 + 0x21,
-               *(long *)*param_8,puVar3,1,uVar6,uVar4,param_14,param_15);
-// ... (79 more lines)
-```
-
-## 13. `FUN_01af8d80`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01af8d80`  (offset `0x1af8d80`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01af8d80(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8, uint * param_9)`
-- **Size / BBs / Incoming:** 524 bytes / 35 bb / 1 incoming refs
-- **Match values:** Scene
-- **Callers:** FUN_03367d70
-- **Callees:** FUN_03777c30;FUN_0377ac90;libc_strcmp;FUN_01af5880;PIA_OnPacketReceived;FUN_0377aa30
-- **Files:** [decomp](decompiled/FUN_01af8d80__01af8d80.c)  [cfg](decompiled/FUN_01af8d80__01af8d80.mmd)
-- **Clone hash:** `44f328f1adaca01e`
-
-```c
-
-void FUN_01af8d80(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long param_8,uint *param_9)
-
-{
-  char *pcVar1;
-  long lVar2;
-  char cVar3;
-  undefined1 auVar4 [16];
-  undefined1 auVar5 [16];
-  undefined1 auVar6 [16];
-  bool bVar7;
-  int iVar8;
-  ulong uVar9;
-  byte *pbVar10;
-  uint uVar11;
-  uint uVar12;
-  undefined4 uVar13;
-  undefined4 extraout_s0;
-  undefined4 extraout_s0_00;
-  undefined4 extraout_s0_01;
-  undefined4 extraout_s0_02;
-  undefined4 uVar14;
-  undefined4 extraout_var;
-  undefined4 extraout_var_00;
-  undefined4 extraout_var_01;
-  undefined4 extraout_var_02;
-  undefined8 uVar15;
-  undefined8 extraout_var_03;
-  undefined8 extraout_var_04;
-  undefined8 extraout_var_05;
-  undefined8 extraout_var_06;
-  undefined *local_30;
-  ulong local_28;
-  
-  uVar13 = param_1._0_4_;
-  uVar14 = param_1._4_4_;
-  uVar15 = param_1._8_8_;
-  if ((*(uint *)(param_8 + 0x11c) == *param_9) &&
-// ... (114 more lines)
-```
-
-## 14. `FUN_01a26300`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01a26300`  (offset `0x1a26300`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01a26300(undefined1[16] param_1, undefined1[16] param_2, undefined8 param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8, long param_9)`
-- **Size / BBs / Incoming:** 4172 bytes / 180 bb / 1 incoming refs
-- **Match values:** Scene
-- **Strings touched:** copy_toonlink_cap;room_status_any;get_skill_help_label
-- **Callers:** FUN_01a31120
-- **Callees:** FUN_03779e60;FUN_03776060;FUN_0392dde0;FUN_019e5710;FUN_032d21f0;FUN_037a1dc0;FUN_01a19100;FUN_03776460;FUN_03741360;FUN_01a0e550;FUN_03775c40;FUN_019eb940;FUN_03777f80;FUN_01a24204;PIA_OnPacketReceived;FUN_019fc050;...
-- **Files:** [decomp](decompiled/FUN_01a26300__01a26300.c)  [cfg](decompiled/FUN_01a26300__01a26300.mmd)
-- **Clone hash:** `84905608e47074bd`
-
-```c
-
-/* WARNING: Removing unreachable block (ram,0x01a21a54) */
-/* WARNING: Removing unreachable block (ram,0x01a20f14) */
-/* WARNING: Removing unreachable block (ram,0x01a20c48) */
-/* WARNING: Removing unreachable block (ram,0x01a218bc) */
-/* WARNING: Removing unreachable block (ram,0x01a20824) */
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-void FUN_01a26300(undefined1 param_1 [16],undefined1 param_2 [16],undefined8 param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long param_8,long param_9)
-
-{
-  char cVar1;
-  undefined1 auVar2 [16];
-  undefined1 auVar3 [16];
-  undefined1 auVar4 [16];
-  undefined1 auVar5 [16];
-  undefined1 auVar6 [16];
-  undefined1 auVar7 [16];
-  undefined1 auVar8 [16];
-  undefined1 auVar9 [16];
-  undefined1 auVar10 [16];
-  undefined1 auVar11 [16];
-  undefined1 auVar12 [16];
-  undefined1 auVar13 [16];
-  undefined1 auVar14 [16];
-  undefined1 auVar15 [16];
-  undefined1 auVar16 [16];
-  undefined1 auVar17 [16];
-  undefined1 auVar18 [16];
-  undefined1 auVar19 [16];
-  undefined1 auVar20 [16];
-  undefined1 auVar21 [16];
-  undefined1 auVar22 [16];
-  undefined1 auVar23 [16];
-  undefined1 auVar24 [16];
-  undefined1 auVar25 [16];
-  undefined1 auVar26 [16];
-  undefined1 auVar27 [16];
-// ... (2156 more lines)
-```
-
-## 15. `FUN_01e97cc0`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01e97cc0`  (offset `0x1e97cc0`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01e97cc0(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7)`
-- **Size / BBs / Incoming:** 80 bytes / 1 bb / 0 incoming refs
-- **Match values:** Scene
-- **Callees:** FUN_03777e50;FUN_03776190
-- **Files:** [decomp](decompiled/FUN_01e97cc0__01e97cc0.c)  [cfg](decompiled/FUN_01e97cc0__01e97cc0.mmd)
-- **Clone hash:** `e8492a801a8c6ebc`
-
-```c
-
-void FUN_01e97cc0(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16])
-
-{
-  undefined8 local_48;
-  
-  FUN_03776190(param_1,param_2,param_3,param_4,param_5,param_6,param_7);
-  FUN_03777e50(0x3f800000,local_48,0x4327277);
-  return;
-}
-
-
-```
-
-## 16. `switchD_01ab345c::caseD_0`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01a9729c`  (offset `0x1a9729c`)
-- **Namespace:** `switchD_01ab345c`
-- **Signature:** `undefined __cdecl caseD_0(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7)`
-- **Size / BBs / Incoming:** 5408 bytes / 359 bb / 1 incoming refs
-- **Match values:** Scene
-- **Strings touched:** color_bg_normal
-- **Callees:** FUN_03779e60;FUN_0392dde0;FUN_03783760;FUN_037831e0;FUN_03264430;FUN_03776460;FUN_01ab2900;FUN_01a9f730;FUN_01aa2dd4;f;FUN_03754d70;FUN_01a937a0;FUN_03262df0;FUN_03778180;PIA_OnPacketReceived;FUN_03779c70;...
-- **Files:** [decomp](decompiled/caseD_0__01a9729c.c)  [cfg](decompiled/caseD_0__01a9729c.mmd)
-- **Clone hash:** `b8b7e46696cda914`
-
-```c
-
-/* WARNING: Removing unreachable block (ram,0x01a90f2c) */
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-void switchD_01ab345c::caseD_0
-               (undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-               undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-               undefined1 param_7 [16])
-
-{
-  uint *puVar1;
-  undefined4 *puVar2;
-  int iVar3;
-  undefined1 auVar4 [16];
-  undefined1 auVar5 [16];
-  undefined1 auVar6 [16];
-  undefined1 auVar7 [16];
-  undefined1 auVar8 [16];
-  undefined1 auVar9 [16];
-  undefined1 auVar10 [16];
-  undefined1 auVar11 [16];
-  undefined1 auVar12 [16];
-  undefined1 auVar13 [16];
-  undefined1 auVar14 [16];
-  undefined1 auVar15 [16];
-  undefined1 auVar16 [16];
-  undefined1 auVar17 [16];
-  undefined1 auVar18 [16];
-  undefined1 auVar19 [16];
-  undefined1 auVar20 [16];
-  undefined1 auVar21 [16];
-  undefined1 auVar22 [16];
-  undefined1 auVar23 [16];
-  undefined1 auVar24 [16];
-  undefined1 auVar25 [16];
-  undefined1 auVar26 [16];
-  undefined1 auVar27 [16];
-  undefined1 auVar28 [16];
-  undefined1 auVar29 [16];
-  undefined1 auVar30 [16];
-// ... (1223 more lines)
-```
-
-## 17. `FUN_01cbfb88`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01cbfb88`  (offset `0x1cbfb88`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01cbfb88(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7)`
-- **Size / BBs / Incoming:** 256 bytes / 18 bb / 3 incoming refs
-- **Match values:** Scene
-- **Callers:** FUN_01cbf6b8
-- **Callees:** FUN_037782b0;FUN_03777e50;FUN_03777c30;PIA_OnPacketReceived
-- **Files:** [decomp](decompiled/FUN_01cbfb88__01cbfb88.c)  [cfg](decompiled/FUN_01cbfb88__01cbfb88.mmd)
-- **Clone hash:** `447483a5389144d6`
-
-```c
-
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-void FUN_01cbfb88(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16])
-
-{
-  int iVar1;
-  undefined1 auVar2 [16];
-  ulong uVar3;
-  long lVar4;
-  char *pcVar5;
-  long *plVar6;
   long *plVar7;
-  long *plVar8;
-  long unaff_x19;
-  long unaff_x20;
-  int unaff_w23;
-  long unaff_x24;
-  undefined4 extraout_s0;
-  undefined4 extraout_s0_00;
-  undefined4 uVar9;
-  undefined4 extraout_var;
-  undefined4 extraout_var_00;
-  undefined4 uVar10;
-  undefined8 extraout_var_01;
-  undefined8 extraout_var_02;
-  undefined8 uVar11;
-  ulong in_stack_00000010;
-  
-  *(int *)(unaff_x20 + unaff_x24 * 0x18 + 0x1b4) = unaff_w23;
-  if (unaff_w23 == 1) {
-    iVar1 = *(int *)(unaff_x20 + 0xb20);
-    FUN_03777c30(param_1,param_2,param_3,param_4,param_5,param_6,param_7);
-    if (*(long **)(in_stack_00000010 + 8) == (long *)0x0) {
-      uVar3 = 0;
-      uVar9 = extraout_s0;
-      uVar10 = extraout_var;
-      uVar11 = extraout_var_01;
-// ... (51 more lines)
+  undefined ***pppuVar8;
+  ulong uVar9;
+  long *plVar10;
+  char *pcVar11;
+  long ****pppplVar12;
+  long *********ppppppppplVar13;
+  int *piVar14;
+  undefined8 uVar15;
+  byte ****ppppbVar16;
+  undefined4 uVar17;
+  long lVar18;
+  byte *pbVar19;
+  code *pcVar20;
+  undefined4 uVar21;
+  uint uVar22;
+  long lVar23;
+  uint uVar24;
+  long lVar25;
+  ulong uVar26;
+  long lVar27;
+  undefined8 *puVar28;
+  long *plVar29;
+  uint uVar30;
+  float fVar31;
+  undefined8 local_278;
+  undefined **local_260;
+  ulong local_258;
+  undefined **local_250;
+// ... (1398 more lines)
 ```
 
-## 18. `FUN_03958de0`  (hits=1)
+## 4. `FUN_7100427120`  (hits=22)
 - **Symbol:** `(no mangled symbol)`
-- **Address:** `03958de0`  (offset `0x3958de0`)
+- **Address:** `7100427120`  (offset `0x427120`)
 - **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_03958de0(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, ulong * param_8)`
-- **Size / BBs / Incoming:** 5888 bytes / 323 bb / 1 incoming refs
+- **Signature:** `undefined __cdecl FUN_7100427120(void)`
+- **Size / BBs / Incoming:** 1708 bytes / 67 bb / 1 incoming refs
 - **Match values:** Scene
-- **Strings touched:** balloonScore_7650_base;mnu_insert_popup_get;_%02d;attempt to compare %s with %s;<goto %s> at line %d jumps into the scope of local '%s';<jemalloc>: narenas w/ percpuarena beyond limit (%d)
-;CustomBoolean14;E_chara_spring_summer;CustomInteger4;NearClip
-- **Callers:** FUN_03958a00
-- **Callees:** FUN_0395a7f0;FUN_03954100;f;FUN_0395a7a0;FUN_039570a0;FUN_0395aaa0;FUN_0395ab10;FUN_0395a4e0;FUN_0395a9f0;FUN_03958d90;FUN_0392e790;FUN_0395a990;FUN_0395aa50;FUN_0395a670;FUN_0392e8e0;FUN_0392e840;...
-- **Files:** [decomp](decompiled/FUN_03958de0__03958de0.c)  [cfg](decompiled/FUN_03958de0__03958de0.mmd)
-- **Clone hash:** `b1efd03f213fa9f1`
+- **Strings touched:** IngameCallSequenceScene;CharaSelectScene;OptionButtonScene;SpiritsDirectoryScene;SpiritsItemViewScene;SpiritsRaiseScene;SpiritsReturnScene;SpiritsRecallScene;SpiritsBoardSetScene2;SpiritsCampaignMenuScene;set_assist_team_no;SpiritsCampaignOpeningMovieScene;SpiritsCampaignMapScene;SpiritsCampaignSetScene;SpiritsCampaignShopScene;SpiritsCampaignGymScene;SpiritsCampaignSchoolScene;SpiritsCampaignSearchScene;SpiritsCampaignSkillScene;SpiritsCampaignFinalStageSequenceScene;PrizeListScene;UnlockSequenceScene;SpiritsForceReturnScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_7100427120__7100427120.c)  [cfg](../decompiled/FUN_7100427120__7100427120.mmd)
+- **Clone hash:** `1f3f24b59c070bb3`
 
 ```c
 
-void FUN_03958de0(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],ulong *param_8)
+void FUN_7100427120(void)
 
 {
   int iVar1;
+  
+  DAT_7105329958 = 0;
+  DAT_7105329960 = "IngameCallSequenceScene";
+  if (((DAT_71052b9330 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71052b9330), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71052b9330);
+  }
+  DAT_7105329968 = &PTR_PTR_7104f76410;
+  DAT_7105329970 = "CharaSelectScene";
+  if (((DAT_7105328380 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328380), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328380);
+  }
+  DAT_7105329978 = &PTR_PTR_71050b6960;
+  DAT_7105329980 = "OptionButtonScene";
+  if (((DAT_71053292f0 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053292f0), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053292f0);
+  }
+  DAT_7105329988 = &PTR_PTR_71050b8d98;
+  DAT_7105329990 = "SpiritsDirectoryScene";
+  if (((DAT_7105329ad0 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329ad0), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329ad0);
+  }
+  DAT_7105329998 = &PTR_PTR_71050b9ef8;
+  DAT_71053299a0 = "SpiritsItemViewScene";
+  if (((DAT_7105329ad8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329ad8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329ad8);
+  }
+  DAT_71053299a8 = &PTR_PTR_71050b9f00;
+  DAT_71053299b0 = "SpiritsRaiseScene";
+  if (((DAT_7105329858 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329858), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329858);
+  }
+  DAT_71053299b8 = &PTR_PTR_71050b9b60;
+  DAT_71053299c0 = "SpiritsReturnScene";
+  if (((DAT_71053285e8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053285e8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053285e8);
+// ... (82 more lines)
+```
+
+## 5. `FUN_7100427a60`  (hits=19)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7100427a60`  (offset `0x427a60`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7100427a60(void)`
+- **Size / BBs / Incoming:** 1480 bytes / 58 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** SpiritsOrganizationMainScene;SpiritsRaiseScene;SpiritsReturnScene;SpiritsForceReturnScene;SpiritsRecallScene;SpiritsSetScene;SpiritsTestplayScene;CharaSelectScene;SpiritsDirectoryScene;SpiritsItemViewScene;SpiritsFacilityListScene;SpiritsShopListScene;SpiritsCampaignGymScene;SpiritsCampaignSchoolScene;SpiritsCampaignSearchScene;PrizeListScene;SpiritsCampaignShopScene;UnlockSequenceScene;SpiritsDirectoryBattleSequenceScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_7100427a60__7100427a60.c)  [cfg](../decompiled/FUN_7100427a60__7100427a60.mmd)
+- **Clone hash:** `709569f4b352f080`
+
+```c
+
+void FUN_7100427a60(void)
+
+{
+  int iVar1;
+  
+  DAT_7105329bd0 = 0;
+  DAT_7105329bd8 = "SpiritsOrganizationMainScene";
+  if (((DAT_7105329d18 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329d18), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329d18);
+  }
+  DAT_7105329be0 = &PTR_PTR_71050ba3d0;
+  DAT_7105329be8 = "SpiritsRaiseScene";
+  if (((DAT_7105329858 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329858), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329858);
+  }
+  DAT_7105329bf0 = &PTR_PTR_71050b9b60;
+  DAT_7105329bf8 = "SpiritsReturnScene";
+  if (((DAT_71053285e8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053285e8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053285e8);
+  }
+  DAT_7105329c00 = &PTR_PTR_71050b7370;
+  DAT_7105329c08 = "SpiritsForceReturnScene";
+  if (((DAT_71053282d8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053282d8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053282d8);
+  }
+  DAT_7105329c10 = &PTR_PTR_71050b63e0;
+  DAT_7105329c18 = "SpiritsRecallScene";
+  if (((DAT_7105329ae0 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329ae0), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329ae0);
+  }
+  DAT_7105329c20 = &PTR_PTR_71050b9f08;
+  DAT_7105329c28 = "SpiritsSetScene";
+  if (((DAT_7105329d20 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329d20), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329d20);
+  }
+  DAT_7105329c30 = &PTR_PTR_71050ba3d8;
+  DAT_7105329c38 = "SpiritsTestplayScene";
+  if (((DAT_7105329d28 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329d28), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329d28);
+// ... (67 more lines)
+```
+
+## 6. `FUN_71004206a0`  (hits=17)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `71004206a0`  (offset `0x4206a0`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_71004206a0(void)`
+- **Size / BBs / Incoming:** 1328 bytes / 52 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** AmiiboReadFigureScene;AmiiboSelectColorScene;AmiiboEditScene;AmiiboWriteFigureScene;AmiiboTransitionEditScene;CharaMakeSequenceScene;IngameCallSequenceScene;SpiritsForceReturnScene;AmiiboStartJourneyScene;AmiiboPseudoSleepScene;set_assist_team_no;AmiiboReturnJourneyScene;AmiiboResultListScene;AmiiboResultDetailScene;AmiiboJourneyReplayScene;MeleeReplaySequenceScene;PrizeListScene;LoginScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_71004206a0__71004206a0.c)  [cfg](../decompiled/FUN_71004206a0__71004206a0.mmd)
+- **Clone hash:** `767ea7d4ffe1a8d0`
+
+```c
+
+void FUN_71004206a0(void)
+
+{
+  int iVar1;
+  
+  DAT_7105328188 = 0;
+  DAT_7105328190 = "AmiiboReadFigureScene";
+  if (((DAT_71053282b0 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053282b0), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053282b0);
+  }
+  DAT_7105328198 = &PTR_PTR_71050b63b8;
+  DAT_71053281a0 = "AmiiboSelectColorScene";
+  if (((DAT_71053282b8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053282b8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053282b8);
+  }
+  DAT_71053281a8 = &PTR_PTR_71050b63c0;
+  DAT_71053281b0 = "AmiiboEditScene";
+  if (((DAT_71053282c0 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053282c0), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053282c0);
+  }
+  DAT_71053281b8 = &PTR_PTR_71050b63c8;
+  DAT_71053281c0 = "AmiiboWriteFigureScene";
+  if (((DAT_71053282c8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053282c8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053282c8);
+  }
+  DAT_71053281c8 = &PTR_PTR_71050b63d0;
+  DAT_71053281d0 = "AmiiboTransitionEditScene";
+  if (((DAT_71053282d0 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053282d0), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053282d0);
+  }
+  DAT_71053281d8 = &PTR_PTR_71050b63d8;
+  DAT_71053281e0 = "CharaMakeSequenceScene";
+  if (((DAT_7105328078 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328078), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328078);
+  }
+  DAT_71053281e8 = &PTR_PTR_71050b59a8;
+  DAT_71053281f0 = "IngameCallSequenceScene";
+  if (((DAT_71052b9330 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71052b9330), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71052b9330);
+// ... (57 more lines)
+```
+
+## 7. `FUN_7101f45620`  (hits=13)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7101f45620`  (offset `0x1f45620`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7101f45620(undefined8 param_1, undefined8 param_2, long * * * * param_3, byte * * * * param_4, long * * * * param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)`
+- **Size / BBs / Incoming:** 168788 bytes / 794 bb / 1 incoming refs
+- **Match values:** SCENE;scene
+- **Strings touched:** ItemManager;get_num_of_ownered_item;get_num_of_active_item_all;get_active_item;find_active_item_from_id;find_active_item_from_area_id;remove_item_from_id;is_change_fighter_restart_position;ItemParamAccessor;boss_common_param_int;is_valid_self_param;get_self_param_float;get_self_param_int;GimmickEventPresenter;dispatch_event_from_fighter;StageManager;stage_all_stop;is_discretion_final_enabled;BossManager;is_stoppable_se;notify_on_boss_defeat;notify_on_boss_keyoff_bgm;notify_on_boss_dead;sv_set_status_func;sv_set_status_func_str;Weapon;get_founder_id;get_pocket_founder_id;WeaponKineticEnergyGravity;set_accel;set_speed;get_limit_speed;...
+- **Callers:** FUN_71022b7100
+- **Callees:** FUN_71000001c0;FUN_7101f87300;FUN_7101f89130;FUN_7101f89310;FUN_7101f94540;FUN_7101f95230;FUN_7102123d40;FUN_71021368b0;FUN_7102137e70;FUN_71021408e0;FUN_7102144140;FUN_7102146bf0;FUN_710214a020;FUN_710214fdf0;FUN_7102151c30;FUN_71021539b0;...
+- **Files:** [decomp](../decompiled/FUN_7101f45620__7101f45620.c)  [cfg](../decompiled/FUN_7101f45620__7101f45620.mmd)
+- **Clone hash:** `47a872489deece59`
+
+```c
+
+void FUN_7101f45620(undefined8 param_1,undefined8 param_2,long ****param_3,byte ****param_4,
+                   long ****param_5,undefined8 param_6,undefined8 param_7,undefined8 param_8)
+
+{
+  int iVar1;
+  long *plVar2;
+  undefined8 *puVar3;
+  size_t sVar4;
+  ulong uVar5;
   undefined8 extraout_x1;
   undefined8 extraout_x1_00;
   undefined8 extraout_x1_01;
   undefined8 extraout_x1_02;
   undefined8 extraout_x1_03;
   undefined8 extraout_x1_04;
+  undefined8 uVar6;
   undefined8 extraout_x1_05;
   undefined8 extraout_x1_06;
-  undefined8 extraout_x1_07;
-  undefined8 extraout_x1_08;
-  undefined8 extraout_x1_09;
-  undefined8 *puVar2;
-  char *pcVar3;
-  ulong *puVar4;
-  undefined8 uVar5;
-  code *pcVar6;
-  ulong *puVar7;
-  undefined8 uVar8;
-  ulong *puVar9;
-  char *in_x5;
-  undefined8 in_x6;
-  ulong *in_x7;
-  ulong extraout_x8;
-  ulong extraout_x8_00;
-  ulong extraout_x8_01;
-  ulong extraout_x8_02;
-  ulong extraout_x8_03;
-  ulong extraout_x8_04;
-  ulong extraout_x8_05;
-  ulong extraout_x8_06;
-  ulong extraout_x8_07;
-  ulong extraout_x8_08;
-  ulong extraout_x8_09;
-// ... (950 more lines)
-```
-
-## 19. `FUN_00407f80`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `00407f80`  (offset `0x407f80`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_00407f80(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, undefined8 param_8, undefined8 param_9, size_t param_10, undefined8 param_11, undefined8 param_12, undefined8 param_13, undefined8 param_14, undefined8 param_15)`
-- **Size / BBs / Incoming:** 3336 bytes / 111 bb / 0 incoming refs
-- **Match values:** Scene
-- **Strings touched:** _%02d;dys_yoga04_04_set
-- **Callees:** FUN_0055c960;f;FUN_000002c0;PIA_OnPacketReceived
-- **Files:** [decomp](decompiled/FUN_00407f80__00407f80.c)  [cfg](decompiled/FUN_00407f80__00407f80.mmd)
-- **Clone hash:** `5055b5ab95ee8adf`
-
-```c
-
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-void FUN_00407f80(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],undefined8 param_8,undefined8 param_9,size_t param_10,
-                 undefined8 param_11,undefined8 param_12,undefined8 param_13,undefined8 param_14,
-                 undefined8 param_15)
-
-{
-  undefined1 auVar1 [16];
-  undefined4 local_d98 [2];
-  byte local_d90;
-  undefined7 uStack_d8f;
-  undefined1 local_d88;
-  undefined1 uStack_d87;
-  undefined6 uStack_d86;
-  ulong local_d80;
-  uint local_d78 [2];
-  byte local_d70;
-  char acStack_d6f [5];
-  undefined2 uStack_d6a;
-  char local_d68;
-  char acStack_d67 [5];
-  undefined1 uStack_d62;
-  undefined1 uStack_d61;
-  ulong local_d60;
-  uint local_d58 [2];
-  byte local_d50;
-  undefined7 uStack_d4f;
-  char local_d48;
-  undefined4 uStack_d47;
-  undefined1 uStack_d43;
-  undefined2 uStack_d42;
-  ulong local_d40;
-  uint local_d38 [2];
-  byte local_d30;
-  char acStack_d2f [6];
-  undefined2 uStack_d29;
-  char acStack_d27 [6];
-// ... (676 more lines)
-```
-
-## 20. `switchD_01bbc0a0::caseD_2`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01c90c00`  (offset `0x1c90c00`)
-- **Namespace:** `switchD_01bbc0a0`
-- **Signature:** `undefined __cdecl caseD_2(void)`
-- **Size / BBs / Incoming:** 772 bytes / 44 bb / 1 incoming refs
-- **Match values:** Scene
-- **Strings touched:** mnu_insert_popup_get
-- **Callees:** FUN_037782b0;FUN_03777e50
-- **Files:** [decomp](decompiled/caseD_2__01c90c00.c)  [cfg](decompiled/caseD_2__01c90c00.mmd)
-- **Clone hash:** `0159a8fcfeaacd18`
-
-```c
-
-void switchD_01bbc0a0::caseD_2(void)
-
-{
-  long lVar1;
-  char *pcVar2;
-  uint in_w8;
-  byte bVar3;
-  uint uVar4;
-  long in_x9;
-  ulong uVar5;
-  byte *pbVar6;
-  byte bVar7;
-  undefined8 in_x10;
-  ulong in_x11;
-  char cVar8;
-  uint uVar9;
-  long unaff_x22;
-  long unaff_x29;
-  char in_stack_00000070;
-  uint uStack0000000000000078;
-  undefined4 uStack000000000000007c;
-  byte in_stack_00000080;
-  uint uStack00000000000000c0;
-  undefined4 uStack00000000000000c4;
-  byte in_stack_000000c8;
-  undefined8 uStack0000000000000110;
-  ulong uStack0000000000000118;
-  undefined8 uStack0000000000000120;
-  undefined2 uStack0000000000000128;
-  
-  uStack0000000000000118 = in_x11 & 0xffffffffffff | 0x696c000000000000;
-  uStack0000000000000120 = 0x5f6d6f6f725f656e;
-  uStack0000000000000128 = 0x6f66;
-  *(undefined8 *)(in_x9 + 0x1a) = 0x6d6165745f6d72;
-  uVar9 = 0x6d;
-  pbVar6 = (byte *)((long)register0x00000008 + 0x119);
-  uVar4 = in_w8;
-  do {
-    uVar4 = uVar4 * 0x89 ^ uVar9;
-// ... (130 more lines)
-```
-
-## 21. `FUN_00043020`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `00043020`  (offset `0x43020`)
-- **Namespace:** `Global`
-- **Signature:** `ulong __cdecl FUN_00043020(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8, int * param_9, long param_10, int param_11)`
-- **Size / BBs / Incoming:** 560 bytes / 30 bb / 1 incoming refs
-- **Match values:** Scene
-- **Callees:** f
-- **Files:** [decomp](decompiled/FUN_00043020__00043020.c)  [cfg](decompiled/FUN_00043020__00043020.mmd)
-- **Clone hash:** `0a050741a5754244`
-
-```c
-
-/* WARNING: Type propagation algorithm not settling */
-
-ulong FUN_00043020(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                  undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                  undefined1 param_7 [16],long param_8,int *param_9,long param_10,int param_11)
-
-{
-  long lVar1;
-  char *pcVar2;
-  long lVar3;
-  ushort uVar4;
-  uint uVar5;
-  char cVar6;
-  ushort uVar7;
-  uint uVar8;
-  bool bVar9;
-  int iVar10;
-  char *pcVar11;
+  code *pcVar7;
+  byte ****ppppbVar8;
+  long lVar9;
+  long **pplVar10;
+  long ***ppplVar11;
   long lVar12;
-  ulong uVar13;
-  long lVar14;
-  
-  uVar7 = *(ushort *)(*(long *)(param_8 + 8) + 6);
-  iVar10 = *param_9;
-  bVar9 = *(int *)(param_8 + 0x30) == 0;
-  uVar13 = 0;
-  uVar4 = uVar7 >> 8 | uVar7 << 8;
-  if (!bVar9) {
-    uVar4 = uVar7;
-  }
-  if ((0 < param_11) && (iVar10 < (short)uVar4)) {
-    uVar13 = 0;
-    lVar14 = param_10;
-    do {
-      uVar5 = *(uint *)(*(long *)(param_8 + 0x18) + (long)iVar10 * 0x10 + 4);
-      uVar8 = (uVar5 & 0xff00ff00) >> 8 | (uVar5 & 0xff00ff) << 8;
-      uVar8 = uVar8 >> 0x10 | uVar8 << 0x10;
-      if (!bVar9) {
-        uVar8 = uVar5;
-// ... (75 more lines)
-```
-
-## 22. `FUN_01cda54c`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01cda54c`  (offset `0x1cda54c`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01cda54c(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, undefined8 param_8, uint param_9, long param_10)`
-- **Size / BBs / Incoming:** 492 bytes / 35 bb / 0 incoming refs
-- **Match values:** Scene
-- **Strings touched:** mnu_insert_popup_get
-- **Callees:** FUN_03777e50;f;FUN_03779dd0;PIA_OnPacketReceived;FUN_03776460
-- **Files:** [decomp](decompiled/FUN_01cda54c__01cda54c.c)  [cfg](decompiled/FUN_01cda54c__01cda54c.mmd)
-- **Clone hash:** `2b8d8605390059d5`
-
-```c
-
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-void FUN_01cda54c(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],undefined8 param_8,uint param_9,long param_10)
-
-{
-  ulong uVar1;
-  undefined1 auVar2 [16];
-  undefined1 auVar3 [16];
-  char *pcVar4;
-  long lVar5;
-  ulong uVar6;
-  long *plVar7;
-  long *plVar8;
-  ulong uVar9;
-  ulong uVar10;
-  ulong uVar11;
-  undefined4 extraout_s0;
-  undefined4 extraout_s0_00;
-  undefined4 extraout_var;
-  undefined4 extraout_var_00;
-  undefined8 extraout_var_01;
-  undefined8 extraout_var_02;
-  undefined8 *puStack0000000000000000;
-  ulong in_stack_00000008;
-  
-  lVar5 = _DAT_05323fd8;
-  if ((DAT_05323fd0 & 1) == 0) {
-                    /* WARNING: Subroutine does not return */
-    f(*(ulong *)(_DAT_05323fd8 + 8),param_1,param_2,param_3,param_4,param_5,param_6,param_7);
-  }
-  FUN_03776460(param_1,param_2,param_3,param_4,param_5,param_6,param_7);
-  auVar2._4_4_ = extraout_var;
-  auVar2._0_4_ = extraout_s0;
-  auVar2._8_8_ = extraout_var_01;
-  FUN_03779dd0(auVar2,param_2,param_3,param_4,param_5,param_6,param_7,(long)&stack0x00000000);
-  uVar10 = in_stack_00000008;
-  puStack0000000000000000 = &DAT_0523c9a8;
-// ... (76 more lines)
-```
-
-## 23. `FUN_002a4050`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `002a4050`  (offset `0x2a4050`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_002a4050(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8, undefined8 param_9, size_t param_10, undefined8 param_11, undefined8 param_12, undefined8 param_13, undefined8 param_14, undefined8 param_15)`
-- **Size / BBs / Incoming:** 356 bytes / 1 bb / 5 incoming refs
-- **Match values:** Scene
-- **Callers:** FUN_002a8350;FUN_002a5dc0;FUN_002a7100;FUN_002a4530
-- **Callees:** FUN_001dc8a0;FUN_001b3db0;FUN_001b0bb0;FUN_001b6180;FUN_001b61c0;FUN_001dc880;FUN_001b6570;FUN_001dc890
-- **Files:** [decomp](decompiled/FUN_002a4050__002a4050.c)  [cfg](decompiled/FUN_002a4050__002a4050.mmd)
-- **Clone hash:** `d0a8b78478dd6d6f`
-
-```c
-
-void FUN_002a4050(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long param_8,undefined8 param_9,size_t param_10,
-                 undefined8 param_11,undefined8 param_12,undefined8 param_13,undefined8 param_14,
-                 undefined8 param_15)
-
-{
-  long lVar1;
-  undefined8 uVar2;
-  undefined1 auVar3 [16];
-  undefined1 extraout_q0 [16];
-  undefined1 extraout_q0_00 [16];
-  undefined1 extraout_q0_01 [16];
-  undefined1 extraout_q0_02 [16];
-  undefined1 extraout_q0_03 [16];
-  undefined1 extraout_q0_04 [16];
-  undefined1 extraout_q0_05 [16];
-  undefined1 extraout_q0_06 [16];
-  undefined1 extraout_q0_07 [16];
-  undefined1 extraout_q0_08 [16];
-  undefined1 extraout_q0_09 [16];
-  undefined1 extraout_q0_10 [16];
-  undefined1 extraout_q0_11 [16];
-  undefined1 extraout_q0_12 [16];
-  undefined1 extraout_q0_13 [16];
-  undefined1 extraout_q0_14 [16];
-  undefined1 extraout_q0_15 [16];
-  undefined1 extraout_q0_16 [16];
-  undefined1 extraout_q0_17 [16];
-  undefined1 extraout_q0_18 [16];
-  undefined1 extraout_q0_19 [16];
-  undefined1 extraout_q0_20 [16];
-  long lStack_158;
-  char *local_150;
-  
-  auVar3 = FUN_001b6180(&lStack_158);
-  lVar1 = FUN_001b0bb0(auVar3,param_2,param_3,param_4,param_5,param_6,param_7,(long)&lStack_158,
-                       s_set_parts_p_0_d_043bdb83 + 3,param_10,param_11,param_12,param_13,param_14,
-                       param_15);
-// ... (65 more lines)
-```
-
-## 24. `FUN_01af8f90`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01af8f90`  (offset `0x1af8f90`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01af8f90(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8, uint * param_9)`
-- **Size / BBs / Incoming:** 532 bytes / 35 bb / 1 incoming refs
-- **Match values:** Scene
-- **Callers:** FUN_03367ec0
-- **Callees:** FUN_03777c30;FUN_0377ac90;libc_strcmp;FUN_01af5880;PIA_OnPacketReceived;FUN_0377aa30
-- **Files:** [decomp](decompiled/FUN_01af8f90__01af8f90.c)  [cfg](decompiled/FUN_01af8f90__01af8f90.mmd)
-- **Clone hash:** `d674279947293603`
-
-```c
-
-void FUN_01af8f90(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long param_8,uint *param_9)
-
-{
-  char *pcVar1;
-  long lVar2;
-  char cVar3;
-  undefined1 auVar4 [16];
-  undefined1 auVar5 [16];
-  undefined1 auVar6 [16];
-  bool bVar7;
-  int iVar8;
-  ulong uVar9;
-  byte *pbVar10;
-  uint uVar11;
-  uint uVar12;
-  uint *puVar13;
-  undefined4 uVar14;
-  undefined4 extraout_s0;
-  undefined4 extraout_s0_00;
-  undefined4 extraout_s0_01;
-  undefined4 extraout_s0_02;
-  undefined4 uVar15;
-  undefined4 extraout_var;
-  undefined4 extraout_var_00;
-  undefined4 extraout_var_01;
-  undefined4 extraout_var_02;
-  undefined8 uVar16;
-  undefined8 extraout_var_03;
-  undefined8 extraout_var_04;
-  undefined8 extraout_var_05;
-  undefined8 extraout_var_06;
-  undefined *local_40;
-  ulong local_38;
-  
-  uVar14 = param_1._0_4_;
-  uVar15 = param_1._4_4_;
-  uVar16 = param_1._8_8_;
-// ... (116 more lines)
-```
-
-## 25. `FUN_01d97670`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01d97670`  (offset `0x1d97670`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01d97670(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8, undefined8 * param_9)`
-- **Size / BBs / Incoming:** 6580 bytes / 412 bb / 1 incoming refs
-- **Match values:** Scene
-- **Strings touched:** throw
-- **Callees:** FUN_01d99030;f;FUN_01d99420;FUN_0337da70;FUN_01d99260;FUN_03770680;FUN_03771320;FUN_03779c70;PIA_OnPacketReceived;FUN_03776460
-- **Files:** [decomp](decompiled/FUN_01d97670__01d97670.c)  [cfg](decompiled/FUN_01d97670__01d97670.mmd)
-- **Clone hash:** `7ce0bf7f986eda8c`
-
-```c
-
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-void FUN_01d97670(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long param_8,undefined8 *param_9)
-
-{
-  long *plVar1;
-  byte bVar2;
-  byte bVar3;
-  long *plVar4;
-  bool bVar5;
-  char *pcVar6;
-  char *pcVar7;
-  char *pcVar8;
-  undefined8 in_x5;
-  undefined8 in_x6;
-  undefined8 in_x7;
-  undefined2 *puVar9;
-  ulong uVar10;
-  code *pcVar11;
-  uint uVar12;
-  undefined8 uVar13;
-  ulong uVar14;
-  byte *pbVar15;
-  uint uVar16;
-  ulong uVar17;
-  long lVar18;
-  long lVar19;
-  char cVar20;
-  ushort uVar21;
-  ulong uVar22;
-  long *plVar23;
-  uint uVar24;
-  undefined1 auVar25 [16];
-  undefined1 extraout_q0 [16];
-  undefined1 extraout_q0_00 [16];
-  undefined8 local_180;
-  undefined8 local_178;
-// ... (1193 more lines)
-```
-
-## 26. `FUN_01cac800`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01cac800`  (offset `0x1cac800`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01cac800(undefined1[16] param_1, undefined1[16] param_2, undefined1[16] param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8, int * param_9, undefined4 param_10, undefined8 param_11, undefined8 param_12, undefined8 param_13, undefined8 param_14, undefined8 param_15)`
-- **Size / BBs / Incoming:** 3212 bytes / 192 bb / 2 incoming refs
-- **Match values:** Scene
-- **Callers:** FUN_01cf0280
-- **Callees:** FUN_03777e50;FUN_03776190;get_root_view;FUN_0334c320;FUN_03770680;FUN_03771320;FUN_01ce1aa0;FUN_01989b30;FUN_03771480;FUN_01ce0360;FUN_01cdf760;FUN_037718b0;PIA_OnPacketReceived;FUN_037715d0
-- **Files:** [decomp](decompiled/FUN_01cac800__01cac800.c)  [cfg](decompiled/FUN_01cac800__01cac800.mmd)
-- **Clone hash:** `04d5e8d7f234434d`
-
-```c
-
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-void FUN_01cac800(undefined1 param_1 [16],undefined1 param_2 [16],undefined1 param_3 [16],
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long param_8,int *param_9,undefined4 param_10,
-                 undefined8 param_11,undefined8 param_12,undefined8 param_13,undefined8 param_14,
-                 undefined8 param_15)
-
-{
-  long *plVar1;
-  undefined8 *puVar2;
-  long *plVar3;
-  uint uVar4;
-  undefined1 auVar5 [16];
-  undefined1 auVar6 [16];
-  undefined1 auVar7 [16];
-  undefined1 auVar8 [16];
-  undefined1 auVar9 [16];
-  undefined1 auVar10 [16];
-  undefined1 auVar11 [16];
-  undefined1 auVar12 [16];
-  undefined1 auVar13 [16];
-  undefined1 auVar14 [16];
-  undefined1 auVar15 [16];
-  undefined1 auVar16 [16];
-  undefined1 auVar17 [16];
-  undefined1 auVar18 [16];
-  undefined1 auVar19 [16];
-  undefined1 auVar20 [16];
-  undefined1 auVar21 [16];
-  undefined1 auVar22 [16];
-  undefined1 auVar23 [16];
-  undefined1 auVar24 [16];
-  undefined1 auVar25 [16];
-  undefined1 auVar26 [16];
-  undefined1 auVar27 [16];
-  undefined1 auVar28 [16];
-  undefined1 auVar29 [16];
-  undefined1 auVar30 [16];
-// ... (887 more lines)
-```
-
-## 27. `FUN_01cf0970`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01cf0970`  (offset `0x1cf0970`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01cf0970(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8, uint param_9, undefined8 * param_10, ulong param_11, uint * param_12, uint * param_13, ulong param_14, undefined8 param_15)`
-- **Size / BBs / Incoming:** 1220 bytes / 77 bb / 2 incoming refs
-- **Match values:** Scene
-- **Callers:** FUN_01cf0530;FUN_018a76d0
-- **Callees:** FUN_03777e50;FUN_0062dd20;get_root_view;FUN_01cf2320;FUN_0334bf50;FUN_0334c320;FUN_03775ee0;FUN_032f1700;FUN_03777c30;FUN_0334f800;FUN_03290ca0;PIA_OnPacketReceived;FUN_032edac0;f
-- **Files:** [decomp](decompiled/FUN_01cf0970__01cf0970.c)  [cfg](decompiled/FUN_01cf0970__01cf0970.mmd)
-- **Clone hash:** `a53289f387309831`
-
-```c
-
-/* WARNING: Removing unreachable block (ram,0x01cf0cec) */
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-void FUN_01cf0970(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long param_8,uint param_9,undefined8 *param_10,
-                 ulong param_11,uint *param_12,uint *param_13,ulong param_14,undefined8 param_15)
-
-{
-  int *piVar1;
-  ulong *puVar2;
-  undefined1 auVar3 [16];
-  undefined1 auVar4 [16];
-  undefined1 auVar5 [16];
-  undefined1 auVar6 [16];
-  undefined1 auVar7 [16];
-  undefined1 auVar8 [16];
-  undefined1 auVar9 [16];
-  undefined1 auVar10 [16];
-  undefined1 auVar11 [16];
-  short sVar12;
-  int iVar13;
-  undefined8 extraout_x1;
-  ulong uVar14;
-  char *pcVar15;
-  long lVar16;
-  long *plVar17;
-  long lVar18;
-  long *plVar19;
-  ulong uVar20;
-  long *plVar21;
-  long lVar22;
-  long lVar23;
-  ulong uVar24;
-  undefined4 extraout_s0;
-  undefined4 extraout_s0_00;
-  undefined4 extraout_s0_01;
-  undefined4 extraout_s0_02;
-  undefined4 extraout_s0_03;
-// ... (230 more lines)
-```
-
-## 28. `FUN_019a86d0`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `019a86d0`  (offset `0x19a86d0`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_019a86d0(undefined1[16] param_1, undefined1[16] param_2, undefined1[16] param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8)`
-- **Size / BBs / Incoming:** 516 bytes / 24 bb / 0 incoming refs
-- **Match values:** Scene
-- **Callees:** f;FUN_037715d0
-- **Files:** [decomp](decompiled/FUN_019a86d0__019a86d0.c)  [cfg](decompiled/FUN_019a86d0__019a86d0.mmd)
-- **Clone hash:** `d08f19241890c36e`
-
-```c
-
-void FUN_019a86d0(undefined1 param_1 [16],undefined1 param_2 [16],undefined1 param_3 [16],
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long param_8)
-
-{
-  long lVar1;
-  uint uVar2;
-  long *plVar3;
-  int iVar4;
-  ulong uVar5;
-  undefined4 uVar6;
-  float fVar7;
-  
-  fVar7 = param_3._0_4_;
-  if (*(int *)(param_8 + 0x2d4) == 0) {
-    plVar3 = (long *)(param_8 + 0x2e0);
-    *(undefined1 *)(*(long *)(*(long *)**(undefined8 **)(param_8 + 0x20) + 0x600) + 0x4aa) = 1;
-    param_1 = FUN_037715d0(param_1,param_2,param_3,param_4,param_5,param_6,param_7,plVar3,0,0);
-    if (*(int *)(param_8 + 0x2d0) - 0xcU < 3) {
-      (**(code **)(*(long *)*plVar3 + 0x60))((long *)*plVar3,1);
-      param_1 = (**(code **)(*(long *)*plVar3 + 0x70))((long *)*plVar3,1);
-    }
-  }
-  if (*(char *)(*(long *)(param_8 + 0x2e0) + 0x280) == '\0') {
-    iVar4 = *(int *)(*(long *)(param_8 + 0x2e0) + 0x25c);
-    if (iVar4 == -1) {
-      return;
-    }
-    if (iVar4 == 0) goto LAB_019a8758;
-    if (iVar4 != 1) goto LAB_019a8884;
-    *(char **)(param_8 + 0x308) = s_anim_hide_add_0424eba5 + 0xd;
-    *(undefined2 *)(param_8 + 800) = 0x100;
-    uVar5 = (ulong)(int)*(uint *)(param_8 + 0x2cc);
-    *(char **)(param_8 + 0x310) = s_copy_ken_cap_043ac06e + 0xc;
-    if (0x12 < *(uint *)(param_8 + 0x2cc)) goto LAB_019a88d0;
-    *(undefined4 *)(param_8 + uVar5 * 4 + 0x280) = 0x10;
-    if (0x11 < *(int *)(param_8 + 0x2cc)) goto LAB_019a8884;
-    uVar2 = *(int *)(param_8 + 0x2cc) + 1;
-    uVar5 = (ulong)uVar2;
-// ... (50 more lines)
-```
-
-## 29. `switchD_01c216cc::caseD_3`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01c12320`  (offset `0x1c12320`)
-- **Namespace:** `switchD_01c216cc`
-- **Signature:** `undefined __cdecl caseD_3(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8, char param_9, undefined1 * param_10, undefined8 param_11, undefined8 param_12, undefined8 param_13, undefined8 param_14, undefined8 param_15)`
-- **Size / BBs / Incoming:** 408 bytes / 14 bb / 2 incoming refs
-- **Match values:** Scene
-- **Callers:** FUN_01c109f0
-- **Callees:** FUN_037786d0;FUN_03281d00;FUN_03777e50;FUN_03776190;FUN_0062dd20;FUN_0323f2b0;PIA_OnPacketReceived;FUN_03776460
-- **Files:** [decomp](decompiled/caseD_3__01c12320.c)  [cfg](decompiled/caseD_3__01c12320.mmd)
-- **Clone hash:** `794740013ba9ae85`
-
-```c
-
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-void switchD_01c216cc::caseD_3
-               (undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-               undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-               undefined1 param_7 [16],long param_8,char param_9,undefined1 *param_10,
-               undefined8 param_11,undefined8 param_12,undefined8 param_13,undefined8 param_14,
-               undefined8 param_15)
-
-{
-  undefined1 auVar1 [16];
-  undefined1 auVar2 [16];
-  undefined1 auVar3 [16];
-  undefined1 auVar4 [16];
-  undefined1 auVar5 [16];
-  undefined1 auVar6 [16];
-  undefined1 auVar7 [16];
-  undefined1 auVar8 [16];
-  undefined1 auVar9 [16];
-  ulong uVar10;
-  long lVar11;
-  long *plVar12;
-  ulong uVar13;
-  undefined4 extraout_s0;
-  undefined4 extraout_s0_00;
-  undefined4 extraout_s0_01;
-  undefined4 extraout_s0_02;
-  undefined4 extraout_var;
-  undefined4 extraout_var_00;
-  undefined4 extraout_var_01;
-  undefined4 extraout_var_02;
-  undefined8 extraout_var_03;
-  undefined8 extraout_var_04;
-  undefined8 extraout_var_05;
-  undefined8 extraout_var_06;
-  undefined8 local_b8;
-  undefined1 local_b0 [64];
-  undefined8 *local_70;
-  ulong local_68;
-// ... (82 more lines)
-```
-
-## 30. `FUN_01af4e30`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01af4e30`  (offset `0x1af4e30`)
-- **Namespace:** `Global`
-- **Signature:** `long __cdecl FUN_01af4e30(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8, long param_9)`
-- **Size / BBs / Incoming:** 1488 bytes / 108 bb / 1 incoming refs
-- **Match values:** Scene
-- **Callers:** FUN_01af6d90
-- **Callees:** nnsocketResolverSetOption;FUN_03776190;FUN_03777c30;f;FUN_0377ac90;libc_strcmp;FUN_01af5880;PIA_OnPacketReceived;FUN_0377aa30
-- **Files:** [decomp](decompiled/FUN_01af4e30__01af4e30.c)  [cfg](decompiled/FUN_01af4e30__01af4e30.mmd)
-- **Clone hash:** `41b235d801b260c6`
-
-```c
-
-long FUN_01af4e30(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long param_8,long param_9)
-
-{
-  char *pcVar1;
-  char *pcVar2;
-  char cVar3;
-  undefined1 auVar4 [16];
-  undefined1 auVar5 [16];
-  undefined1 auVar6 [16];
-  undefined1 auVar7 [16];
-  undefined1 auVar8 [16];
-  undefined1 auVar9 [16];
-  undefined1 auVar10 [16];
-  undefined1 auVar11 [16];
-  undefined1 auVar12 [16];
-  undefined1 auVar13 [16];
-  bool bVar14;
-  int iVar15;
-  long extraout_x0;
-  long extraout_x0_00;
-  long lVar16;
-  ushort *puVar17;
-  int iVar18;
-  ulong extraout_x8;
-  ushort uVar19;
-  uint uVar20;
-  ulong uVar21;
-  byte *pbVar22;
-  long lVar23;
-  uint uVar24;
-  ulong uVar25;
-  ushort uVar26;
-  uint uVar27;
-  uint *puVar28;
-  undefined4 uVar29;
-  undefined4 extraout_s0;
-  undefined4 extraout_s0_00;
-// ... (378 more lines)
-```
-
-## 31. `FUN_01d963f0`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01d963f0`  (offset `0x1d963f0`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01d963f0(undefined1[16] param_1, undefined1[16] param_2, undefined1[16] param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long * param_8, ulong param_9, undefined8 param_10, undefined8 param_11)`
-- **Size / BBs / Incoming:** 1148 bytes / 71 bb / 6 incoming refs
-- **Match values:** Scene
-- **Strings touched:** _%02d;balloonScore_7650_base;mnu_insert_popup_get;SOUND_TYPE_NUM
-- **Callers:** FUN_01d971a0
-- **Callees:** FUN_03777e50;FUN_03776190;f;FUN_03796000;FUN_03779dd0;FUN_03779c70;PIA_OnPacketReceived;FUN_03776460
-- **Files:** [decomp](decompiled/FUN_01d963f0__01d963f0.c)  [cfg](decompiled/FUN_01d963f0__01d963f0.mmd)
-- **Clone hash:** `e9d17d97d0f1aa19`
-
-```c
-
-/* WARNING: Removing unreachable block (ram,0x01d7e0d0) */
-/* WARNING: Removing unreachable block (ram,0x01d7e100) */
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-void FUN_01d963f0(undefined1 param_1 [16],undefined1 param_2 [16],undefined1 param_3 [16],
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long *param_8,ulong param_9,undefined8 param_10,
-                 undefined8 param_11)
-
-{
-  char cVar1;
-  ushort uVar2;
-  int iVar3;
-  undefined1 auVar4 [16];
-  undefined1 auVar5 [16];
-  undefined1 auVar6 [16];
-  undefined1 auVar7 [16];
-  undefined1 auVar8 [16];
-  undefined1 auVar9 [16];
-  undefined1 auVar10 [16];
-  undefined1 auVar11 [16];
-  undefined1 auVar12 [16];
-  undefined1 auVar13 [16];
-  undefined1 auVar14 [16];
-  undefined1 auVar15 [16];
-  undefined1 auVar16 [16];
-  undefined1 auVar17 [16];
-  undefined1 auVar18 [16];
-  undefined1 auVar19 [16];
-  undefined1 auVar20 [16];
-  undefined1 auVar21 [16];
-  undefined1 auVar22 [16];
-  undefined1 auVar23 [16];
-  undefined1 auVar24 [16];
-  undefined1 auVar25 [16];
-  undefined1 auVar26 [16];
-  undefined1 auVar27 [16];
-  undefined1 auVar28 [16];
-  undefined1 auVar29 [16];
-// ... (1621 more lines)
-```
-
-## 32. `FUN_01b16790`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01b16790`  (offset `0x1b16790`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01b16790(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8, int * param_9, uint param_10, uint param_11)`
-- **Size / BBs / Incoming:** 3804 bytes / 157 bb / 1 incoming refs
-- **Match values:** Scene
-- **Strings touched:** rokona;copy_link_cap
-- **Callers:** FUN_032e9de0
-- **Callees:** FUN_0327cc20;FUN_03777e50;FUN_03776190;FUN_01781270;FUN_0327c890;FUN_032a8fc0;FUN_037a1dc0;FUN_032a7350;FUN_03779dd0;FUN_03776460;FUN_032812f0;FUN_003a4da0;FUN_032a9090;FUN_03257110;FUN_03779c70;FUN_0327d480;...
-- **Files:** [decomp](decompiled/FUN_01b16790__01b16790.c)  [cfg](decompiled/FUN_01b16790__01b16790.mmd)
-- **Clone hash:** `b431a8cd6a79ec7b`
-
-```c
-
-/* WARNING: Removing unreachable block (ram,0x01b175c8) */
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-void FUN_01b16790(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long param_8,int *param_9,uint param_10,uint param_11)
-
-{
-  undefined8 uVar1;
-  int iVar2;
-  char cVar3;
-  undefined1 auVar4 [16];
-  undefined1 auVar5 [16];
-  undefined1 auVar6 [16];
-  undefined1 auVar7 [16];
-  undefined1 auVar8 [16];
-  undefined1 auVar9 [16];
-  undefined1 auVar10 [16];
-  undefined1 auVar11 [16];
-  undefined1 auVar12 [16];
-  undefined1 auVar13 [16];
-  undefined1 auVar14 [16];
-  undefined1 auVar15 [16];
-  undefined1 auVar16 [16];
-  undefined1 auVar17 [16];
-  undefined1 auVar18 [16];
-  undefined1 auVar19 [16];
-  undefined1 auVar20 [16];
-  undefined1 auVar21 [16];
-  undefined1 auVar22 [16];
-  undefined1 auVar23 [16];
-  undefined1 auVar24 [16];
-  undefined1 auVar25 [16];
-  undefined1 auVar26 [16];
-  undefined1 auVar27 [16];
-  undefined1 auVar28 [16];
-  undefined1 auVar29 [16];
-  undefined1 auVar30 [16];
-  undefined1 auVar31 [16];
-// ... (1578 more lines)
-```
-
-## 33. `FUN_0198e230`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `0198e230`  (offset `0x198e230`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_0198e230(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, undefined8 * param_8)`
-- **Size / BBs / Incoming:** 328 bytes / 6 bb / 1 incoming refs
-- **Match values:** Scene
-- **Callers:** FUN_017f9f90
-- **Callees:** FUN_037786d0;FUN_0392dde0;f;FUN_0326a8b0;FUN_0323ee80;FUN_03280a10;FUN_03776460
-- **Files:** [decomp](decompiled/FUN_0198e230__0198e230.c)  [cfg](decompiled/FUN_0198e230__0198e230.mmd)
-- **Clone hash:** `22e8022ac730c984`
-
-```c
-
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-void FUN_0198e230(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],undefined8 *param_8)
-
-{
-  undefined1 auVar1 [16];
-  undefined1 auVar2 [16];
-  uint uVar3;
-  long *plVar4;
-  undefined1 *puVar5;
-  undefined8 uVar6;
-  undefined8 in_x4;
-  undefined8 in_x5;
-  undefined8 in_x6;
-  undefined8 in_x7;
-  long lVar7;
-  undefined1 auVar8 [16];
-  undefined1 auVar9 [16];
-  undefined1 auVar10 [16];
-  undefined1 extraout_q0 [16];
-  undefined1 extraout_q0_00 [16];
-  undefined1 extraout_q0_01 [16];
-  float fVar11;
-  undefined4 uVar12;
-  undefined4 uVar13;
-  undefined8 uVar14;
-  ulong uVar15;
-  long local_c8;
-  
-  uVar13 = param_2._0_4_;
-  uVar12 = param_2._4_4_;
-  uVar6 = param_2._8_8_;
-  lVar7 = *(long *)(_DAT_0532e730 + 8);
-  uVar3 = FUN_03280a10(param_1,param_2,param_3,param_4,param_5,param_6,param_7,
-                       *(long *)(lVar7 + 0x2a8),param_8[0x1f]);
-  uVar15 = 0;
-  lVar7 = *(long *)(*(long *)(lVar7 + 0x2a8) + 8);
-// ... (43 more lines)
-```
-
-## 34. `switchD_01cd46ec::caseD_0`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01cac2a8`  (offset `0x1cac2a8`)
-- **Namespace:** `switchD_01cd46ec`
-- **Signature:** `undefined __cdecl caseD_0(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, undefined8 param_8, int * param_9, long param_10)`
-- **Size / BBs / Incoming:** 184 bytes / 14 bb / 1 incoming refs
-- **Match values:** Scene
-- **Callees:** FUN_03777e50;FUN_01cf2320;FUN_01cf2630;FUN_03777c30;PIA_OnPacketReceived
-- **Files:** [decomp](decompiled/caseD_0__01cac2a8.c)  [cfg](decompiled/caseD_0__01cac2a8.mmd)
-- **Clone hash:** `3ca95d1662d517e4`
-
-```c
-
-void switchD_01cd46ec::caseD_0
-               (undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-               undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-               undefined1 param_7 [16],undefined8 param_8,int *param_9,long param_10)
-
-{
-  undefined1 auVar1 [16];
-  undefined1 auVar2 [16];
-  undefined1 auVar3 [16];
-  ulong uVar4;
-  long unaff_x19;
-  long unaff_x20;
-  undefined4 extraout_s0;
-  undefined4 extraout_s0_00;
-  undefined4 extraout_s0_01;
-  undefined4 uVar5;
-  undefined4 extraout_var;
-  undefined4 extraout_var_00;
-  undefined4 extraout_var_01;
-  undefined4 uVar6;
-  undefined8 extraout_var_02;
-  undefined8 extraout_var_03;
-  undefined8 extraout_var_04;
-  undefined8 uVar7;
-  undefined *puStack0000000000000000;
-  ulong in_stack_00000008;
-  
-  uVar4 = FUN_01cf2630(param_1,param_2,param_3,param_4,param_5,param_6,param_7,param_8,param_9,
-                       param_10);
-  if ((uVar4 & 1) != 0) {
-    *(undefined4 *)(unaff_x20 + 0x26b0) = 1;
-  }
-  if (*(int *)(unaff_x20 + 0x26b0) == 1) {
-    auVar2._4_4_ = extraout_var;
-    auVar2._0_4_ = extraout_s0;
-    auVar2._8_8_ = extraout_var_02;
-    FUN_03777c30(auVar2,param_2,param_3,param_4,param_5,param_6,param_7);
-    if (*(long **)(in_stack_00000008 + 8) == (long *)0x0) {
-      uVar4 = 0;
-// ... (34 more lines)
-```
-
-## 35. `FUN_03906fb0`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `03906fb0`  (offset `0x3906fb0`)
-- **Namespace:** `Global`
-- **Signature:** `undefined8 __cdecl FUN_03906fb0(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, ulong * param_8, undefined8 param_9, long * param_10, char * param_11)`
-- **Size / BBs / Incoming:** 448 bytes / 21 bb / 1 incoming refs
-- **Match values:** Scene
-- **Callers:** FUN_03907590
-- **Callees:** FUN_038f7650;FUN_038f9a80;libc_strlen;FUN_03907c00;FUN_038fe790;FUN_038f4550;f;nnsocketSetLastErrno
-- **Files:** [decomp](decompiled/FUN_03906fb0__03906fb0.c)  [cfg](decompiled/FUN_03906fb0__03906fb0.mmd)
-- **Clone hash:** `4ac8ec16a69d06d9`
-
-```c
-
-undefined8
-FUN_03906fb0(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,undefined1 param_4 [16],
-            undefined1 param_5 [16],undefined1 param_6 [16],undefined1 param_7 [16],ulong *param_8,
-            undefined8 param_9,long *param_10,char *param_11)
-
-{
-  uint uVar1;
-  undefined8 uVar2;
-  bool bVar3;
-  long lVar4;
-  long *extraout_x1;
-  ulong uVar5;
-  ulong uVar6;
-  undefined8 *puVar7;
-  undefined8 *puVar8;
-  undefined1 extraout_q0 [16];
-  undefined1 extraout_q0_00 [16];
-  undefined1 extraout_q0_01 [16];
-  undefined1 auVar9 [16];
-  undefined1 *local_2090;
-  undefined8 local_2088;
-  undefined8 local_2080;
-  ulong *puStack_2078;
-  undefined1 auStack_2070 [8192];
-  undefined8 local_70;
-  undefined8 uStack_68;
-  
-  local_2090 = auStack_2070;
-  local_2080 = 0;
-  local_2088 = 0x2000;
-  puStack_2078 = param_8;
-  if (*param_11 != '\0') {
-    param_1 = FUN_038f9a80(param_1,param_2,param_3,param_4,param_5,param_6,param_7);
-  }
-  for (; (char)*param_10 == ';'; param_10 = (long *)((long)param_10 + 1)) {
-  }
-  if ((char)*param_10 != '\0') {
-    lVar4 = nnsocketSetLastErrno();
-    auVar9 = extraout_q0;
-// ... (46 more lines)
-```
-
-## 36. `FUN_01bd7100`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01bd7100`  (offset `0x1bd7100`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01bd7100(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8, int param_9, undefined1 * param_10, undefined8 param_11, undefined8 param_12, undefined8 param_13, undefined8 param_14, undefined8 param_15)`
-- **Size / BBs / Incoming:** 1968 bytes / 125 bb / 1 incoming refs
-- **Match values:** Scene
-- **Strings touched:** all_in;copy_link_cap;random_monster
-- **Callers:** FUN_01bd44a0
-- **Callees:** FUN_037786d0;FUN_03776190;FUN_0392dde0;FUN_03777c30;FUN_037a1dc0;FUN_0323f2b0;PIA_OnPacketReceived;FUN_03776460;FUN_0377aa30;FUN_01bda320
-- **Files:** [decomp](decompiled/FUN_01bd7100__01bd7100.c)  [cfg](decompiled/FUN_01bd7100__01bd7100.mmd)
-- **Clone hash:** `7f124e60d4458a69`
-
-```c
-
-void FUN_01bd7100(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long param_8,int param_9,undefined1 *param_10,
-                 undefined8 param_11,undefined8 param_12,undefined8 param_13,undefined8 param_14,
-                 undefined8 param_15)
-
-{
-  byte bVar1;
-  undefined1 auVar2 [16];
-  undefined1 auVar3 [16];
-  undefined1 auVar4 [16];
-  undefined1 auVar5 [16];
-  undefined1 auVar6 [16];
-  undefined1 auVar7 [16];
-  undefined1 auVar8 [16];
-  undefined1 auVar9 [16];
-  undefined1 auVar10 [16];
-  undefined1 auVar11 [16];
-  undefined1 auVar12 [16];
-  undefined1 auVar13 [16];
-  undefined1 auVar14 [16];
-  undefined1 auVar15 [16];
-  undefined1 auVar16 [16];
-  undefined1 auVar17 [16];
-  undefined1 auVar18 [16];
-  undefined1 auVar19 [16];
-  undefined1 auVar20 [16];
-  undefined1 auVar21 [16];
-  undefined1 auVar22 [16];
-  undefined1 auVar23 [16];
-  undefined1 auVar24 [16];
-  undefined1 auVar25 [16];
-  undefined1 auVar26 [16];
-  undefined1 auVar27 [16];
-  undefined1 auVar28 [16];
-  undefined1 auVar29 [16];
-  undefined1 auVar30 [16];
-  undefined1 auVar31 [16];
-  undefined1 auVar32 [16];
-// ... (609 more lines)
-```
-
-## 37. `FUN_001d6e70`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `001d6e70`  (offset `0x1d6e70`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_001d6e70(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8)`
-- **Size / BBs / Incoming:** 836 bytes / 41 bb / 1 incoming refs
-- **Match values:** Scene
-- **Callees:** FUN_001b69a0;FUN_001b6b50;FUN_001b44b0;FUN_001b1400
-- **Files:** [decomp](decompiled/FUN_001d6e70__001d6e70.c)  [cfg](decompiled/FUN_001d6e70__001d6e70.mmd)
-- **Clone hash:** `ed6780777a493900`
-
-```c
-
-void FUN_001d6e70(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long param_8)
-
-{
-  bool bVar1;
-  char cVar2;
-  long lVar3;
-  int iVar4;
-  long lVar5;
-  long *plVar6;
-  long lVar7;
-  undefined1 auVar8 [16];
-  ulong local_38;
-  
-  if (*(char *)(param_8 + 0x40) != '\0') {
-    iVar4 = *(int *)(param_8 + 0x38);
-    *(undefined1 *)(param_8 + 0x40) = 0;
-    if (iVar4 != 2) {
-                    /* WARNING: Subroutine does not return */
-      FUN_001b1400(param_1,param_2,param_3,param_4,param_5,param_6,param_7);
-    }
-    goto LAB_001d70cc;
-  }
-  if (*(int *)(param_8 + 0x38) == 0) {
-    if (*DAT_052a5868 == '\0') {
-      param_1 = FUN_001b6b50((long *)&local_38,param_1,param_2,param_3,param_4,param_5,param_6,
-                             param_7);
-    }
-    else {
-      param_1 = FUN_001b69a0(&local_38,param_1,param_2,param_3,param_4,param_5,param_6,param_7,0);
-    }
-    *DAT_052a5870 = local_38;
-    lVar7 = ((local_38 - *(long *)(param_8 + 0x20)) - *(long *)(param_8 + 0x28)) +
-            *(long *)(param_8 + 0x30);
-    lVar5 = *(long *)(param_8 + 0xa0);
-    if (-1 < lVar7) goto LAB_001d6ee0;
-LAB_001d6f78:
-    cVar2 = *(char *)(param_8 + 0xcc);
-// ... (103 more lines)
-```
-
-## 38. `FUN_01af5880`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01af5880`  (offset `0x1af5880`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01af5880(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8, byte param_9, uint param_10)`
-- **Size / BBs / Incoming:** 244 bytes / 16 bb / 5 incoming refs
-- **Match values:** Scene
-- **Callers:** FUN_01af8f90;FUN_01af91b0;FUN_01af61a0;FUN_01af4e30;FUN_01af8d80
-- **Callees:** FUN_03777e50;FUN_03777c30;FUN_0377ac90;PIA_OnPacketReceived;FUN_0377aa30
-- **Files:** [decomp](decompiled/FUN_01af5880__01af5880.c)  [cfg](decompiled/FUN_01af5880__01af5880.mmd)
-- **Clone hash:** `fbbf6762f5618dc8`
-
-```c
-
-void FUN_01af5880(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long param_8,byte param_9,uint param_10)
-
-{
-  undefined1 auVar1 [16];
-  ulong uVar2;
-  char *pcVar3;
-  undefined4 extraout_s0;
-  undefined4 extraout_s0_00;
-  undefined4 uVar4;
-  undefined4 extraout_var;
-  undefined4 extraout_var_00;
-  undefined4 uVar5;
-  undefined8 extraout_var_01;
-  undefined8 extraout_var_02;
-  undefined8 uVar6;
-  undefined *local_40;
-  ulong local_38;
-  
-  if ((&DAT_00002250)[param_8] != '\0') {
-    if ((param_9 & 1) != 0) {
-      if (*(int *)(param_8 + 0xd0) == 0) {
-        pcVar3 = s_set_rep_pic_silhouette_043fffbb + 8;
-      }
-      else {
-        pcVar3 = s_pos_scroll_on_043bd20b + 3;
-      }
-      FUN_03777e50(0x3f800000,*(long *)(**(long **)(param_8 + 0xb8) + 0x10),(long)pcVar3);
-      return;
-    }
-    if ((param_9 & 1) != (&DAT_00002251)[param_8]) {
-      (&DAT_00002251)[param_8] = param_9 & 1;
-      FUN_03777c30(param_1,param_2,param_3,param_4,param_5,param_6,param_7);
-      if ((param_10 & 1) == 0) {
-        FUN_0377ac90((long)&local_40);
-        uVar4 = extraout_s0_00;
-        uVar5 = extraout_var_00;
-        uVar6 = extraout_var_02;
-// ... (22 more lines)
-```
-
-## 39. `FUN_01cddd00`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01cddd00`  (offset `0x1cddd00`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01cddd00(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8, undefined8 param_9, undefined8 param_10, undefined8 param_11, undefined8 param_12, undefined8 param_13, undefined8 param_14, undefined8 param_15, undefined8 param_16, byte param_17)`
-- **Size / BBs / Incoming:** 1832 bytes / 111 bb / 0 incoming refs
-- **Match values:** Scene
-- **Strings touched:** copy_link_cap;ol_flag_icon_off
-- **Callees:** FUN_01cf4220;FUN_02407380;FUN_0334e0b0;f;FUN_03313a70;FUN_01cb1f00;FUN_01cdfd50;FUN_032d6120;FUN_01cb52c0
-- **Files:** [decomp](decompiled/FUN_01cddd00__01cddd00.c)  [cfg](decompiled/FUN_01cddd00__01cddd00.mmd)
-- **Clone hash:** `be31b40e73e1a832`
-
-```c
-
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-void FUN_01cddd00(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long param_8,undefined8 param_9,undefined8 param_10,
-                 undefined8 param_11,undefined8 param_12,undefined8 param_13,undefined8 param_14,
-                 undefined8 param_15,undefined8 param_16,byte param_17)
-
-{
-  ulong *puVar1;
-  ulong *puVar2;
-  char *pcVar3;
-  byte bVar4;
-  char cVar5;
-  bool bVar6;
-  undefined8 uVar7;
-  long lVar8;
-  ulong uVar9;
-  int *piVar10;
-  byte *pbVar11;
-  uint uVar12;
-  ulong *puVar13;
-  ushort *puVar14;
-  ulong *puVar15;
-  long lVar16;
-  long lVar17;
-  uint uVar18;
-  ulong uVar19;
-  uint uVar20;
-  undefined1 extraout_q0 [16];
-  undefined1 extraout_q0_00 [16];
-  undefined1 auVar21 [16];
-  undefined4 in_stack_00000048;
-  undefined8 *in_stack_00000050;
-  long in_stack_00000058;
-  int iStack0000000000000060;
-  undefined1 in_stack_00000068;
-  undefined8 in_stack_00000070;
-  undefined8 in_stack_00000078;
-// ... (402 more lines)
-```
-
-## 40. `FUN_01ce1b40`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01ce1b40`  (offset `0x1ce1b40`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01ce1b40(undefined1[16] param_1, undefined1[16] param_2, undefined1[16] param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8, int param_9, uint param_10, undefined8 param_11, ulong param_12, ulong param_13, undefined8 param_14, undefined8 param_15)`
-- **Size / BBs / Incoming:** 2360 bytes / 123 bb / 2 incoming refs
-- **Match values:** Scene
-- **Strings touched:** copy_link_cap;ol_flag_icon_off
-- **Callers:** FUN_01cf0280
-- **Callees:** FUN_01ce1940;FUN_0392dde0;FUN_0334c320;FUN_032d6120;FUN_03776460;FUN_01ce5240;FUN_037791a0;FUN_03777c30;FUN_01ce0360;FUN_01cdf660;FUN_037718b0;PIA_OnPacketReceived;FUN_01ce2fc0
-- **Files:** [decomp](decompiled/FUN_01ce1b40__01ce1b40.c)  [cfg](decompiled/FUN_01ce1b40__01ce1b40.mmd)
-- **Clone hash:** `da58d21993f592c7`
-
-```c
-
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-void FUN_01ce1b40(undefined1 param_1 [16],undefined1 param_2 [16],undefined1 param_3 [16],
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long param_8,int param_9,uint param_10,undefined8 param_11,
-                 ulong param_12,ulong param_13,undefined8 param_14,undefined8 param_15)
-
-{
-  undefined **ppuVar1;
-  char *pcVar2;
-  undefined8 *puVar3;
-  byte bVar4;
-  undefined1 auVar5 [16];
-  undefined1 auVar6 [16];
-  bool bVar7;
-  ushort uVar8;
-  long *plVar9;
-  size_t sVar10;
-  uint uVar11;
-  ulong uVar12;
   long lVar13;
-  long *plVar14;
-  byte *pbVar15;
-  uint uVar16;
-  int iVar17;
-  long lVar18;
-  long *plVar19;
-  long lVar20;
-  long lVar21;
-  long *plVar22;
-  long *plVar23;
-  long *plVar24;
-  uint uVar25;
-  undefined1 auVar26 [16];
-  undefined1 extraout_q0 [16];
-  undefined1 extraout_q0_00 [16];
-  undefined1 extraout_q0_01 [16];
-  float fVar27;
-  undefined1 auVar28 [12];
-// ... (512 more lines)
-```
-
-## 41. `FUN_01d91920`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01d91920`  (offset `0x1d91920`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01d91920(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8)`
-- **Size / BBs / Incoming:** 896 bytes / 37 bb / 4 incoming refs
-- **Match values:** Scene
-- **Strings touched:** _%02d
-- **Callers:** FUN_0191b580;switchD_0191bf48::caseD_0
-- **Callees:** FUN_025c9770;FUN_03776190;FUN_03796000;FUN_03779dd0;FUN_0395fe10;FUN_01d8d0b0;FUN_01d8d550;PIA_OnPacketReceived;FUN_03776460;FUN_0373b090
-- **Files:** [decomp](decompiled/FUN_01d91920__01d91920.c)  [cfg](decompiled/FUN_01d91920__01d91920.mmd)
-- **Clone hash:** `bf4681ab5315b8b0`
-
-```c
-
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-void FUN_01d91920(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long param_8)
-
-{
-  uint uVar1;
-  undefined8 *puVar2;
-  ushort uVar3;
-  char cVar4;
-  bool bVar5;
-  undefined1 auVar6 [16];
-  undefined1 auVar7 [16];
-  undefined1 auVar8 [16];
-  undefined1 auVar9 [16];
-  undefined1 auVar10 [16];
-  undefined1 auVar11 [16];
-  undefined1 auVar12 [16];
-  undefined1 auVar13 [16];
-  undefined1 auVar14 [16];
+  long ***ppplVar14;
+  uint *__s;
   undefined1 auVar15 [16];
-  undefined1 auVar16 [16];
-  undefined1 auVar17 [16];
-  undefined1 auVar18 [16];
-  undefined1 auVar19 [16];
-  undefined1 auVar20 [16];
-  undefined1 auVar21 [16];
-  ulong uVar22;
-  int iVar23;
-  int iVar24;
-  long *plVar25;
-  ulong uVar26;
-  int *piVar27;
-  long lVar28;
-  ulong uVar29;
-  long lVar30;
-  long lVar31;
-  int iVar32;
-// ... (264 more lines)
-```
-
-## 42. `FUN_01af61a0`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01af61a0`  (offset `0x1af61a0`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01af61a0(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8, int param_9)`
-- **Size / BBs / Incoming:** 352 bytes / 22 bb / 1 incoming refs
-- **Match values:** Scene
-- **Callers:** FUN_01af6d90
-- **Callees:** FUN_03777c30;FUN_0377ac90;FUN_01af5880;PIA_OnPacketReceived;FUN_0377aa30
-- **Files:** [decomp](decompiled/FUN_01af61a0__01af61a0.c)  [cfg](decompiled/FUN_01af61a0__01af61a0.mmd)
-- **Clone hash:** `1f763de9bb890a36`
-
-```c
-
-void FUN_01af61a0(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long param_8,int param_9)
-
-{
-  char *pcVar1;
-  char cVar2;
-  undefined1 auVar3 [16];
-  undefined1 auVar4 [16];
-  ulong uVar5;
-  bool bVar6;
-  undefined4 extraout_s0;
-  undefined4 extraout_s0_00;
-  undefined4 extraout_s0_01;
-  undefined4 uVar7;
-  undefined4 extraout_var;
-  undefined4 extraout_var_00;
-  undefined4 extraout_var_01;
-  undefined4 uVar8;
-  undefined8 extraout_var_02;
-  undefined8 extraout_var_03;
-  undefined8 extraout_var_04;
-  undefined8 uVar9;
-  undefined *local_30;
-  ulong local_28;
+  undefined4 local_84;
+  long ***local_80;
+  undefined8 local_78;
+  int local_70;
   
-  if (*(int *)(param_8 + 0xd0) == param_9) {
-    if (*(int *)(param_8 + 0xd8) == 0) {
-      if ((*(int *)(param_8 + 0x168) != 0) == (bool)(&DAT_00002251)[param_8]) {
-        return;
-      }
-    }
-    else if ((&DAT_00002251)[param_8] == '\x01') {
-      return;
-    }
-  }
-  else {
-    *(int *)(param_8 + 0xd0) = param_9;
-  }
-// ... (63 more lines)
+  if (lib::Singleton<lib::LuaManager>::instance_ != (long *)0x0) goto LAB_7101f456b4;
+  plVar2 = (long *)FUN_710392e290(0x10,8,param_3,param_4,param_5,param_6,param_7,param_8);
+  uVar6 = extraout_x1;
+  if (plVar2 == (long *)0x0) {
+    if (DAT_7105332f00 != (long *)0x0) {
+      local_84 = 0;
+// ... (19486 more lines)
 ```
 
-## 43. `FUN_01d8c830`  (hits=1)
+## 8. `FUN_71004262b0`  (hits=12)
 - **Symbol:** `(no mangled symbol)`
-- **Address:** `01d8c830`  (offset `0x1d8c830`)
+- **Address:** `71004262b0`  (offset `0x4262b0`)
 - **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01d8c830(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8, ulong param_9)`
-- **Size / BBs / Incoming:** 1040 bytes / 43 bb / 2 incoming refs
+- **Signature:** `undefined __cdecl FUN_71004262b0(void)`
+- **Size / BBs / Incoming:** 948 bytes / 37 bb / 1 incoming refs
 - **Match values:** Scene
-- **Strings touched:** eff_appear_hope
-- **Callers:** FUN_01d89e00;FUN_01d910e0
-- **Callees:** FUN_0377a570;FUN_03777e50;FUN_03776190;FUN_03796000;FUN_0339d930;PIA_OnPacketReceived;FUN_03776460
-- **Files:** [decomp](decompiled/FUN_01d8c830__01d8c830.c)  [cfg](decompiled/FUN_01d8c830__01d8c830.mmd)
-- **Clone hash:** `0889273f7e647533`
+- **Strings touched:** OnlineTournamentEntranceScene;CharaSelectScene;OnlineTournamentAmiiboReadScene;set_assist_team_no;PracticeScene;OnlineTournamentTableScene;OnlineTournamentShowRankScene;IngameCallSequenceScene;PrizeListScene;SpiritsForceReturnScene;OnlineTournamentReplaySelectScene;MeleeReplaySequenceScene;UnlockSequenceScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_71004262b0__71004262b0.c)  [cfg](../decompiled/FUN_71004262b0__71004262b0.mmd)
+- **Clone hash:** `32e3fa1e1cd484e1`
 
 ```c
 
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-void FUN_01d8c830(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long param_8,ulong param_9)
-
-{
-  undefined8 *puVar1;
-  ushort uVar2;
-  short sVar3;
-  undefined1 auVar4 [16];
-  undefined1 auVar5 [16];
-  undefined1 auVar6 [16];
-  undefined1 auVar7 [16];
-  undefined1 auVar8 [16];
-  undefined1 auVar9 [16];
-  undefined1 auVar10 [16];
-  undefined1 auVar11 [16];
-  undefined1 auVar12 [16];
-  undefined1 auVar13 [16];
-  undefined1 auVar14 [16];
-  undefined1 auVar15 [16];
-  undefined1 auVar16 [16];
-  undefined1 auVar17 [16];
-  undefined1 auVar18 [16];
-  undefined1 auVar19 [16];
-  undefined1 auVar20 [16];
-  undefined1 auVar21 [16];
-  undefined1 auVar22 [16];
-  undefined1 auVar23 [16];
-  undefined1 auVar24 [16];
-  undefined1 auVar25 [16];
-  undefined1 auVar26 [16];
-  undefined1 auVar27 [16];
-  undefined1 auVar28 [16];
-  undefined1 auVar29 [16];
-  undefined1 auVar30 [16];
-  undefined1 auVar31 [16];
-  undefined1 auVar32 [16];
-// ... (347 more lines)
-```
-
-## 44. `FUN_01ddf360`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01ddf360`  (offset `0x1ddf360`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01ddf360(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, ulong * param_8, undefined8 param_9, undefined8 * param_10, undefined8 * param_11, undefined8 param_12, undefined8 param_13, undefined8 param_14, undefined8 param_15)`
-- **Size / BBs / Incoming:** 1856 bytes / 108 bb / 2 incoming refs
-- **Match values:** Scene
-- **Strings touched:** mnu_insert_popup_get;_%02d
-- **Callers:** FUN_0191b580;switchD_0191bf48::caseD_0
-- **Callees:** FUN_01ddd530;FUN_03777e50;FUN_01ddc860;FUN_0392dde0;FUN_03776190;get_root_view;FUN_03775ee0;FUN_0379db80;FUN_01ddcfa0;FUN_0377a8e0;FUN_037718b0;PIA_OnPacketReceived;f
-- **Files:** [decomp](decompiled/FUN_01ddf360__01ddf360.c)  [cfg](decompiled/FUN_01ddf360__01ddf360.mmd)
-- **Clone hash:** `4fd90bf6be44adc5`
-
-```c
-
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-void FUN_01ddf360(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],ulong *param_8,undefined8 param_9,undefined8 *param_10,
-                 undefined8 *param_11,undefined8 param_12,undefined8 param_13,undefined8 param_14,
-                 undefined8 param_15)
-
-{
-  short *psVar1;
-  ulong uVar2;
-  undefined8 *puVar3;
-  char cVar4;
-  short sVar5;
-  undefined1 auVar6 [16];
-  undefined1 auVar7 [16];
-  undefined1 auVar8 [16];
-  undefined1 auVar9 [16];
-  undefined1 auVar10 [16];
-  undefined1 auVar11 [16];
-  undefined1 auVar12 [16];
-  undefined1 auVar13 [16];
-  undefined1 auVar14 [16];
-  undefined1 auVar15 [16];
-  undefined1 auVar16 [16];
-  undefined1 auVar17 [16];
-  undefined1 auVar18 [16];
-  undefined1 auVar19 [16];
-  undefined1 auVar20 [16];
-  undefined1 auVar21 [16];
-  undefined1 auVar22 [16];
-  undefined1 auVar23 [16];
-  undefined1 auVar24 [16];
-  undefined1 auVar25 [16];
-  undefined1 auVar26 [16];
-  undefined1 auVar27 [16];
-  undefined1 auVar28 [16];
-  undefined1 auVar29 [16];
-  undefined1 auVar30 [16];
-// ... (1093 more lines)
-```
-
-## 45. `FUN_01f35c00`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01f35c00`  (offset `0x1f35c00`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01f35c00(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8, long param_9, ulong * param_10, ulong * param_11, undefined8 param_12, undefined8 param_13, undefined8 param_14, undefined8 param_15)`
-- **Size / BBs / Incoming:** 5972 bytes / 325 bb / 1 incoming refs
-- **Match values:** Scene
-- **Strings touched:** subwindow_%dp_off;copy_link_cap
-- **Callers:** switchD_01f1baac::caseD_0
-- **Callees:** FUN_0376dbc0;FUN_037782b0;FUN_03776190;FUN_037798e0;FUN_03770680;FUN_03775ee0;FUN_03771320;FUN_032cba80;FUN_03776460;FUN_01f3ff20;FUN_01f3e5e0;FUN_03775c40;FUN_03771480;FUN_0337da70;FUN_0377a8e0;FUN_037718b0;...
-- **Files:** [decomp](decompiled/FUN_01f35c00__01f35c00.c)  [cfg](decompiled/FUN_01f35c00__01f35c00.mmd)
-- **Clone hash:** `3715713517241e41`
-
-```c
-
-void FUN_01f35c00(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long param_8,long param_9,ulong *param_10,ulong *param_11,
-                 undefined8 param_12,undefined8 param_13,undefined8 param_14,undefined8 param_15)
-
-{
-  undefined8 *puVar1;
-  undefined8 *puVar2;
-  uint uVar3;
-  ulong uVar4;
-  long *plVar5;
-  size_t sVar6;
-  char *pcVar7;
-  undefined8 **ppuVar8;
-  undefined8 uVar9;
-  long lVar10;
-  code *pcVar11;
-  code *pcVar12;
-  long lVar13;
-  long lVar14;
-  long lVar15;
-  long *plVar16;
-  ulong uVar17;
-  long *plVar18;
-  undefined1 auVar19 [16];
-  undefined1 extraout_q0 [16];
-  undefined8 *local_1d0;
-  ulong local_1c8;
-  undefined8 *local_1c0;
-  long *local_1b8;
-  undefined8 *local_1b0;
-  long *local_1a8;
-  undefined8 *local_1a0;
-  undefined8 *local_198;
-  undefined4 local_190;
-  undefined2 local_18c;
-  undefined1 local_18a;
-  undefined8 local_188;
-  undefined4 local_180;
-// ... (1072 more lines)
-```
-
-## 46. `FUN_01a59040`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01a59040`  (offset `0x1a59040`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01a59040(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long param_8, int param_9)`
-- **Size / BBs / Incoming:** 1176 bytes / 65 bb / 1 incoming refs
-- **Match values:** Scene
-- **Callers:** switchD_01a5f8b8::caseD_1
-- **Callees:** FUN_03777e50;FUN_003a4da0;FUN_037a1dc0;PIA_OnPacketReceived;FUN_03776460;FUN_01a588e0
-- **Files:** [decomp](decompiled/FUN_01a59040__01a59040.c)  [cfg](decompiled/FUN_01a59040__01a59040.mmd)
-- **Clone hash:** `d545b3a3266990fc`
-
-```c
-
-/* WARNING: Removing unreachable block (ram,0x01a591d8) */
-/* WARNING: Removing unreachable block (ram,0x01a592f8) */
-
-void FUN_01a59040(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long param_8,int param_9)
-
-{
-  long *plVar1;
-  long lVar2;
-  byte *pbVar3;
-  ulong uVar4;
-  uint uVar5;
-  uint uVar6;
-  byte bVar7;
-  uint uVar8;
-  undefined1 auVar9 [16];
-  uint local_f0;
-  undefined4 uStack_ec;
-  byte local_e8 [64];
-  undefined8 local_a8;
-  undefined8 local_a0;
-  long local_58;
-  
-  if (*(int *)(param_8 + 0xac) == param_9) {
-    return;
-  }
-  *(int *)(param_8 + 0xac) = param_9;
-  if (param_9 != 3) {
-    *(undefined1 *)(param_8 + 0xc0) = 1;
-  }
-  auVar9 = FUN_03776460(param_1,param_2,param_3,param_4,param_5,param_6,param_7);
-  if (*(long **)(local_58 + 0x10) != (long *)0x0) {
-    local_a8 = (undefined8 *)((ulong)local_a8 & 0xffffffff00000000);
-    FUN_037a1dc0(auVar9,param_2,param_3,param_4,param_5,param_6,param_7,*(long **)(local_58 + 0x10),
-                 (ushort *)&local_a8,0,0);
-  }
-  auVar9 = FUN_01a588e0(param_8,param_9);
-  auVar9 = FUN_03776460(auVar9,param_2,param_3,param_4,param_5,param_6,param_7);
-// ... (214 more lines)
-```
-
-## 47. `FUN_01cd75f0`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01cd75f0`  (offset `0x1cd75f0`)
-- **Namespace:** `Global`
-- **Signature:** `long * __cdecl FUN_01cd75f0(undefined1[16] param_1, undefined1[16] param_2, undefined1[16] param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long * param_8, ulong param_9, undefined * param_10, char * param_11, undefined8 * param_12, char * param_13, char * param_14, undefined8 param_15, undefined8 * param_16, long * param_17, undefined8 * param_18, long * param_19, undefined8 * param_20, ulong param_21, long param_22, undefined8 param_23, undefined8 param_24, undefined8 param_25, long * param_26, undefined8 param_27, undefined8 * param_28, undefined * param_29, ulong param_30, undefined8 param_31, undefined8 param_32, undefined8 param_33, ulong param_34, undefined8 param_35, undefined8 param_36, undefined8 param_37, long * param_38)`
-- **Size / BBs / Incoming:** 7464 bytes / 446 bb / 0 incoming refs
-- **Match values:** Scene
-- **Strings touched:** baln_clr_r
-- **Callees:** FUN_03777e50;FUN_01989b30;FUN_03771480;FUN_03770680;FUN_03771320;FUN_037718b0;PIA_OnPacketReceived;FUN_037715d0
-- **Files:** [decomp](decompiled/FUN_01cd75f0__01cd75f0.c)  [cfg](decompiled/FUN_01cd75f0__01cd75f0.mmd)
-- **Clone hash:** `6acc00fff8b67b74`
-
-```c
-
-/* WARNING: Removing unreachable block (ram,0x01cd5d94) */
-/* WARNING: Removing unreachable block (ram,0x01cd5de8) */
-/* WARNING: Type propagation algorithm not settling */
-/* WARNING: Globals starting with '_' overlap smaller symbols at the same address */
-
-long * FUN_01cd75f0(undefined1 param_1 [16],undefined1 param_2 [16],undefined1 param_3 [16],
-                   undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                   undefined1 param_7 [16],long *param_8,ulong param_9,undefined *param_10,
-                   char *param_11,undefined8 *param_12,char *param_13,char *param_14,
-                   undefined8 param_15,undefined8 *param_16,long *param_17,undefined8 *param_18,
-                   long *param_19,undefined8 *param_20,ulong param_21,long param_22,
-                   undefined8 param_23,undefined8 param_24,undefined8 param_25,long *param_26,
-                   undefined8 param_27,undefined8 *param_28,undefined *param_29,ulong param_30,
-                   undefined8 param_31,undefined8 param_32,undefined8 param_33,ulong param_34,
-                   undefined8 param_35,undefined8 param_36,undefined8 param_37,long *param_38)
-
-{
-  short sVar1;
-  int iVar2;
-  char cVar3;
-  undefined1 auVar4 [16];
-  undefined1 auVar5 [16];
-  undefined1 auVar6 [16];
-  undefined1 auVar7 [16];
-  undefined1 auVar8 [16];
-  undefined1 auVar9 [16];
-  undefined1 auVar10 [16];
-  undefined1 auVar11 [16];
-  undefined1 auVar12 [16];
-  undefined1 auVar13 [16];
-  undefined1 auVar14 [16];
-  undefined1 auVar15 [16];
-  undefined1 auVar16 [16];
-  undefined1 auVar17 [16];
-  undefined1 auVar18 [16];
-  undefined1 auVar19 [16];
-  undefined1 auVar20 [16];
-  undefined1 auVar21 [16];
-  undefined1 auVar22 [16];
-// ... (3672 more lines)
-```
-
-## 48. `FUN_01ee43f0`  (hits=1)
-- **Symbol:** `(no mangled symbol)`
-- **Address:** `01ee43f0`  (offset `0x1ee43f0`)
-- **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01ee43f0(long param_1)`
-- **Size / BBs / Incoming:** 204 bytes / 8 bb / 1 incoming refs
-- **Match values:** Scene
-- **Callers:** switchD_01f0db80::caseD_0
-- **Callees:** FUN_03777e50
-- **Files:** [decomp](decompiled/FUN_01ee43f0__01ee43f0.c)  [cfg](decompiled/FUN_01ee43f0__01ee43f0.mmd)
-- **Clone hash:** `a35662d25f837421`
-
-```c
-
-void FUN_01ee43f0(long param_1)
+void FUN_71004262b0(void)
 
 {
   int iVar1;
   
-  if (*(int **)(param_1 + 0x480) != (int *)0x0) {
-    iVar1 = **(int **)(param_1 + 0x480);
-    if (iVar1 == 2) {
-      FUN_03777e50(0x3f800000,*(long *)(param_1 + 0x490),0x4329798);
-      return;
-    }
-    if (iVar1 == 1) {
-      FUN_03777e50(0x3f800000,*(long *)(param_1 + 0x490),0x4329798);
-      return;
-    }
-    if (iVar1 == 0) {
-      FUN_03777e50(0x3f800000,*(long *)(param_1 + 0x490),0x4329798);
-      return;
-    }
+  DAT_71053294e0 = 0;
+  DAT_71053294e8 = "OnlineTournamentEntranceScene";
+  if (((DAT_71053295b8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053295b8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053295b8);
   }
-  FUN_03777e50(0x3f800000,*(long *)(param_1 + 0x490),0x43bddd6);
+  DAT_71053294f0 = &PTR_PTR_71050b93b8;
+  DAT_71053294f8 = "CharaSelectScene";
+  if (((DAT_7105328380 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328380), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328380);
+  }
+  DAT_7105329500 = &PTR_PTR_71050b6960;
+  DAT_7105329508 = "OnlineTournamentAmiiboReadScene";
+  if (((DAT_71053295c0 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053295c0), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053295c0);
+  }
+  DAT_7105329510 = &PTR_PTR_71050b93c0;
+  DAT_7105329518 = "PracticeScene";
+  if (((DAT_71053287a8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053287a8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053287a8);
+  }
+  DAT_7105329520 = &PTR_PTR_71050b7890;
+  DAT_7105329528 = "OnlineTournamentTableScene";
+  if (((DAT_71053295c8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053295c8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053295c8);
+  }
+  DAT_7105329530 = &PTR_PTR_71050b93c8;
+  DAT_7105329538 = "OnlineTournamentShowRankScene";
+  if (((DAT_71053295d0 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053295d0), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053295d0);
+  }
+  DAT_7105329540 = &PTR_PTR_71050b93d0;
+  DAT_7105329548 = "IngameCallSequenceScene";
+  if (((DAT_71052b9330 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71052b9330), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71052b9330);
+// ... (32 more lines)
+```
+
+## 9. `FUN_71004258f0`  (hits=11)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `71004258f0`  (offset `0x4258f0`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_71004258f0(void)`
+- **Size / BBs / Incoming:** 872 bytes / 34 bb / 0 incoming refs
+- **Match values:** Scene
+- **Strings touched:** OptionTopScene;OptionButtonScene;OptionLanguageScene;OptionMeleeScene;MeleeRuleScene;CharaSelectScene;OptionSoundScene;StageSelectScene;SoundTestScene;OptionOnlineScene;OptionVideoScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_71004258f0__71004258f0.c)  [cfg](../decompiled/FUN_71004258f0__71004258f0.mmd)
+- **Clone hash:** `f5257f3c74946ea4`
+
+```c
+
+void FUN_71004258f0(void)
+
+{
+  int iVar1;
+  
+  DAT_7105329220 = 0;
+  DAT_7105329228 = "OptionTopScene";
+  if (((DAT_71053292e8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053292e8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053292e8);
+  }
+  DAT_7105329230 = &PTR_PTR_71050b8d90;
+  DAT_7105329238 = "OptionButtonScene";
+  if (((DAT_71053292f0 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053292f0), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053292f0);
+  }
+  DAT_7105329240 = &PTR_PTR_71050b8d98;
+  DAT_7105329248 = "OptionLanguageScene";
+  if (((DAT_71053292f8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053292f8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053292f8);
+  }
+  DAT_7105329250 = &PTR_PTR_71050b8da0;
+  DAT_7105329258 = "OptionMeleeScene";
+  if (((DAT_7105329300 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329300), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329300);
+  }
+  DAT_7105329260 = &PTR_PTR_71050b8da8;
+  DAT_7105329268 = "MeleeRuleScene";
+  if (((DAT_7105324960 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105324960), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105324960);
+  }
+  DAT_7105329270 = &PTR_PTR_71050a42c0;
+  DAT_7105329278 = "CharaSelectScene";
+  if (((DAT_7105328380 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328380), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328380);
+  }
+  DAT_7105329280 = &PTR_PTR_71050b6960;
+  DAT_7105329288 = "OptionSoundScene";
+  if (((DAT_7105329308 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329308), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329308);
+// ... (27 more lines)
+```
+
+## 10. `FUN_7102366d30`  (hits=11)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7102366d30`  (offset `0x2366d30`)
+- **Namespace:** `Global`
+- **Signature:** `undefined8 __cdecl FUN_7102366d30(long param_1, uint * param_2)`
+- **Size / BBs / Incoming:** 708 bytes / 39 bb / 2 incoming refs
+- **Match values:** Scene
+- **Strings touched:** OptionTopScene;OptionButtonScene;OptionLanguageScene;OptionOnlineScene;OptionVideoScene;OptionSoundScene;SoundTestScene;StageSelectScene;OptionMeleeScene;MeleeRuleScene;CharaSelectScene
+- **Callers:** FUN_7102367240;online_melee_event_handler
+- **Callees:** <EXTERNAL>::strcmp
+- **Files:** [decomp](../decompiled/FUN_7102366d30__7102366d30.c)  [cfg](../decompiled/FUN_7102366d30__7102366d30.mmd)
+- **Clone hash:** `c1b33daacc43b0c1`
+
+```c
+
+undefined8 FUN_7102366d30(long param_1,uint *param_2)
+
+{
+  uint uVar1;
+  int iVar2;
+  uint *__s1;
+  undefined4 uVar3;
+  char *pcVar4;
+  
+  __s1 = param_2 + 2;
+  uVar1 = *param_2;
+  if (uVar1 < 0x4d1b6eab) {
+    return 0;
+  }
+  if (uVar1 == 0xe6c44dfe) {
+    iVar2 = strcmp((char *)__s1,"OptionButtonScene");
+    if (iVar2 != 0) {
+      return 0;
+    }
+    *(undefined8 *)(param_1 + 0x10) = 0;
+    *(undefined8 *)(param_1 + 0x18) = 0;
+    *(undefined4 *)(param_1 + 0x158) = 0;
+    *(undefined8 *)(param_1 + 0x160) = 0xffffffff;
+    *(undefined4 *)(param_1 + 0x168) = 0xffffffff;
+    uVar3 = 4;
+    goto LAB_7102366de0;
+  }
+  if (uVar1 == 0x4d1b6eab) {
+    iVar2 = strcmp((char *)__s1,"OptionTopScene");
+    if (iVar2 != 0) {
+      return 0;
+    }
+    *(undefined8 *)(param_1 + 0x10) = 0;
+    *(undefined8 *)(param_1 + 0x18) = 0;
+    *(undefined4 *)(param_1 + 0x158) = 0;
+    *(undefined8 *)(param_1 + 0x160) = 0xffffffff;
+    *(undefined4 *)(param_1 + 0x168) = 0xffffffff;
+    uVar3 = 3;
+    goto LAB_7102366de0;
+// ... (116 more lines)
+```
+
+## 11. `FUN_71020fbb90`  (hits=11)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `71020fbb90`  (offset `0x20fbb90`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_71020fbb90(long param_1, undefined8 param_2, undefined8 param_3, byte * * * * param_4, long * * * * param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)`
+- **Size / BBs / Incoming:** 145300 bytes / 223 bb / 2 incoming refs
+- **Match values:** SCENE
+- **Strings touched:** GF_SCENE_ROOT_LAYER_GROUND;GF_SCENE_ROOT_LAYER_GROUND_AND_CHARA;TRANS_A_JUMP_AERIAL;GF_SCENE_ROOT_LAYER_CHARA;GF_SCENE_ROOT_LAYER_ALL;GF_SCENE_ROOT_LAYER_FIGHTER;GF_SCENE_ROOT_LAYER_STAGE_OBJECT;GF_SCENE_ROOT_LAYER_GROUND2;GF_SCENE_ROOT_LAYER_EFFECT;GF_SCENE_ROOT_LAYER_EFFECT_FIGHTER;GF_SCENE_ROOT_LAYER_SPECIAL_STAGE_OBJECT;GF_SCENE_ROOT_LAYER_EFFECT2D;GF_SCENE_ROOT_LAYER_INFO;GF_SCENE_ROOT_LAYER_MAX;EF_FLIP_NONE;EF_FLIP_AXIS_YZ;EF_FLIP_AXIS_ZX;EF_FLIP_AXIS_XY;EF_FLIP_1;EF_FLIP_2;EF_FLIP_TRANS_X;EF_FLIP_TRANS_Y;EF_FLIP_TRANS_Z;EF_FLIP_ROT_X;EF_FLIP_ROT_Y;EF_FLIP_ROT_Z;EF_FLIP_SCALE_X;EF_FLIP_SCALE_Y;EF_FLIP_SCALE_Z;EF_FLIP_PTCL_X;EF_FLIP_PTCL_Y;EF_FLIP_BITCTRL;...
+- **Callers:** FUN_7102137e70
+- **Callees:** FUN_7103728630;FUN_71037289c0;FUN_71038f55d0
+- **Files:** [decomp](../decompiled/FUN_71020fbb90__71020fbb90.c)  [cfg](../decompiled/FUN_71020fbb90__71020fbb90.mmd)
+- **Clone hash:** `884095f7b78c7d69`
+
+```c
+
+void FUN_71020fbb90(long param_1,undefined8 param_2,undefined8 param_3,byte ****param_4,
+                   long ****param_5,undefined8 param_6,undefined8 param_7,undefined8 param_8)
+
+{
+  byte ****ppppbVar1;
+  long local_78;
+  long local_70;
+  int local_68;
+  
+  local_70 = 0;
+  local_68 = 0xfffffffd;
+  local_78 = param_1;
+  FUN_71037289c0(&local_78,(uint *)"GF_SCENE_ROOT_LAYER_GROUND",(undefined **)0x0,param_4,param_5,
+                 param_6,param_7,param_8);
+  FUN_71037289c0(&local_78,(uint *)"GF_SCENE_ROOT_LAYER_GROUND_AND_CHARA",(undefined **)0x1,param_4,
+                 param_5,param_6,param_7,param_8);
+  FUN_71037289c0(&local_78,(uint *)"GF_SCENE_ROOT_LAYER_CHARA",(undefined **)0x2,param_4,param_5,
+                 param_6,param_7,param_8);
+  FUN_71037289c0(&local_78,(uint *)"GF_SCENE_ROOT_LAYER_ALL",(undefined **)0x3,param_4,param_5,
+                 param_6,param_7,param_8);
+  FUN_71037289c0(&local_78,(uint *)"GF_SCENE_ROOT_LAYER_FIGHTER",(undefined **)0x3,param_4,param_5,
+                 param_6,param_7,param_8);
+  FUN_71037289c0(&local_78,(uint *)"GF_SCENE_ROOT_LAYER_STAGE_OBJECT",(undefined **)0x3,param_4,
+                 param_5,param_6,param_7,param_8);
+  FUN_71037289c0(&local_78,(uint *)"GF_SCENE_ROOT_LAYER_GROUND2",(undefined **)0x3,param_4,param_5,
+                 param_6,param_7,param_8);
+  FUN_71037289c0(&local_78,(uint *)"GF_SCENE_ROOT_LAYER_EFFECT",(undefined **)0x3,param_4,param_5,
+                 param_6,param_7,param_8);
+  FUN_71037289c0(&local_78,(uint *)"GF_SCENE_ROOT_LAYER_EFFECT_FIGHTER",(undefined **)0x3,param_4,
+                 param_5,param_6,param_7,param_8);
+  FUN_71037289c0(&local_78,(uint *)"GF_SCENE_ROOT_LAYER_SPECIAL_STAGE_OBJECT",(undefined **)0x3,
+                 param_4,param_5,param_6,param_7,param_8);
+  FUN_71037289c0(&local_78,(uint *)"GF_SCENE_ROOT_LAYER_EFFECT2D",(undefined **)0x3,param_4,param_5,
+                 param_6,param_7,param_8);
+  FUN_71037289c0(&local_78,(uint *)"GF_SCENE_ROOT_LAYER_INFO",(undefined **)0x3,param_4,param_5,
+                 param_6,param_7,param_8);
+  FUN_71037289c0(&local_78,(uint *)"GF_SCENE_ROOT_LAYER_MAX",(undefined **)&DAT_00000004,param_4,
+                 param_5,param_6,param_7,param_8);
+  local_70 = 0;
+// ... (15385 more lines)
+```
+
+## 12. `FUN_7100421ee0`  (hits=11)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7100421ee0`  (offset `0x421ee0`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7100421ee0(void)`
+- **Size / BBs / Incoming:** 872 bytes / 34 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** OptionOnlineScene;LocalTopScene;LocalModeSelectScene;MeleeRuleScene;SpecialVariousScene;SpiritsBoardScene;MeleeNormalSequenceScene;MeleeTeamCompeSequenceScene;SpiritsBoardSequenceScene;KumiteSequenceScene;UnlockSequenceScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_7100421ee0__7100421ee0.c)  [cfg](../decompiled/FUN_7100421ee0__7100421ee0.mmd)
+- **Clone hash:** `024517ae74c314e8`
+
+```c
+
+void FUN_7100421ee0(void)
+
+{
+  int iVar1;
+  
+  DAT_7105328940 = 0;
+  DAT_7105328948 = "OptionOnlineScene";
+  if (((DAT_7105328a08 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328a08), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328a08);
+  }
+  DAT_7105328950 = &PTR_PTR_71050b7d08;
+  DAT_7105328958 = "LocalTopScene";
+  if (((DAT_7105328a10 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328a10), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328a10);
+  }
+  DAT_7105328960 = &PTR_PTR_71050b7d10;
+  DAT_7105328968 = "LocalModeSelectScene";
+  if (((DAT_7105328a18 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328a18), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328a18);
+  }
+  DAT_7105328970 = &PTR_PTR_71050b7d18;
+  DAT_7105328978 = "MeleeRuleScene";
+  if (((DAT_7105324960 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105324960), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105324960);
+  }
+  DAT_7105328980 = &PTR_PTR_71050a42c0;
+  DAT_7105328988 = "SpecialVariousScene";
+  if (((DAT_7105328a20 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328a20), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328a20);
+  }
+  DAT_7105328990 = &PTR_PTR_71050b7d20;
+  DAT_7105328998 = "SpiritsBoardScene";
+  if (((DAT_7105328a28 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328a28), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328a28);
+  }
+  DAT_71053289a0 = &PTR_PTR_71050b7d28;
+  DAT_71053289a8 = "MeleeNormalSequenceScene";
+  if (((DAT_7105328010 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328010), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328010);
+// ... (27 more lines)
+```
+
+## 13. `FUN_7100425fe0`  (hits=9)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7100425fe0`  (offset `0x425fe0`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7100425fe0(void)`
+- **Size / BBs / Incoming:** 720 bytes / 28 bb / 0 incoming refs
+- **Match values:** Scene
+- **Strings touched:** OnlineMeleeRoomTopScene;OnlineMeleeRoomScene;MeleeRuleScene;SoundTestScene;StageSelectScene;CharaSelectScene;IngameCallSequenceScene;UnlockSequenceScene;OnlineMeleeRoomChangeRuleScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_7100425fe0__7100425fe0.c)  [cfg](../decompiled/FUN_7100425fe0__7100425fe0.mmd)
+- **Clone hash:** `9ecb72819a94ee11`
+
+```c
+
+void FUN_7100425fe0(void)
+
+{
+  int iVar1;
+  
+  DAT_7105329420 = 0;
+  DAT_7105329428 = "OnlineMeleeRoomTopScene";
+  if (((DAT_71053294c8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053294c8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053294c8);
+  }
+  DAT_7105329430 = &PTR_PTR_71050b9248;
+  DAT_7105329438 = "OnlineMeleeRoomScene";
+  if (((DAT_71053294d0 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053294d0), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053294d0);
+  }
+  DAT_7105329440 = &PTR_PTR_71050b9250;
+  DAT_7105329448 = "MeleeRuleScene";
+  if (((DAT_7105324960 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105324960), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105324960);
+  }
+  DAT_7105329450 = &PTR_PTR_71050a42c0;
+  DAT_7105329458 = "SoundTestScene";
+  if (((DAT_7105329310 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329310), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329310);
+  }
+  DAT_7105329460 = &PTR_PTR_71050b8db8;
+  DAT_7105329468 = "StageSelectScene";
+  if (((DAT_7105328660 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328660), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328660);
+  }
+  DAT_7105329470 = &PTR_PTR_71050b7478;
+  DAT_7105329478 = "CharaSelectScene";
+  if (((DAT_7105328380 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328380), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328380);
+  }
+  DAT_7105329480 = &PTR_PTR_71050b6960;
+  DAT_7105329488 = "IngameCallSequenceScene";
+  if (((DAT_71052b9330 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71052b9330), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71052b9330);
+// ... (17 more lines)
+```
+
+## 14. `FUN_7100428200`  (hits=8)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7100428200`  (offset `0x428200`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7100428200(void)`
+- **Size / BBs / Incoming:** 644 bytes / 25 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** CharaSelectScene;IngameCallSequenceScene;PrizeListScene;SpiritsForceReturnScene;StaffRollSequenceScene;StandardAdvanceScene;StandardDifficultyScene;UnlockSequenceScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_7100428200__7100428200.c)  [cfg](../decompiled/FUN_7100428200__7100428200.mmd)
+- **Clone hash:** `95bdf2ad81f04081`
+
+```c
+
+void FUN_7100428200(void)
+
+{
+  int iVar1;
+  
+  DAT_7105329df0 = 0;
+  DAT_7105329df8 = "CharaSelectScene";
+  if (((DAT_7105328380 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328380), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328380);
+  }
+  DAT_7105329e00 = &PTR_PTR_71050b6960;
+  DAT_7105329e08 = "IngameCallSequenceScene";
+  if (((DAT_71052b9330 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71052b9330), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71052b9330);
+  }
+  DAT_7105329e10 = &PTR_PTR_7104f76410;
+  DAT_7105329e18 = "PrizeListScene";
+  if (((DAT_7105328318 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328318), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328318);
+  }
+  DAT_7105329e20 = &PTR_PTR_71050b6420;
+  DAT_7105329e28 = "SpiritsForceReturnScene";
+  if (((DAT_71053282d8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053282d8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053282d8);
+  }
+  DAT_7105329e30 = &PTR_PTR_71050b63e0;
+  DAT_7105329e38 = "StaffRollSequenceScene";
+  if (((DAT_7105329e88 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329e88), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329e88);
+  }
+  DAT_7105329e40 = &PTR_PTR_71050bac08;
+  DAT_7105329e48 = "StandardAdvanceScene";
+  if (((DAT_7105329e90 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329e90), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329e90);
+  }
+  DAT_7105329e50 = &PTR_PTR_71050bac10;
+  DAT_7105329e58 = "StandardDifficultyScene";
+  if (((DAT_7105329e98 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329e98), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329e98);
+// ... (12 more lines)
+```
+
+## 15. `FUN_71004277d0`  (hits=8)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `71004277d0`  (offset `0x4277d0`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_71004277d0(void)`
+- **Size / BBs / Incoming:** 644 bytes / 25 bb / 0 incoming refs
+- **Match values:** Scene
+- **Strings touched:** SpiritsDirectoryScene;SpiritsBoardDirectoryBattleRuleScene;SpiritsBoardSetScene2;CharaSelectScene;SpiritsRaiseScene;IngameCallSequenceScene;SpiritsForceReturnScene;UnlockSequenceScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_71004277d0__71004277d0.c)  [cfg](../decompiled/FUN_71004277d0__71004277d0.mmd)
+- **Clone hash:** `d5fd286d6751bdf8`
+
+```c
+
+void FUN_71004277d0(void)
+
+{
+  int iVar1;
+  
+  DAT_7105329b30 = 0;
+  DAT_7105329b38 = "SpiritsDirectoryScene";
+  if (((DAT_7105329ad0 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329ad0), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329ad0);
+  }
+  DAT_7105329b40 = &PTR_PTR_71050b9ef8;
+  DAT_7105329b48 = "SpiritsBoardDirectoryBattleRuleScene";
+  if (((DAT_7105329bc8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329bc8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329bc8);
+  }
+  DAT_7105329b50 = &PTR_PTR_71050ba288;
+  DAT_7105329b58 = "SpiritsBoardSetScene2";
+  if (((DAT_7105329850 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329850), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329850);
+  }
+  DAT_7105329b60 = &PTR_PTR_71050b9b58;
+  DAT_7105329b68 = "CharaSelectScene";
+  if (((DAT_7105328380 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328380), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328380);
+  }
+  DAT_7105329b70 = &PTR_PTR_71050b6960;
+  DAT_7105329b78 = "SpiritsRaiseScene";
+  if (((DAT_7105329858 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329858), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329858);
+  }
+  DAT_7105329b80 = &PTR_PTR_71050b9b60;
+  DAT_7105329b88 = "IngameCallSequenceScene";
+  if (((DAT_71052b9330 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71052b9330), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71052b9330);
+  }
+  DAT_7105329b90 = &PTR_PTR_7104f76410;
+  DAT_7105329b98 = "SpiritsForceReturnScene";
+  if (((DAT_71053282d8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053282d8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053282d8);
+// ... (12 more lines)
+```
+
+## 16. `FUN_7100421920`  (hits=8)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7100421920`  (offset `0x421920`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7100421920(void)`
+- **Size / BBs / Incoming:** 644 bytes / 25 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** IngameCallSequenceScene;CharaSelectScene;ChallengerUnlockScene;ChallengerApproachScene;CollectionGetterSequenceScene;SpiritsForceReturnScene;ChallengerRoomSequenceScene;StageSelectScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_7100421920__7100421920.c)  [cfg](../decompiled/FUN_7100421920__7100421920.mmd)
+- **Clone hash:** `243180d18c2fa2a1`
+
+```c
+
+void FUN_7100421920(void)
+
+{
+  int iVar1;
+  
+  DAT_71053287d8 = 0;
+  DAT_71053287e0 = "IngameCallSequenceScene";
+  if (((DAT_71052b9330 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71052b9330), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71052b9330);
+  }
+  DAT_71053287e8 = &PTR_PTR_7104f76410;
+  DAT_71053287f0 = "CharaSelectScene";
+  if (((DAT_7105328380 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328380), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328380);
+  }
+  DAT_71053287f8 = &PTR_PTR_71050b6960;
+  DAT_7105328800 = "ChallengerUnlockScene";
+  if (((DAT_7105328390 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328390), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328390);
+  }
+  DAT_7105328808 = &PTR_PTR_71050b6970;
+  DAT_7105328810 = "ChallengerApproachScene";
+  if (((DAT_7105328388 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328388), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328388);
+  }
+  DAT_7105328818 = &PTR_PTR_71050b6968;
+  DAT_7105328820 = "CollectionGetterSequenceScene";
+  if (((DAT_7105328100 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328100), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328100);
+  }
+  DAT_7105328828 = &PTR_PTR_71050b5a30;
+  DAT_7105328830 = "SpiritsForceReturnScene";
+  if (((DAT_71053282d8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053282d8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053282d8);
+  }
+  DAT_7105328838 = &PTR_PTR_71050b63e0;
+  DAT_7105328840 = "ChallengerRoomSequenceScene";
+  if (((DAT_7105328088 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328088), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328088);
+// ... (12 more lines)
+```
+
+## 17. `FUN_71004227b0`  (hits=8)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `71004227b0`  (offset `0x4227b0`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_71004227b0(void)`
+- **Size / BBs / Incoming:** 644 bytes / 25 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** ReplaySetupScene;MeleeReplayNormalSequenceScene;MeleeReplayCompetitionContinuationSequenceScene;ReplayExitScene;ReplayLoadScene;ReplayDownloadScene;HomeRunReplaySequenceScene;IngameCallSequenceScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_71004227b0__71004227b0.c)  [cfg](../decompiled/FUN_71004227b0__71004227b0.mmd)
+- **Clone hash:** `d11670fa631b8641`
+
+```c
+
+void FUN_71004227b0(void)
+
+{
+  int iVar1;
+  
+  DAT_7105328ba8 = 0;
+  DAT_7105328bb0 = "ReplaySetupScene";
+  if (((DAT_7105328c40 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328c40), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328c40);
+  }
+  DAT_7105328bb8 = &PTR_PTR_71050b8240;
+  DAT_7105328bc0 = "MeleeReplayNormalSequenceScene";
+  if (((DAT_7105328c48 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328c48), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328c48);
+  }
+  DAT_7105328bc8 = &PTR_PTR_71050b8248;
+  DAT_7105328bd0 = "MeleeReplayCompetitionContinuationSequenceScene";
+  if (((DAT_7105328c50 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328c50), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328c50);
+  }
+  DAT_7105328bd8 = &PTR_PTR_71050b8250;
+  DAT_7105328be0 = "ReplayExitScene";
+  if (((DAT_7105328c58 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328c58), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328c58);
+  }
+  DAT_7105328be8 = &PTR_PTR_71050b8258;
+  DAT_7105328bf0 = "ReplayLoadScene";
+  if (((DAT_7105328c60 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328c60), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328c60);
+  }
+  DAT_7105328bf8 = &PTR_PTR_71050b8260;
+  DAT_7105328c00 = "ReplayDownloadScene";
+  if (((DAT_7105328c68 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328c68), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328c68);
+  }
+  DAT_7105328c08 = &PTR_PTR_71050b8268;
+  DAT_7105328c10 = "HomeRunReplaySequenceScene";
+  if (((DAT_7105328c70 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328c70), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328c70);
+// ... (12 more lines)
+```
+
+## 18. `FUN_7100426b40`  (hits=7)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7100426b40`  (offset `0x426b40`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7100426b40(void)`
+- **Size / BBs / Incoming:** 568 bytes / 22 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** SpiritsBoardScene;SpiritsBoardSetScene2;CharaSelectScene;SpiritsRaiseScene;IngameCallSequenceScene;SpiritsForceReturnScene;UnlockSequenceScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_7100426b40__7100426b40.c)  [cfg](../decompiled/FUN_7100426b40__7100426b40.mmd)
+- **Clone hash:** `8dbdbfe371df33a5`
+
+```c
+
+void FUN_7100426b40(void)
+
+{
+  int iVar1;
+  
+  DAT_71053297c8 = 0;
+  DAT_71053297d0 = "SpiritsBoardScene";
+  if (((DAT_7105328a28 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328a28), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328a28);
+  }
+  DAT_71053297d8 = &PTR_PTR_71050b7d28;
+  DAT_71053297e0 = "SpiritsBoardSetScene2";
+  if (((DAT_7105329850 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329850), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329850);
+  }
+  DAT_71053297e8 = &PTR_PTR_71050b9b58;
+  DAT_71053297f0 = "CharaSelectScene";
+  if (((DAT_7105328380 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328380), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328380);
+  }
+  DAT_71053297f8 = &PTR_PTR_71050b6960;
+  DAT_7105329800 = "SpiritsRaiseScene";
+  if (((DAT_7105329858 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329858), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329858);
+  }
+  DAT_7105329808 = &PTR_PTR_71050b9b60;
+  DAT_7105329810 = "IngameCallSequenceScene";
+  if (((DAT_71052b9330 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71052b9330), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71052b9330);
+  }
+  DAT_7105329818 = &PTR_PTR_7104f76410;
+  DAT_7105329820 = "SpiritsForceReturnScene";
+  if (((DAT_71053282d8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053282d8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053282d8);
+  }
+  DAT_7105329828 = &PTR_PTR_71050b63e0;
+  DAT_7105329830 = "UnlockSequenceScene";
+  if (((DAT_7105328000 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328000), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328000);
+// ... (7 more lines)
+```
+
+## 19. `FUN_7100422c30`  (hits=7)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7100422c30`  (offset `0x422c30`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7100422c30(void)`
+- **Size / BBs / Incoming:** 568 bytes / 22 bb / 0 incoming refs
+- **Match values:** Scene
+- **Strings touched:** CharaSelectScene;IngameCallSequenceScene;MeleeRuleScene;StageSelectScene;TournamentTableScene;TournamentTableSettingScene;UnlockSequenceScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_7100422c30__7100422c30.c)  [cfg](../decompiled/FUN_7100422c30__7100422c30.mmd)
+- **Clone hash:** `ff49b551fefc2675`
+
+```c
+
+void FUN_7100422c30(void)
+
+{
+  int iVar1;
+  
+  DAT_7105328cf0 = 0;
+  DAT_7105328cf8 = "CharaSelectScene";
+  if (((DAT_7105328380 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328380), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328380);
+  }
+  DAT_7105328d00 = &PTR_PTR_71050b6960;
+  DAT_7105328d08 = "IngameCallSequenceScene";
+  if (((DAT_71052b9330 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71052b9330), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71052b9330);
+  }
+  DAT_7105328d10 = &PTR_PTR_7104f76410;
+  DAT_7105328d18 = "MeleeRuleScene";
+  if (((DAT_7105324960 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105324960), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105324960);
+  }
+  DAT_7105328d20 = &PTR_PTR_71050a42c0;
+  DAT_7105328d28 = "StageSelectScene";
+  if (((DAT_7105328660 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328660), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328660);
+  }
+  DAT_7105328d30 = &PTR_PTR_71050b7478;
+  DAT_7105328d38 = "TournamentTableScene";
+  if (((DAT_7105328d78 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328d78), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328d78);
+  }
+  DAT_7105328d40 = &PTR_PTR_71050b84e0;
+  DAT_7105328d48 = "TournamentTableSettingScene";
+  if (((DAT_7105328d80 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328d80), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328d80);
+  }
+  DAT_7105328d50 = &PTR_PTR_71050b84e8;
+  DAT_7105328d58 = "UnlockSequenceScene";
+  if (((DAT_7105328000 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328000), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328000);
+// ... (7 more lines)
+```
+
+## 20. `FUN_7100426d80`  (hits=7)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7100426d80`  (offset `0x426d80`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7100426d80(void)`
+- **Size / BBs / Incoming:** 568 bytes / 22 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** SpiritsBoardSpecialScene;SpiritsBoardSetScene2;CharaSelectScene;SpiritsRaiseScene;IngameCallSequenceScene;SpiritsForceReturnScene;UnlockSequenceScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_7100426d80__7100426d80.c)  [cfg](../decompiled/FUN_7100426d80__7100426d80.mmd)
+- **Clone hash:** `3aeaf2cf8b00c0f6`
+
+```c
+
+void FUN_7100426d80(void)
+
+{
+  int iVar1;
+  
+  DAT_7105329860 = 0;
+  DAT_7105329868 = "SpiritsBoardSpecialScene";
+  if (((DAT_71053298e8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053298e8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053298e8);
+  }
+  DAT_7105329870 = &PTR_PTR_71050b9d08;
+  DAT_7105329878 = "SpiritsBoardSetScene2";
+  if (((DAT_7105329850 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329850), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329850);
+  }
+  DAT_7105329880 = &PTR_PTR_71050b9b58;
+  DAT_7105329888 = "CharaSelectScene";
+  if (((DAT_7105328380 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328380), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328380);
+  }
+  DAT_7105329890 = &PTR_PTR_71050b6960;
+  DAT_7105329898 = "SpiritsRaiseScene";
+  if (((DAT_7105329858 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329858), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329858);
+  }
+  DAT_71053298a0 = &PTR_PTR_71050b9b60;
+  DAT_71053298a8 = "IngameCallSequenceScene";
+  if (((DAT_71052b9330 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71052b9330), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71052b9330);
+  }
+  DAT_71053298b0 = &PTR_PTR_7104f76410;
+  DAT_71053298b8 = "SpiritsForceReturnScene";
+  if (((DAT_71053282d8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053282d8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053282d8);
+  }
+  DAT_71053298c0 = &PTR_PTR_71050b63e0;
+  DAT_71053298c8 = "UnlockSequenceScene";
+  if (((DAT_7105328000 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328000), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328000);
+// ... (7 more lines)
+```
+
+## 21. `FUN_71023b7370`  (hits=7)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `71023b7370`  (offset `0x23b7370`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_71023b7370(long param_1, long param_2, long * * * * param_3, byte * * * * param_4, long * * * * param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)`
+- **Size / BBs / Incoming:** 2192 bytes / 115 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** SpiritsSetScene;SpiritsRaiseScene;SpiritsRecallScene;SpiritsReturnScene;SpiritsDirectoryScene;SpiritsItemViewScene;SpiritsDirectoryBattleSequenceScene
+- **Callees:** FUN_71000001c0;FUN_7101764000;FUN_7101967700;FUN_71025acda0;FUN_710323b9e0;FUN_7103723a90;FUN_7103723e70;FUN_710392e290;FUN_710392eb40;<EXTERNAL>::strcmp;<EXTERNAL>::memset;<EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release;<EXTERNAL>::abort
+- **Files:** [decomp](../decompiled/FUN_71023b7370__71023b7370.c)  [cfg](../decompiled/FUN_71023b7370__71023b7370.mmd)
+- **Clone hash:** `f6d803b2222e13a8`
+
+```c
+
+void FUN_71023b7370(long param_1,long param_2,long ****param_3,byte ****param_4,long ****param_5,
+                   undefined8 param_6,undefined8 param_7,undefined8 param_8)
+
+{
+  uint *puVar1;
+  char *pcVar2;
+  bool bVar3;
+  int iVar4;
+  long *plVar5;
+  ulong uVar6;
+  undefined8 *puVar7;
+  undefined8 *puVar8;
+  long *plVar9;
+  ulong uVar10;
+  undefined8 extraout_x1;
+  undefined8 extraout_x1_00;
+  undefined8 extraout_x1_01;
+  undefined8 extraout_x1_02;
+  undefined8 uVar11;
+  long *********ppppppppplVar12;
+  undefined **ppuVar13;
+  long *********ppppppppplVar14;
+  long *********ppppppppplVar15;
+  uint uVar16;
+  undefined4 uVar17;
+  long lVar18;
+  short *psVar19;
+  long lVar20;
+  long *plVar21;
+  undefined1 auVar22 [16];
+  long ********local_40;
+  undefined4 local_34;
+  
+  ppppppppplVar12 = &local_40;
+  ppppppppplVar14 = &local_40;
+  ppppppppplVar15 = &local_40;
+  plVar5 = (long *)FUN_710392e290(0x10,0x2348,param_3,param_4,param_5,param_6,param_7,param_8);
+  if (plVar5 == (long *)0x0) {
+    if (DAT_7105332f00 != (long *)0x0) {
+// ... (353 more lines)
+```
+
+## 22. `FUN_7100422250`  (hits=7)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7100422250`  (offset `0x422250`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7100422250(void)`
+- **Size / BBs / Incoming:** 568 bytes / 22 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** CharaSelectScene;StageSelectScene;MeleeRuleScene;IngameCallSequenceScene;UnlockSequenceScene;MeleeAllBattleResultScene;MeleeAllBattleTieGameScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_7100422250__7100422250.c)  [cfg](../decompiled/FUN_7100422250__7100422250.mmd)
+- **Clone hash:** `c11adab06107116f`
+
+```c
+
+void FUN_7100422250(void)
+
+{
+  int iVar1;
+  
+  DAT_7105328a30 = 0;
+  DAT_7105328a38 = "CharaSelectScene";
+  if (((DAT_7105328380 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328380), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328380);
+  }
+  DAT_7105328a40 = &PTR_PTR_71050b6960;
+  DAT_7105328a48 = "StageSelectScene";
+  if (((DAT_7105328660 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328660), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328660);
+  }
+  DAT_7105328a50 = &PTR_PTR_71050b7478;
+  DAT_7105328a58 = "MeleeRuleScene";
+  if (((DAT_7105324960 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105324960), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105324960);
+  }
+  DAT_7105328a60 = &PTR_PTR_71050a42c0;
+  DAT_7105328a68 = "IngameCallSequenceScene";
+  if (((DAT_71052b9330 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71052b9330), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71052b9330);
+  }
+  DAT_7105328a70 = &PTR_PTR_7104f76410;
+  DAT_7105328a78 = "UnlockSequenceScene";
+  if (((DAT_7105328000 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328000), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328000);
+  }
+  DAT_7105328a80 = &PTR_PTR_71050b5930;
+  DAT_7105328a88 = "MeleeAllBattleResultScene";
+  if (((DAT_7105328ab8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328ab8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328ab8);
+  }
+  DAT_7105328a90 = &PTR_PTR_71050b7f10;
+  DAT_7105328a98 = "MeleeAllBattleTieGameScene";
+  if (((DAT_7105328ac0 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328ac0), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328ac0);
+// ... (7 more lines)
+```
+
+## 23. `FUN_7100422e70`  (hits=6)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7100422e70`  (offset `0x422e70`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7100422e70(void)`
+- **Size / BBs / Incoming:** 492 bytes / 19 bb / 0 incoming refs
+- **Match values:** Scene
+- **Strings touched:** MeleeVrSetupScene;MeleeVrResetScene;CharaSelectScene;StageSelectScene;MeleeRuleScene;IngameCallSequenceScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_7100422e70__7100422e70.c)  [cfg](../decompiled/FUN_7100422e70__7100422e70.mmd)
+- **Clone hash:** `1c43e0a448b6e23a`
+
+```c
+
+void FUN_7100422e70(void)
+
+{
+  int iVar1;
+  
+  DAT_7105328d90 = 0;
+  DAT_7105328d98 = "MeleeVrSetupScene";
+  if (((DAT_7105328e08 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328e08), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328e08);
+  }
+  DAT_7105328da0 = &PTR_PTR_71050b8640;
+  DAT_7105328da8 = "MeleeVrResetScene";
+  if (((DAT_7105328e10 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328e10), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328e10);
+  }
+  DAT_7105328db0 = &PTR_PTR_71050b8648;
+  DAT_7105328db8 = "CharaSelectScene";
+  if (((DAT_7105328380 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328380), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328380);
+  }
+  DAT_7105328dc0 = &PTR_PTR_71050b6960;
+  DAT_7105328dc8 = "StageSelectScene";
+  if (((DAT_7105328660 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328660), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328660);
+  }
+  DAT_7105328dd0 = &PTR_PTR_71050b7478;
+  DAT_7105328dd8 = "MeleeRuleScene";
+  if (((DAT_7105324960 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105324960), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105324960);
+  }
+  DAT_7105328de0 = &PTR_PTR_71050a42c0;
+  DAT_7105328de8 = "IngameCallSequenceScene";
+  if (((DAT_71052b9330 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71052b9330), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71052b9330);
+  }
+  DAT_7105328df8 = 0;
+  DAT_7105328e00 = 0;
+  DAT_7105328df0 = &PTR_PTR_7104f76410;
+  return;
+// ... (2 more lines)
+```
+
+## 24. `FUN_71021c4020`  (hits=6)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `71021c4020`  (offset `0x21c4020`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_71021c4020(void)`
+- **Size / BBs / Incoming:** 14396 bytes / 28 bb / 1 incoming refs
+- **Match values:** SCENE
+- **Strings touched:** FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_START;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_STATUS_KIND_ATTACK_PREV;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_MOTION_KIND;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_MOTION_KIND_LEG;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_MOTION_KIND_L;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_MOTION_KIND_R;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_2ND_PART_SET;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_BOTH_RESTRICT_FRAME;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_STRANS_OFF_FRAME;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_HOLD_FRAME;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_NEXT_STATUS;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_MINI_JUMP_ATTACK_FRAME;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_CANCEL_STATUS_KIND;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_MAP_COLL_FRAME_L;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_MAP_COLL_FRAME_R;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_FRAME;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_SLOW_MAG;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_SLOW_MAG_PREV;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_SLOW_COUNT;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_SLOW_COUNT_PREV;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_PUNCH_KIND_R;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_SPECIAL_LW_MOTION_FRAME;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_SPECIAL_LW_WAIT_FRAME;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_SPECIAL_LW_DISABLE_PASS_COUNT;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_SPIRAL_OBJECT_ID;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_REFLECTOR_ATTACK_HI4_HITSTOP_FRAME;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_REFLECTOR_ATTACK_HI4_HITSTOP_ID;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ARM_L_BIG_FRAME;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_REINFORCE_L_EFFECT_HANDLE_L;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_REINFORCE_L_EFFECT_HANDLE_R;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_CATCH_START_COUNT;FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_LUA_TEMP_MOTION_KIND_HOLD;...
+- **Callers:** FUN_7101f45620
+- **Callees:** FUN_71037289c0;FUN_71038f55d0
+- **Files:** [decomp](../decompiled/FUN_71021c4020__71021c4020.c)  [cfg](../decompiled/FUN_71021c4020__71021c4020.mmd)
+- **Clone hash:** `b74f5de86553eaa1`
+
+```c
+
+void FUN_71021c4020(void)
+
+{
+  byte ****in_x3;
+  long ****in_x4;
+  undefined8 in_x5;
+  undefined8 in_x6;
+  undefined8 in_x7;
+  long local_78;
+  long local_70;
+  int local_68;
+  
+  local_78 = 0;
+  local_70 = 0;
+  local_68 = -3;
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_START",
+                 (undefined **)0x100000bc,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_STATUS_KIND_ATTACK_PREV",
+                 (undefined **)0x100000bd,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_MOTION_KIND",
+                 (undefined **)0x100000be,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_MOTION_KIND_LEG",
+                 (undefined **)0x100000bf,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_MOTION_KIND_L",
+                 (undefined **)0x100000c0,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_MOTION_KIND_R",
+                 (undefined **)0x100000c1,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_2ND_PART_SET",
+                 (undefined **)0x100000c2,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_BOTH_RESTRICT_FRAME",
+                 (undefined **)0x100000c3,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_STRANS_OFF_FRAME",
+                 (undefined **)0x100000c4,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_HOLD_FRAME",
+                 (undefined **)0x100000c5,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_NEXT_STATUS",
+                 (undefined **)0x100000c6,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,
+                 (uint *)"FIGHTER_TANTAN_INSTANCE_WORK_ID_INT_ATTACK_MINI_JUMP_ATTACK_FRAME",
+// ... (1597 more lines)
+```
+
+## 25. `FUN_7100422a40`  (hits=6)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7100422a40`  (offset `0x422a40`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7100422a40(void)`
+- **Size / BBs / Incoming:** 492 bytes / 19 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** CharaSelectScene;IngameCallSequenceScene;MeleeRuleScene;StageSelectScene;TeamCompeMatchupScene;UnlockSequenceScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_7100422a40__7100422a40.c)  [cfg](../decompiled/FUN_7100422a40__7100422a40.mmd)
+- **Clone hash:** `3efb9efa1d2be2e9`
+
+```c
+
+void FUN_7100422a40(void)
+
+{
+  int iVar1;
+  
+  DAT_7105328c78 = 0;
+  DAT_7105328c80 = "CharaSelectScene";
+  if (((DAT_7105328380 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328380), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328380);
+  }
+  DAT_7105328c88 = &PTR_PTR_71050b6960;
+  DAT_7105328c90 = "IngameCallSequenceScene";
+  if (((DAT_71052b9330 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71052b9330), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71052b9330);
+  }
+  DAT_7105328c98 = &PTR_PTR_7104f76410;
+  DAT_7105328ca0 = "MeleeRuleScene";
+  if (((DAT_7105324960 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105324960), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105324960);
+  }
+  DAT_7105328ca8 = &PTR_PTR_71050a42c0;
+  DAT_7105328cb0 = "StageSelectScene";
+  if (((DAT_7105328660 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328660), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328660);
+  }
+  DAT_7105328cb8 = &PTR_PTR_71050b7478;
+  DAT_7105328cc0 = "TeamCompeMatchupScene";
+  if (((DAT_7105328b78 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328b78), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328b78);
+  }
+  DAT_7105328cc8 = &PTR_PTR_71050b80c0;
+  DAT_7105328cd0 = "UnlockSequenceScene";
+  if (((DAT_7105328000 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328000), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328000);
+  }
+  DAT_7105328ce0 = 0;
+  DAT_7105328ce8 = 0;
+  DAT_7105328cd8 = &PTR_PTR_71050b5930;
+  return;
+// ... (2 more lines)
+```
+
+## 26. `FUN_7102336c90`  (hits=6)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7102336c90`  (offset `0x2336c90`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7102336c90(long param_1, long param_2, undefined * * param_3, byte * * * * param_4, long * * * * param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)`
+- **Size / BBs / Incoming:** 1692 bytes / 73 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** AmiiboSequenceScene;MenuSequenceScene;MeleeRuleScene;SpecialVariousScene;StageSelectScene;CharaSelectScene
+- **Callees:** FUN_71000001c0;FUN_7101764000;FUN_710178c070;FUN_710323b9e0;FUN_7103723a90;FUN_7103723e70;FUN_710392e290;FUN_710392eb40;<EXTERNAL>::strcmp;<EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release;<EXTERNAL>::abort
+- **Files:** [decomp](../decompiled/FUN_7102336c90__7102336c90.c)  [cfg](../decompiled/FUN_7102336c90__7102336c90.mmd)
+- **Clone hash:** `a4a3e470bd994e21`
+
+```c
+
+void FUN_7102336c90(long param_1,long param_2,undefined **param_3,byte ****param_4,long ****param_5,
+                   undefined8 param_6,undefined8 param_7,undefined8 param_8)
+
+{
+  char *__s1;
+  bool bVar1;
+  int iVar2;
+  long *plVar3;
+  ulong uVar4;
+  undefined8 *puVar5;
+  undefined8 *puVar6;
+  undefined8 extraout_x1;
+  uint uVar7;
+  undefined4 uVar8;
+  long *plVar9;
+  long ********local_68;
+  undefined4 local_54;
+  
+  plVar3 = (long *)FUN_710392e290(0x10,0x140,(long ****)param_3,param_4,param_5,param_6,param_7,
+                                  param_8);
+  if (plVar3 == (long *)0x0) {
+    if (DAT_7105332f00 != (long *)0x0) {
+      local_54 = 0;
+      local_68 = (long ********)&DAT_00000140;
+      param_3 = (undefined **)&local_68;
+      uVar4 = (**(code **)(*DAT_7105332f00 + 0x30))(DAT_7105332f00,&local_54);
+      if (((uVar4 & 1) != 0) &&
+         (plVar3 = (long *)FUN_710392e290(0x10,0x140,(long ****)param_3,param_4,param_5,param_6,
+                                          param_7,param_8), plVar3 != (long *)0x0))
+      goto LAB_7102336d18;
+    }
+    plVar3 = (long *)0x0;
+  }
+LAB_7102336d18:
+  *plVar3 = param_1 + 0x50;
+  plVar3[1] = (long)plVar3;
+  *(undefined4 *)(plVar3 + 0x25) = 0xffffffff;
+  plVar3[2] = 0;
+  plVar3[3] = 0;
+// ... (226 more lines)
+```
+
+## 27. `FUN_7100425700`  (hits=6)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7100425700`  (offset `0x425700`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7100425700(void)`
+- **Size / BBs / Incoming:** 492 bytes / 19 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** TitleScene;MainMenuScene;SpiritsOpeningScene;HowToPlayScene;IngameCallSequenceScene;UnlockSequenceScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_7100425700__7100425700.c)  [cfg](../decompiled/FUN_7100425700__7100425700.mmd)
+- **Clone hash:** `b5af86f3ba1a93f4`
+
+```c
+
+void FUN_7100425700(void)
+
+{
+  int iVar1;
+  
+  DAT_7105329188 = 0;
+  DAT_7105329190 = "TitleScene";
+  if (((DAT_7105329200 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329200), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329200);
+  }
+  DAT_7105329198 = &PTR_PTR_71050b8bf0;
+  DAT_71053291a0 = "MainMenuScene";
+  if (((DAT_7105329208 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329208), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329208);
+  }
+  DAT_71053291a8 = &PTR_PTR_71050b8bf8;
+  DAT_71053291b0 = "SpiritsOpeningScene";
+  if (((DAT_7105329210 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329210), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329210);
+  }
+  DAT_71053291b8 = &PTR_PTR_71050b8c00;
+  DAT_71053291c0 = "HowToPlayScene";
+  if (((DAT_7105329218 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329218), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329218);
+  }
+  DAT_71053291c8 = &PTR_PTR_71050b8c08;
+  DAT_71053291d0 = "IngameCallSequenceScene";
+  if (((DAT_71052b9330 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71052b9330), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71052b9330);
+  }
+  DAT_71053291d8 = &PTR_PTR_7104f76410;
+  DAT_71053291e0 = "UnlockSequenceScene";
+  if (((DAT_7105328000 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328000), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328000);
+  }
+  DAT_71053291f0 = 0;
+  DAT_71053291f8 = 0;
+  DAT_71053291e8 = &PTR_PTR_71050b5930;
+  return;
+// ... (2 more lines)
+```
+
+## 28. `FUN_7100422490`  (hits=6)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7100422490`  (offset `0x422490`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7100422490(void)`
+- **Size / BBs / Incoming:** 492 bytes / 19 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** CharaSelectScene;StageSelectScene;MeleeRuleScene;SpecialVariousScene;IngameCallSequenceScene;UnlockSequenceScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_7100422490__7100422490.c)  [cfg](../decompiled/FUN_7100422490__7100422490.mmd)
+- **Clone hash:** `c72751112cd7b9ec`
+
+```c
+
+void FUN_7100422490(void)
+
+{
+  int iVar1;
+  
+  DAT_7105328ac8 = 0;
+  DAT_7105328ad0 = "CharaSelectScene";
+  if (((DAT_7105328380 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328380), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328380);
+  }
+  DAT_7105328ad8 = &PTR_PTR_71050b6960;
+  DAT_7105328ae0 = "StageSelectScene";
+  if (((DAT_7105328660 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328660), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328660);
+  }
+  DAT_7105328ae8 = &PTR_PTR_71050b7478;
+  DAT_7105328af0 = "MeleeRuleScene";
+  if (((DAT_7105324960 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105324960), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105324960);
+  }
+  DAT_7105328af8 = &PTR_PTR_71050a42c0;
+  DAT_7105328b00 = "SpecialVariousScene";
+  if (((DAT_7105328a20 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328a20), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328a20);
+  }
+  DAT_7105328b08 = &PTR_PTR_71050b7d20;
+  DAT_7105328b10 = "IngameCallSequenceScene";
+  if (((DAT_71052b9330 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71052b9330), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71052b9330);
+  }
+  DAT_7105328b18 = &PTR_PTR_7104f76410;
+  DAT_7105328b20 = "UnlockSequenceScene";
+  if (((DAT_7105328000 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328000), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328000);
+  }
+  DAT_7105328b30 = 0;
+  DAT_7105328b38 = 0;
+  DAT_7105328b28 = &PTR_PTR_71050b5930;
+  return;
+// ... (2 more lines)
+```
+
+## 29. `FUN_7100426670`  (hits=5)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7100426670`  (offset `0x426670`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7100426670(void)`
+- **Size / BBs / Incoming:** 416 bytes / 16 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** OnlineShareScene;CharaSelectScene;MeleeReplaySequenceScene;OnlineShareTestPlayStageSequenceScene;OnlineSharePlayMovieScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_7100426670__7100426670.c)  [cfg](../decompiled/FUN_7100426670__7100426670.mmd)
+- **Clone hash:** `18256bcdf27da432`
+
+```c
+
+void FUN_7100426670(void)
+
+{
+  int iVar1;
+  
+  DAT_71053295e0 = 0;
+  DAT_71053295e8 = "OnlineShareScene";
+  if (((DAT_7105329648 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329648), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329648);
+  }
+  DAT_71053295f0 = &PTR_PTR_71050b9668;
+  DAT_71053295f8 = "CharaSelectScene";
+  if (((DAT_7105328380 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328380), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328380);
+  }
+  DAT_7105329600 = &PTR_PTR_71050b6960;
+  DAT_7105329608 = "MeleeReplaySequenceScene";
+  if (((DAT_7105328310 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328310), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328310);
+  }
+  DAT_7105329610 = &PTR_PTR_71050b6418;
+  DAT_7105329618 = "OnlineShareTestPlayStageSequenceScene";
+  if (((DAT_7105329650 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329650), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329650);
+  }
+  DAT_7105329620 = &PTR_PTR_71050b9670;
+  DAT_7105329628 = "OnlineSharePlayMovieScene";
+  if (((DAT_7105329658 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329658), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329658);
+  }
+  DAT_7105329638 = 0;
+  DAT_7105329640 = 0;
+  DAT_7105329630 = &PTR_PTR_71050b9678;
   return;
 }
 
 
 ```
 
-## 49. `FUN_01e942f0`  (hits=1)
+## 30. `FUN_7100420d30`  (hits=5)
 - **Symbol:** `(no mangled symbol)`
-- **Address:** `01e942f0`  (offset `0x1e942f0`)
+- **Address:** `7100420d30`  (offset `0x420d30`)
 - **Namespace:** `Global`
-- **Signature:** `undefined __cdecl FUN_01e942f0(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, long * param_8)`
-- **Size / BBs / Incoming:** 424 bytes / 16 bb / 0 incoming refs
+- **Signature:** `undefined __cdecl FUN_7100420d30(void)`
+- **Size / BBs / Incoming:** 416 bytes / 16 bb / 1 incoming refs
 - **Match values:** Scene
-- **Strings touched:** fade_in
-- **Callees:** FUN_03776190;FUN_033995c0;FUN_03777c30;FUN_033994a0;FUN_0377ac90;PIA_OnPacketReceived
-- **Files:** [decomp](decompiled/FUN_01e942f0__01e942f0.c)  [cfg](decompiled/FUN_01e942f0__01e942f0.mmd)
-- **Clone hash:** `c979f750eed7768d`
+- **Strings touched:** CharaMakeSelectDataScene;CharaMakeSelectMiiScene;CharaMakeSelectTypeScene;CharaMakeEditMenuScene;UnlockSequenceScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_7100420d30__7100420d30.c)  [cfg](../decompiled/FUN_7100420d30__7100420d30.mmd)
+- **Clone hash:** `15a8845de2eab8f7`
 
 ```c
 
-void FUN_01e942f0(undefined1 param_1 [16],undefined1 param_2 [16],float param_3,
-                 undefined1 param_4 [16],undefined1 param_5 [16],undefined1 param_6 [16],
-                 undefined1 param_7 [16],long *param_8)
+void FUN_7100420d30(void)
 
 {
-  undefined8 *puVar1;
-  ulong uVar2;
-  undefined8 in_x4;
+  int iVar1;
+  
+  DAT_710532839c = 0;
+  DAT_71053283a0 = "CharaMakeSelectDataScene";
+  if (((DAT_7105328400 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328400), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328400);
+  }
+  DAT_71053283a8 = &PTR_PTR_71050b6b08;
+  DAT_71053283b0 = "CharaMakeSelectMiiScene";
+  if (((DAT_7105328408 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328408), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328408);
+  }
+  DAT_71053283b8 = &PTR_PTR_71050b6b10;
+  DAT_71053283c0 = "CharaMakeSelectTypeScene";
+  if (((DAT_7105328410 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328410), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328410);
+  }
+  DAT_71053283c8 = &PTR_PTR_71050b6b18;
+  DAT_71053283d0 = "CharaMakeEditMenuScene";
+  if (((DAT_7105328418 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328418), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328418);
+  }
+  DAT_71053283d8 = &PTR_PTR_71050b6b20;
+  DAT_71053283e0 = "UnlockSequenceScene";
+  if (((DAT_7105328000 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328000), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328000);
+  }
+  DAT_71053283f0 = 0;
+  DAT_71053283f8 = 0;
+  DAT_71053283e8 = &PTR_PTR_71050b5930;
+  return;
+}
+
+
+```
+
+## 31. `FUN_710214fdf0`  (hits=5)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `710214fdf0`  (offset `0x214fdf0`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_710214fdf0(void)`
+- **Size / BBs / Incoming:** 7560 bytes / 13 bb / 1 incoming refs
+- **Match values:** SCENE
+- **Strings touched:** FIGHTER_FOX_ARCHIVE_GROUP_BASE;FIGHTER_FOX_ARCHIVE_GROUP_WPN_BLASTER;FIGHTER_FOX_ARCHIVE_GROUP_WPN_ARWING;FIGHTER_FOX_ARCHIVE_GROUP_WPN_LANDMASTER;FIGHTER_KIRBY_FOX_ARCHIVE_GROUP_WPN_BLASTER;FIGHTER_FOX_ARCHIVE_TERM;FIGHTER_FOX_CLIFF_HANG_DATA_DEFAULT;FIGHTER_FOX_CLIFF_HANG_DATA_SPECIAL_S;FIGHTER_FOX_CLIFF_HANG_DATA_SPECIAL_HI;FIGHTER_FOX_CLIFF_HANG_DATA_TERM;FIGHTER_FOX_WIN_WPN_DATA_BLASTER;FIGHTER_FOX_WIN_WPN_DATA_TERM;FIGHTER_FOX_INSTANCE_WORK_ID_FLOAT_START;FIGHTER_FOX_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_X_START;FIGHTER_FOX_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_X_0;FIGHTER_FOX_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_X_1;FIGHTER_FOX_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_X_2;FIGHTER_FOX_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_X_3;FIGHTER_FOX_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_Y_START;FIGHTER_FOX_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_Y_0;FIGHTER_FOX_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_Y_1;FIGHTER_FOX_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_Y_2;FIGHTER_FOX_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_Y_3;FIGHTER_FOX_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_Z_START;FIGHTER_MARIO_STATUS_KIND_SPECIAL_LW_CHARGE;FIGHTER_FOX_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_Z_0;FIGHTER_FOX_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_Z_1;FIGHTER_FOX_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_Z_2;FIGHTER_FOX_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_Z_3;FIGHTER_FOX_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_ROT_X_START;FIGHTER_FOX_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_ROT_X_0;FIGHTER_FOX_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_ROT_X_1;...
+- **Callers:** FUN_7101f45620
+- **Callees:** FUN_71037289c0;FUN_71038f55d0
+- **Files:** [decomp](../decompiled/FUN_710214fdf0__710214fdf0.c)  [cfg](../decompiled/FUN_710214fdf0__710214fdf0.mmd)
+- **Clone hash:** `63eff6ee9788de43`
+
+```c
+
+void FUN_710214fdf0(void)
+
+{
+  byte ****in_x3;
+  long ****in_x4;
   undefined8 in_x5;
   undefined8 in_x6;
   undefined8 in_x7;
-  undefined8 **ppuVar3;
-  long lVar4;
-  undefined8 *puVar5;
-  long lVar6;
-  undefined1 auVar7 [16];
-  undefined *local_50;
-  ulong local_48;
-  undefined8 *local_40;
-  undefined8 *local_38;
+  long local_78;
+  long local_70;
+  int local_68;
   
-  auVar7 = FUN_03776190(param_1,param_2,param_3,param_4,param_5,param_6,param_7);
-  puVar1 = local_38;
-  ppuVar3 = (undefined8 **)*param_8;
-  if (ppuVar3 != &local_40) {
-    local_38 = (undefined8 *)0x0;
-    puVar5 = ppuVar3[1];
-    ppuVar3[1] = puVar1;
-    if (puVar5 != (undefined8 *)0x0) {
-      uVar2 = puVar5[3];
-      puVar5[2] = &DAT_0523c9a8;
-      puVar5[3] = 0;
-      if (uVar2 != 0) {
-                    /* WARNING: Subroutine does not return */
-        PIA_OnPacketReceived(auVar7,param_2,param_3,param_4,param_5,param_6,param_7,uVar2);
-      }
-                    /* WARNING: Subroutine does not return */
-      PIA_OnPacketReceived(auVar7,param_2,param_3,param_4,param_5,param_6,param_7,(ulong)puVar5);
-    }
-// ... (56 more lines)
+  local_68 = 0xfffffffd;
+  local_78 = 0;
+  local_70 = 0;
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_FOX_ARCHIVE_GROUP_BASE",(undefined **)0x0,in_x3,in_x4,
+                 in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_FOX_ARCHIVE_GROUP_WPN_BLASTER",(undefined **)0x0,in_x3,
+                 in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_FOX_ARCHIVE_GROUP_WPN_ARWING",(undefined **)0x1,in_x3,
+                 in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_FOX_ARCHIVE_GROUP_WPN_LANDMASTER",(undefined **)0x2,
+                 in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_KIRBY_FOX_ARCHIVE_GROUP_WPN_BLASTER",(undefined **)0x1,
+                 in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_FOX_ARCHIVE_TERM",(undefined **)0x2,in_x3,in_x4,in_x5,
+                 in_x6,in_x7);
+  local_78 = 0;
+  local_70 = 0;
+  local_68 = 0xfffffffd;
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_FOX_CLIFF_HANG_DATA_DEFAULT",(undefined **)0x0,in_x3,
+                 in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_FOX_CLIFF_HANG_DATA_SPECIAL_S",(undefined **)0x1,in_x3,
+                 in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_FOX_CLIFF_HANG_DATA_SPECIAL_HI",(undefined **)0x2,in_x3,
+                 in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_FOX_CLIFF_HANG_DATA_TERM",(undefined **)0x3,in_x3,in_x4,
+                 in_x5,in_x6,in_x7);
+  local_78 = 0;
+// ... (803 more lines)
 ```
 
-## 50. `FUN_01ad9f90`  (hits=1)
+## 32. `FUN_7100421340`  (hits=5)
 - **Symbol:** `(no mangled symbol)`
-- **Address:** `01ad9f90`  (offset `0x1ad9f90`)
+- **Address:** `7100421340`  (offset `0x421340`)
 - **Namespace:** `Global`
-- **Signature:** `uint * * __cdecl FUN_01ad9f90(undefined1[16] param_1, undefined1[16] param_2, undefined1[16] param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, undefined1[16] param_8, uint * * param_9, uint * param_10, undefined * * * * * * * param_11, undefined * * * * * * param_12, undefined * param_13, undefined * * * * * * param_14, uint * param_15, ulong param_16)`
-- **Size / BBs / Incoming:** 9148 bytes / 586 bb / 0 incoming refs
+- **Signature:** `undefined __cdecl FUN_7100421340(void)`
+- **Size / BBs / Incoming:** 416 bytes / 16 bb / 0 incoming refs
 - **Match values:** Scene
-- **Strings touched:** copy_link_cap;Texture17
-- **Callees:** FUN_0392dde0;FUN_019c1d50;FUN_03239470;FUN_03779dd0;nnsocketSocket;FUN_0323c6d0;FUN_01c2e408;FUN_032385c0;FUN_032b6760;PIA_OnPacketReceived;FUN_03779c70;FUN_01af0dc0;FUN_0259d050;FUN_032b6c00;FUN_01acef90;FUN_01adc85c;...
-- **Files:** [decomp](decompiled/FUN_01ad9f90__01ad9f90.c)  [cfg](decompiled/FUN_01ad9f90__01ad9f90.mmd)
-- **Clone hash:** `605d3b48a5548104`
+- **Strings touched:** CollectionReplayScene;MeleeReplaySequenceScene;CharaSelectScene;StageSelectScene;IngameCallSequenceScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_7100421340__7100421340.c)  [cfg](../decompiled/FUN_7100421340__7100421340.mmd)
+- **Clone hash:** `ee5e4cc0ab53b9dc`
 
 ```c
 
-/* WARNING: Removing unreachable block (ram,0x01adada4) */
-/* WARNING: Removing unreachable block (ram,0x01adadb8) */
-/* WARNING: Removing unreachable block (ram,0x01adadc4) */
-/* WARNING: Removing unreachable block (ram,0x01adadec) */
-/* WARNING: Removing unreachable block (ram,0x01adadfc) */
-/* WARNING: Removing unreachable block (ram,0x01adae00) */
-/* WARNING: Removing unreachable block (ram,0x01adae0c) */
-/* WARNING: Removing unreachable block (ram,0x01adae10) */
-/* WARNING: Removing unreachable block (ram,0x01adae04) */
-/* WARNING: Removing unreachable block (ram,0x01adae08) */
-/* WARNING: Removing unreachable block (ram,0x01adae1c) */
-/* WARNING: Removing unreachable block (ram,0x01adae28) */
-/* WARNING: Removing unreachable block (ram,0x01adae2c) */
-/* WARNING: Removing unreachable block (ram,0x01adae34) */
-/* WARNING: Removing unreachable block (ram,0x01adae90) */
-/* WARNING: Removing unreachable block (ram,0x01adae70) */
-/* WARNING: Removing unreachable block (ram,0x01adae7c) */
-/* WARNING: Removing unreachable block (ram,0x01adae94) */
-/* WARNING: Removing unreachable block (ram,0x01adae80) */
-/* WARNING: Removing unreachable block (ram,0x01adae8c) */
-/* WARNING: Removing unreachable block (ram,0x01adaecc) */
-/* WARNING: Removing unreachable block (ram,0x01adaf14) */
-/* WARNING: Removing unreachable block (ram,0x01adaf04) */
-/* WARNING: Removing unreachable block (ram,0x01adaf38) */
-/* WARNING: Removing unreachable block (ram,0x01adaf58) */
-/* WARNING: Removing unreachable block (ram,0x01adaf6c) */
-/* WARNING: Removing unreachable block (ram,0x01adaf9c) */
-/* WARNING: Removing unreachable block (ram,0x01adafb8) */
-/* WARNING: Removing unreachable block (ram,0x01adafe8) */
-/* WARNING: Removing unreachable block (ram,0x01adafcc) */
-/* WARNING: Removing unreachable block (ram,0x01adafd4) */
-/* WARNING: Removing unreachable block (ram,0x01adafdc) */
-/* WARNING: Removing unreachable block (ram,0x01adafe4) */
-/* WARNING: Removing unreachable block (ram,0x01adafec) */
-/* WARNING: Removing unreachable block (ram,0x01adaff4) */
-/* WARNING: Removing unreachable block (ram,0x01adb050) */
-/* WARNING: Removing unreachable block (ram,0x01adb06c) */
-/* WARNING: Removing unreachable block (ram,0x01adb07c) */
-/* WARNING: Removing unreachable block (ram,0x01adb098) */
-// ... (4652 more lines)
+void FUN_7100421340(void)
+
+{
+  int iVar1;
+  
+  DAT_71053285f0 = 0;
+  DAT_71053285f8 = "CollectionReplayScene";
+  if (((DAT_7105328658 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328658), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328658);
+  }
+  DAT_7105328600 = &PTR_PTR_71050b7470;
+  DAT_7105328608 = "MeleeReplaySequenceScene";
+  if (((DAT_7105328310 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328310), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328310);
+  }
+  DAT_7105328610 = &PTR_PTR_71050b6418;
+  DAT_7105328618 = "CharaSelectScene";
+  if (((DAT_7105328380 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328380), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328380);
+  }
+  DAT_7105328620 = &PTR_PTR_71050b6960;
+  DAT_7105328628 = "StageSelectScene";
+  if (((DAT_7105328660 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328660), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328660);
+  }
+  DAT_7105328630 = &PTR_PTR_71050b7478;
+  DAT_7105328638 = "IngameCallSequenceScene";
+  if (((DAT_71052b9330 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71052b9330), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71052b9330);
+  }
+  DAT_7105328648 = 0;
+  DAT_7105328650 = 0;
+  DAT_7105328640 = &PTR_PTR_7104f76410;
+  return;
+}
+
+
+```
+
+## 33. `FUN_7100428490`  (hits=5)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7100428490`  (offset `0x428490`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7100428490(void)`
+- **Size / BBs / Incoming:** 416 bytes / 16 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** StageSelectScene;CharaSelectScene;IngameCallSequenceScene;MeleeScene;UnlockSequenceScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_7100428490__7100428490.c)  [cfg](../decompiled/FUN_7100428490__7100428490.mmd)
+- **Clone hash:** `101d65e536c6f610`
+
+```c
+
+void FUN_7100428490(void)
+
+{
+  int iVar1;
+  
+  DAT_7105329ea0 = 0;
+  DAT_7105329ea8 = "StageSelectScene";
+  if (((DAT_7105328660 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328660), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328660);
+  }
+  DAT_7105329eb0 = &PTR_PTR_71050b7478;
+  DAT_7105329eb8 = "CharaSelectScene";
+  if (((DAT_7105328380 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328380), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328380);
+  }
+  DAT_7105329ec0 = &PTR_PTR_71050b6960;
+  DAT_7105329ec8 = "IngameCallSequenceScene";
+  if (((DAT_71052b9330 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71052b9330), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71052b9330);
+  }
+  DAT_7105329ed0 = &PTR_PTR_7104f76410;
+  DAT_7105329ed8 = "MeleeScene";
+  if (((DAT_71053287b0 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053287b0), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053287b0);
+  }
+  DAT_7105329ee0 = &PTR_PTR_71050b7898;
+  DAT_7105329ee8 = "UnlockSequenceScene";
+  if (((DAT_7105328000 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328000), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328000);
+  }
+  DAT_7105329ef8 = 0;
+  DAT_7105329f00 = 0;
+  DAT_7105329ef0 = &PTR_PTR_71050b5930;
+  return;
+}
+
+
+```
+
+## 34. `FUN_710215e3b0`  (hits=5)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `710215e3b0`  (offset `0x215e3b0`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_710215e3b0(void)`
+- **Size / BBs / Incoming:** 7016 bytes / 10 bb / 1 incoming refs
+- **Match values:** SCENE
+- **Strings touched:** FIGHTER_FALCO_ARCHIVE_GROUP_BASE;FIGHTER_FALCO_ARCHIVE_GROUP_WPN_BLASTER;FIGHTER_FALCO_ARCHIVE_GROUP_WPN_ARWING;FIGHTER_FALCO_ARCHIVE_GROUP_WPN_LANDMASTER;FIGHTER_FALCO_ARCHIVE_TERM;FIGHTER_FALCO_CLIFF_HANG_DATA_DEFAULT;FIGHTER_FALCO_CLIFF_HANG_DATA_SPECIAL_S;FIGHTER_FALCO_CLIFF_HANG_DATA_SPECIAL_HI;FIGHTER_FALCO_CLIFF_HANG_DATA_TERM;FIGHTER_FALCO_INSTANCE_WORK_ID_FLOAT_START;FIGHTER_FALCO_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_X_START;FIGHTER_FALCO_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_X_0;FIGHTER_FALCO_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_X_1;FIGHTER_FALCO_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_X_2;FIGHTER_FALCO_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_X_3;FIGHTER_FALCO_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_Y_START;FIGHTER_FALCO_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_Y_0;FIGHTER_FALCO_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_Y_1;FIGHTER_FALCO_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_Y_2;FIGHTER_FALCO_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_Y_3;FIGHTER_FALCO_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_Z_START;FIGHTER_FALCO_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_Z_0;FIGHTER_FALCO_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_Z_1;FIGHTER_FALCO_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_Z_2;FIGHTER_FALCO_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_POS_Z_3;FIGHTER_FALCO_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_ROT_X_START;FIGHTER_FALCO_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_ROT_X_0;FIGHTER_FALCO_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_ROT_X_1;FIGHTER_FALCO_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_ROT_X_2;FIGHTER_FALCO_INSTANCE_WORK_ID_FLOAT_POSTURE_LOG_ROT_X_3;FIGHTER_FALCO_INSTANCE_WORK_ID_FLOAT_FIRE_DECIDE_STICK_X;FIGHTER_FALCO_INSTANCE_WORK_ID_FLOAT_FIRE_DECIDE_STICK_Y;...
+- **Callers:** FUN_7101f45620
+- **Callees:** FUN_71037289c0;FUN_71038f55d0
+- **Files:** [decomp](../decompiled/FUN_710215e3b0__710215e3b0.c)  [cfg](../decompiled/FUN_710215e3b0__710215e3b0.mmd)
+- **Clone hash:** `9946bcf9866514bb`
+
+```c
+
+void FUN_710215e3b0(void)
+
+{
+  byte ****in_x3;
+  long ****in_x4;
+  undefined8 in_x5;
+  undefined8 in_x6;
+  undefined8 in_x7;
+  long local_78;
+  long local_70;
+  int local_68;
+  
+  local_68 = 0xfffffffd;
+  local_78 = 0;
+  local_70 = 0;
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_FALCO_ARCHIVE_GROUP_BASE",(undefined **)0x0,in_x3,in_x4,
+                 in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_FALCO_ARCHIVE_GROUP_WPN_BLASTER",(undefined **)0x0,in_x3
+                 ,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_FALCO_ARCHIVE_GROUP_WPN_ARWING",(undefined **)0x1,in_x3,
+                 in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_FALCO_ARCHIVE_GROUP_WPN_LANDMASTER",(undefined **)0x2,
+                 in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_FALCO_ARCHIVE_TERM",(undefined **)0x3,in_x3,in_x4,in_x5,
+                 in_x6,in_x7);
+  local_78 = 0;
+  local_70 = 0;
+  local_68 = 0xfffffffd;
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_FALCO_CLIFF_HANG_DATA_DEFAULT",(undefined **)0x0,in_x3,
+                 in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_FALCO_CLIFF_HANG_DATA_SPECIAL_S",(undefined **)0x1,in_x3
+                 ,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_FALCO_CLIFF_HANG_DATA_SPECIAL_HI",(undefined **)0x2,
+                 in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_FALCO_CLIFF_HANG_DATA_TERM",(undefined **)0x3,in_x3,
+                 in_x4,in_x5,in_x6,in_x7);
+  local_68 = -3;
+  local_78 = 0;
+  local_70 = 0;
+// ... (748 more lines)
+```
+
+## 35. `FUN_7102328bb0`  (hits=4)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7102328bb0`  (offset `0x2328bb0`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7102328bb0(long param_1, undefined8 param_2, long * * * * * * * * * param_3, byte * * * * param_4, long * * * * param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)`
+- **Size / BBs / Incoming:** 1368 bytes / 67 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** IngameCallSequenceScene;StageSelectScene;UnlockSequenceScene;CharaSelectScene
+- **Callees:** FUN_71000001c0;FUN_71014cff60;FUN_71014d00f0;FUN_7101764000;FUN_710178bb40;FUN_710179dd10;FUN_7101845ea0;FUN_7102329f10;FUN_710232a660;<EXTERNAL>::strcmp;<EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release;<EXTERNAL>::abort
+- **Files:** [decomp](../decompiled/FUN_7102328bb0__7102328bb0.c)  [cfg](../decompiled/FUN_7102328bb0__7102328bb0.mmd)
+- **Clone hash:** `d4ef20a8e30da5b1`
+
+```c
+
+void FUN_7102328bb0(long param_1,undefined8 param_2,long *********param_3,byte ****param_4,
+                   long ****param_5,undefined8 param_6,undefined8 param_7,undefined8 param_8)
+
+{
+  char *__s1;
+  uint uVar1;
+  int iVar2;
+  long *plVar3;
+  undefined8 extraout_x1;
+  undefined8 extraout_x1_00;
+  undefined8 extraout_x1_01;
+  long lVar4;
+  undefined4 uVar5;
+  undefined1 auVar6 [16];
+  
+  if (*(int *)(param_1 + 0xe4) == 0) {
+    FUN_71014cff60(*(uint **)(*(long *)(DAT_71052c36c8 + 8) + 8),param_2,param_3,param_4,param_5,
+                   param_6,param_7,param_8);
+    lVar4 = DAT_710532f870;
+    if ((*(byte *)(*(long *)(DAT_710532f870 + 8) + 0x10) >> 1 & 1) == 0) {
+      plVar3 = (long *)(*(long *)(DAT_710532f870 + 8) + 8);
+      *(undefined8 *)(*plVar3 + 0x70) = 1;
+      FUN_7101845ea0(plVar3);
+      *(undefined8 *)(*(long *)(*(long *)(lVar4 + 8) + 8) + 0x70) = 0;
+    }
+    *(undefined1 **)(param_1 + 0x148) = &DAT_c1ffff0000000000;
+    *(undefined1 **)(param_1 + 0x138) = &DAT_c1ffff0000000000;
+    *(undefined1 **)(param_1 + 0x170) = &DAT_c1ffff0000000000;
+    *(undefined1 **)(param_1 + 0x160) = &DAT_c1ffff0000000000;
+    *(undefined1 **)(param_1 + 0x198) = &DAT_c1ffff0000000000;
+    *(undefined1 **)(param_1 + 0x188) = &DAT_c1ffff0000000000;
+    *(undefined1 **)(param_1 + 0x1c0) = &DAT_c1ffff0000000000;
+    *(undefined1 **)(param_1 + 0x1b0) = &DAT_c1ffff0000000000;
+    *(undefined4 *)(param_1 + 0x150) = 0;
+    *(undefined2 *)(param_1 + 0x154) = 0;
+    *(undefined4 *)(param_1 + 0x140) = 0;
+    *(undefined2 *)(param_1 + 0x144) = 0;
+    *(undefined1 *)(param_1 + 0x158) = 0;
+    *(undefined4 *)(param_1 + 0x178) = 0;
+// ... (148 more lines)
+```
+
+## 36. `FUN_7102318650`  (hits=4)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7102318650`  (offset `0x2318650`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7102318650(long param_1, long param_2, long * * * * param_3, byte * * * * param_4, long * * * * param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)`
+- **Size / BBs / Incoming:** 2512 bytes / 114 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** MeleeScene;HomeRunContestScene
+- **Callees:** FUN_71000001c0;FUN_7101764000;FUN_710323beb0;FUN_71032e3a80;FUN_7103723a90;FUN_710392e290;FUN_710392eb40;<EXTERNAL>::strcmp;<EXTERNAL>::memset;<EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release;<EXTERNAL>::abort
+- **Files:** [decomp](../decompiled/FUN_7102318650__7102318650.c)  [cfg](../decompiled/FUN_7102318650__7102318650.mmd)
+- **Clone hash:** `9dbca2d820e9820c`
+
+```c
+
+void FUN_7102318650(long param_1,long param_2,long ****param_3,byte ****param_4,long ****param_5,
+                   undefined8 param_6,undefined8 param_7,undefined8 param_8)
+
+{
+  char cVar1;
+  int iVar2;
+  long lVar3;
+  ulong uVar4;
+  long *plVar5;
+  undefined8 *puVar6;
+  ulong uVar7;
+  undefined8 extraout_x1;
+  long ****pppplVar8;
+  long ****pppplVar9;
+  long ****pppplVar10;
+  long ****pppplVar11;
+  long *********ppppppppplVar12;
+  byte ****ppppbVar13;
+  uint uVar14;
+  long lVar15;
+  undefined4 uVar16;
+  undefined8 *puVar17;
+  ulong *puVar18;
+  undefined8 *puVar19;
+  long ***local_60;
+  undefined4 local_54;
+  
+  pppplVar8 = &local_60;
+  pppplVar9 = &local_60;
+  pppplVar10 = &local_60;
+  pppplVar11 = &local_60;
+  lVar3 = FUN_710392e290(0x10,0x1b8,param_3,param_4,param_5,param_6,param_7,param_8);
+  if (lVar3 == 0) {
+    if (DAT_7105332f00 != (long *)0x0) {
+      local_54 = 0;
+      local_60 = (long ***)&DAT_000001b8;
+      uVar4 = (**(code **)(*DAT_7105332f00 + 0x30))(DAT_7105332f00,&local_54);
+      if (((uVar4 & 1) != 0) &&
+         (lVar3 = FUN_710392e290(0x10,0x1b8,pppplVar8,param_4,param_5,param_6,param_7,param_8),
+// ... (349 more lines)
+```
+
+## 37. `FUN_7100421d80`  (hits=4)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7100421d80`  (offset `0x421d80`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7100421d80(void)`
+- **Size / BBs / Incoming:** 340 bytes / 13 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** StageSelectScene;CharaSelectScene;IngameCallSequenceScene;UnlockSequenceScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_7100421d80__7100421d80.c)  [cfg](../decompiled/FUN_7100421d80__7100421d80.mmd)
+- **Clone hash:** `a92bc6e3551c9b9e`
+
+```c
+
+void FUN_7100421d80(void)
+
+{
+  int iVar1;
+  
+  DAT_71053288e8 = 0;
+  DAT_71053288f0 = "StageSelectScene";
+  if (((DAT_7105328660 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328660), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328660);
+  }
+  DAT_71053288f8 = &PTR_PTR_71050b7478;
+  DAT_7105328900 = "CharaSelectScene";
+  if (((DAT_7105328380 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328380), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328380);
+  }
+  DAT_7105328908 = &PTR_PTR_71050b6960;
+  DAT_7105328910 = "IngameCallSequenceScene";
+  if (((DAT_71052b9330 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71052b9330), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71052b9330);
+  }
+  DAT_7105328918 = &PTR_PTR_7104f76410;
+  DAT_7105328920 = "UnlockSequenceScene";
+  if (((DAT_7105328000 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328000), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328000);
+  }
+  DAT_7105328930 = 0;
+  DAT_7105328938 = 0;
+  DAT_7105328928 = &PTR_PTR_71050b5930;
+  return;
+}
+
+
+```
+
+## 38. `FUN_71004268d0`  (hits=4)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `71004268d0`  (offset `0x4268d0`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_71004268d0(void)`
+- **Size / BBs / Incoming:** 340 bytes / 13 bb / 0 incoming refs
+- **Match values:** Scene
+- **Strings touched:** OnlineWatchFullScene;OnlineWatchShopTopScene;SpiritsReturnScene;MeleeReplaySequenceScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_71004268d0__71004268d0.c)  [cfg](../decompiled/FUN_71004268d0__71004268d0.mmd)
+- **Clone hash:** `162fd5a6f45a76d2`
+
+```c
+
+void FUN_71004268d0(void)
+
+{
+  int iVar1;
+  
+  DAT_71053296a0 = 0;
+  DAT_71053296a8 = "OnlineWatchFullScene";
+  if (((DAT_71053296f8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053296f8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053296f8);
+  }
+  DAT_71053296b0 = &PTR_PTR_71050b98b0;
+  DAT_71053296b8 = "OnlineWatchShopTopScene";
+  if (((DAT_7105329700 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329700), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329700);
+  }
+  DAT_71053296c0 = &PTR_PTR_71050b98b8;
+  DAT_71053296c8 = "SpiritsReturnScene";
+  if (((DAT_71053285e8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053285e8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053285e8);
+  }
+  DAT_71053296d0 = &PTR_PTR_71050b7370;
+  DAT_71053296d8 = "MeleeReplaySequenceScene";
+  if (((DAT_7105328310 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328310), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328310);
+  }
+  DAT_71053296e8 = 0;
+  DAT_71053296f0 = 0;
+  DAT_71053296e0 = &PTR_PTR_71050b6418;
+  return;
+}
+
+
+```
+
+## 39. `FUN_71004255a0`  (hits=4)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `71004255a0`  (offset `0x4255a0`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_71004255a0(void)`
+- **Size / BBs / Incoming:** 340 bytes / 13 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** HelpTopScene;TechnicScene;SkillListScene;DlcStaffRollScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_71004255a0__71004255a0.c)  [cfg](../decompiled/FUN_71004255a0__71004255a0.mmd)
+- **Clone hash:** `89d5392beb9717a5`
+
+```c
+
+void FUN_71004255a0(void)
+
+{
+  int iVar1;
+  
+  DAT_7105329110 = 0;
+  DAT_7105329118 = "HelpTopScene";
+  if (((DAT_7105329168 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329168), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329168);
+  }
+  DAT_7105329120 = &PTR_PTR_71050b8a88;
+  DAT_7105329128 = "TechnicScene";
+  if (((DAT_7105329170 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329170), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329170);
+  }
+  DAT_7105329130 = &PTR_PTR_71050b8a90;
+  DAT_7105329138 = "SkillListScene";
+  if (((DAT_7105329178 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329178), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329178);
+  }
+  DAT_7105329140 = &PTR_PTR_71050b8a98;
+  DAT_7105329148 = "DlcStaffRollScene";
+  if (((DAT_7105329180 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329180), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329180);
+  }
+  DAT_7105329158 = 0;
+  DAT_7105329160 = 0;
+  DAT_7105329150 = &PTR_PTR_71050b8aa0;
+  return;
+}
+
+
+```
+
+## 40. `FUN_7100425dc0`  (hits=4)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7100425dc0`  (offset `0x425dc0`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7100425dc0(void)`
+- **Size / BBs / Incoming:** 340 bytes / 13 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** CharaSelectScene;IngameCallSequenceScene;UnlockSequenceScene;OnlineMeleeConventionTopScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_7100425dc0__7100425dc0.c)  [cfg](../decompiled/FUN_7100425dc0__7100425dc0.mmd)
+- **Clone hash:** `6e0c6d04d77e3bb9`
+
+```c
+
+void FUN_7100425dc0(void)
+
+{
+  int iVar1;
+  
+  DAT_7105329380 = 0;
+  DAT_7105329388 = "CharaSelectScene";
+  if (((DAT_7105328380 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328380), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328380);
+  }
+  DAT_7105329390 = &PTR_PTR_71050b6960;
+  DAT_7105329398 = "IngameCallSequenceScene";
+  if (((DAT_71052b9330 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71052b9330), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71052b9330);
+  }
+  DAT_71053293a0 = &PTR_PTR_7104f76410;
+  DAT_71053293a8 = "UnlockSequenceScene";
+  if (((DAT_7105328000 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328000), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328000);
+  }
+  DAT_71053293b0 = &PTR_PTR_71050b5930;
+  DAT_71053293b8 = "OnlineMeleeConventionTopScene";
+  if (((DAT_71053293d8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053293d8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053293d8);
+  }
+  DAT_71053293c8 = 0;
+  DAT_71053293d0 = 0;
+  DAT_71053293c0 = &PTR_PTR_71050b9098;
+  return;
+}
+
+
+```
+
+## 41. `FUN_7102160190`  (hits=4)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7102160190`  (offset `0x2160190`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7102160190(void)`
+- **Size / BBs / Incoming:** 8224 bytes / 25 bb / 1 incoming refs
+- **Match values:** SCENE
+- **Strings touched:** FIGHTER_WARIO_INSTANCE_WORK_ID_INT_SPECIAL_LW_CHARGE;FIGHTER_WARIO_INSTANCE_WORK_ID_INT_SPECIAL_N_INTERVAL;FIGHTER_WARIO_INSTANCE_WORK_ID_INT_GASS_COUNT;FIGHTER_WARIO_INSTANCE_WORK_ID_INT_GASS_LEVEL;FIGHTER_WARIO_INSTANCE_WORK_ID_INT_BIKE_TIME;FIGHTER_WARIO_INSTANCE_WORK_ID_INT_BIKE_ORIGINAL_OWNER;FIGHTER_WARIO_INSTANCE_WORK_ID_INT_TERM;FIGHTER_WARIO_INSTANCE_WORK_ID_FLOAT_FINAL_TIME;FIGHTER_WARIO_INSTANCE_WORK_ID_FLOAT_SPECIAL_S_BIKE_HP;FIGHTER_WARIO_INSTANCE_WORK_ID_FLOAT_GAS_CHARGE_SPEED;FIGHTER_WARIO_INSTANCE_WORK_ID_FLOAT_STOMACH_MOTION_FRAME;FIGHTER_WARIO_INSTANCE_WORK_ID_FLOAT_TERM;FIGHTER_WARIO_INSTANCE_WORK_ID_FLAG_CHANGE;FIGHTER_WARIO_INSTANCE_WORK_ID_FLAG_FLASHING;FIGHTER_WARIO_INSTANCE_WORK_ID_FLAG_CHARGE_MAX;FIGHTER_WARIO_INSTANCE_WORK_ID_FLAG_CHARGE_STOP;FIGHTER_WARIO_INSTANCE_WORK_ID_FLAG_REMOVE_BIKE;FIGHTER_WARIO_INSTANCE_WORK_ID_FLAG_SPECIAL_N_AGAIN;FIGHTER_WARIO_INSTANCE_WORK_ID_FLAG_FORBID_GENERATE_BIKE;FIGHTER_WARIO_INSTANCE_WORK_ID_FLAG_TERM;FIGHTER_WARIO_GASS_LEVEL_S;FIGHTER_WARIO_GASS_LEVEL_M;FIGHTER_WARIO_GASS_LEVEL_L;FIGHTER_WARIO_GASS_LEVEL_FLY;FIGHTER_WARIO_CHANGE_SUCCEED_WORK_ID_INT_GASS_COUNT;FIGHTER_WARIO_CHANGE_SUCCEED_WORK_ID_INT_GASS_LEVEL;FIGHTER_WARIO_WIN_WPN_DATA_BIKE;FIGHTER_WARIO_WIN_WPN_DATA_TERM;FIGHTER_WARIO_EAT_WEAPON_KIND_NORMAL;FIGHTER_WARIO_EAT_WEAPON_KIND_BOMB;FIGHTER_WARIO_EAT_WEAPON_KIND_NUM;FIGHTER_WARIO_FINAL_MODULE_START_INIT;...
+- **Callers:** FUN_7101f45620
+- **Callees:** FUN_71037289c0;FUN_71038f55d0
+- **Files:** [decomp](../decompiled/FUN_7102160190__7102160190.c)  [cfg](../decompiled/FUN_7102160190__7102160190.mmd)
+- **Clone hash:** `dd0509e172b95a16`
+
+```c
+
+void FUN_7102160190(void)
+
+{
+  byte ****in_x3;
+  long ****in_x4;
+  undefined8 in_x5;
+  undefined8 in_x6;
+  undefined8 in_x7;
+  long local_78;
+  long local_70;
+  int local_68;
+  
+  local_78 = 0;
+  local_70 = 0;
+  local_68 = 0xfffffffd;
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_WARIO_INSTANCE_WORK_ID_INT_SPECIAL_LW_CHARGE",
+                 (undefined **)0x100000bd,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_WARIO_INSTANCE_WORK_ID_INT_SPECIAL_N_INTERVAL",
+                 (undefined **)0x100000be,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_WARIO_INSTANCE_WORK_ID_INT_GASS_COUNT",
+                 (undefined **)0x100000bf,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_WARIO_INSTANCE_WORK_ID_INT_GASS_LEVEL",
+                 (undefined **)0x100000c0,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_WARIO_INSTANCE_WORK_ID_INT_BIKE_TIME",
+                 (undefined **)0x100000c1,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_WARIO_INSTANCE_WORK_ID_INT_BIKE_ORIGINAL_OWNER",
+                 (undefined **)0x100000c2,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_WARIO_INSTANCE_WORK_ID_INT_TERM",
+                 (undefined **)0x100000c3,in_x3,in_x4,in_x5,in_x6,in_x7);
+  local_78 = 0;
+  local_70 = 0;
+  local_68 = 0xfffffffd;
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_WARIO_INSTANCE_WORK_ID_FLOAT_FINAL_TIME",
+                 (undefined **)&DAT_0000004c,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_WARIO_INSTANCE_WORK_ID_FLOAT_SPECIAL_S_BIKE_HP",
+                 (undefined **)0x4d,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_WARIO_INSTANCE_WORK_ID_FLOAT_GAS_CHARGE_SPEED",
+                 (undefined **)&DAT_0000004e,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_WARIO_INSTANCE_WORK_ID_FLOAT_STOMACH_MOTION_FRAME",
+// ... (867 more lines)
+```
+
+## 42. `FUN_71021ec200`  (hits=4)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `71021ec200`  (offset `0x21ec200`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_71021ec200(void)`
+- **Size / BBs / Incoming:** 11060 bytes / 10 bb / 1 incoming refs
+- **Match values:** SCENE
+- **Strings touched:** FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_INT_SPECIAL_LW_CHARGE;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_INT_SPECIAL_LW_REMOVE;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_INT_SPECIAL_N_FRAMES_AFTER_LAST3PS;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_INT_SPECIAL_S_FRAME;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_INT_SPECIAL_LW_RANDOM_TABLE;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_INT_SPECIAL_S_SHOOT_TIMER;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_INT_SPECIAL_S_DISABLE_SHOOT_CAN_FRAME;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_INT_3SHOTS_INVALID_FRAMES;FIGHTER_MIIFIGHTER_STATUS_FINAL_WORK_FLOAT_MOVE_SPD_X;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_INT_TRIGGER_TIMER;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_INT_TERM;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_FLAG_SPECIAL_S_HOP;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_FLAG_GUNMAN_OK;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_FLAG_RELEASE_CAN;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_FLAG_RELEASE_CLAY;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_FLAG_RELEASE_GUNMAN;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_FLAG_REQUEST_SPECIAL_HI_CANCEL;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_FLAG_ENABLE_SPECIAL_HI_CANCEL;WEAPON_GANON_BEAST_INSTANCE_WORK_ID_FLAG_HITSTOP;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_FLAG_SPECIAL_HI_CANCELED;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_FLAG_SPECIAL_S_CLAY_HIT;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_FLAG_TERM;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_FLOAT_THROW_N_OFFSET_X;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_FLOAT_THROW_N_OFFSET_Y;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_FLOAT_THROW_N_OFFSET_Z;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_FLOAT_SMASH_S_CHARGE_FRAME;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_FLOAT_SHOOT_POS_X;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_FLOAT_SHOOT_POS_Y;FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_FLOAT_TERM;FIGHTER_DUCKHUNT_TURN_NEUTRAL;FIGHTER_DUCKHUNT_TURN_FRONT;FIGHTER_DUCKHUNT_TURN_BACK;...
+- **Callers:** FUN_7101f45620
+- **Callees:** FUN_71037289c0;FUN_71038f55d0
+- **Files:** [decomp](../decompiled/FUN_71021ec200__71021ec200.c)  [cfg](../decompiled/FUN_71021ec200__71021ec200.mmd)
+- **Clone hash:** `e53f121443819b63`
+
+```c
+
+void FUN_71021ec200(void)
+
+{
+  byte ****in_x3;
+  long ****in_x4;
+  undefined8 in_x5;
+  undefined8 in_x6;
+  undefined8 in_x7;
+  long local_78;
+  long local_70;
+  int local_68;
+  
+  local_78 = 0;
+  local_70 = 0;
+  local_68 = 0xfffffffd;
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_INT_SPECIAL_LW_CHARGE",
+                 (undefined **)0x100000bd,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_INT_SPECIAL_LW_REMOVE",
+                 (undefined **)0x100000be,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,
+                 (uint *)"FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_INT_SPECIAL_N_FRAMES_AFTER_LAST3PS",
+                 (undefined **)0x100000bf,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_INT_SPECIAL_S_FRAME",
+                 (undefined **)0x100000c0,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_INT_SPECIAL_LW_RANDOM_TABLE",
+                 (undefined **)0x100000c1,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_INT_SPECIAL_S_SHOOT_TIMER",
+                 (undefined **)0x100000c2,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,
+                 (uint *)"FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_INT_SPECIAL_S_DISABLE_SHOOT_CAN_FRAME",
+                 (undefined **)0x100000c3,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_INT_3SHOTS_INVALID_FRAMES",
+                 (undefined **)0x100000c4,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_INT_TRIGGER_TIMER",
+                 (undefined **)0x100000c5,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_DUCKHUNT_INSTANCE_WORK_ID_INT_TERM",
+                 (undefined **)0x100000c6,in_x3,in_x4,in_x5,in_x6,in_x7);
+  local_78 = 0;
+  local_70 = 0;
+// ... (1269 more lines)
+```
+
+## 43. `FUN_7100420bd0`  (hits=4)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7100420bd0`  (offset `0x420bd0`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7100420bd0(void)`
+- **Size / BBs / Incoming:** 340 bytes / 13 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** IngameCallSequenceScene;CharaSelectScene;ChallengerApproachScene;ChallengerUnlockScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_7100420bd0__7100420bd0.c)  [cfg](../decompiled/FUN_7100420bd0__7100420bd0.mmd)
+- **Clone hash:** `e67b9d98202d421b`
+
+```c
+
+void FUN_7100420bd0(void)
+
+{
+  int iVar1;
+  
+  DAT_7105328328 = 0;
+  DAT_7105328330 = "IngameCallSequenceScene";
+  if (((DAT_71052b9330 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71052b9330), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71052b9330);
+  }
+  DAT_7105328338 = &PTR_PTR_7104f76410;
+  DAT_7105328340 = "CharaSelectScene";
+  if (((DAT_7105328380 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328380), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328380);
+  }
+  DAT_7105328348 = &PTR_PTR_71050b6960;
+  DAT_7105328350 = "ChallengerApproachScene";
+  if (((DAT_7105328388 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328388), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328388);
+  }
+  DAT_7105328358 = &PTR_PTR_71050b6968;
+  DAT_7105328360 = "ChallengerUnlockScene";
+  if (((DAT_7105328390 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328390), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328390);
+  }
+  DAT_7105328370 = 0;
+  DAT_7105328378 = 0;
+  DAT_7105328368 = &PTR_PTR_71050b6970;
+  return;
+}
+
+
+```
+
+## 44. `FUN_7102192760`  (hits=4)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7102192760`  (offset `0x2192760`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7102192760(void)`
+- **Size / BBs / Incoming:** 8960 bytes / 13 bb / 1 incoming refs
+- **Match values:** SCENE
+- **Strings touched:** FIGHTER_ROCKMAN_INSTANCE_WORK_ID_INT_ROCKBUSTER_STEP;FIGHTER_ROCKMAN_INSTANCE_WORK_ID_INT_ROCKBUSTER_STEP_PREVIOUS;FIGHTER_ROCKMAN_INSTANCE_WORK_ID_INT_ROCKBUSTER_COUNT;FIGHTER_ROCKMAN_INSTANCE_WORK_ID_INT_ROCKBUSTER_COUNT_MINI_JUMP_ATTACK;FIGHTER_ROCKMAN_INSTANCE_WORK_ID_INT_ARM_MANAGER_POINTER;FIGHTER_ROCKMAN_INSTANCE_WORK_ID_INT_RUSHCOIL_WAIT_FRAME;FIGHTER_ROCKMAN_INSTANCE_WORK_ID_INT_SPECIAL_LW_HOLD_FRAME;FIGHTER_ROCKMAN_INSTANCE_WORK_ID_INT_TERM;FIGHTER_ROCKMAN_INSTANCE_WORK_ID_FLOAT_CATCH_OFFSET_X;FIGHTER_ROCKMAN_INSTANCE_WORK_ID_FLOAT_CATCH_OFFSET_Y;FIGHTER_ROCKMAN_INSTANCE_WORK_ID_FLOAT_TERM;FIGHTER_ROCKMAN_INSTANCE_WORK_ID_FLAG_SPECIAL_LW_LEAFSHIELD;FIGHTER_ROCKMAN_INSTANCE_WORK_ID_FLAG_SPECIAL_LW_ENABLE_SHOOT;FIGHTER_ROCKMAN_INSTANCE_WORK_ID_FLAG_SPECIAL_HI_FALL;FIGHTER_ROCKMAN_INSTANCE_WORK_ID_FLAG_ROCKBUSTER_LOOP_ACCEPT;FIGHTER_ROCKMAN_INSTANCE_WORK_ID_FLAG_ROCKBUSTER_LOOP;FIGHTER_ROCKMAN_INSTANCE_WORK_ID_FLAG_ROCKBUSTER_L_SHOULDER_FIX;FIGHTER_ROCKMAN_INSTANCE_WORK_ID_FLAG_ROCKBUSTER_GENERATE_TOP_N_OFFSET;FIGHTER_ROCKMAN_INSTANCE_WORK_ID_FLAG_ROCKBUSTER_SHOOT;FIGHTER_ROCKMAN_INSTANCE_WORK_ID_FLAG_ROCKBUSTER_SHOOT_END;FIGHTER_ROCKMAN_INSTANCE_WORK_ID_FLAG_ROCKBUSTER_PREV_ESCAPE;FIGHTER_ROCKMAN_INSTANCE_WORK_ID_FLAG_ATTACK_HI3_LANDING;FIGHTER_ROCKMAN_INSTANCE_WORK_ID_FLAG_TERM;FIGHTER_ROCKMAN_MOTION_PART_SET_UDE;FIGHTER_ROCKMAN_MOTION_PART_SET_HAVE_FLIP;FIGHTER_ROCKMAN_MOTION_PART_SET_KIND_TERM;FIGHTER_ROCKMAN_ARM_LEFT;FIGHTER_ROCKMAN_ARM_RIGHT;FIGHTER_ROCKMAN_ARM_MAX;FIGHTER_ROCKMAN_ARMFORM_INVALID;FIGHTER_ROCKMAN_ARMFORM_HAND;FIGHTER_ROCKMAN_ARMFORM_ROCKBUSTER;...
+- **Callers:** FUN_7101f45620
+- **Callees:** FUN_71037289c0;FUN_71038f55d0
+- **Files:** [decomp](../decompiled/FUN_7102192760__7102192760.c)  [cfg](../decompiled/FUN_7102192760__7102192760.mmd)
+- **Clone hash:** `464ecc22f982b06b`
+
+```c
+
+void FUN_7102192760(void)
+
+{
+  byte ****in_x3;
+  long ****in_x4;
+  undefined8 in_x5;
+  undefined8 in_x6;
+  undefined8 in_x7;
+  long local_78;
+  long local_70;
+  int local_68;
+  
+  local_78 = 0;
+  local_70 = 0;
+  local_68 = 0xfffffffd;
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_ROCKMAN_INSTANCE_WORK_ID_INT_ROCKBUSTER_STEP",
+                 (undefined **)0x100000bd,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_ROCKMAN_INSTANCE_WORK_ID_INT_ROCKBUSTER_STEP_PREVIOUS",
+                 (undefined **)0x100000be,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_ROCKMAN_INSTANCE_WORK_ID_INT_ROCKBUSTER_COUNT",
+                 (undefined **)0x100000bf,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,
+                 (uint *)"FIGHTER_ROCKMAN_INSTANCE_WORK_ID_INT_ROCKBUSTER_COUNT_MINI_JUMP_ATTACK",
+                 (undefined **)0x100000c0,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_ROCKMAN_INSTANCE_WORK_ID_INT_ARM_MANAGER_POINTER",
+                 (undefined **)0x100000c1,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_ROCKMAN_INSTANCE_WORK_ID_INT_RUSHCOIL_WAIT_FRAME",
+                 (undefined **)0x100000c2,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_ROCKMAN_INSTANCE_WORK_ID_INT_SPECIAL_LW_HOLD_FRAME",
+                 (undefined **)0x100000c3,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_ROCKMAN_INSTANCE_WORK_ID_INT_TERM",
+                 (undefined **)0x100000c4,in_x3,in_x4,in_x5,in_x6,in_x7);
+  local_78 = 0;
+  local_70 = 0;
+  local_68 = 0xfffffffd;
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_ROCKMAN_INSTANCE_WORK_ID_FLOAT_CATCH_OFFSET_X",
+                 (undefined **)&DAT_0000004c,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_ROCKMAN_INSTANCE_WORK_ID_FLOAT_CATCH_OFFSET_Y",
+                 (undefined **)0x4d,in_x3,in_x4,in_x5,in_x6,in_x7);
+// ... (1050 more lines)
+```
+
+## 45. `FUN_7100421bb0`  (hits=4)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7100421bb0`  (offset `0x421bb0`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7100421bb0(void)`
+- **Size / BBs / Incoming:** 340 bytes / 13 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** CharaSelectScene;IngameCallSequenceScene;SpiritsForceReturnScene;UnlockSequenceScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_7100421bb0__7100421bb0.c)  [cfg](../decompiled/FUN_7100421bb0__7100421bb0.mmd)
+- **Clone hash:** `8ae83ec77c67960e`
+
+```c
+
+void FUN_7100421bb0(void)
+
+{
+  int iVar1;
+  
+  DAT_7105328870 = 0;
+  DAT_7105328878 = "CharaSelectScene";
+  if (((DAT_7105328380 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328380), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328380);
+  }
+  DAT_7105328880 = &PTR_PTR_71050b6960;
+  DAT_7105328888 = "IngameCallSequenceScene";
+  if (((DAT_71052b9330 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71052b9330), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71052b9330);
+  }
+  DAT_7105328890 = &PTR_PTR_7104f76410;
+  DAT_7105328898 = "SpiritsForceReturnScene";
+  if (((DAT_71053282d8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053282d8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053282d8);
+  }
+  DAT_71053288a0 = &PTR_PTR_71050b63e0;
+  DAT_71053288a8 = "UnlockSequenceScene";
+  if (((DAT_7105328000 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328000), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328000);
+  }
+  DAT_71053288b8 = 0;
+  DAT_71053288c0 = 0;
+  DAT_71053288b0 = &PTR_PTR_71050b5930;
+  return;
+}
+
+
+```
+
+## 46. `FUN_7100426fc0`  (hits=4)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7100426fc0`  (offset `0x426fc0`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7100426fc0(void)`
+- **Size / BBs / Incoming:** 340 bytes / 13 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** CharaSelectScene;SpiritsBoardSetScene2;SpiritsRaiseScene;IngameCallSequenceScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_7100426fc0__7100426fc0.c)  [cfg](../decompiled/FUN_7100426fc0__7100426fc0.mmd)
+- **Clone hash:** `233b60a42a29a6fb`
+
+```c
+
+void FUN_7100426fc0(void)
+
+{
+  int iVar1;
+  
+  DAT_71053298f0 = 0;
+  DAT_71053298f8 = "CharaSelectScene";
+  if (((DAT_7105328380 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328380), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328380);
+  }
+  DAT_7105329900 = &PTR_PTR_71050b6960;
+  DAT_7105329908 = "SpiritsBoardSetScene2";
+  if (((DAT_7105329850 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329850), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329850);
+  }
+  DAT_7105329910 = &PTR_PTR_71050b9b58;
+  DAT_7105329918 = "SpiritsRaiseScene";
+  if (((DAT_7105329858 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329858), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329858);
+  }
+  DAT_7105329920 = &PTR_PTR_71050b9b60;
+  DAT_7105329928 = "IngameCallSequenceScene";
+  if (((DAT_71052b9330 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71052b9330), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71052b9330);
+  }
+  DAT_7105329938 = 0;
+  DAT_7105329940 = 0;
+  DAT_7105329930 = &PTR_PTR_7104f76410;
+  return;
+}
+
+
+```
+
+## 47. `FUN_7100425c60`  (hits=4)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `7100425c60`  (offset `0x425c60`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_7100425c60(void)`
+- **Size / BBs / Incoming:** 340 bytes / 13 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** OnlineMeleeAnyScene;CharaSelectScene;IngameCallSequenceScene;UnlockSequenceScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_7100425c60__7100425c60.c)  [cfg](../decompiled/FUN_7100425c60__7100425c60.mmd)
+- **Clone hash:** `346bb4edefdddde6`
+
+```c
+
+void FUN_7100425c60(void)
+
+{
+  int iVar1;
+  
+  DAT_7105329320 = 0;
+  DAT_7105329328 = "OnlineMeleeAnyScene";
+  if (((DAT_7105329378 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329378), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329378);
+  }
+  DAT_7105329330 = &PTR_PTR_71050b8fc0;
+  DAT_7105329338 = "CharaSelectScene";
+  if (((DAT_7105328380 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328380), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328380);
+  }
+  DAT_7105329340 = &PTR_PTR_71050b6960;
+  DAT_7105329348 = "IngameCallSequenceScene";
+  if (((DAT_71052b9330 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71052b9330), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71052b9330);
+  }
+  DAT_7105329350 = &PTR_PTR_7104f76410;
+  DAT_7105329358 = "UnlockSequenceScene";
+  if (((DAT_7105328000 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328000), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328000);
+  }
+  DAT_7105329368 = 0;
+  DAT_7105329370 = 0;
+  DAT_7105329360 = &PTR_PTR_71050b5930;
+  return;
+}
+
+
+```
+
+## 48. `FUN_71004280a0`  (hits=4)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `71004280a0`  (offset `0x4280a0`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_71004280a0(void)`
+- **Size / BBs / Incoming:** 340 bytes / 13 bb / 1 incoming refs
+- **Match values:** Scene
+- **Strings touched:** StageMakeTopMenuScene;StageMakeEditScene;CharaSelectScene;SoundTestScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_71004280a0__71004280a0.c)  [cfg](../decompiled/FUN_71004280a0__71004280a0.mmd)
+- **Clone hash:** `0bd250a0249a2794`
+
+```c
+
+void FUN_71004280a0(void)
+
+{
+  int iVar1;
+  
+  DAT_7105329d80 = 0;
+  DAT_7105329d88 = "StageMakeTopMenuScene";
+  if (((DAT_7105329dd8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329dd8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329dd8);
+  }
+  DAT_7105329d90 = &PTR_PTR_71050ba770;
+  DAT_7105329d98 = "StageMakeEditScene";
+  if (((DAT_7105329de0 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329de0), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329de0);
+  }
+  DAT_7105329da0 = &PTR_PTR_71050ba778;
+  DAT_7105329da8 = "CharaSelectScene";
+  if (((DAT_7105328380 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105328380), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105328380);
+  }
+  DAT_7105329db0 = &PTR_PTR_71050b6960;
+  DAT_7105329db8 = "SoundTestScene";
+  if (((DAT_7105329310 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_7105329310), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_7105329310);
+  }
+  DAT_7105329dc8 = 0;
+  DAT_7105329dd0 = 0;
+  DAT_7105329dc0 = &PTR_PTR_71050b8db8;
+  return;
+}
+
+
+```
+
+## 49. `FUN_710219ad10`  (hits=4)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `710219ad10`  (offset `0x219ad10`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_710219ad10(void)`
+- **Size / BBs / Incoming:** 11776 bytes / 28 bb / 1 incoming refs
+- **Match values:** SCENE
+- **Strings touched:** FIGHTER_BAYONETTA_COSTUME_KIND_DEFAULT;FIGHTER_BAYONETTA_COSTUME_KIND_JEANNE;FIGHTER_BAYONETTA_COSTUME_KIND_BAYONETTA_1;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_START;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_SPECIAL_AIR_S_USED_COUNT;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_SPECIAL_AIR_S_REUSE_FRAME;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_SPECIAL_AIR_S_D_ENABLE_FRAME;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_SPECIAL_AIR_S_DISABLE_JUMP_AFTER_FRAME;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_SPECIAL_HI_USED_COUNT;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_FINAL_STEP;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_FINAL_TIME_LIMIT;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_FINAL_GAUGE_COUNT;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_FINAL_SE_HANDLE_FINAL02;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_BAT_WITH_IN_STATE;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_WITCH_TIME_XLU_FRAME;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_SHOOTING_STEP;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_SHOOTING_FRAME;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_EFFECT_KIND_BAYONETTA_ATTACK_LINE1;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_EFFECT_KIND_BAYONETTA_ATTACK_LINE2;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_EFFECT_KIND_BAYONETTA_ATTACK_ARC1;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_EFFECT_KIND_BAYONETTA_ATTACK_ARC2;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_EFFECT_KIND_BAYONETTA_ATTACK_ARC3;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_EFFECT_KIND_BAYONETTA_ATTACK_100A;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_EFFECT_KIND_BAYONETTA_ATTACK_100B;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_EFFECT_KIND_BAYONETTA_ATTACK_100END;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_EFFECT_KIND_BAYONETTA_STILETTO;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_EFFECT_KIND_BAYONETTA_AFTERBURNER_LINE;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_EFFECT_KIND_BAYONETTA_WITCHTWIST_WIND;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_EFFECT_KIND_BAYONETTA_WITCHTWIST_SPIRAL;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_EFFECT_KIND_11;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_EFFECT_KIND_12;FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_EFFECT_KIND_13;...
+- **Callers:** FUN_7101f45620
+- **Callees:** FUN_71037289c0;FUN_71038f55d0
+- **Files:** [decomp](../decompiled/FUN_710219ad10__710219ad10.c)  [cfg](../decompiled/FUN_710219ad10__710219ad10.mmd)
+- **Clone hash:** `c3eab079c8448a2c`
+
+```c
+
+void FUN_710219ad10(void)
+
+{
+  byte ****in_x3;
+  long ****in_x4;
+  undefined8 in_x5;
+  undefined8 in_x6;
+  undefined8 in_x7;
+  long local_78;
+  long local_70;
+  int local_68;
+  
+  local_68 = 0xfffffffd;
+  local_78 = 0;
+  local_70 = 0;
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_BAYONETTA_COSTUME_KIND_DEFAULT",(undefined **)0x0,in_x3,
+                 in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_BAYONETTA_COSTUME_KIND_JEANNE",(undefined **)0x1,in_x3,
+                 in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_BAYONETTA_COSTUME_KIND_BAYONETTA_1",(undefined **)0x2,
+                 in_x3,in_x4,in_x5,in_x6,in_x7);
+  local_78 = 0;
+  local_70 = 0;
+  local_68 = -3;
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_START",
+                 (undefined **)0x100000bc,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_SPECIAL_AIR_S_USED_COUNT"
+                 ,(undefined **)0x100000bd,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,
+                 (uint *)"FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_SPECIAL_AIR_S_REUSE_FRAME",
+                 (undefined **)0x100000be,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,
+                 (uint *)"FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_SPECIAL_AIR_S_D_ENABLE_FRAME",
+                 (undefined **)0x100000bf,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,
+                 (uint *)
+                 "FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_SPECIAL_AIR_S_DISABLE_JUMP_AFTER_FRAME",
+                 (undefined **)0x100000c0,in_x3,in_x4,in_x5,in_x6,in_x7);
+  FUN_71037289c0(&local_78,(uint *)"FIGHTER_BAYONETTA_INSTANCE_WORK_ID_INT_SPECIAL_HI_USED_COUNT",
+// ... (1361 more lines)
+```
+
+## 50. `FUN_71004217c0`  (hits=4)
+- **Symbol:** `(no mangled symbol)`
+- **Address:** `71004217c0`  (offset `0x4217c0`)
+- **Namespace:** `Global`
+- **Signature:** `undefined __cdecl FUN_71004217c0(void)`
+- **Size / BBs / Incoming:** 340 bytes / 13 bb / 0 incoming refs
+- **Match values:** Scene
+- **Strings touched:** set_assist_team_no;PracticeScene;MeleeScene;HomeRunContestScene;SyncParameterScene
+- **Callees:** <EXTERNAL>::__cxa_guard_acquire;<EXTERNAL>::__cxa_guard_release
+- **Files:** [decomp](../decompiled/FUN_71004217c0__71004217c0.c)  [cfg](../decompiled/FUN_71004217c0__71004217c0.mmd)
+- **Clone hash:** `447f89cead8feb83`
+
+```c
+
+void FUN_71004217c0(void)
+
+{
+  int iVar1;
+  
+  DAT_7105328750 = 0;
+  DAT_7105328758 = "PracticeScene";
+  if (((DAT_71053287a8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053287a8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053287a8);
+  }
+  DAT_7105328760 = &PTR_PTR_71050b7890;
+  DAT_7105328768 = "MeleeScene";
+  if (((DAT_71053287b0 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053287b0), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053287b0);
+  }
+  DAT_7105328770 = &PTR_PTR_71050b7898;
+  DAT_7105328778 = "HomeRunContestScene";
+  if (((DAT_71053287b8 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053287b8), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053287b8);
+  }
+  DAT_7105328780 = &PTR_PTR_71050b78a0;
+  DAT_7105328788 = "SyncParameterScene";
+  if (((DAT_71053287c0 & 1) == 0) && (iVar1 = __cxa_guard_acquire(&DAT_71053287c0), iVar1 != 0)) {
+    __cxa_guard_release(&DAT_71053287c0);
+  }
+  DAT_7105328798 = 0;
+  DAT_71053287a0 = 0;
+  DAT_7105328790 = &PTR_PTR_71050b78a8;
+  return;
+}
+
+
 ```
 

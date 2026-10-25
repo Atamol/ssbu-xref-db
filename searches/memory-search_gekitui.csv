@@ -1,0 +1,4 @@
+Location,Match Bytes,Match Value,Label,Code Unit
+71043be0ff,67 65 6b 69 74 75 69,gekitui,s_gekitui_off_71043be0ff,"ds ""gekitui_off"""
+71042e6ab1,67 65 6b 69 74 75 69,gekitui,s_gekitui_on_71042e6ab1,"ds ""gekitui_on"""
+71043cedf8,67 65 6b 69 74 75 69,gekitui,s_set_parts_gekitui_71043cedee,"ds ""set_parts_gekitui"""

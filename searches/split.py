@@ -49,7 +49,7 @@ CATEGORY_ORDER = [
     ("NEX core",      ["nex", "prudp", "rmc", "gathering"]),
     ("NEX session",   ["session", "joinsession", "matchmakesession",
                        "joinmatchmakesession", "leavematchmakesession",
-                       "updatesession", "participat", "join", "kick"]),
+                       "updatesession", "participat", "join", "kick", "leave"]),
     ("NEX protocol",  ["protocol", "protocolid", "method", "parameter",
                        "rendezvous", "authentication", "notification",
                        "login", "register", "logout"]),
@@ -68,8 +68,14 @@ CATEGORY_ORDER = [
                        "rematch", "scene", "state", "statemachine",
                        "transition", "phase", "gamemode", "chara_select",
                        "stage_select", "menu", "home", "quit", "victory",
-                       "defeat", "battle_start", "battle_end"]),
+                       "defeat", "battle_start", "battle_end",
+                       "stage", "time", "stock", "rule", "format",
+                       "melee_mode", "meleerule", "melee_rule",
+                       "battlefield", "type", "type_", "gauge", "charge",
+                       "item", "final", "start", "cut_in", "cutin", "dead",
+                       "front", "gekitui", "hit_camera", "is_playing"]),
     ("UI/misc",       ["popup", "block", "spect"]),
+    ("Numeric",       ["100", "120", "125"]),
     ("Hash/Lua",      ["hash", "hash40", "phx", "lua", "lua_bind", "online"]),
 ]
 
@@ -95,7 +101,6 @@ for cat, names in CATEGORY_ORDER:
         if n in section_map:
             ordered_sections.append((cat, n, section_map[n]))
 
-# rewrite md grouped by category
 md_lines = []
 current_cat = None
 for cat, name, rows in ordered_sections:
@@ -116,7 +121,6 @@ for cat, name, rows in ordered_sections:
 src.write_text("\n".join(md_lines).rstrip() + "\n", encoding="utf-8")
 print(f"rewrote {src.name} with {len(ordered_sections)} sections grouped into {len(CATEGORY_ORDER)} categories")
 
-# per-section CSV
 header = ["Location", "Match Bytes", "Match Value", "Label", "Code Unit"]
 for cat, name, rows in ordered_sections:
     safe = re.sub(r"[^A-Za-z0-9_-]+", "_", name)
@@ -127,7 +131,6 @@ for cat, name, rows in ordered_sections:
         w.writerows(rows)
     print(f"[{cat}] {name}: {len(rows)} rows -> {out_path.name}")
 
-# combined all CSV with Category column
 all_path = out_dir / "memory-search_all.csv"
 all_header = ["Category", "Section"] + header
 total = 0

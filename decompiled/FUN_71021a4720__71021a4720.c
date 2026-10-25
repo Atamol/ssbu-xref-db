@@ -1,0 +1,50 @@
+// addr:      71021a4720
+// offset:    0x21a4720
+// name:      FUN_71021a4720
+// mangled:   
+// signature: undefined __cdecl FUN_71021a4720(long param_1, long param_2)
+
+
+void FUN_71021a4720(long param_1,long param_2)
+
+{
+  undefined8 *puVar1;
+  long lVar2;
+  undefined4 *puVar3;
+  long *plVar4;
+  uint *puVar5;
+  
+  FUN_7101ff91a0(param_1,param_2);
+  puVar1 = *(undefined8 **)(param_2 + 0x10);
+  *puVar1 = FUN_71021a4850;
+  *(undefined4 *)(puVar1 + 1) = 2;
+  lVar2 = *(long *)(param_2 + 0x10);
+  *(long *)(param_2 + 0x10) = lVar2 + 0x10;
+  FUN_71038f5390(param_2,(long *)(lVar2 + -0x10),"new_instance_lua");
+  puVar3 = *(undefined4 **)(param_2 + 0x10);
+  *puVar3 = *(undefined4 *)(param_1 + 0x2c);
+  puVar3[2] = 3;
+  lVar2 = *(long *)(param_2 + 0x10);
+  *(long *)(param_2 + 0x10) = lVar2 + 0x10;
+  FUN_71038f5390(param_2,(long *)(lVar2 + -0x10),"reel_speed_");
+  puVar3 = *(undefined4 **)(param_2 + 0x10);
+  *puVar3 = *(undefined4 *)(param_1 + 0x30);
+  puVar3[2] = 3;
+  lVar2 = *(long *)(param_2 + 0x10);
+  *(long *)(param_2 + 0x10) = lVar2 + 0x10;
+  FUN_71038f5390(param_2,(long *)(lVar2 + -0x10),"pull_speed_");
+  plVar4 = *(long **)(param_2 + 0x10);
+  *plVar4 = (long)*(int *)(param_1 + 0x34);
+  *(undefined4 *)(plVar4 + 1) = 0x13;
+  lVar2 = *(long *)(param_2 + 0x10);
+  *(long *)(param_2 + 0x10) = lVar2 + 0x10;
+  FUN_71038f5390(param_2,(long *)(lVar2 + -0x10),"status_kind_");
+  puVar5 = *(uint **)(param_2 + 0x10);
+  *puVar5 = (uint)*(byte *)(param_1 + 0x38);
+  puVar5[2] = 1;
+  lVar2 = *(long *)(param_2 + 0x10);
+  *(long *)(param_2 + 0x10) = lVar2 + 0x10;
+  FUN_71038f5390(param_2,(long *)(lVar2 + -0x10),"is_hook_");
+  return;
+}
+

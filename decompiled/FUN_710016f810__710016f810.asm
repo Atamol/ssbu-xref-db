@@ -1,0 +1,72 @@
+// addr:      710016f810
+// offset:    0x16f810
+// name:      FUN_710016f810
+// mangled:   
+// size:      264
+
+710016f810  sub sp,sp,#0x40
+710016f814  str x21,[sp, #0x10]
+710016f818  stp x20,x19,[sp, #0x20]
+710016f81c  stp x29,x30,[sp, #0x30]
+710016f820  add x29,sp,#0x30
+710016f824  ldrh w8,[x0, #0x28c]
+710016f828  ldr x20,[x0, #0xb8]
+710016f82c  mov x19,x0
+710016f830  ldrh w21,[x0, #0xc0]
+710016f834  strh w8,[x0, #0x300]
+710016f838  mov x0,sp
+710016f83c  mov w2,#0x10
+710016f840  mov w1,wzr
+710016f844  bl 0x71039c02a0
+710016f848  strh w21,[sp, #0xa]
+710016f84c  ldr x8,[sp, #0x8]
+710016f850  str x20,[sp]
+710016f854  str x20,[x19, #0x2f0]
+710016f858  ldr x0,[x19, #0x70]
+710016f85c  str x8,[x19, #0x2f8]
+710016f860  ldrb w8,[x19, #0xc2]
+710016f864  strb w8,[x19, #0x302]
+710016f868  bl 0x710016af60
+710016f86c  strh w0,[x19, #0x304]
+710016f870  ldr x0,[x19, #0x70]
+710016f874  bl 0x7100182850
+710016f878  tbz w0,#0x0,0x710016f8d0
+710016f87c  ldrb w8,[x19, #0x78]
+710016f880  cbz w8,0x710016f8a0
+710016f884  bl 0x71000b63d0
+710016f888  mov x20,x0
+710016f88c  bl 0x71000b63d0
+710016f890  mov x2,x0
+710016f894  mov x0,x19
+710016f898  mov x1,x20
+710016f89c  bl 0x7100173820
+710016f8a0  mov x0,x19
+710016f8a4  bl 0x7100173100
+710016f8a8  mov w20,w0
+710016f8ac  ldr x0,[x19, #0x70]
+710016f8b0  mov w1,w20
+710016f8b4  bl 0x71001820f0
+710016f8b8  ldr x0,[x19, #0x70]
+710016f8bc  ldr x8,[x0]
+710016f8c0  ldr x8,[x8, #0xd0]
+710016f8c4  add x1,x19,#0x105
+710016f8c8  mov w2,w20
+710016f8cc  blr x8
+710016f8d0  adrp x8,0x71052a4000
+710016f8d4  ldr x8,[x8, #0xbd0]
+710016f8d8  ldr x9,[x19, #0xb8]
+710016f8dc  adrp x10,0x71052a6000
+710016f8e0  ldr x10,[x10, #0x148]
+710016f8e4  str x9,[x8, #0x38]
+710016f8e8  ldrb w9,[x19, #0xc2]
+710016f8ec  strb w9,[x8, #0x40]
+710016f8f0  adrp x8,0x710439c000
+710016f8f4  add x8,x8,#0x747
+710016f8f8  stp x10,xzr,[x19, #0x30]
+710016f8fc  str x8,[x19, #0x40]
+710016f900  ldp x29,x30,[sp, #0x30]
+710016f904  ldp x20,x19,[sp, #0x20]
+710016f908  ldr x21,[sp, #0x10]
+710016f90c  mov x0,xzr
+710016f910  add sp,sp,#0x40
+710016f914  ret

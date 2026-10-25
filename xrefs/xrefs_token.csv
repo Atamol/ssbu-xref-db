@@ -1,1 +1,26 @@
 Location,Match Value,Depth,Terminal,Ref Type,Operand Index,From Address,From Offset,From Code Unit,Function Address,Function Offset,Function Name,Function Symbol,Function Demangled,Function Namespace,Function Signature,Function Size,Function Basic Blocks,Function Incoming Refs,Function Decompile Path,Function CFG Path,Function Clone Hash,Function Fingerprint,Function Referenced By,Path
+710449f486,Token,1,0,BRUTE_PTR,-1,7104f5c8c8,0x4f5c8c8,?? 70h    p,,,,,,,,0,0,0,,,,,,710449f486 -> 7104f5c8c8
+71044a2098,Token,1,0,BRUTE_PTR,-1,7104f61838,0x4f61838,?? 60h    `,,,,,,,,0,0,0,,,,,,71044a2098 -> 7104f61838
+710449f569,Token,1,0,DATA,0,7104f5ca48,0x4f5ca48,addr 710449f550,,,,,,,,0,0,0,,,,,,710449f569 -> 7104f5ca48
+71044a179a,Token,1,0,BRUTE_PTR,-1,7104f61318,0x4f61318,?? 80h,,,,,,,,0,0,0,,,,,,71044a179a -> 7104f61318
+71044a2111,Token,1,0,DATA,0,7104f61818,0x4f61818,addr 71044a20d0,,,,,,,,0,0,0,,,,,,71044a2111 -> 7104f61818
+710449f4b6,Token,1,0,BRUTE_PTR,-1,7104f5c8a8,0x4f5c8a8,?? A0h,,,,,,,,0,0,0,,,,,,710449f4b6 -> 7104f5c8a8
+71044a1d7b,Token,1,0,BRUTE_PTR,-1,7104f614f8,0x4f614f8,?? 50h    P,,,,,,,,0,0,0,,,,,,71044a1d7b -> 7104f614f8
+71044a1dbb,Token,1,0,BRUTE_PTR,-1,7104f61558,0x4f61558,?? 90h,,,,,,,,0,0,0,,,,,,71044a1dbb -> 7104f61558
+71044a17ca,Token,1,0,BRUTE_PTR,-1,7104f61338,0x4f61338,?? B0h,,,,,,,,0,0,0,,,,,,71044a17ca -> 7104f61338
+71044a185a,Token,1,0,BRUTE_PTR,-1,7104f61358,0x4f61358,?? 40h    @,,,,,,,,0,0,0,,,,,,71044a185a -> 7104f61358
+71044a197a,Token,1,0,BRUTE_PTR,-1,7104f61398,0x4f61398,?? 60h    `,,,,,,,,0,0,0,,,,,,71044a197a -> 7104f61398
+71044a18ea,Token,1,0,BRUTE_PTR,-1,7104f61378,0x4f61378,?? D0h,,,,,,,,0,0,0,,,,,,71044a18ea -> 7104f61378
+71044a11f7,Token,1,0,BRUTE_PTR,-1,7104f610f8,0x4f610f8,?? E0h,,,,,,,,0,0,0,,,,,,71044a11f7 -> 7104f610f8
+71044a1f83,Token,1,0,BRUTE_PTR,-1,7104f61738,0x4f61738,?? 50h    P,,,,,,,,0,0,0,,,,,,71044a1f83 -> 7104f61738
+710475482a,token,1,1,PARAM,0,71037c60d0,0x37c60d0,"add x1,x1,#0x810",71037c6060,0x37c6060,FUN_71037c6060,,,Global,"undefined __cdecl FUN_71037c6060(long * param_1, long * param_2, uint param_3)",148,11,7,decompiled/FUN_71037c6060__71037c6060.c,decompiled/FUN_71037c6060__71037c6060.mmd,329e897daf5c9fd4,f44fbea9fd7b01a9fd430091f30301aa5f100071c1000054c8d300f008213491,,710475482a -> 71037c60d0
+710475482a,token,1,0,BRUTE_PTR,-1,7105241d10,0x5241d10,?? 10h,,,,,,,,0,0,0,,,,,,710475482a -> 7105241d10
+710485e17a,token,1,1,PARAM,0,7103869f0c,0x3869f0c,"add x1,x1,#0x160",7103869e50,0x3869e50,FUN_7103869e50,,,Global,"undefined __cdecl FUN_7103869e50(undefined2 * param_1, long * param_2, uint param_3)",216,14,31,decompiled/FUN_7103869e50__7103869e50.c,decompiled/FUN_7103869e50__7103869e50.mmd,44b1212f79ade33d,f657bda9f44f01a9fd7b02a9fd830091f30301aa5f1000712101005428d000d0,,710485e17a -> 7103869f0c
+710485e17a,token,1,0,BRUTE_PTR,-1,710526f070,0x526f070,?? 60h    `,,,,,,,,0,0,0,,,,,,710485e17a -> 710526f070
+7104442c0e,Token,1,1,PARAM,0,71002a3488,0x2a3488,"ldr x1,[x8]",71002a2f90,0x2a2f90,FUN_71002a2f90,,,Global,undefined __cdecl FUN_71002a2f90(long param_1),1788,40,2,decompiled/FUN_71002a2f90__71002a2f90.c,decompiled/FUN_71002a2f90__71002a2f90.mmd,66a80ab0c9049b1f,fc6fbaa9fa6701a9f85f02a9f65703a9f44f04a9fd7b05a9fd430191ff830cd1,,7104442c0e -> 71002a3488
+7104442c0e,Token,1,0,DATA,0,7104f60d10,0x4f60d10,addr 7104442c0b,,,,,,,,0,0,0,,,,,,7104442c0e -> 7104f60d10
+7104442c0e,Token,2,0,DATA,0,71052a8850,0x52a8850,addr 7104f60d10,,,,,,,,0,0,0,,,,,,7104442c0e -> 7104f60d10 -> 71052a8850
+7104442c0e,Token,3,1,READ,1,71002a3484,0x2a3484,"ldr x8,[x8, #0x850]",71002a2f90,0x2a2f90,FUN_71002a2f90,,,Global,undefined __cdecl FUN_71002a2f90(long param_1),1788,40,2,decompiled/FUN_71002a2f90__71002a2f90.c,decompiled/FUN_71002a2f90__71002a2f90.mmd,66a80ab0c9049b1f,fc6fbaa9fa6701a9f85f02a9f65703a9f44f04a9fd7b05a9fd430191ff830cd1,,7104442c0e -> 7104f60d10 -> 71052a8850 -> 71002a3484
+710433973b,Token,1,1,READ,1,71002a3c1c,0x2a3c1c,"ldrb w11,[x10]",71002a37c0,0x2a37c0,FUN_71002a37c0,,,Global,"undefined8 __cdecl FUN_71002a37c0(long param_1, long param_2)",1932,79,1,decompiled/FUN_71002a37c0__71002a37c0.c,decompiled/FUN_71002a37c0__71002a37c0.mmd,a6d28cb884f8a1f4,ff4303d1fa6708a9f85f09a9f6570aa9f44f0ba9fd7b0ca9fd030391e8031832,,710433973b -> 71002a3c1c
+7104442c14,token,1,1,DATA,1,71002ae118,0x2ae118,"stp xzr,x8,[x29, #-0x68]",71002add70,0x2add70,FUN_71002add70,,,Global,"uint __cdecl FUN_71002add70(long param_1, undefined8 * param_2)",1212,68,1,decompiled/FUN_71002add70__71002add70.c,decompiled/FUN_71002add70__71002add70.mmd,f1d97a24bab5effa,fc0f1af8fa6701a9f85f02a9f65703a9f44f04a9fd7b05a9fd430191ffc312d1,,7104442c14 -> 71002ae118
+7104442c14,token,1,1,PARAM,0,71002ae190,0x2ae190,"csel x0,x13,x23,eq",71002add70,0x2add70,FUN_71002add70,,,Global,"uint __cdecl FUN_71002add70(long param_1, undefined8 * param_2)",1212,68,1,decompiled/FUN_71002add70__71002add70.c,decompiled/FUN_71002add70__71002add70.mmd,f1d97a24bab5effa,fc0f1af8fa6701a9f85f02a9f65703a9f44f04a9fd7b05a9fd430191ffc312d1,,7104442c14 -> 71002ae190

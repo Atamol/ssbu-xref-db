@@ -1,0 +1,75 @@
+// addr:      710017a4a0
+// offset:    0x17a4a0
+// name:      FUN_710017a4a0
+// mangled:   
+// size:      276
+
+710017a4a0  sub sp,sp,#0x40
+710017a4a4  str x21,[sp, #0x10]
+710017a4a8  stp x20,x19,[sp, #0x20]
+710017a4ac  stp x29,x30,[sp, #0x30]
+710017a4b0  add x29,sp,#0x30
+710017a4b4  mov w8,#0x646f
+710017a4b8  str w8,[sp]
+710017a4bc  mov x8,sp
+710017a4c0  orr x21,x8,#0x4
+710017a4c4  mov x19,x0
+710017a4c8  mov x0,x21
+710017a4cc  mov x20,x1
+710017a4d0  bl 0x71039c0a80
+710017a4d4  add x1,sp,#0x18
+710017a4d8  mov x0,x21
+710017a4dc  str wzr,[sp, #0x18]
+710017a4e0  bl 0x71039c0a90
+710017a4e4  ldr w8,[x20]
+710017a4e8  ldr w9,[sp]
+710017a4ec  cmp w8,w9
+710017a4f0  b.ne 0x710017a514
+710017a4f4  mov w8,#0x641e
+710017a4f8  mov x0,x21
+710017a4fc  str w8,[sp]
+710017a500  bl 0x71039c0a80
+710017a504  add x1,sp,#0x18
+710017a508  mov x0,x21
+710017a50c  str wzr,[sp, #0x18]
+710017a510  b 0x710017a568
+710017a514  mov w8,#0x6470
+710017a518  mov x0,x21
+710017a51c  str w8,[sp]
+710017a520  bl 0x71039c0a80
+710017a524  add x1,sp,#0x18
+710017a528  mov x0,x21
+710017a52c  str wzr,[sp, #0x18]
+710017a530  bl 0x71039c0a90
+710017a534  ldr w8,[x20]
+710017a538  ldr w9,[sp]
+710017a53c  cmp w8,w9
+710017a540  b.ne 0x710017a578
+710017a544  mov w8,#0x641f
+710017a548  str w8,[sp]
+710017a54c  mov x8,sp
+710017a550  orr x20,x8,#0x4
+710017a554  mov x0,x20
+710017a558  bl 0x71039c0a80
+710017a55c  str wzr,[sp, #0x18]
+710017a560  add x1,sp,#0x18
+710017a564  mov x0,x20
+710017a568  bl 0x71039c0a90
+710017a56c  add x0,x19,#0x120
+710017a570  mov x1,sp
+710017a574  b 0x710017a580
+710017a578  add x0,x19,#0x120
+710017a57c  mov x1,x20
+710017a580  bl 0x71000bcf30
+710017a584  adrp x8,0x71052a5000
+710017a588  ldr x8,[x8, #0x190]
+710017a58c  adrp x9,0x71043df000
+710017a590  add x9,x9,#0x4df
+710017a594  str x9,[x19, #0x40]
+710017a598  mov x0,xzr
+710017a59c  stp x8,xzr,[x19, #0x30]
+710017a5a0  ldr x21,[sp, #0x10]
+710017a5a4  ldp x29,x30,[sp, #0x30]
+710017a5a8  ldp x20,x19,[sp, #0x20]
+710017a5ac  add sp,sp,#0x40
+710017a5b0  ret

@@ -1,22 +1,22 @@
 Location,Match Bytes,Match Value,Label,Code Unit
-042c3bbc,67 73 70,gsp,,?? 67h    g
-042f776d,67 73 70,gsp,,?? 67h    g
-04432591,67 73 70,gsp,,?? 67h    g
-045ca369,67 73 50,gsP,,?? 67h    g
-0441178f,67 73 70,gsp,,"ds ""countfinish_gsp"""
-0426ede6,67 73 70,gsp,,"ds ""countstop_gsp"""
-0435a4bf,67 73 70,gsp,,"ds ""countup_gsp"""
-043bb4b5,67 73 70,gsp,,"ds ""get_round_gsp"""
-0433703a,67 73 70,gsp,s_get_total_gsp_04337030,"ds ""get_total_gsp"""
-042d56cc,67 73 70,gsp,,"ds ""gsp_arrow"""
-043efd9b,67 73 70,gsp,,"ds ""gsp_down"""
-042909e6,67 73 70,gsp,,"ds ""gsp_icon_onoff"""
-04328dae,67 73 70,gsp,,"ds ""gsp_onoff"""
-043497c2,67 73 70,gsp,,"ds ""gsp_type"""
-0440f697,67 73 70,gsp,,"ds ""is_visible_gsp_in_result"""
-042e5e92,67 73 70,gsp,,"ds ""set_gsp_icon"""
-0438b7ad,67 73 70,gsp,,"ds ""set_parts_gsp"""
-04440945,67 73 70,gsp,,"ds ""set_round_gsp"""
-04389a7f,67 73 70,gsp,,"ds ""set_total_gsp"""
-0442115f,67 73 70,gsp,,"ds ""set_txt_gsp"""
-043ac5ad,67 73 70,gsp,,"ds ""set_txt_gsp_count"""
+71042c4abc,67 73 70,gsp,s_set_gsp_71042c4ab8,"ds ""set_gsp"""
+71042f866d,67 73 70,gsp,DAT_71042f866d,?? 67h    g
+7104433491,67 73 70,gsp,s_gsp_up_7104433491,"ds ""gsp_up"""
+71045cb269,67 73 50,gsP,,?? 67h    g
+710441268f,67 73 70,gsp,s_countfinish_gsp_7104412683,"ds ""countfinish_gsp"""
+710426fce6,67 73 70,gsp,s_countstop_gsp_710426fcdc,"ds ""countstop_gsp"""
+710435b3bf,67 73 70,gsp,s_countup_gsp_710435b3b7,"ds ""countup_gsp"""
+71043bc3b5,67 73 70,gsp,,"ds ""get_round_gsp"""
+7104337f3a,67 73 70,gsp,,"ds ""get_total_gsp"""
+71042d65cc,67 73 70,gsp,s_gsp_arrow_71042d65cc,"ds ""gsp_arrow"""
+71043f0c9b,67 73 70,gsp,s_gsp_down_71043f0c9b,"ds ""gsp_down"""
+71042918e6,67 73 70,gsp,s_gsp_icon_onoff_71042918e6,"ds ""gsp_icon_onoff"""
+7104329cae,67 73 70,gsp,s_gsp_onoff_7104329cae,"ds ""gsp_onoff"""
+710434a6c2,67 73 70,gsp,s_gsp_type_710434a6c2,"ds ""gsp_type"""
+7104410597,67 73 70,gsp,,"ds ""is_visible_gsp_in_result"""
+71042e6d92,67 73 70,gsp,s_set_gsp_icon_71042e6d8e,"ds ""set_gsp_icon"""
+710438c6ad,67 73 70,gsp,s_set_parts_gsp_710438c6a3,"ds ""set_parts_gsp"""
+7104441845,67 73 70,gsp,,"ds ""set_round_gsp"""
+710438a97f,67 73 70,gsp,,"ds ""set_total_gsp"""
+710442205f,67 73 70,gsp,s_set_txt_gsp_7104422057,"ds ""set_txt_gsp"""
+71043ad4ad,67 73 70,gsp,s_set_txt_gsp_count_71043ad4a5,"ds ""set_txt_gsp_count"""

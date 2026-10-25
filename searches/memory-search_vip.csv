@@ -1,29 +1,28 @@
 Location,Match Bytes,Match Value,Label,Code Unit
-0448ed58,56 49 50,VIP,,?? 56h    V
-045b2901,56 69 70,Vip,,?? 56h    V
-0465b0ef,56 69 50,ViP,,?? 56h    V
-0465de2b,56 69 50,ViP,,?? 56h    V
-0466398f,56 69 50,ViP,,?? 56h    V
-04665c9f,56 69 50,ViP,,?? 56h    V
-0466c4db,56 69 50,ViP,,?? 56h    V
-04685c47,56 69 50,ViP,,?? 56h    V
-04694bba,56 49 70,VIp,,?? 56h    V
-046c1d80,56 69 50,ViP,,?? 56h    V
-046db735,56 69 50,ViP,,?? 56h    V
-046dca30,56 69 50,ViP,,?? 56h    V
-046dfd26,56 69 50,ViP,,?? 56h    V
-046ea269,56 69 50,ViP,,?? 56h    V
-043177e7,76 69 70,vip,,?? 76h    v
-0436b4aa,56 49 50,VIP,,"ds ""ANYONE_VIP"""
-042d538b,56 49 50,VIP,,"ds ""BUTTON_ID_VIP"""
-043bd76a,56 49 50,VIP,,"ds ""MODE_VIP"""
-044004f7,56 49 50,VIP,,"ds ""SEQUENCE_ONLINE_MELEE_ANYONE_VIP"""
-042e5c1e,76 69 70,vip,,"ds ""black_base_vip"""
-04329079,76 69 70,vip,,"ds ""g_is_vip_fighter"""
-0425e3b4,76 69 70,vip,,"ds ""is_unlock_vip_match"""
-043bd656,76 69 70,vip,,"ds ""is_valid_vip_match"""
-043ac39b,76 69 70,vip,,"ds ""mnu_replay_detail_anyone_vip"""
-043075eb,76 69 70,vip,,"ds ""mnu_while_wait_await_anyone_help_vip"""
-044532cf,76 69 70,vip,,"ds ""online_vs_vip_count"""
-044111be,76 69 70,vip,,"ds ""online_vs_vip_win_count"""
-0426eff3,76 69 70,vip,,"ds ""unlock_vip_match"""
+710448fc58,56 49 50,VIP,,?? 56h    V
+71045b3801,56 69 70,Vip,,?? 56h    V
+710465bfef,56 69 50,ViP,,?? 56h    V
+710465ed2b,56 69 50,ViP,,?? 56h    V
+710466488f,56 69 50,ViP,,?? 56h    V
+7104666b9f,56 69 50,ViP,,?? 56h    V
+710466d3db,56 69 50,ViP,,?? 56h    V
+7104686b47,56 69 50,ViP,,?? 56h    V
+7104695aba,56 49 70,VIp,,?? 56h    V
+71046c2c80,56 69 50,ViP,,?? 56h    V
+71046dc635,56 69 50,ViP,,?? 56h    V
+71046dd930,56 69 50,ViP,,?? 56h    V
+71046e0c26,56 69 50,ViP,,?? 56h    V
+71046eb169,56 69 50,ViP,,?? 56h    V
+71043186e7,76 69 70,vip,s_is_vip_71043186e4,"ds ""is_vip"""
+710436c3aa,56 49 50,VIP,s_ANYONE_VIP_710436c3a3,"ds ""ANYONE_VIP"""
+71042d628b,56 49 50,VIP,s_BUTTON_ID_VIP_71042d6281,"ds ""BUTTON_ID_VIP"""
+71043be66a,56 49 50,VIP,s_MODE_VIP_71043be665,"ds ""MODE_VIP"""
+71044013f7,56 49 50,VIP,s_SEQUENCE_ONLINE_MELEE_ANYONE_VIP_71044013da,"ds ""SEQUENCE_ONLINE_MELEE_ANYONE_VIP"""
+71042e6b1e,76 69 70,vip,s_black_base_vip_71042e6b13,"ds ""black_base_vip"""
+710425f2b4,76 69 70,vip,,"ds ""is_unlock_vip_match"""
+71043be556,76 69 70,vip,,"ds ""is_valid_vip_match"""
+71043ad29b,76 69 70,vip,s_mnu_replay_detail_anyone_vip_71043ad282,"ds ""mnu_replay_detail_anyone_vip"""
+71043084eb,76 69 70,vip,s_mnu_while_wait_await_anyone_help_71043084ca,"ds ""mnu_while_wait_await_anyone_help_vip"""
+71044541cf,76 69 70,vip,s_online_vs_vip_count_71044541c5,"ds ""online_vs_vip_count"""
+71044120be,76 69 70,vip,s_online_vs_vip_win_count_71044120b4,"ds ""online_vs_vip_win_count"""
+710426fef3,76 69 70,vip,,"ds ""unlock_vip_match"""

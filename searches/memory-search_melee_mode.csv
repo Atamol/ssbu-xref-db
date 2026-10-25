@@ -1,0 +1,4 @@
+Location,Match Bytes,Match Value,Label,Code Unit
+7104295780,6d 65 6c 65 65 5f 6d 6f 64 65,melee_mode,s_is_melee_mode_homerun_710429577d,"ds ""is_melee_mode_homerun"""
+71043d32ee,6d 65 6c 65 65 5f 6d 6f 64 65,melee_mode,s_is_melee_mode_online_tournament_71043d32eb,"ds ""is_melee_mode_online_tournament"""
+7104307c7c,6d 65 6c 65 65 5f 6d 6f 64 65,melee_mode,s_melee_mode_7104307c7c,"ds ""melee_mode"""

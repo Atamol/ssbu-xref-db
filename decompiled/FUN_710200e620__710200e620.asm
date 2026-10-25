@@ -1,0 +1,631 @@
+// addr:      710200e620
+// offset:    0x200e620
+// name:      FUN_710200e620
+// mangled:   
+// size:      2500
+
+710200e620  str x23,[sp, #-0x40]!
+710200e624  stp x22,x21,[sp, #0x10]
+710200e628  stp x20,x19,[sp, #0x20]
+710200e62c  stp x29,x30,[sp, #0x30]
+710200e630  add x29,sp,#0x30
+710200e634  ldr x8,[x1, #0x10]
+710200e638  adrp x9,0x710200e000
+710200e63c  add x9,x9,#0xff0
+710200e640  str x9,[x8]
+710200e644  mov w9,#0x2
+710200e648  str w9,[x8, #0x8]
+710200e64c  ldr x8,[x1, #0x10]
+710200e650  mov x19,x1
+710200e654  mov x20,x0
+710200e658  mov x0,x19
+710200e65c  add x9,x8,#0x10
+710200e660  mov w21,w2
+710200e664  adrp x2,0x710430c000
+710200e668  add x2,x2,#0x66a
+710200e66c  str x9,[x1, #0x10]
+710200e670  sub x1,x8,#0x10
+710200e674  bl 0x71038f5390
+710200e678  ldr w8,[x20]
+710200e67c  ldr x9,[x19, #0x10]
+710200e680  str w8,[x9]
+710200e684  orr w8,wzr,#0x3
+710200e688  str w8,[x9, #0x8]
+710200e68c  ldr x8,[x19, #0x10]
+710200e690  add x9,x8,#0x10
+710200e694  sub x1,x8,#0x10
+710200e698  adrp x2,0x7104270000
+710200e69c  add x2,x2,#0xee2
+710200e6a0  mov x0,x19
+710200e6a4  str x9,[x19, #0x10]
+710200e6a8  bl 0x71038f5390
+710200e6ac  ldrsw x8,[x20, #0x4]
+710200e6b0  ldr x9,[x19, #0x10]
+710200e6b4  mov w22,#0x13
+710200e6b8  str x8,[x9]
+710200e6bc  str w22,[x9, #0x8]
+710200e6c0  ldr x8,[x19, #0x10]
+710200e6c4  add x9,x8,#0x10
+710200e6c8  sub x1,x8,#0x10
+710200e6cc  adrp x2,0x7104270000
+710200e6d0  add x2,x2,#0xeec
+710200e6d4  mov x0,x19
+710200e6d8  str x9,[x19, #0x10]
+710200e6dc  bl 0x71038f5390
+710200e6e0  ldrsw x8,[x20, #0x8]
+710200e6e4  ldr x9,[x19, #0x10]
+710200e6e8  str x8,[x9]
+710200e6ec  str w22,[x9, #0x8]
+710200e6f0  ldr x8,[x19, #0x10]
+710200e6f4  add x9,x8,#0x10
+710200e6f8  sub x1,x8,#0x10
+710200e6fc  adrp x2,0x71042d7000
+710200e700  add x2,x2,#0x2df
+710200e704  mov x0,x19
+710200e708  str x9,[x19, #0x10]
+710200e70c  bl 0x71038f5390
+710200e710  tbz w21,#0x0,0x710200e768
+710200e714  ldr x8,[x19, #0x18]
+710200e718  ldr x8,[x8, #0x18]
+710200e71c  cmp x8,#0x1
+710200e720  b.lt 0x710200e72c
+710200e724  mov x0,x19
+710200e728  bl 0x71038fec40
+710200e72c  mov x0,x19
+710200e730  bl 0x710391e050
+710200e734  ldr x8,[x19, #0x10]
+710200e738  mov w9,#0x45
+710200e73c  str w9,[x8, #0x8]
+710200e740  str x0,[x8]
+710200e744  ldr x8,[x19, #0x10]
+710200e748  mov x1,x0
+710200e74c  orr w3,wzr,#0x3
+710200e750  mov x0,x19
+710200e754  mov w2,wzr
+710200e758  add x8,x8,#0x10
+710200e75c  str x8,[x19, #0x10]
+710200e760  bl 0x710391d4c0
+710200e764  b 0x710200e780
+710200e768  ldr x8,[x19, #0x10]
+710200e76c  sub x1,x8,#0x10
+710200e770  adrp x2,0x71042c5000
+710200e774  add x2,x2,#0xed7
+710200e778  mov x0,x19
+710200e77c  bl 0x71038f4d40
+710200e780  ldr s0,[x20, #0x10]
+710200e784  ldr x8,[x19, #0x10]
+710200e788  orr w23,wzr,#0x3
+710200e78c  str w23,[x8, #0x8]
+710200e790  str s0,[x8]
+710200e794  ldr x8,[x19, #0x10]
+710200e798  add x9,x8,#0x10
+710200e79c  sub x1,x8,#0x10
+710200e7a0  adrp x2,0x71043d7000
+710200e7a4  add x2,x2,#0xeae
+710200e7a8  mov x0,x19
+710200e7ac  str x9,[x19, #0x10]
+710200e7b0  bl 0x71038f5390
+710200e7b4  ldr s0,[x20, #0x14]
+710200e7b8  ldr x8,[x19, #0x10]
+710200e7bc  str w23,[x8, #0x8]
+710200e7c0  str s0,[x8]
+710200e7c4  ldr x8,[x19, #0x10]
+710200e7c8  add x9,x8,#0x10
+710200e7cc  sub x1,x8,#0x10
+710200e7d0  adrp x2,0x71042ab000
+710200e7d4  add x2,x2,#0xc20
+710200e7d8  mov x0,x19
+710200e7dc  str x9,[x19, #0x10]
+710200e7e0  bl 0x71038f5390
+710200e7e4  ldr x8,[x19, #0x10]
+710200e7e8  tbz w21,#0x0,0x710200e854
+710200e7ec  sub x1,x8,#0x20
+710200e7f0  adrp x2,0x71042c5000
+710200e7f4  add x2,x2,#0xed7
+710200e7f8  mov x0,x19
+710200e7fc  bl 0x71038f5390
+710200e800  ldr x8,[x19, #0x18]
+710200e804  ldr x8,[x8, #0x18]
+710200e808  cmp x8,#0x1
+710200e80c  b.lt 0x710200e818
+710200e810  mov x0,x19
+710200e814  bl 0x71038fec40
+710200e818  mov x0,x19
+710200e81c  bl 0x710391e050
+710200e820  ldr x8,[x19, #0x10]
+710200e824  mov w9,#0x45
+710200e828  str w9,[x8, #0x8]
+710200e82c  str x0,[x8]
+710200e830  ldr x8,[x19, #0x10]
+710200e834  mov x1,x0
+710200e838  mov w3,#0x4
+710200e83c  mov x0,x19
+710200e840  mov w2,wzr
+710200e844  add x8,x8,#0x10
+710200e848  str x8,[x19, #0x10]
+710200e84c  bl 0x710391d4c0
+710200e850  b 0x710200e870
+710200e854  sub x9,x8,#0x10
+710200e858  sub x1,x8,#0x20
+710200e85c  adrp x2,0x7104423000
+710200e860  add x2,x2,#0xde
+710200e864  mov x0,x19
+710200e868  str x9,[x19, #0x10]
+710200e86c  bl 0x71038f4d40
+710200e870  ldr s0,[x20, #0x20]
+710200e874  ldr x8,[x19, #0x10]
+710200e878  orr w23,wzr,#0x3
+710200e87c  str w23,[x8, #0x8]
+710200e880  str s0,[x8]
+710200e884  ldr x8,[x19, #0x10]
+710200e888  add x9,x8,#0x10
+710200e88c  sub x1,x8,#0x10
+710200e890  adrp x2,0x71043d7000
+710200e894  add x2,x2,#0xeae
+710200e898  mov x0,x19
+710200e89c  str x9,[x19, #0x10]
+710200e8a0  bl 0x71038f5390
+710200e8a4  ldr s0,[x20, #0x24]
+710200e8a8  ldr x8,[x19, #0x10]
+710200e8ac  str w23,[x8, #0x8]
+710200e8b0  str s0,[x8]
+710200e8b4  ldr x8,[x19, #0x10]
+710200e8b8  add x9,x8,#0x10
+710200e8bc  sub x1,x8,#0x10
+710200e8c0  adrp x2,0x71042ab000
+710200e8c4  add x2,x2,#0xc20
+710200e8c8  mov x0,x19
+710200e8cc  str x9,[x19, #0x10]
+710200e8d0  bl 0x71038f5390
+710200e8d4  ldr s0,[x20, #0x28]
+710200e8d8  ldr x8,[x19, #0x10]
+710200e8dc  str w23,[x8, #0x8]
+710200e8e0  str s0,[x8]
+710200e8e4  ldr x8,[x19, #0x10]
+710200e8e8  add x9,x8,#0x10
+710200e8ec  sub x1,x8,#0x10
+710200e8f0  adrp x2,0x710443b000
+710200e8f4  add x2,x2,#0x9a0
+710200e8f8  mov x0,x19
+710200e8fc  str x9,[x19, #0x10]
+710200e900  bl 0x71038f5390
+710200e904  ldr x8,[x19, #0x10]
+710200e908  tbz w21,#0x0,0x710200e974
+710200e90c  sub x1,x8,#0x20
+710200e910  adrp x2,0x7104423000
+710200e914  add x2,x2,#0xde
+710200e918  mov x0,x19
+710200e91c  bl 0x71038f5390
+710200e920  ldr x8,[x19, #0x18]
+710200e924  ldr x8,[x8, #0x18]
+710200e928  cmp x8,#0x1
+710200e92c  b.lt 0x710200e938
+710200e930  mov x0,x19
+710200e934  bl 0x71038fec40
+710200e938  mov x0,x19
+710200e93c  bl 0x710391e050
+710200e940  ldr x8,[x19, #0x10]
+710200e944  mov w9,#0x45
+710200e948  str w9,[x8, #0x8]
+710200e94c  str x0,[x8]
+710200e950  ldr x8,[x19, #0x10]
+710200e954  mov x1,x0
+710200e958  orr w3,wzr,#0x3
+710200e95c  mov x0,x19
+710200e960  mov w2,wzr
+710200e964  add x8,x8,#0x10
+710200e968  str x8,[x19, #0x10]
+710200e96c  bl 0x710391d4c0
+710200e970  b 0x710200e990
+710200e974  sub x9,x8,#0x10
+710200e978  sub x1,x8,#0x20
+710200e97c  adrp x2,0x710437d000
+710200e980  add x2,x2,#0x424
+710200e984  mov x0,x19
+710200e988  str x9,[x19, #0x10]
+710200e98c  bl 0x71038f4d40
+710200e990  ldr s0,[x20, #0x30]
+710200e994  ldr x8,[x19, #0x10]
+710200e998  orr w23,wzr,#0x3
+710200e99c  str w23,[x8, #0x8]
+710200e9a0  str s0,[x8]
+710200e9a4  ldr x8,[x19, #0x10]
+710200e9a8  add x9,x8,#0x10
+710200e9ac  sub x1,x8,#0x10
+710200e9b0  adrp x2,0x71043d7000
+710200e9b4  add x2,x2,#0xeae
+710200e9b8  mov x0,x19
+710200e9bc  str x9,[x19, #0x10]
+710200e9c0  bl 0x71038f5390
+710200e9c4  ldr s0,[x20, #0x34]
+710200e9c8  ldr x8,[x19, #0x10]
+710200e9cc  str w23,[x8, #0x8]
+710200e9d0  str s0,[x8]
+710200e9d4  ldr x8,[x19, #0x10]
+710200e9d8  add x9,x8,#0x10
+710200e9dc  sub x1,x8,#0x10
+710200e9e0  adrp x2,0x71042ab000
+710200e9e4  add x2,x2,#0xc20
+710200e9e8  mov x0,x19
+710200e9ec  str x9,[x19, #0x10]
+710200e9f0  bl 0x71038f5390
+710200e9f4  ldr x8,[x19, #0x10]
+710200e9f8  tbz w21,#0x0,0x710200ea18
+710200e9fc  sub x1,x8,#0x20
+710200ea00  adrp x2,0x710437d000
+710200ea04  add x2,x2,#0x424
+710200ea08  mov x0,x19
+710200ea0c  bl 0x71038f5390
+710200ea10  ldr x8,[x19, #0x10]
+710200ea14  b 0x710200ea20
+710200ea18  sub x8,x8,#0x10
+710200ea1c  str x8,[x19, #0x10]
+710200ea20  ldr w9,[x20, #0x40]
+710200ea24  orr w23,wzr,#0x3
+710200ea28  str w23,[x8, #0x8]
+710200ea2c  adrp x2,0x710435c000
+710200ea30  add x2,x2,#0x68d
+710200ea34  str w9,[x8]
+710200ea38  ldr x8,[x19, #0x10]
+710200ea3c  add x9,x8,#0x10
+710200ea40  sub x1,x8,#0x10
+710200ea44  mov x0,x19
+710200ea48  str x9,[x19, #0x10]
+710200ea4c  bl 0x71038f5390
+710200ea50  ldr w8,[x20, #0x44]
+710200ea54  ldr x9,[x19, #0x10]
+710200ea58  str w8,[x9]
+710200ea5c  str w23,[x9, #0x8]
+710200ea60  ldr x8,[x19, #0x10]
+710200ea64  add x9,x8,#0x10
+710200ea68  sub x1,x8,#0x10
+710200ea6c  adrp x2,0x7104350000
+710200ea70  add x2,x2,#0x640
+710200ea74  mov x0,x19
+710200ea78  str x9,[x19, #0x10]
+710200ea7c  bl 0x71038f5390
+710200ea80  ldr w8,[x20, #0x48]
+710200ea84  ldr x9,[x19, #0x10]
+710200ea88  str w8,[x9]
+710200ea8c  str w23,[x9, #0x8]
+710200ea90  ldr x8,[x19, #0x10]
+710200ea94  add x9,x8,#0x10
+710200ea98  sub x1,x8,#0x10
+710200ea9c  adrp x2,0x7104455000
+710200eaa0  add x2,x2,#0xa1c
+710200eaa4  mov x0,x19
+710200eaa8  str x9,[x19, #0x10]
+710200eaac  bl 0x71038f5390
+710200eab0  ldrsw x8,[x20, #0x4c]
+710200eab4  ldr x9,[x19, #0x10]
+710200eab8  str x8,[x9]
+710200eabc  str w22,[x9, #0x8]
+710200eac0  ldr x8,[x19, #0x10]
+710200eac4  add x9,x8,#0x10
+710200eac8  sub x1,x8,#0x10
+710200eacc  adrp x2,0x71042a3000
+710200ead0  add x2,x2,#0xeba
+710200ead4  mov x0,x19
+710200ead8  str x9,[x19, #0x10]
+710200eadc  bl 0x71038f5390
+710200eae0  ldr x8,[x20, #0x50]
+710200eae4  ldr x9,[x19, #0x10]
+710200eae8  str w22,[x9, #0x8]
+710200eaec  and x8,x8,#0xffffffffff
+710200eaf0  str x8,[x9]
+710200eaf4  ldr x8,[x19, #0x10]
+710200eaf8  add x9,x8,#0x10
+710200eafc  sub x1,x8,#0x10
+710200eb00  adrp x2,0x71042a3000
+710200eb04  add x2,x2,#0xd4e
+710200eb08  mov x0,x19
+710200eb0c  str x9,[x19, #0x10]
+710200eb10  bl 0x71038f5390
+710200eb14  ldr w8,[x20, #0x58]
+710200eb18  ldr x9,[x19, #0x10]
+710200eb1c  str w8,[x9]
+710200eb20  str w23,[x9, #0x8]
+710200eb24  ldr x8,[x19, #0x10]
+710200eb28  add x9,x8,#0x10
+710200eb2c  sub x1,x8,#0x10
+710200eb30  adrp x2,0x7104455000
+710200eb34  add x2,x2,#0xa10
+710200eb38  mov x0,x19
+710200eb3c  str x9,[x19, #0x10]
+710200eb40  bl 0x71038f5390
+710200eb44  ldrsw x8,[x20, #0x5c]
+710200eb48  ldr x9,[x19, #0x10]
+710200eb4c  str x8,[x9]
+710200eb50  str w22,[x9, #0x8]
+710200eb54  ldr x8,[x19, #0x10]
+710200eb58  add x9,x8,#0x10
+710200eb5c  sub x1,x8,#0x10
+710200eb60  adrp x2,0x7104281000
+710200eb64  add x2,x2,#0x814
+710200eb68  mov x0,x19
+710200eb6c  str x9,[x19, #0x10]
+710200eb70  bl 0x71038f5390
+710200eb74  ldr w8,[x20, #0x60]
+710200eb78  ldr x9,[x19, #0x10]
+710200eb7c  str w8,[x9]
+710200eb80  str w23,[x9, #0x8]
+710200eb84  ldr x8,[x19, #0x10]
+710200eb88  add x9,x8,#0x10
+710200eb8c  sub x1,x8,#0x10
+710200eb90  adrp x2,0x71043bf000
+710200eb94  add x2,x2,#0x398
+710200eb98  mov x0,x19
+710200eb9c  str x9,[x19, #0x10]
+710200eba0  bl 0x71038f5390
+710200eba4  tbz w21,#0x0,0x710200ebfc
+710200eba8  ldr x8,[x19, #0x18]
+710200ebac  ldr x8,[x8, #0x18]
+710200ebb0  cmp x8,#0x1
+710200ebb4  b.lt 0x710200ebc0
+710200ebb8  mov x0,x19
+710200ebbc  bl 0x71038fec40
+710200ebc0  mov x0,x19
+710200ebc4  bl 0x710391e050
+710200ebc8  ldr x8,[x19, #0x10]
+710200ebcc  mov w9,#0x45
+710200ebd0  str w9,[x8, #0x8]
+710200ebd4  str x0,[x8]
+710200ebd8  ldr x8,[x19, #0x10]
+710200ebdc  mov x1,x0
+710200ebe0  orr w3,wzr,#0x3
+710200ebe4  mov x0,x19
+710200ebe8  mov w2,wzr
+710200ebec  add x8,x8,#0x10
+710200ebf0  str x8,[x19, #0x10]
+710200ebf4  bl 0x710391d4c0
+710200ebf8  b 0x710200ec14
+710200ebfc  ldr x8,[x19, #0x10]
+710200ec00  sub x1,x8,#0x10
+710200ec04  adrp x2,0x7104281000
+710200ec08  add x2,x2,#0x81a
+710200ec0c  mov x0,x19
+710200ec10  bl 0x71038f4d40
+710200ec14  ldr s0,[x20, #0x70]
+710200ec18  ldr x8,[x19, #0x10]
+710200ec1c  orr w23,wzr,#0x3
+710200ec20  str w23,[x8, #0x8]
+710200ec24  str s0,[x8]
+710200ec28  ldr x8,[x19, #0x10]
+710200ec2c  add x9,x8,#0x10
+710200ec30  sub x1,x8,#0x10
+710200ec34  adrp x2,0x71043d7000
+710200ec38  add x2,x2,#0xeae
+710200ec3c  mov x0,x19
+710200ec40  str x9,[x19, #0x10]
+710200ec44  bl 0x71038f5390
+710200ec48  ldr s0,[x20, #0x74]
+710200ec4c  ldr x8,[x19, #0x10]
+710200ec50  str w23,[x8, #0x8]
+710200ec54  str s0,[x8]
+710200ec58  ldr x8,[x19, #0x10]
+710200ec5c  add x9,x8,#0x10
+710200ec60  sub x1,x8,#0x10
+710200ec64  adrp x2,0x71042ab000
+710200ec68  add x2,x2,#0xc20
+710200ec6c  mov x0,x19
+710200ec70  str x9,[x19, #0x10]
+710200ec74  bl 0x71038f5390
+710200ec78  ldr x8,[x19, #0x10]
+710200ec7c  tbz w21,#0x0,0x710200ec9c
+710200ec80  sub x1,x8,#0x20
+710200ec84  adrp x2,0x7104281000
+710200ec88  add x2,x2,#0x81a
+710200ec8c  mov x0,x19
+710200ec90  bl 0x71038f5390
+710200ec94  ldr x8,[x19, #0x10]
+710200ec98  b 0x710200eca4
+710200ec9c  sub x8,x8,#0x10
+710200eca0  str x8,[x19, #0x10]
+710200eca4  ldrsw x9,[x20, #0x80]
+710200eca8  str x9,[x8]
+710200ecac  str w22,[x8, #0x8]
+710200ecb0  ldr x8,[x19, #0x10]
+710200ecb4  add x9,x8,#0x10
+710200ecb8  sub x1,x8,#0x10
+710200ecbc  adrp x2,0x71043c7000
+710200ecc0  add x2,x2,#0xc26
+710200ecc4  mov x0,x19
+710200ecc8  str x9,[x19, #0x10]
+710200eccc  bl 0x71038f5390
+710200ecd0  ldrsw x8,[x20, #0x84]
+710200ecd4  ldr x9,[x19, #0x10]
+710200ecd8  str x8,[x9]
+710200ecdc  str w22,[x9, #0x8]
+710200ece0  ldr x8,[x19, #0x10]
+710200ece4  add x9,x8,#0x10
+710200ece8  sub x1,x8,#0x10
+710200ecec  adrp x2,0x7104250000
+710200ecf0  add x2,x2,#0x474
+710200ecf4  mov x0,x19
+710200ecf8  str x9,[x19, #0x10]
+710200ecfc  bl 0x71038f5390
+710200ed00  ldrb w8,[x20, #0x88]
+710200ed04  ldr x9,[x19, #0x10]
+710200ed08  str x8,[x9]
+710200ed0c  str w22,[x9, #0x8]
+710200ed10  ldr x8,[x19, #0x10]
+710200ed14  add x9,x8,#0x10
+710200ed18  sub x1,x8,#0x10
+710200ed1c  adrp x2,0x71043e1000
+710200ed20  add x2,x2,#0xe3
+710200ed24  mov x0,x19
+710200ed28  str x9,[x19, #0x10]
+710200ed2c  bl 0x71038f5390
+710200ed30  ldrb w8,[x20, #0x89]
+710200ed34  ldr x9,[x19, #0x10]
+710200ed38  mov w21,#0x1
+710200ed3c  str w8,[x9]
+710200ed40  str w21,[x9, #0x8]
+710200ed44  ldr x8,[x19, #0x10]
+710200ed48  add x9,x8,#0x10
+710200ed4c  sub x1,x8,#0x10
+710200ed50  adrp x2,0x710435c000
+710200ed54  add x2,x2,#0x694
+710200ed58  mov x0,x19
+710200ed5c  str x9,[x19, #0x10]
+710200ed60  bl 0x71038f5390
+710200ed64  ldrb w8,[x20, #0x8a]
+710200ed68  ldr x9,[x19, #0x10]
+710200ed6c  str w8,[x9]
+710200ed70  str w21,[x9, #0x8]
+710200ed74  ldr x8,[x19, #0x10]
+710200ed78  add x9,x8,#0x10
+710200ed7c  sub x1,x8,#0x10
+710200ed80  adrp x2,0x7104260000
+710200ed84  add x2,x2,#0x278
+710200ed88  mov x0,x19
+710200ed8c  str x9,[x19, #0x10]
+710200ed90  bl 0x71038f5390
+710200ed94  ldrb w8,[x20, #0x8b]
+710200ed98  ldr x9,[x19, #0x10]
+710200ed9c  str w8,[x9]
+710200eda0  str w21,[x9, #0x8]
+710200eda4  ldr x8,[x19, #0x10]
+710200eda8  add x9,x8,#0x10
+710200edac  sub x1,x8,#0x10
+710200edb0  adrp x2,0x710432a000
+710200edb4  add x2,x2,#0xef2
+710200edb8  mov x0,x19
+710200edbc  str x9,[x19, #0x10]
+710200edc0  bl 0x71038f5390
+710200edc4  ldrb w8,[x20, #0x8c]
+710200edc8  ldr x9,[x19, #0x10]
+710200edcc  str w8,[x9]
+710200edd0  str w21,[x9, #0x8]
+710200edd4  ldr x8,[x19, #0x10]
+710200edd8  add x9,x8,#0x10
+710200eddc  sub x1,x8,#0x10
+710200ede0  adrp x2,0x71043bf000
+710200ede4  add x2,x2,#0x436
+710200ede8  mov x0,x19
+710200edec  str x9,[x19, #0x10]
+710200edf0  bl 0x71038f5390
+710200edf4  ldrb w8,[x20, #0x8d]
+710200edf8  ldr x9,[x19, #0x10]
+710200edfc  str w8,[x9]
+710200ee00  str w21,[x9, #0x8]
+710200ee04  ldr x8,[x19, #0x10]
+710200ee08  add x9,x8,#0x10
+710200ee0c  sub x1,x8,#0x10
+710200ee10  adrp x2,0x7104250000
+710200ee14  add x2,x2,#0x485
+710200ee18  mov x0,x19
+710200ee1c  str x9,[x19, #0x10]
+710200ee20  bl 0x71038f5390
+710200ee24  ldrb w8,[x20, #0x8e]
+710200ee28  ldr x9,[x19, #0x10]
+710200ee2c  str w8,[x9]
+710200ee30  str w21,[x9, #0x8]
+710200ee34  ldr x8,[x19, #0x10]
+710200ee38  add x9,x8,#0x10
+710200ee3c  sub x1,x8,#0x10
+710200ee40  adrp x2,0x7104413000
+710200ee44  add x2,x2,#0x7c5
+710200ee48  mov x0,x19
+710200ee4c  str x9,[x19, #0x10]
+710200ee50  bl 0x71038f5390
+710200ee54  ldrb w8,[x20, #0x8f]
+710200ee58  ldr x9,[x19, #0x10]
+710200ee5c  str w8,[x9]
+710200ee60  str w21,[x9, #0x8]
+710200ee64  ldr x8,[x19, #0x10]
+710200ee68  add x9,x8,#0x10
+710200ee6c  sub x1,x8,#0x10
+710200ee70  adrp x2,0x710433b000
+710200ee74  add x2,x2,#0x171
+710200ee78  mov x0,x19
+710200ee7c  str x9,[x19, #0x10]
+710200ee80  bl 0x71038f5390
+710200ee84  ldrb w8,[x20, #0x90]
+710200ee88  ldr x9,[x19, #0x10]
+710200ee8c  str w8,[x9]
+710200ee90  str w21,[x9, #0x8]
+710200ee94  ldr x8,[x19, #0x10]
+710200ee98  add x9,x8,#0x10
+710200ee9c  sub x1,x8,#0x10
+710200eea0  adrp x2,0x7104250000
+710200eea4  add x2,x2,#0x48d
+710200eea8  mov x0,x19
+710200eeac  str x9,[x19, #0x10]
+710200eeb0  bl 0x71038f5390
+710200eeb4  ldrb w8,[x20, #0x91]
+710200eeb8  ldr x9,[x19, #0x10]
+710200eebc  str w8,[x9]
+710200eec0  str w21,[x9, #0x8]
+710200eec4  ldr x8,[x19, #0x10]
+710200eec8  add x9,x8,#0x10
+710200eecc  sub x1,x8,#0x10
+710200eed0  adrp x2,0x710434b000
+710200eed4  add x2,x2,#0x17c
+710200eed8  mov x0,x19
+710200eedc  str x9,[x19, #0x10]
+710200eee0  bl 0x71038f5390
+710200eee4  ldrb w8,[x20, #0x92]
+710200eee8  ldr x9,[x19, #0x10]
+710200eeec  str w8,[x9]
+710200eef0  str w21,[x9, #0x8]
+710200eef4  ldr x8,[x19, #0x10]
+710200eef8  add x9,x8,#0x10
+710200eefc  sub x1,x8,#0x10
+710200ef00  adrp x2,0x71042a3000
+710200ef04  add x2,x2,#0xd47
+710200ef08  mov x0,x19
+710200ef0c  str x9,[x19, #0x10]
+710200ef10  bl 0x71038f5390
+710200ef14  ldrb w8,[x20, #0x93]
+710200ef18  ldr x9,[x19, #0x10]
+710200ef1c  str w8,[x9]
+710200ef20  str w21,[x9, #0x8]
+710200ef24  ldr x8,[x19, #0x10]
+710200ef28  add x9,x8,#0x10
+710200ef2c  sub x1,x8,#0x10
+710200ef30  adrp x2,0x7104281000
+710200ef34  add x2,x2,#0x708
+710200ef38  mov x0,x19
+710200ef3c  str x9,[x19, #0x10]
+710200ef40  bl 0x71038f5390
+710200ef44  ldrb w8,[x20, #0x94]
+710200ef48  ldr x9,[x19, #0x10]
+710200ef4c  str w8,[x9]
+710200ef50  str w21,[x9, #0x8]
+710200ef54  ldr x8,[x19, #0x10]
+710200ef58  add x9,x8,#0x10
+710200ef5c  sub x1,x8,#0x10
+710200ef60  adrp x2,0x7104281000
+710200ef64  add x2,x2,#0x7f9
+710200ef68  mov x0,x19
+710200ef6c  str x9,[x19, #0x10]
+710200ef70  bl 0x71038f5390
+710200ef74  ldrsw x8,[x20, #0x98]
+710200ef78  ldr x9,[x19, #0x10]
+710200ef7c  str x8,[x9]
+710200ef80  str w22,[x9, #0x8]
+710200ef84  ldr x8,[x19, #0x10]
+710200ef88  add x9,x8,#0x10
+710200ef8c  sub x1,x8,#0x10
+710200ef90  adrp x2,0x71042e8000
+710200ef94  add x2,x2,#0x13f
+710200ef98  mov x0,x19
+710200ef9c  str x9,[x19, #0x10]
+710200efa0  bl 0x71038f5390
+710200efa4  ldrb w8,[x20, #0x9c]
+710200efa8  ldr x9,[x19, #0x10]
+710200efac  str x8,[x9]
+710200efb0  str w22,[x9, #0x8]
+710200efb4  ldr x8,[x19, #0x10]
+710200efb8  add x9,x8,#0x10
+710200efbc  str x9,[x19, #0x10]
+710200efc0  mov x0,x19
+710200efc4  sub x1,x8,#0x10
+710200efc8  ldp x29,x30,[sp, #0x30]
+710200efcc  adrp x2,0x710432a000
+710200efd0  add x2,x2,#0xf01
+710200efd4  ldp x20,x19,[sp, #0x20]
+710200efd8  ldp x22,x21,[sp, #0x10]
+710200efdc  ldr x23,[sp], #0x40
+710200efe0  b 0x71038f5390

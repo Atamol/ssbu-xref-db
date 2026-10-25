@@ -1,1 +1,3 @@
 Location,Match Value,Depth,Terminal,Ref Type,Operand Index,From Address,From Offset,From Code Unit,Function Address,Function Offset,Function Name,Function Symbol,Function Demangled,Function Namespace,Function Signature,Function Size,Function Basic Blocks,Function Incoming Refs,Function Decompile Path,Function CFG Path,Function Clone Hash,Function Fingerprint,Function Referenced By,Path
+710449cafa,StateMachine,1,0,BRUTE_PTR,-1,7104f56d38,0x4f56d38,?? F0h,,,,,,,,0,0,0,,,,,,710449cafa -> 7104f56d38
+710447495b,StateMachine,1,0,BRUTE_PTR,-1,7104f402d0,0x4f402d0,?? 50h    P,,,,,,,,0,0,0,,,,,,710447495b -> 7104f402d0

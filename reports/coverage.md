@@ -1,67 +1,150 @@
 # Coverage report
 
-Functions reached by current search set: **449**
+Functions reached by current search set: **3686**
 
 ## Symbol availability
 - with mangled symbol: **0** (0.0%)
-- only FUN_xxxx-style: **449** (100.0%)
+- only FUN_xxxx-style: **3686** (100.0%)
 
 ## Function size buckets
-- tiny (<32 bytes): **0**
-- large (>=1024 bytes): **87**
+- tiny (<32 bytes): **135**
+- large (>=1024 bytes): **1317**
 
 ## Connectivity
-- no known callers: **199** (entry-points or dead?)
-- no known callees: **2** (leaf functions)
-- decompile failed: **10**
+- no known callers: **1814** (entry-points or dead?)
+- no known callees: **170** (leaf functions)
+- decompile failed: **8**
 
 ## Top namespaces in reached set
-- `Global`: 439
-- `switchD_01cd46ec`: 1
-- `switchD_01d95a3c`: 1
-- `switchD_01b85c04`: 1
-- `switchD_01bcbf60`: 1
-- `switchD_01c216cc`: 1
-- `switchD_01f1baac`: 1
-- `switchD_01ab345c`: 1
-- `switchD_01bbc0a0`: 1
-- `switchD_01b4ace8`: 1
-- `switchD_01add344`: 1
+- `Global`: 3686
 
 ## Per-category counts
-- `connect`: 307
-- `scene`: 61
-- `session`: 9
-- `local`: 9
-- `join`: 7
-- `ip`: 7
-- `phase`: 6
-- `host`: 5
-- `nex`: 5
-- `mesh`: 4
-- `room`: 4
-- `key`: 3
-- `relay`: 3
-- `port`: 3
-- `lua`: 3
-- `wait`: 2
-- `result`: 2
-- `url`: 2
+- `online`: 725
+- `type`: 434
+- `phase`: 357
+- `type_`: 356
+- `lua`: 350
+- `session`: 346
+- `item`: 345
+- `nex`: 339
+- `ip`: 273
+- `wait`: 265
+- `join`: 249
+- `lan`: 232
+- `stage`: 226
+- `start`: 198
+- `leave`: 191
+- `mesh`: 189
+- `scene`: 184
+- `key`: 166
+- `local`: 153
+- `joint`: 149
+- `time`: 144
+- `menu`: 135
+- `connect`: 125
+- `host`: 124
+- `pia`: 118
+- `gauge`: 114
+- `port`: 114
+- `melee`: 109
+- `matchmakesession`: 100
+- `rule`: 98
+- `result`: 97
+- `final`: 87
+- `migration`: 87
+- `parameter`: 75
+- `replay`: 74
+- `block`: 73
+- `error`: 73
+- `room`: 72
+- `ready`: 70
+- `home`: 65
+- `network`: 63
+- `state`: 51
+- `dead`: 51
+- `nintendo`: 50
+- `uid`: 50
+- `chara_select`: 50
+- `invalid`: 48
+- `joinsession`: 48
+- `leavematchmakesession`: 41
+- `register`: 40
+- `ban`: 39
+- `front`: 36
+- `charge`: 34
+- `stock`: 33
+- `disconnect`: 31
+- `transport`: 30
+- `address`: 28
+- `gathering`: 28
+- `url`: 28
+- `popup`: 28
+- `protocol`: 22
+- `updatesession`: 21
+- `retry`: 21
+- `opponent`: 20
+- `transition`: 19
+- `format`: 18
+- `100`: 18
+- `band`: 16
+- `participat`: 16
+- `relay`: 15
+- `arena`: 14
+- `proxy`: 13
+- `meleerule`: 12
+- `pid`: 12
+- `vip`: 11
+- `migrate`: 11
+- `hash`: 10
+- `joinmatchmakesession`: 10
+- `rating`: 10
+- `waiting`: 10
+- `cut_in`: 10
+- `socket`: 10
+- `prudp`: 9
+- `is_playing`: 8
+- `friend`: 8
+- `method`: 8
+- `cutin`: 8
+- `matchmaking`: 8
+- `kick`: 8
+- `notification`: 8
+- `ticket`: 8
+- `mac`: 7
+- `spect`: 7
+- `defeat`: 6
+- `battlefield`: 6
+- `account`: 6
+- `melee_rule`: 5
+- `gsp`: 5
+- `token`: 5
+- `authentication`: 5
+- `login`: 4
+- `stage_select`: 4
+- `digest`: 4
+- `p2p`: 4
+- `gamemode`: 3
+- `matching`: 3
+- `melee_mode`: 3
+- `quit`: 3
+- `hit_camera`: 3
+- `victory`: 3
+- `logout`: 2
+- `rendezvous`: 2
+- `120`: 2
+- `signature`: 2
+- `verify`: 2
+- `nonce`: 2
+- `battle_end`: 2
+- `timeout`: 2
+- `gekitui`: 2
+- `protocolid`: 1
+- `encrypt`: 1
+- `battle_start`: 1
+- `pialocal`: 1
 - `phx`: 1
-- `error`: 1
-- `network`: 1
-- `notification`: 1
-- `ready`: 1
-- `parameter`: 1
-- `friend`: 1
-- `melee`: 1
-- `state`: 1
-- `replay`: 1
-- `matchmaking`: 1
-- `p2p`: 1
-- `invalid`: 1
-- `migration`: 1
-- `online`: 1
-- `socket`: 1
-- `hash`: 1
+- `rmc`: 1
+- `piacommon`: 1
+- `piatransport`: 1
+- `piasession`: 1
 

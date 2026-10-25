@@ -1,0 +1,83 @@
+// addr:      710023b3b0
+// offset:    0x23b3b0
+// name:      FUN_710023b3b0
+// mangled:   
+// size:      308
+
+710023b3b0  str x23,[sp, #-0x40]!
+710023b3b4  stp x22,x21,[sp, #0x10]
+710023b3b8  stp x20,x19,[sp, #0x20]
+710023b3bc  stp x29,x30,[sp, #0x30]
+710023b3c0  add x29,sp,#0x30
+710023b3c4  adrp x8,0x71052a4000
+710023b3c8  ldr x8,[x8, #0xda8]
+710023b3cc  adrp x23,0x71052a4000
+710023b3d0  ldrb w8,[x8]
+710023b3d4  ldr x23,[x23, #0xdb0]
+710023b3d8  mov w20,w2
+710023b3dc  mov w19,w1
+710023b3e0  mov x21,x0
+710023b3e4  add x22,x23,#0x28
+710023b3e8  cbz w8,0x710023b424
+710023b3ec  adrp x8,0x71052a4000
+710023b3f0  ldr x8,[x8, #0xdb8]
+710023b3f4  ldr x0,[x8]
+710023b3f8  bl 0x7101717960
+710023b3fc  ldr w8,[x0]
+710023b400  cbz w8,0x710023b424
+710023b404  ldr x10,[x23, #0xa0]
+710023b408  ldp x9,x10,[x10]
+710023b40c  sub x10,x10,x9
+710023b410  asr x10,x10,#0x3
+710023b414  cmp x10,x8
+710023b418  b.ls 0x710023b43c
+710023b41c  ldr x8,[x9, x8, LSL #0x3]
+710023b420  add x22,x8,#0x20
+710023b424  ldr x8,[x22]
+710023b428  cbz x8,0x710023b454
+710023b42c  ldr x8,[x8, #0x10]
+710023b430  cbz x8,0x710023b454
+710023b434  ldr x22,[x8, #0x10]
+710023b438  b 0x710023b458
+710023b43c  adrp x0,0x71042c4000
+710023b440  add x0,x0,#0x35f
+710023b444  mov w1,#0x47
+710023b448  orr w2,wzr,#0xe0000003
+710023b44c  mov w3,wzr
+710023b450  bl 0x71001b1300
+710023b454  mov x22,xzr
+710023b458  ldr x8,[x22, #0x78]!
+710023b45c  ldr x8,[x8, #0x10]
+710023b460  mov x0,x22
+710023b464  blr x8
+710023b468  add x8,x21,#0x20
+710023b46c  add x9,x21,#0x8
+710023b470  cmp w20,#0x1
+710023b474  csel x8,x8,x9,eq
+710023b478  ldr x10,[x8, #0x8]!
+710023b47c  cbz x10,0x710023b4b0
+710023b480  mov x9,x8
+710023b484  ldrh w11,[x10, #0x20]
+710023b488  cmp w11,w19, UXTH 
+710023b48c  cset w11,cc
+710023b490  csel x9,x9,x10,cc
+710023b494  ldr x10,[x10, w11, UXTW #0x3]
+710023b498  cbnz x10,0x710023b484
+710023b49c  cmp x9,x8
+710023b4a0  b.eq 0x710023b4b0
+710023b4a4  ldrh w8,[x9, #0x20]
+710023b4a8  cmp w8,w19, UXTH 
+710023b4ac  b.ls 0x710023b4b8
+710023b4b0  mov x19,xzr
+710023b4b4  b 0x710023b4bc
+710023b4b8  ldr x19,[x9, #0x28]
+710023b4bc  ldr x8,[x22]
+710023b4c0  ldr x8,[x8, #0x20]
+710023b4c4  mov x0,x22
+710023b4c8  blr x8
+710023b4cc  mov x0,x19
+710023b4d0  ldp x29,x30,[sp, #0x30]
+710023b4d4  ldp x20,x19,[sp, #0x20]
+710023b4d8  ldp x22,x21,[sp, #0x10]
+710023b4dc  ldr x23,[sp], #0x40
+710023b4e0  ret

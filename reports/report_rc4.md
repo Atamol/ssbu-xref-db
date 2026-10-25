@@ -1,4 +1,4 @@
-# rc4 (funcs=0, hits=0)
+# rc4 (funcs=0, hits=2)
 
 Top 50 functions by hit count
 

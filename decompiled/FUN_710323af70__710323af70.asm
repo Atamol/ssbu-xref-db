@@ -1,0 +1,142 @@
+// addr:      710323af70
+// offset:    0x323af70
+// name:      FUN_710323af70
+// mangled:   
+// size:      544
+
+710323af70  stp x28,x19,[sp, #-0x20]!
+710323af74  stp x29,x30,[sp, #0x10]
+710323af78  add x29,sp,#0x10
+710323af7c  sub sp,sp,#0x440
+710323af80  adrp x8,0x7104348000
+710323af84  add x8,x8,#0x860
+710323af88  tst w1,#0x1
+710323af8c  adrp x10,0x7104338000
+710323af90  add x10,x10,#0x8a6
+710323af94  str xzr,[sp, #0x220]
+710323af98  mov x9,xzr
+710323af9c  csel x8,x10,x8,ne
+710323afa0  add x10,sp,#0x220
+710323afa4  b 0x710323afb0
+710323afa8  add x9,x9,#0x2
+710323afac  strb w11,[x12, #0x9]
+710323afb0  add x11,x8,x9
+710323afb4  ldrb w13,[x11]
+710323afb8  cbz w13,0x710323afe4
+710323afbc  add w14,w9,#0x1
+710323afc0  add x12,x10,x9
+710323afc4  cmp w14,#0x103
+710323afc8  strb w13,[x12, #0x8]
+710323afcc  b.cs 0x710323afe0
+710323afd0  ldrb w11,[x11, #0x1]
+710323afd4  cbnz w11,0x710323afa8
+710323afd8  add x9,x9,#0x1
+710323afdc  b 0x710323afe4
+710323afe0  add w9,w9,#0x1
+710323afe4  add x10,sp,#0x220
+710323afe8  add x11,x10,#0x8
+710323afec  mov w8,#0x9dc5
+710323aff0  movk w8,#0x811c, LSL #16
+710323aff4  strb wzr,[x11, w9, UXTW ]
+710323aff8  str w9,[sp, #0x224]
+710323affc  ldrb w9,[sp, #0x228]
+710323b000  mov w11,w8
+710323b004  cbz w9,0x710323b028
+710323b008  add x10,x10,#0x9
+710323b00c  mov w12,#0x89
+710323b010  mov w11,w8
+710323b014  mul w11,w11,w12
+710323b018  and w9,w9,#0xff
+710323b01c  eor w11,w11,w9
+710323b020  ldrb w9,[x10], #0x1
+710323b024  cbnz w9,0x710323b014
+710323b028  str w11,[sp, #0x220]
+710323b02c  str xzr,[sp, #0x110]
+710323b030  cbz x0,0x710323b078
+710323b034  mov x9,xzr
+710323b038  add x10,sp,#0x110
+710323b03c  b 0x710323b048
+710323b040  add x9,x9,#0x2
+710323b044  strb w11,[x12, #0x9]
+710323b048  add x11,x0,x9
+710323b04c  ldrb w13,[x11]
+710323b050  cbz w13,0x710323b084
+710323b054  add w14,w9,#0x1
+710323b058  add x12,x10,x9
+710323b05c  cmp w14,#0x103
+710323b060  strb w13,[x12, #0x8]
+710323b064  b.cs 0x710323b080
+710323b068  ldrb w11,[x11, #0x1]
+710323b06c  cbnz w11,0x710323b040
+710323b070  add x9,x9,#0x1
+710323b074  b 0x710323b084
+710323b078  mov w9,wzr
+710323b07c  b 0x710323b084
+710323b080  add w9,w9,#0x1
+710323b084  add x10,sp,#0x110
+710323b088  add x11,x10,#0x8
+710323b08c  strb wzr,[x11, w9, UXTW ]
+710323b090  str w9,[sp, #0x114]
+710323b094  ldrb w9,[sp, #0x118]
+710323b098  mov w11,w8
+710323b09c  cbz w9,0x710323b0c0
+710323b0a0  add x10,x10,#0x9
+710323b0a4  mov w12,#0x89
+710323b0a8  mov w11,w8
+710323b0ac  mul w11,w11,w12
+710323b0b0  and w9,w9,#0xff
+710323b0b4  eor w11,w11,w9
+710323b0b8  ldrb w9,[x10], #0x1
+710323b0bc  cbnz w9,0x710323b0ac
+710323b0c0  str w11,[sp, #0x110]
+710323b0c4  mov x9,#0x500000000
+710323b0c8  mov w11,#0x622e
+710323b0cc  movk w11,#0x746e, LSL #16
+710323b0d0  orr w13,wzr,#0x78
+710323b0d4  mov w10,#0x2e
+710323b0d8  str x9,[sp]
+710323b0dc  str w11,[sp, #0x8]
+710323b0e0  mov w9,#0x9
+710323b0e4  mov w11,#0x89
+710323b0e8  mov x12,sp
+710323b0ec  strh w13,[sp, #0xc]
+710323b0f0  mul w8,w8,w11
+710323b0f4  and w10,w10,#0xff
+710323b0f8  eor w8,w8,w10
+710323b0fc  ldrb w10,[x12, x9, LSL ]
+710323b100  add x9,x9,#0x1
+710323b104  cbnz w10,0x710323b0f0
+710323b108  add x0,sp,#0x330
+710323b10c  add x1,sp,#0x220
+710323b110  add x2,sp,#0x110
+710323b114  mov x3,sp
+710323b118  str w8,[sp]
+710323b11c  add x19,sp,#0x330
+710323b120  bl 0x710323b190
+710323b124  ldrsw x8,[sp, #0x334]
+710323b128  cbz w8,0x710323b178
+710323b12c  add x9,x19,w8, UXTW 
+710323b130  add x10,x19,#0x8
+710323b134  add x11,x9,#0x8
+710323b138  mov w9,#0xffffffff
+710323b13c  adrp x12,0x7104754000
+710323b140  add x12,x12,#0x84
+710323b144  ldrb w13,[x10], #0x1
+710323b148  sub w14,w13,#0x41
+710323b14c  add w15,w13,#0x20
+710323b150  cmp w14,#0x1a
+710323b154  csel w13,w15,w13,cc
+710323b158  eor w13,w13,w9
+710323b15c  and w13,w13,#0xff
+710323b160  cmp x10,x11
+710323b164  ldr w13,[x12, w13, UXTW #0x2]
+710323b168  eor w9,w13,w9, LSR #0x8
+710323b16c  b.cc 0x710323b144
+710323b170  mvn w0,w9
+710323b174  b 0x710323b17c
+710323b178  mov x0,xzr
+710323b17c  bfm x0,x8,#0x20,#0x7
+710323b180  add sp,sp,#0x440
+710323b184  ldp x29,x30,[sp, #0x10]
+710323b188  ldp x28,x19,[sp], #0x20
+710323b18c  ret

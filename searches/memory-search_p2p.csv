@@ -1,14 +1,12 @@
 Location,Match Bytes,Match Value,Label,Code Unit
-04b6ad2c,50 32 50,P2P,,?? 50h    P
-04bdf890,50 32 50,P2P,,?? 50h    P
-0460576e,70 32 70,p2p,,?? 70h    p
-046326bb,70 32 70,p2p,,?? 70h    p
-0463307b,70 32 70,p2p,,?? 70h    p
-04634b74,70 32 70,p2p,,?? 70h    p
-046374e9,70 32 70,p2p,,?? 70h    p
-04637e3a,70 32 70,p2p,,?? 70h    p
-0463c82a,70 32 70,p2p,,?? 70h    p
-046d3254,70 32 70,p2p,,?? 70h    p
-04b6ad34,70 32 50,p2P,,?? 70h    p
-04452f10,50 32 70,P2p,,"ds ""CloseParticipationJob::WaitP2pStable"""
-04410a23,70 32 70,p2p,,"ds ""D:\\home\\ead-p2p\\Env\\Lib\\NintendoSDK\\NintendoSDK-NEX\\NintendoSDK-NEX-for_NX-4_6_3-S820-20190417-ja\\NintendoSDK-NEX\\Include\\OnlineCore/src/Core/InstanceTable.h"""
+710460666e,70 32 70,p2p,,?? 70h    p
+71046335bb,70 32 70,p2p,,?? 70h    p
+7104633f7b,70 32 70,p2p,,?? 70h    p
+7104635a74,70 32 70,p2p,,?? 70h    p
+71046383e9,70 32 70,p2p,,?? 70h    p
+7104638d3a,70 32 70,p2p,,?? 70h    p
+710463d72a,70 32 70,p2p,,?? 70h    p
+71046d4154,70 32 70,p2p,,?? 70h    p
+7104453e10,50 32 70,P2p,s_CloseParticipationJob::WaitP2pSt_7104453df5,"ds ""CloseParticipationJob::WaitP2pStable"""
+7104411923,70 32 70,p2p,s_D:\home\ead-p2p\Env\Lib\Nintendo_7104411917,"ds ""D:\\home\\ead-p2p\\Env\\Lib\\NintendoSDK\\NintendoSDK-NEX\\NintendoSDK-NEX-for_NX-4_6_3-S820-20190417-ja\\NintendoSDK-NEX\\Include\\OnlineCore/src/Core/InstanceTable.h"""
+7104ba1bbc,50 32 70,P2p,,?? 50h    P

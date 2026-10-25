@@ -1,4 +1,4 @@
-# Known hash40 identifiers for ssbu-atamol-research
+# Known hash40 identifiers for ssbu-xref-db
 # 1 identifier per line, lines starting with # are comments
 # hash40 is computed automatically and added to the label dict so that
 # functions loading these hashes show up in tables/hash40_loads.csv

@@ -1,1 +1,23 @@
 Vtable Address,Class,Slot,Function Address,Function Symbol,Function Demangled,Function Decompile Path
+7104f61e98,"nu::ModuleInitializer<nu::GraphicsModule,nu::GraphicsModuleDesc>",2,71037f4780,,,decompiled/cxa_pure_virtual__71037f4780.c
+7104f61e98,"nu::ModuleInitializer<nu::GraphicsModule,nu::GraphicsModuleDesc>",3,71037f4780,,,decompiled/cxa_pure_virtual__71037f4780.c
+7104f61e98,"nu::ModuleInitializer<nu::GraphicsModule,nu::GraphicsModuleDesc>",4,71037f4780,,,decompiled/cxa_pure_virtual__71037f4780.c
+7104f61e98,"nu::ModuleInitializer<nu::GraphicsModule,nu::GraphicsModuleDesc>",5,71037f4780,,,decompiled/cxa_pure_virtual__71037f4780.c
+7104f61e98,"nu::ModuleInitializer<nu::GraphicsModule,nu::GraphicsModuleDesc>",6,71037f4780,,,decompiled/cxa_pure_virtual__71037f4780.c
+7104f61e98,"nu::ModuleInitializer<nu::GraphicsModule,nu::GraphicsModuleDesc>",7,71037f4780,,,decompiled/cxa_pure_virtual__71037f4780.c
+7104f61e98,"nu::ModuleInitializer<nu::GraphicsModule,nu::GraphicsModuleDesc>",8,71002c4f40,_ZN2nu17ModuleInitializerINS_14GraphicsModuleENS_18GraphicsModuleDescEED2Ev,"undefined nu::ModuleInitializer<nu::GraphicsModule,nu::GraphicsModuleDesc>::~ModuleInitializer(void)",decompiled/ModuleInitializer__71002c4f40.c
+7104f61e98,"nu::ModuleInitializer<nu::GraphicsModule,nu::GraphicsModuleDesc>",9,71002c4f50,_ZN2nu17ModuleInitializerINS_14GraphicsModuleENS_18GraphicsModuleDescEED0Ev,"undefined nu::ModuleInitializer<nu::GraphicsModule,nu::GraphicsModuleDesc>::~ModuleInitializer(void)",decompiled/ModuleInitializer__71002c4f50.c
+7105131ce0,std::stringbuf,2,7102d0a940,_ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEED2Ev,undefined std::stringbuf::~stringbuf(void),decompiled/stringbuf__7102d0a940.c
+7105131ce0,std::stringbuf,3,7102d0a980,_ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEED0Ev,undefined std::stringbuf::~stringbuf(void),decompiled/stringbuf__7102d0a980.c
+7105131ce0,std::stringbuf,4,7107900000,_ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE5imbueERKNS_6localeE,undefined std::streambuf::imbue(std::locale const &),decompiled/imbue__7107900000.c
+7105131ce0,std::stringbuf,5,7107901000,_ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE6setbufEPcl,"undefined std::streambuf::setbuf(char *,long)",decompiled/setbuf__7107901000.c
+7105131ce0,std::stringbuf,6,7102d0a9d0,_ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE7seekoffExNS_8ios_base7seekdirEj,"undefined std::stringbuf::seekoff(long long,std::ios_base::seekdir,unsigned int)",decompiled/seekoff__7102d0a9d0.c
+7105131ce0,std::stringbuf,7,7102d0ab00,,,decompiled/FUN_7102d0ab00__7102d0ab00.c
+7105131ce0,std::stringbuf,8,7107902000,_ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE4syncEv,undefined std::streambuf::sync(void),decompiled/sync__7107902000.c
+7105131ce0,std::stringbuf,9,7107903000,_ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE9showmanycEv,undefined std::streambuf::showmanyc(void),decompiled/showmanyc__7107903000.c
+7105131ce0,std::stringbuf,10,7107904000,_ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE6xsgetnEPcl,"undefined std::streambuf::xsgetn(char *,long)",decompiled/xsgetn__7107904000.c
+7105131ce0,std::stringbuf,11,7102d0ab20,_ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE9underflowEv,undefined std::stringbuf::underflow(void),decompiled/underflow__7102d0ab20.c
+7105131ce0,std::stringbuf,12,7107905000,_ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE5uflowEv,undefined std::streambuf::uflow(void),decompiled/uflow__7107905000.c
+7105131ce0,std::stringbuf,13,7102d0ab80,_ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE9pbackfailEi,undefined std::stringbuf::pbackfail(int),decompiled/pbackfail__7102d0ab80.c
+7105131ce0,std::stringbuf,14,7107906000,_ZNSt3__115basic_streambufIcNS_11char_traitsIcEEE6xsputnEPKcl,"undefined std::streambuf::xsputn(char const *,long)",decompiled/xsputn__7107906000.c
+7105131ce0,std::stringbuf,15,7102d0abf0,_ZNSt3__115basic_stringbufIcNS_11char_traitsIcEENS_9allocatorIcEEE8overflowEi,undefined std::stringbuf::overflow(int),decompiled/overflow__7102d0abf0.c

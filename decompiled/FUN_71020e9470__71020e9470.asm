@@ -1,0 +1,78 @@
+// addr:      71020e9470
+// offset:    0x20e9470
+// name:      FUN_71020e9470
+// mangled:   
+// size:      288
+
+71020e9470  sub sp,sp,#0x50
+71020e9474  str x21,[sp, #0x20]
+71020e9478  stp x20,x19,[sp, #0x30]
+71020e947c  stp x29,x30,[sp, #0x40]
+71020e9480  add x29,sp,#0x40
+71020e9484  ldr x8,[x0, #0x18]
+71020e9488  ldr x8,[x8, #0x18]
+71020e948c  mov x19,x0
+71020e9490  cmp x8,#0x1
+71020e9494  b.lt 0x71020e94a0
+71020e9498  mov x0,x19
+71020e949c  bl 0x71038fec40
+71020e94a0  mov x0,x19
+71020e94a4  bl 0x710391e050
+71020e94a8  ldr x8,[x19, #0x10]
+71020e94ac  mov w9,#0x45
+71020e94b0  str w9,[x8, #0x8]
+71020e94b4  str x0,[x8]
+71020e94b8  ldr x8,[x19, #0x10]
+71020e94bc  mov x1,x0
+71020e94c0  mov w3,#0x2
+71020e94c4  mov x0,x19
+71020e94c8  mov w2,wzr
+71020e94cc  mov w20,#0x2
+71020e94d0  add x8,x8,#0x10
+71020e94d4  str x8,[x19, #0x10]
+71020e94d8  bl 0x710391d4c0
+71020e94dc  mov x8,#0x1
+71020e94e0  movk x8,#0x5000, LSL #48
+71020e94e4  str x8,[sp, #0x8]
+71020e94e8  mov x8,#0x3d
+71020e94ec  movk x8,#0x5000, LSL #48
+71020e94f0  adrp x9,0x71050b4000
+71020e94f4  add x9,x9,#0xb48
+71020e94f8  mov x0,sp
+71020e94fc  mov w2,#0x1
+71020e9500  mov x1,x19
+71020e9504  strb wzr,[sp, #0x18]
+71020e9508  str x8,[sp, #0x10]
+71020e950c  str x9,[sp]
+71020e9510  mov w21,#0x1
+71020e9514  bl 0x71020d4810
+71020e9518  ldr x8,[x19, #0x10]
+71020e951c  adrp x9,0x71020e9000
+71020e9520  add x9,x9,#0x590
+71020e9524  str x9,[x8]
+71020e9528  str w20,[x8, #0x8]
+71020e952c  ldr x8,[x19, #0x10]
+71020e9530  add x9,x8,#0x10
+71020e9534  sub x1,x8,#0x10
+71020e9538  adrp x2,0x710430c000
+71020e953c  add x2,x2,#0x66a
+71020e9540  mov x0,x19
+71020e9544  str x9,[x19, #0x10]
+71020e9548  bl 0x71038f5390
+71020e954c  ldr x8,[x19, #0x10]
+71020e9550  str wzr,[x8]
+71020e9554  str w21,[x8, #0x8]
+71020e9558  ldr x8,[x19, #0x10]
+71020e955c  add x9,x8,#0x10
+71020e9560  sub x1,x8,#0x10
+71020e9564  adrp x2,0x7104271000
+71020e9568  add x2,x2,#0x1a9
+71020e956c  mov x0,x19
+71020e9570  str x9,[x19, #0x10]
+71020e9574  bl 0x71038f5390
+71020e9578  ldp x29,x30,[sp, #0x40]
+71020e957c  ldr x21,[sp, #0x20]
+71020e9580  ldp x20,x19,[sp, #0x30]
+71020e9584  mov w0,#0x1
+71020e9588  add sp,sp,#0x50
+71020e958c  ret

@@ -1,0 +1,75 @@
+// addr:      710161b560
+// offset:    0x161b560
+// name:      FUN_710161b560
+// mangled:   
+// size:      276
+
+710161b560  sub sp,sp,#0x40
+710161b564  stp x22,x21,[sp, #0x10]
+710161b568  stp x20,x19,[sp, #0x20]
+710161b56c  stp x29,x30,[sp, #0x30]
+710161b570  add x29,sp,#0x30
+710161b574  mov w8,#0xa
+710161b578  mov x19,x0
+710161b57c  strb wzr,[x0, #0x1e1]
+710161b580  str w8,[x0, #0x1e4]
+710161b584  stp xzr,xzr,[x0, #0x1f8]
+710161b588  ldr x1,[x19, #0x8]
+710161b58c  add x0,x0,#0x18
+710161b590  stp xzr,xzr,[x19, #0x1e8]
+710161b594  bl 0x71003ab220
+710161b598  ldr x8,[x19]
+710161b59c  str wzr,[x19, #0x1e4]
+710161b5a0  ldr x8,[x8, #0x58]
+710161b5a4  mov x0,x19
+710161b5a8  mov w1,wzr
+710161b5ac  blr x8
+710161b5b0  ldr x8,[x19]
+710161b5b4  ldr x8,[x8, #0x50]
+710161b5b8  mov x0,x19
+710161b5bc  blr x8
+710161b5c0  tbz w0,#0x0,0x710161b628
+710161b5c4  ldr x0,[x19, #0x1d8]
+710161b5c8  mov x1,#0xc426
+710161b5cc  movk x1,#0x3c70, LSL #16
+710161b5d0  movk x1,#0xc, LSL #32
+710161b5d4  add x2,sp,#0x8
+710161b5d8  mov x3,xzr
+710161b5dc  str xzr,[sp, #0x8]
+710161b5e0  bl 0x710372e100
+710161b5e4  ldr x19,[sp, #0x8]
+710161b5e8  cbz x19,0x710161b660
+710161b5ec  ldr x21,[x19, #0x10]
+710161b5f0  mov x20,xzr
+710161b5f4  b 0x710161b5fc
+710161b5f8  add x20,x20,#0x1
+710161b5fc  ldrb w8,[x21, x20, LSL ]
+710161b600  cmp w8,#0x73
+710161b604  b.eq 0x710161b610
+710161b608  cbnz w8,0x710161b5f8
+710161b60c  b 0x710161b650
+710161b610  ldr x22,[x19, #0x8]
+710161b614  ldr x0,[x22, x20, LSL #0x3]
+710161b618  cbz x0,0x710161b620
+710161b61c  bl 0x710392eb40
+710161b620  str xzr,[x22, x20, LSL #0x3]
+710161b624  b 0x710161b5f8
+710161b628  ldr x8,[x19, #0x10]
+710161b62c  ldp x20,x19,[sp, #0x20]
+710161b630  ldr x8,[x8]
+710161b634  ldr x0,[x8, #0x8]
+710161b638  adrp x1,0x7104400000
+710161b63c  add x1,x1,#0xa14
+710161b640  ldp x29,x30,[sp, #0x30]
+710161b644  ldp x22,x21,[sp, #0x10]
+710161b648  add sp,sp,#0x40
+710161b64c  b 0x7103727a80
+710161b650  ldr x0,[sp, #0x8]
+710161b654  cbz x0,0x710161b65c
+710161b658  bl 0x710392eb40
+710161b65c  str xzr,[sp, #0x8]
+710161b660  ldp x29,x30,[sp, #0x30]
+710161b664  ldp x20,x19,[sp, #0x20]
+710161b668  ldp x22,x21,[sp, #0x10]
+710161b66c  add sp,sp,#0x40
+710161b670  ret

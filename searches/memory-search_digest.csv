@@ -1,4 +1,4 @@
 Location,Match Bytes,Match Value,Label,Code Unit
-0438a8cc,44 69 67 65 73 74,Digest,,"ds ""%sAuthorization: Digest %s\r\n"""
-043481a1,44 69 67 65 73 74,Digest,,"ds ""Digest"""
-043ff270,64 69 67 65 73 74,digest,,"ds ""Ignoring duplicate digest auth header.\n"""
+710438b7cc,44 69 67 65 73 74,Digest,s_%sAuthorization:_Digest_%s_710438b7bb,"ds ""%sAuthorization: Digest %s\r\n"""
+71043490a1,44 69 67 65 73 74,Digest,s_Digest_71043490a1,"ds ""Digest"""
+7104400170,64 69 67 65 73 74,digest,s_Ignoring_duplicate_digest_auth_h_710440015d,"ds ""Ignoring duplicate digest auth header.\n"""

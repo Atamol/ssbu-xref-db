@@ -1,2 +1,63 @@
 Location,Match Value,Depth,Terminal,Ref Type,Operand Index,From Address,From Offset,From Code Unit,Function Address,Function Offset,Function Name,Function Symbol,Function Demangled,Function Namespace,Function Signature,Function Size,Function Basic Blocks,Function Incoming Refs,Function Decompile Path,Function CFG Path,Function Clone Hash,Function Fingerprint,Function Referenced By,Path
-04306431,socket,1,1,PARAM,0,000238b4,0x238b4,"add x1,x1,#0x431",00023390,0x23390,FUN_00023390,,,Global,"ulong __cdecl FUN_00023390(undefined1[16] param_1, undefined1[16] param_2, float param_3, undefined1[16] param_4, undefined1[16] param_5, undefined1[16] param_6, undefined1[16] param_7, ulong param_8, long param_9, char * param_10, undefined4 param_11, int param_12, long * param_13)",2428,151,1,decompiled/FUN_00023390__00023390.c,decompiled/FUN_00023390__00023390.mmd,7cf575edf93f0485,fc6fbaa9fa6701a9f85f02a9f65703a9f44f04a9fd7b05a9fd430191ffc30cd1,,04306431 -> 000238b4
+71044948c1,Socket,1,0,BRUTE_PTR,-1,7104f4a880,0x4f4a880,?? B0h,,,,,,,,0,0,0,,,,,,71044948c1 -> 7104f4a880
+710449c2c4,Socket,1,0,DATA,0,7104f55ce8,0x4f55ce8,addr 710449c290,,,,,,,,0,0,0,,,,,,710449c2c4 -> 7104f55ce8
+710449c31a,Socket,1,0,BRUTE_PTR,-1,7104f55d68,0x4f55d68,?? E0h,,,,,,,,0,0,0,,,,,,710449c31a -> 7104f55d68
+710449c327,Socket,1,0,BRUTE_PTR,-1,7104f55d68,0x4f55d68,?? E0h,,,,,,,,0,0,0,,,,,,710449c327 -> 7104f55d68
+71043df5c4,Socket,1,1,PARAM,0,71001bdc14,0x1bdc14,"add x1,x1,#0x5bc",71001bdb60,0x1bdb60,FUN_71001bdb60,,,Global,undefined FUN_71001bdb60(void),400,14,1,decompiled/FUN_71001bdb60__71001bdb60.c,decompiled/FUN_71001bdb60__71001bdb60.mmd,7f81c128e2fcf02a,081040b9a8030034ffc301d1f65704a9f44f05a9fd7b06a9fd830191f40301aa,,71043df5c4 -> 71001bdc14
+710438bef9,Socket,1,1,DATA,0,71001c89f4,0x1c89f4,"add x0,x0,#0xef1",71001c89f0,0x1c89f0,FUN_71001c89f0,,,Global,undefined FUN_71001c89f0(void),12,1,1,decompiled/FUN_71001c89f0__71001c89f0.c,decompiled/FUN_71001c89f0__71001c89f0.mmd,081b1e3a7afd3b3e,000e02f000c43b91c0035fd6,,710438bef9 -> 71001c89f4
+710438bf0f,Socket,1,1,DATA,0,71001c89f4,0x1c89f4,"add x0,x0,#0xef1",71001c89f0,0x1c89f0,FUN_71001c89f0,,,Global,undefined FUN_71001c89f0(void),12,1,1,decompiled/FUN_71001c89f0__71001c89f0.c,decompiled/FUN_71001c89f0__71001c89f0.mmd,081b1e3a7afd3b3e,000e02f000c43b91c0035fd6,,710438bf0f -> 71001c89f4
+71044008f5,Socket,1,1,DATA,0,71001c8b54,0x1c8b54,"add x0,x0,#0x8ec",71001c8b50,0x1c8b50,FUN_71001c8b50,,,Global,undefined FUN_71001c8b50(void),12,1,1,decompiled/FUN_71001c8b50__71001c8b50.c,decompiled/FUN_71001c8b50__71001c8b50.mmd,f263121e8782d6d7,c011029000b02391c0035fd6,,71044008f5 -> 71001c8b54
+710440090c,Socket,1,1,DATA,0,71001c8b54,0x1c8b54,"add x0,x0,#0x8ec",71001c8b50,0x1c8b50,FUN_71001c8b50,,,Global,undefined FUN_71001c8b50(void),12,1,1,decompiled/FUN_71001c8b50__71001c8b50.c,decompiled/FUN_71001c8b50__71001c8b50.mmd,f263121e8782d6d7,c011029000b02391c0035fd6,,710440090c -> 71001c8b54
+7104307331,socket,1,1,PARAM,0,7100000e78,0xe78,"add x1,x1,#0x31c",7100000df0,0xdf0,FUN_7100000df0,,,Global,"int __cdecl FUN_7100000df0(long param_1, void * param_2, ulong param_3, size_t * param_4, undefined8 param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)",172,10,2,decompiled/FUN_7100000df0__7100000df0.c,decompiled/FUN_7100000df0__7100000df0.mmd,18ccbfaf1101010e,ff0301d1f65701a9f44f02a9fd7b03a9fdc30091e00200b408845b39f60300aa,,7104307331 -> 7100000e78
+7104307331,socket,1,1,PARAM,0,7100000f38,0xf38,"add x1,x1,#0x31c",7100000ea0,0xea0,FUN_7100000ea0,,,Global,"int __cdecl FUN_7100000ea0(long param_1, undefined8 param_2, undefined8 param_3, long * param_4, undefined8 param_5, undefined8 param_6, undefined8 param_7, undefined8 param_8)",204,14,3,decompiled/FUN_7100000ea0__7100000ea0.c,decompiled/FUN_7100000ea0__7100000ea0.mmd,38a190b1485aa81b,ff0301d1f65701a9f44f02a9fd7b03a9fdc30091ff0300f9400300b408845b39,,7104307331 -> 7100000f38
+710424ea82,socket,1,1,PARAM,0,7100224f7c,0x224f7c,"add x2,x2,#0xa5b",7100224e50,0x224e50,FUN_7100224e50,,,Global,"bool __cdecl FUN_7100224e50(long param_1, char * param_2, ulong param_3, long param_4, long param_5)",380,8,1,decompiled/FUN_7100224e50__7100224e50.c,decompiled/FUN_7100224e50__7100224e50.mmd,a36de598c9c6d733,5f0010f162000054e0031f2ac0035fd6fc0f1bf8f85f01a9f65702a9f44f03a9,,710424ea82 -> 7100224f7c
+710424eaa6,Socket,1,1,PARAM,0,7100224f7c,0x224f7c,"add x2,x2,#0xa5b",7100224e50,0x224e50,FUN_7100224e50,,,Global,"bool __cdecl FUN_7100224e50(long param_1, char * param_2, ulong param_3, long param_4, long param_5)",380,8,1,decompiled/FUN_7100224e50__7100224e50.c,decompiled/FUN_7100224e50__7100224e50.mmd,a36de598c9c6d733,5f0010f162000054e0031f2ac0035fd6fc0f1bf8f85f01a9f65702a9f44f03a9,,710424eaa6 -> 7100224f7c
+710424eabd,Socket,1,1,PARAM,0,7100224f7c,0x224f7c,"add x2,x2,#0xa5b",7100224e50,0x224e50,FUN_7100224e50,,,Global,"bool __cdecl FUN_7100224e50(long param_1, char * param_2, ulong param_3, long param_4, long param_5)",380,8,1,decompiled/FUN_7100224e50__7100224e50.c,decompiled/FUN_7100224e50__7100224e50.mmd,a36de598c9c6d733,5f0010f162000054e0031f2ac0035fd6fc0f1bf8f85f01a9f65702a9f44f03a9,,710424eabd -> 7100224f7c
+710424ead8,Socket,1,1,PARAM,0,7100224f7c,0x224f7c,"add x2,x2,#0xa5b",7100224e50,0x224e50,FUN_7100224e50,,,Global,"bool __cdecl FUN_7100224e50(long param_1, char * param_2, ulong param_3, long param_4, long param_5)",380,8,1,decompiled/FUN_7100224e50__7100224e50.c,decompiled/FUN_7100224e50__7100224e50.mmd,a36de598c9c6d733,5f0010f162000054e0031f2ac0035fd6fc0f1bf8f85f01a9f65702a9f44f03a9,,710424ead8 -> 7100224f7c
+710449e0f0,Socket,1,0,DATA,0,7104f59f48,0x4f59f48,addr 710449e0d0,,,,,,,,0,0,0,,,,,,710449e0f0 -> 7104f59f48
+710449be65,Socket,1,0,DATA,0,7104f55a88,0x4f55a88,addr 710449be40,,,,,,,,0,0,0,,,,,,710449be65 -> 7104f55a88
+710449be7b,Socket,1,0,DATA,0,7104f55a88,0x4f55a88,addr 710449be40,,,,,,,,0,0,0,,,,,,710449be7b -> 7104f55a88
+710449bbfa,Socket,1,0,BRUTE_PTR,-1,7104f55688,0x4f55688,?? F0h,,,,,,,,0,0,0,,,,,,710449bbfa -> 7104f55688
+710449bc07,Socket,1,0,BRUTE_PTR,-1,7104f55688,0x4f55688,?? F0h,,,,,,,,0,0,0,,,,,,710449bc07 -> 7104f55688
+710449bbaa,Socket,1,0,DATA,0,7104f55648,0x4f55648,addr 710449bba0,,,,,,,,0,0,0,,,,,,710449bbaa -> 7104f55648
+710449d7b1,Socket,1,0,BRUTE_PTR,-1,7104f58df8,0x4f58df8,?? A0h,,,,,,,,0,0,0,,,,,,710449d7b1 -> 7104f58df8
+710449beee,Socket,1,0,BRUTE_PTR,-1,7104f55b28,0x4f55b28,?? D0h,,,,,,,,0,0,0,,,,,,710449beee -> 7104f55b28
+710449befb,Socket,1,0,BRUTE_PTR,-1,7104f55b28,0x4f55b28,?? D0h,,,,,,,,0,0,0,,,,,,710449befb -> 7104f55b28
+710449bf0b,Socket,1,0,BRUTE_PTR,-1,7104f55b28,0x4f55b28,?? D0h,,,,,,,,0,0,0,,,,,,710449bf0b -> 7104f55b28
+710449c162,Socket,1,0,BRUTE_PTR,-1,7104f55ca8,0x4f55ca8,?? 20h     ,,,,,,,,0,0,0,,,,,,710449c162 -> 7104f55ca8
+710449c16f,Socket,1,0,BRUTE_PTR,-1,7104f55ca8,0x4f55ca8,?? 20h     ,,,,,,,,0,0,0,,,,,,710449c16f -> 7104f55ca8
+710449bfa0,Socket,1,0,BRUTE_PTR,-1,7104f55b88,0x4f55b88,?? 70h    p,,,,,,,,0,0,0,,,,,,710449bfa0 -> 7104f55b88
+710449c24b,Socket,1,0,BRUTE_PTR,-1,7104f55d08,0x4f55d08,?? 20h     ,,,,,,,,0,0,0,,,,,,710449c24b -> 7104f55d08
+710449d9da,Socket,1,0,BRUTE_PTR,-1,7104f59198,0x4f59198,?? D0h,,,,,,,,0,0,0,,,,,,710449d9da -> 7104f59198
+710449d48a,Socket,1,0,BRUTE_PTR,-1,7104f58a78,0x4f58a78,?? 80h,,,,,,,,0,0,0,,,,,,710449d48a -> 7104f58a78
+710449bc4d,Socket,1,0,DATA,0,7104f55778,0x4f55778,addr 710449bc40,,,,,,,,0,0,0,,,,,,710449bc4d -> 7104f55778
+710449bbd2,Socket,1,0,BRUTE_PTR,-1,7104f556a8,0x4f556a8,?? C0h,,,,,,,,0,0,0,,,,,,710449bbd2 -> 7104f556a8
+710449bbe8,Socket,1,0,BRUTE_PTR,-1,7104f556a8,0x4f556a8,?? C0h,,,,,,,,0,0,0,,,,,,710449bbe8 -> 7104f556a8
+710449bb92,Socket,1,0,BRUTE_PTR,-1,7104f55668,0x4f55668,?? 80h,,,,,,,,0,0,0,,,,,,710449bb92 -> 7104f55668
+710449bc73,Socket,1,0,BRUTE_PTR,-1,7104f557b8,0x4f557b8,?? 60h    `,,,,,,,,0,0,0,,,,,,710449bc73 -> 7104f557b8
+710449bc8a,Socket,1,0,BRUTE_PTR,-1,7104f557b8,0x4f557b8,?? 60h    `,,,,,,,,0,0,0,,,,,,710449bc8a -> 7104f557b8
+710449bc23,Socket,1,0,BRUTE_PTR,-1,7104f55798,0x4f55798,?? 10h,,,,,,,,0,0,0,,,,,,710449bc23 -> 7104f55798
+710449bf57,Socket,1,0,DATA,0,7104f55b08,0x4f55b08,addr 710449bf30,,,,,,,,0,0,0,,,,,,710449bf57 -> 7104f55b08
+710449bf64,Socket,1,0,DATA,0,7104f55b08,0x4f55b08,addr 710449bf30,,,,,,,,0,0,0,,,,,,710449bf64 -> 7104f55b08
+710449c1fb,Socket,1,0,DATA,0,7104f55c88,0x4f55c88,addr 710449c1b0,,,,,,,,0,0,0,,,,,,710449c1fb -> 7104f55c88
+710449c208,Socket,1,0,DATA,0,7104f55c88,0x4f55c88,addr 710449c1b0,,,,,,,,0,0,0,,,,,,710449c208 -> 7104f55c88
+710449c019,Socket,1,0,DATA,0,7104f55b68,0x4f55b68,addr 710449bfe0,,,,,,,,0,0,0,,,,,,710449c019 -> 7104f55b68
+710449c3a3,Socket,1,0,DATA,0,7104f55d48,0x4f55d48,addr 710449c360,,,,,,,,0,0,0,,,,,,710449c3a3 -> 7104f55d48
+710449c3b0,Socket,1,0,DATA,0,7104f55d48,0x4f55d48,addr 710449c360,,,,,,,,0,0,0,,,,,,710449c3b0 -> 7104f55d48
+710449d7d1,Socket,1,0,BRUTE_PTR,-1,7104f58e18,0x4f58e18,?? C0h,,,,,,,,0,0,0,,,,,,710449d7d1 -> 7104f58e18
+710449bcc9,Socket,1,0,BRUTE_PTR,-1,7104f557f8,0x4f557f8,?? C0h,,,,,,,,0,0,0,,,,,,710449bcc9 -> 7104f557f8
+710449bde9,Socket,1,0,DATA,0,7104f559d8,0x4f559d8,addr 710449bdd0,,,,,,,,0,0,0,,,,,,710449bde9 -> 7104f559d8
+710449bdf6,Socket,1,0,DATA,0,7104f559d8,0x4f559d8,addr 710449bdd0,,,,,,,,0,0,0,,,,,,710449bdf6 -> 7104f559d8
+710449c063,Socket,1,0,BRUTE_PTR,-1,7104f55bc8,0x4f55bc8,?? 30h    0,,,,,,,,0,0,0,,,,,,710449c063 -> 7104f55bc8
+710449c070,Socket,1,0,BRUTE_PTR,-1,7104f55bc8,0x4f55bc8,?? 30h    0,,,,,,,,0,0,0,,,,,,710449c070 -> 7104f55bc8
+710449bebb,Socket,1,0,BRUTE_PTR,-1,7104f55ac8,0x4f55ac8,?? 90h,,,,,,,,0,0,0,,,,,,710449bebb -> 7104f55ac8
+710449c0a6,Socket,1,0,BRUTE_PTR,-1,7104f55c08,0x4f55c08,?? 80h,,,,,,,,0,0,0,,,,,,710449c0a6 -> 7104f55c08
+710449c0fb,Socket,1,0,BRUTE_PTR,-1,7104f55c48,0x4f55c48,?? D0h,,,,,,,,0,0,0,,,,,,710449c0fb -> 7104f55c48
+710449c108,Socket,1,0,BRUTE_PTR,-1,7104f55c48,0x4f55c48,?? D0h,,,,,,,,0,0,0,,,,,,710449c108 -> 7104f55c48
+71042f721c,socket,1,1,PARAM,0,7100225230,0x225230,"add x1,x1,#0x215",7100224fd0,0x224fd0,FUN_7100224fd0,,,Global,"undefined8 __cdecl FUN_7100224fd0(long param_1, char * param_2, long param_3, char * param_4, long param_5, ulong * param_6)",1436,86,1,decompiled/FUN_7100224fd0__7100224fd0.c,decompiled/FUN_7100224fd0__7100224fd0.mmd,b1850dbc233dbade,ff4305d1fc6f0fa9fa6710a9f85f11a9f65712a9f44f13a9fd7b14a9fd030591,,71042f721c -> 7100225230
+71042d57d1,Socket,1,1,DATA,0,71001c8bd4,0x1c8bd4,"add x0,x0,#0x7d1",71001c8bd0,0x1c8bd0,FUN_71001c8bd0,,,Global,undefined FUN_71001c8bd0(void),12,1,1,decompiled/FUN_71001c8bd0__71001c8bd0.c,decompiled/FUN_71001c8bd0__71001c8bd0.mmd,f2c7fb36e11eb75b,600802b000441f91c0035fd6,,71042d57d1 -> 71001c8bd4
+71042d57df,Socket,1,1,DATA,0,71001c8bd4,0x1c8bd4,"add x0,x0,#0x7d1",71001c8bd0,0x1c8bd0,FUN_71001c8bd0,,,Global,undefined FUN_71001c8bd0(void),12,1,1,decompiled/FUN_71001c8bd0__71001c8bd0.c,decompiled/FUN_71001c8bd0__71001c8bd0.mmd,f2c7fb36e11eb75b,600802b000441f91c0035fd6,,71042d57df -> 71001c8bd4
+7104318455,Socket,1,1,PARAM,0,71001f9dbc,0x1f9dbc,"add x1,x1,#0x455",71001f9c80,0x1f9c80,FUN_71001f9c80,,,Global,undefined __cdecl FUN_71001f9c80(long param_1),804,49,1,decompiled/FUN_71001f9c80__71001f9c80.c,decompiled/FUN_71001f9c80__71001f9c80.mmd,3ef1b09d4ae3b4d9,ffc301d1f71b00f9f65704a9f44f05a9fd7b06a9fd830191085c41f9f30300aa,,7104318455 -> 71001f9dbc
+7104432520,socket,1,1,PARAM,0,71002251dc,0x2251dc,"add x1,x1,#0x514",7100224fd0,0x224fd0,FUN_7100224fd0,,,Global,"undefined8 __cdecl FUN_7100224fd0(long param_1, char * param_2, long param_3, char * param_4, long param_5, ulong * param_6)",1436,86,1,decompiled/FUN_7100224fd0__7100224fd0.c,decompiled/FUN_7100224fd0__7100224fd0.mmd,b1850dbc233dbade,ff4305d1fc6f0fa9fa6710a9f85f11a9f65712a9f44f13a9fd7b14a9fd030591,,7104432520 -> 71002251dc
+71042f71d2,Socket,1,0,DATA,0,7104f555f0,0x4f555f0,addr 71042f71cf,,,,,,,,0,0,0,,,,,,71042f71d2 -> 7104f555f0
+71043bdb4d,Socket,1,1,PARAM,0,7100224388,0x224388,"add x1,x1,#0xb4a",7100224030,0x224030,FUN_7100224030,,,Global,"undefined4 __cdecl FUN_7100224030(int * param_1, long param_2, long param_3, undefined8 param_4, byte * param_5, undefined1 * param_6, char * param_7, long param_8)",1088,27,1,decompiled/FUN_7100224030__7100224030.c,decompiled/FUN_7100224030__7100224030.mmd,ec72bd2fd28ebff7,ff4307d1fc6718a9f85f19a9f6571aa9f44f1ba9fd7b1ca9fd030791f30300aa,,71043bdb4d -> 7100224388

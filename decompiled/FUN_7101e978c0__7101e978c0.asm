@@ -1,0 +1,70 @@
+// addr:      7101e978c0
+// offset:    0x1e978c0
+// name:      FUN_7101e978c0
+// mangled:   
+// size:      256
+
+7101e978c0  sub sp,sp,#0x50
+7101e978c4  str x21,[sp, #0x20]
+7101e978c8  stp x20,x19,[sp, #0x30]
+7101e978cc  stp x29,x30,[sp, #0x40]
+7101e978d0  add x29,sp,#0x40
+7101e978d4  mov x19,x0
+7101e978d8  ldr x0,[x0]
+7101e978dc  adrp x1,0x71042b4000
+7101e978e0  add x1,x1,#0xaa8
+7101e978e4  add x8,sp,#0x8
+7101e978e8  add x20,sp,#0x8
+7101e978ec  bl 0x71037780e0
+7101e978f0  mov w0,#0x10
+7101e978f4  mov w1,#0x10
+7101e978f8  bl 0x710392e290
+7101e978fc  cbnz x0,0x7101e97944
+7101e97900  adrp x8,0x7105332000
+7101e97904  ldr x0,[x8, #0xf00]
+7101e97908  cbz x0,0x7101e97940
+7101e9790c  mov w8,#0x10
+7101e97910  stur wzr,[x29, #-0x14]
+7101e97914  sub x1,x29,#0x14
+7101e97918  str x8,[sp, #0x18]
+7101e9791c  ldr x8,[x0]
+7101e97920  ldr x8,[x8, #0x30]
+7101e97924  add x2,sp,#0x18
+7101e97928  blr x8
+7101e9792c  tbz w0,#0x0,0x7101e97940
+7101e97930  mov w0,#0x10
+7101e97934  mov w1,#0x10
+7101e97938  bl 0x710392e290
+7101e9793c  cbnz x0,0x7101e97944
+7101e97940  mov x0,xzr
+7101e97944  adrp x21,0x710523d000
+7101e97948  add x21,x21,#0x9e8
+7101e9794c  cmp x20,x0
+7101e97950  stp x21,xzr,[x0]
+7101e97954  b.eq 0x7101e97964
+7101e97958  ldr x8,[sp, #0x10]
+7101e9795c  str xzr,[sp, #0x10]
+7101e97960  str x8,[x0, #0x8]
+7101e97964  ldr x9,[x19]
+7101e97968  ldr x8,[x9, #0x20]
+7101e9796c  str x0,[x9, #0x20]
+7101e97970  cbz x8,0x7101e97984
+7101e97974  ldr x9,[x8]
+7101e97978  ldr x9,[x9, #0x8]
+7101e9797c  mov x0,x8
+7101e97980  blr x9
+7101e97984  ldr x0,[sp, #0x10]
+7101e97988  stp x21,xzr,[sp, #0x8]
+7101e9798c  cbz x0,0x7101e97994
+7101e97990  bl 0x710392eb40
+7101e97994  ldr x8,[x19]
+7101e97998  ldr x0,[x8, #0x20]
+7101e9799c  fmov s0,0x3f800000
+7101e979a0  bl 0x710377aee0
+7101e979a4  orr w8,wzr,#0x3
+7101e979a8  strb w8,[x19, #0x8]
+7101e979ac  ldr x21,[sp, #0x20]
+7101e979b0  ldp x29,x30,[sp, #0x40]
+7101e979b4  ldp x20,x19,[sp, #0x30]
+7101e979b8  add sp,sp,#0x50
+7101e979bc  ret

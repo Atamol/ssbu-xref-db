@@ -1,0 +1,81 @@
+// addr:      7102195b50
+// offset:    0x2195b50
+// name:      FUN_7102195b50
+// mangled:   
+// size:      300
+
+7102195b50  sub sp,sp,#0x60
+7102195b54  str x21,[sp, #0x30]
+7102195b58  stp x20,x19,[sp, #0x40]
+7102195b5c  stp x29,x30,[sp, #0x50]
+7102195b60  add x29,sp,#0x50
+7102195b64  ldr x8,[x0, #0x18]
+7102195b68  ldr x8,[x8, #0x18]
+7102195b6c  mov x19,x0
+7102195b70  cmp x8,#0x1
+7102195b74  b.lt 0x7102195b80
+7102195b78  mov x0,x19
+7102195b7c  bl 0x71038fec40
+7102195b80  mov x0,x19
+7102195b84  bl 0x710391e050
+7102195b88  ldr x8,[x19, #0x10]
+7102195b8c  mov w9,#0x45
+7102195b90  str w9,[x8, #0x8]
+7102195b94  str x0,[x8]
+7102195b98  ldr x8,[x19, #0x10]
+7102195b9c  mov x1,x0
+7102195ba0  mov w3,#0x2
+7102195ba4  mov x0,x19
+7102195ba8  mov w2,wzr
+7102195bac  mov w20,#0x2
+7102195bb0  add x8,x8,#0x10
+7102195bb4  str x8,[x19, #0x10]
+7102195bb8  bl 0x710391d4c0
+7102195bbc  mov w8,#0xa
+7102195bc0  str w8,[sp, #0x8]
+7102195bc4  mov x8,#0x2794
+7102195bc8  movk x8,#0x7759, LSL #16
+7102195bcc  movk x8,#0x15, LSL #32
+7102195bd0  mov x0,sp
+7102195bd4  stp x8,xzr,[sp, #0x10]
+7102195bd8  mov x8,#-0x10000
+7102195bdc  movk x8,#0x5000, LSL #16
+7102195be0  str x8,[sp, #0x20]
+7102195be4  adrp x8,0x71050b5000
+7102195be8  add x8,x8,#0x228
+7102195bec  mov w2,#0x1
+7102195bf0  mov x1,x19
+7102195bf4  strh wzr,[sp, #0x28]
+7102195bf8  mov w21,#0x1
+7102195bfc  str x8,[sp]
+7102195c00  bl 0x7101ff91a0
+7102195c04  ldr x8,[x19, #0x10]
+7102195c08  adrp x9,0x7102195000
+7102195c0c  add x9,x9,#0xc80
+7102195c10  str x9,[x8]
+7102195c14  str w20,[x8, #0x8]
+7102195c18  ldr x8,[x19, #0x10]
+7102195c1c  add x9,x8,#0x10
+7102195c20  sub x1,x8,#0x10
+7102195c24  adrp x2,0x710430c000
+7102195c28  add x2,x2,#0x66a
+7102195c2c  mov x0,x19
+7102195c30  str x9,[x19, #0x10]
+7102195c34  bl 0x71038f5390
+7102195c38  ldr x8,[x19, #0x10]
+7102195c3c  str wzr,[x8]
+7102195c40  str w21,[x8, #0x8]
+7102195c44  ldr x8,[x19, #0x10]
+7102195c48  add x9,x8,#0x10
+7102195c4c  sub x1,x8,#0x10
+7102195c50  adrp x2,0x7104310000
+7102195c54  add x2,x2,#0x875
+7102195c58  mov x0,x19
+7102195c5c  str x9,[x19, #0x10]
+7102195c60  bl 0x71038f5390
+7102195c64  ldp x29,x30,[sp, #0x50]
+7102195c68  ldr x21,[sp, #0x30]
+7102195c6c  ldp x20,x19,[sp, #0x40]
+7102195c70  mov w0,#0x1
+7102195c74  add sp,sp,#0x60
+7102195c78  ret

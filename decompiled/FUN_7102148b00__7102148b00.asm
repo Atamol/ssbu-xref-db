@@ -1,0 +1,75 @@
+// addr:      7102148b00
+// offset:    0x2148b00
+// name:      FUN_7102148b00
+// mangled:   
+// size:      276
+
+7102148b00  sub sp,sp,#0x60
+7102148b04  stp x20,x19,[sp, #0x40]
+7102148b08  stp x29,x30,[sp, #0x50]
+7102148b0c  add x29,sp,#0x50
+7102148b10  ldr x8,[x0, #0x18]
+7102148b14  ldr x8,[x8, #0x18]
+7102148b18  mov x19,x0
+7102148b1c  cmp x8,#0x1
+7102148b20  b.lt 0x7102148b2c
+7102148b24  mov x0,x19
+7102148b28  bl 0x71038fec40
+7102148b2c  mov x0,x19
+7102148b30  bl 0x710391e050
+7102148b34  ldr x8,[x19, #0x10]
+7102148b38  mov w9,#0x45
+7102148b3c  str w9,[x8, #0x8]
+7102148b40  str x0,[x8]
+7102148b44  ldr x8,[x19, #0x10]
+7102148b48  mov x1,x0
+7102148b4c  mov w3,#0x2
+7102148b50  mov x0,x19
+7102148b54  mov w2,wzr
+7102148b58  mov w20,#0x2
+7102148b5c  add x8,x8,#0x10
+7102148b60  str x8,[x19, #0x10]
+7102148b64  bl 0x710391d4c0
+7102148b68  mov w8,#0xa
+7102148b6c  str w8,[sp, #0x10]
+7102148b70  mov x8,#-0x10000
+7102148b74  stp xzr,xzr,[sp, #0x18]
+7102148b78  movk x8,#0x5000, LSL #16
+7102148b7c  str x8,[sp, #0x28]
+7102148b80  adrp x8,0x71050b4000
+7102148b84  add x8,x8,#0xe68
+7102148b88  add x0,sp,#0x8
+7102148b8c  mov w2,#0x1
+7102148b90  mov x1,x19
+7102148b94  strb wzr,[sp, #0x30]
+7102148b98  str x8,[sp, #0x8]
+7102148b9c  str xzr,[sp, #0x38]
+7102148ba0  bl 0x7101ff91a0
+7102148ba4  ldr x8,[x19, #0x10]
+7102148ba8  adrp x9,0x7102148000
+7102148bac  add x9,x9,#0xc20
+7102148bb0  str x9,[x8]
+7102148bb4  str w20,[x8, #0x8]
+7102148bb8  ldr x8,[x19, #0x10]
+7102148bbc  add x9,x8,#0x10
+7102148bc0  sub x1,x8,#0x10
+7102148bc4  adrp x2,0x710430c000
+7102148bc8  add x2,x2,#0x66a
+7102148bcc  mov x0,x19
+7102148bd0  str x9,[x19, #0x10]
+7102148bd4  bl 0x71038f5390
+7102148bd8  ldr x8,[x19, #0x10]
+7102148bdc  str wzr,[x8, #0x8]
+7102148be0  ldr x8,[x19, #0x10]
+7102148be4  add x9,x8,#0x10
+7102148be8  sub x1,x8,#0x10
+7102148bec  adrp x2,0x7104416000
+7102148bf0  add x2,x2,#0xe2f
+7102148bf4  mov x0,x19
+7102148bf8  str x9,[x19, #0x10]
+7102148bfc  bl 0x71038f5390
+7102148c00  ldp x29,x30,[sp, #0x50]
+7102148c04  mov w0,#0x1
+7102148c08  ldp x20,x19,[sp, #0x40]
+7102148c0c  add sp,sp,#0x60
+7102148c10  ret

@@ -1,5 +1,5 @@
 Location,Match Bytes,Match Value,Label,Code Unit
-0425d320,71 75 69 74,quit,,"ds ""No authentication method was acceptable. (It is quite likely that the SOCKS5 server wanted a username/password, since none was supplied to the server on this connection.)"""
-0436ae6e,71 75 69 74,quit,,"ds ""pausequit_disp_off"""
-042a1b01,71 75 69 74,quit,,"ds ""pausequit_disp_on"""
-0424e77d,71 75 69 74,quit,,"ds ""pop_btn_quit"""
+710425e220,71 75 69 74,quit,s_No_authentication_method_was_acc_710425e1f0,"ds ""No authentication method was acceptable. (It is quite likely that the SOCKS5 server wanted a username/password, since none was supplied to the server on this connection.)"""
+710436bd6e,71 75 69 74,quit,s_pausequit_disp_off_710436bd69,"ds ""pausequit_disp_off"""
+71042a2a01,71 75 69 74,quit,s_pausequit_disp_on_71042a29fc,"ds ""pausequit_disp_on"""
+710424f67d,71 75 69 74,quit,s_pop_btn_quit_710424f675,"ds ""pop_btn_quit"""

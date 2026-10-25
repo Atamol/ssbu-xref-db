@@ -1,0 +1,75 @@
+// addr:      710390b110
+// offset:    0x390b110
+// name:      FUN_710390b110
+// mangled:   
+// size:      276
+
+710390b110  str x21,[sp, #-0x30]!
+710390b114  stp x20,x19,[sp, #0x10]
+710390b118  stp x29,x30,[sp, #0x20]
+710390b11c  add x29,sp,#0x20
+710390b120  ldr x21,[x0, #0x58]
+710390b124  ldr x9,[x21, #0x10]
+710390b128  orr w10,wzr,#0x18
+710390b12c  smaddl x10,w1,w10,x9
+710390b130  ldrb w10,[x10, #0x10]
+710390b134  ldrb w11,[x2, #0x10]
+710390b138  ldr x8,[x0, #0x30]
+710390b13c  mov w19,w1
+710390b140  sxtw x20,w19
+710390b144  cmp w10,w11
+710390b148  b.cc 0x710390b1c0
+710390b14c  orr w10,wzr,#0x18
+710390b150  madd x9,x20,x10,x9
+710390b154  ldr w1,[x9, #0x8]
+710390b158  ldr w2,[x2, #0x8]
+710390b15c  mov x0,x8
+710390b160  bl 0x7103913220
+710390b164  ldr w8,[x21, #0x18]
+710390b168  sub w9,w8,#0x1
+710390b16c  cmp w9,w19
+710390b170  b.le 0x710390b1ac
+710390b174  add x8,x20,x20, LSL #0x1
+710390b178  lsl x8,x8,#0x3
+710390b17c  ldr x9,[x21, #0x10]
+710390b180  add x9,x9,x8
+710390b184  add x20,x20,#0x1
+710390b188  ldp x11,x10,[x9, #0x20]
+710390b18c  add x8,x8,#0x18
+710390b190  stp x11,x10,[x9, #0x8]
+710390b194  ldr x10,[x9, #0x18]
+710390b198  str x10,[x9]
+710390b19c  ldrsw x9,[x21, #0x18]
+710390b1a0  sub x9,x9,#0x1
+710390b1a4  cmp x20,x9
+710390b1a8  b.lt 0x710390b17c
+710390b1ac  str w9,[x21, #0x18]
+710390b1b0  ldp x29,x30,[sp, #0x20]
+710390b1b4  ldp x20,x19,[sp, #0x10]
+710390b1b8  ldr x21,[sp], #0x30
+710390b1bc  ret
+710390b1c0  ldr w11,[x8, #0x34]
+710390b1c4  add w10,w11,w10
+710390b1c8  ldr x11,[x8, #0x10]
+710390b1cc  ldr x8,[x8]
+710390b1d0  ldr x11,[x11, #0x58]
+710390b1d4  ldr x11,[x11]
+710390b1d8  ldrsh x10,[x11, w10, SXTW #0x1]
+710390b1dc  orr w11,wzr,#0x18
+710390b1e0  madd x9,x20,x11,x9
+710390b1e4  ldr x8,[x8, #0x50]
+710390b1e8  lsl x10,x10,#0x4
+710390b1ec  ldr x10,[x8, x10, LSL #0x0]
+710390b1f0  ldr x8,[x0, #0x38]
+710390b1f4  ldr x11,[x9]
+710390b1f8  ldr w3,[x9, #0xc]
+710390b1fc  add x2,x11,#0x18
+710390b200  add x4,x10,#0x18
+710390b204  adrp x1,0x7104453000
+710390b208  add x1,x1,#0x5e5
+710390b20c  mov x19,x0
+710390b210  mov x0,x8
+710390b214  bl 0x7103908660
+710390b218  mov x1,x0
+710390b21c  mov x0,x19
+710390b220  bl 0x710390b290

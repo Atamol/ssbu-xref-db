@@ -1,0 +1,63 @@
+// addr:      71020e5010
+// offset:    0x20e5010
+// name:      FUN_71020e5010
+// mangled:   
+// size:      228
+
+71020e5010  sub sp,sp,#0x40
+71020e5014  str x19,[sp, #0x20]
+71020e5018  stp x29,x30,[sp, #0x30]
+71020e501c  add x29,sp,#0x30
+71020e5020  ldr x8,[x0, #0x18]
+71020e5024  ldr x8,[x8, #0x18]
+71020e5028  mov x19,x0
+71020e502c  cmp x8,#0x1
+71020e5030  b.lt 0x71020e503c
+71020e5034  mov x0,x19
+71020e5038  bl 0x71038fec40
+71020e503c  mov x0,x19
+71020e5040  bl 0x710391e050
+71020e5044  ldr x8,[x19, #0x10]
+71020e5048  mov w9,#0x45
+71020e504c  str w9,[x8, #0x8]
+71020e5050  str x0,[x8]
+71020e5054  ldr x8,[x19, #0x10]
+71020e5058  mov x1,x0
+71020e505c  mov w3,#0x1
+71020e5060  mov x0,x19
+71020e5064  mov w2,wzr
+71020e5068  add x8,x8,#0x10
+71020e506c  str x8,[x19, #0x10]
+71020e5070  bl 0x710391d4c0
+71020e5074  mov x8,#0x1
+71020e5078  movk x8,#0x5000, LSL #48
+71020e507c  str x8,[sp, #0x10]
+71020e5080  mov x8,#0x38
+71020e5084  movk x8,#0x5000, LSL #48
+71020e5088  str x8,[sp, #0x18]
+71020e508c  adrp x8,0x71050b4000
+71020e5090  add x8,x8,#0xa58
+71020e5094  add x0,sp,#0x8
+71020e5098  mov w2,#0x1
+71020e509c  mov x1,x19
+71020e50a0  str x8,[sp, #0x8]
+71020e50a4  bl 0x71020d4810
+71020e50a8  ldr x8,[x19, #0x10]
+71020e50ac  adrp x9,0x71020e5000
+71020e50b0  add x9,x9,#0x100
+71020e50b4  str x9,[x8]
+71020e50b8  mov w9,#0x2
+71020e50bc  str w9,[x8, #0x8]
+71020e50c0  ldr x8,[x19, #0x10]
+71020e50c4  add x9,x8,#0x10
+71020e50c8  sub x1,x8,#0x10
+71020e50cc  adrp x2,0x710430c000
+71020e50d0  add x2,x2,#0x66a
+71020e50d4  mov x0,x19
+71020e50d8  str x9,[x19, #0x10]
+71020e50dc  bl 0x71038f5390
+71020e50e0  ldp x29,x30,[sp, #0x30]
+71020e50e4  ldr x19,[sp, #0x20]
+71020e50e8  mov w0,#0x1
+71020e50ec  add sp,sp,#0x40
+71020e50f0  ret

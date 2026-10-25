@@ -1,0 +1,32 @@
+// addr:      71001a41d0
+// offset:    0x1a41d0
+// name:      FUN_71001a41d0
+// mangled:   
+// size:      104
+
+71001a41d0  stp x20,x19,[sp, #-0x20]!
+71001a41d4  stp x29,x30,[sp, #0x10]
+71001a41d8  add x29,sp,#0x10
+71001a41dc  ldrb w8,[x0, #0xbb]
+71001a41e0  mov x19,x0
+71001a41e4  cbnz w8,0x71001a4210
+71001a41e8  adrp x20,0x71052a4000
+71001a41ec  ldr x20,[x20, #0xdf0]
+71001a41f0  ldr x0,[x20]
+71001a41f4  ldrb w1,[x19, #0xb8]
+71001a41f8  bl 0x7100193180
+71001a41fc  ldr x0,[x20]
+71001a4200  bl 0x7100193580
+71001a4204  mov w1,#0x1
+71001a4208  mov w2,#0x1
+71001a420c  bl 0x7100198450
+71001a4210  adrp x8,0x71052a6000
+71001a4214  ldr x8,[x8, #0x768]
+71001a4218  adrp x9,0x7104318000
+71001a421c  add x9,x9,#0x425
+71001a4220  str x9,[x19, #0x40]
+71001a4224  mov x0,xzr
+71001a4228  stp x8,xzr,[x19, #0x30]
+71001a422c  ldp x29,x30,[sp, #0x10]
+71001a4230  ldp x20,x19,[sp], #0x20
+71001a4234  ret

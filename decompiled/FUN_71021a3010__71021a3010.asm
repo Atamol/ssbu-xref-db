@@ -1,0 +1,81 @@
+// addr:      71021a3010
+// offset:    0x21a3010
+// name:      FUN_71021a3010
+// mangled:   
+// size:      300
+
+71021a3010  sub sp,sp,#0x60
+71021a3014  str x21,[sp, #0x30]
+71021a3018  stp x20,x19,[sp, #0x40]
+71021a301c  stp x29,x30,[sp, #0x50]
+71021a3020  add x29,sp,#0x50
+71021a3024  ldr x8,[x0, #0x18]
+71021a3028  ldr x8,[x8, #0x18]
+71021a302c  mov x19,x0
+71021a3030  cmp x8,#0x1
+71021a3034  b.lt 0x71021a3040
+71021a3038  mov x0,x19
+71021a303c  bl 0x71038fec40
+71021a3040  mov x0,x19
+71021a3044  bl 0x710391e050
+71021a3048  ldr x8,[x19, #0x10]
+71021a304c  mov w9,#0x45
+71021a3050  str w9,[x8, #0x8]
+71021a3054  str x0,[x8]
+71021a3058  ldr x8,[x19, #0x10]
+71021a305c  mov x1,x0
+71021a3060  mov w3,#0x2
+71021a3064  mov x0,x19
+71021a3068  mov w2,wzr
+71021a306c  mov w20,#0x2
+71021a3070  add x8,x8,#0x10
+71021a3074  str x8,[x19, #0x10]
+71021a3078  bl 0x710391d4c0
+71021a307c  mov w8,#0xa
+71021a3080  str w8,[sp, #0x8]
+71021a3084  mov x8,#0x5305
+71021a3088  movk x8,#0xb385, LSL #16
+71021a308c  movk x8,#0x1e, LSL #32
+71021a3090  mov x0,sp
+71021a3094  stp x8,xzr,[sp, #0x10]
+71021a3098  mov x8,#-0x10000
+71021a309c  movk x8,#0x5000, LSL #16
+71021a30a0  str x8,[sp, #0x20]
+71021a30a4  adrp x8,0x71050b5000
+71021a30a8  add x8,x8,#0x368
+71021a30ac  mov w2,#0x1
+71021a30b0  mov x1,x19
+71021a30b4  strh wzr,[sp, #0x28]
+71021a30b8  mov w21,#0x1
+71021a30bc  str x8,[sp]
+71021a30c0  bl 0x7101ff91a0
+71021a30c4  ldr x8,[x19, #0x10]
+71021a30c8  adrp x9,0x71021a3000
+71021a30cc  add x9,x9,#0x140
+71021a30d0  str x9,[x8]
+71021a30d4  str w20,[x8, #0x8]
+71021a30d8  ldr x8,[x19, #0x10]
+71021a30dc  add x9,x8,#0x10
+71021a30e0  sub x1,x8,#0x10
+71021a30e4  adrp x2,0x710430c000
+71021a30e8  add x2,x2,#0x66a
+71021a30ec  mov x0,x19
+71021a30f0  str x9,[x19, #0x10]
+71021a30f4  bl 0x71038f5390
+71021a30f8  ldr x8,[x19, #0x10]
+71021a30fc  str wzr,[x8]
+71021a3100  str w21,[x8, #0x8]
+71021a3104  ldr x8,[x19, #0x10]
+71021a3108  add x9,x8,#0x10
+71021a310c  sub x1,x8,#0x10
+71021a3110  adrp x2,0x7104311000
+71021a3114  add x2,x2,#0x129
+71021a3118  mov x0,x19
+71021a311c  str x9,[x19, #0x10]
+71021a3120  bl 0x71038f5390
+71021a3124  ldp x29,x30,[sp, #0x50]
+71021a3128  ldr x21,[sp, #0x30]
+71021a312c  ldp x20,x19,[sp, #0x40]
+71021a3130  mov w0,#0x1
+71021a3134  add sp,sp,#0x60
+71021a3138  ret

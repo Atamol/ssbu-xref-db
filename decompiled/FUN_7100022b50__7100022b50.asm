@@ -1,0 +1,44 @@
+// addr:      7100022b50
+// offset:    0x22b50
+// name:      FUN_7100022b50
+// mangled:   
+// size:      152
+
+7100022b50  stp x20,x19,[sp, #-0x20]!
+7100022b54  stp x29,x30,[sp, #0x10]
+7100022b58  add x29,sp,#0x10
+7100022b5c  ldr x8,[x0, #0x8e8]
+7100022b60  ldr x9,[x0, #0x908]
+7100022b64  cmn x8,x9
+7100022b68  b.ne 0x7100022bbc
+7100022b6c  ldrb w8,[x0, #0x60]
+7100022b70  mov x19,x0
+7100022b74  cbnz w8,0x7100022bbc
+7100022b78  ldr x8,[x19, #0x858]
+7100022b7c  ldr x8,[x8, #0x70]
+7100022b80  mov x20,x1
+7100022b84  cbz x8,0x7100022bcc
+7100022b88  mov w1,#0x1
+7100022b8c  mov x0,x19
+7100022b90  blr x8
+7100022b94  tbz w0,#0x0,0x7100022bbc
+7100022b98  ldr x2,[x19, #0x68]
+7100022b9c  adrp x1,0x71043bd000
+7100022ba0  add x1,x1,#0x3a8
+7100022ba4  mov x0,x20
+7100022ba8  str x20,[x19]
+7100022bac  bl 0x7100015de0
+7100022bb0  mov w1,#0x1
+7100022bb4  mov x0,x19
+7100022bb8  bl 0x710001e860
+7100022bbc  ldp x29,x30,[sp, #0x10]
+7100022bc0  mov w0,wzr
+7100022bc4  ldp x20,x19,[sp], #0x20
+7100022bc8  ret
+7100022bcc  ldr w0,[x19, #0x258]
+7100022bd0  mov w1,#0xffffffff
+7100022bd4  mov w2,w1
+7100022bd8  mov x3,xzr
+7100022bdc  bl 0x7100015800
+7100022be0  cbnz w0,0x7100022b98
+7100022be4  b 0x7100022bbc

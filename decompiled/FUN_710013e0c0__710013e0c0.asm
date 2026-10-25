@@ -1,0 +1,71 @@
+// addr:      710013e0c0
+// offset:    0x13e0c0
+// name:      FUN_710013e0c0
+// mangled:   
+// size:      260
+
+710013e0c0  sub sp,sp,#0x30
+710013e0c4  stp x20,x19,[sp, #0x10]
+710013e0c8  stp x29,x30,[sp, #0x20]
+710013e0cc  add x29,sp,#0x20
+710013e0d0  adrp x20,0x71052a5000
+710013e0d4  ldr x20,[x20, #0x80]
+710013e0d8  mov x19,x0
+710013e0dc  ldr x0,[x20]
+710013e0e0  bl 0x7100146ba0
+710013e0e4  mov w8,#0x1
+710013e0e8  lsl w8,w8,w0
+710013e0ec  mov w9,#0x3a0
+710013e0f0  cmp w0,#0x9
+710013e0f4  and w8,w8,w9
+710013e0f8  ccmp w8,#0x0,#0x4,ls
+710013e0fc  b.eq 0x710013e140
+710013e100  ldr x8,[x20]
+710013e104  ldr x0,[x8, #0x8]
+710013e108  ldr x8,[x0]
+710013e10c  ldr x8,[x8, #0x28]
+710013e110  blr x8
+710013e114  adrp x8,0x71052a5000
+710013e118  ldr x8,[x8, #0x510]
+710013e11c  mov x0,xzr
+710013e120  stp x8,xzr,[x19, #0x30]
+710013e124  adrp x8,0x71042a2000
+710013e128  add x8,x8,#0x28d
+710013e12c  str x8,[x19, #0x40]
+710013e130  ldp x29,x30,[sp, #0x20]
+710013e134  ldp x20,x19,[sp, #0x10]
+710013e138  add sp,sp,#0x30
+710013e13c  ret
+710013e140  adrp x20,0x71052a4000
+710013e144  ldr x20,[x20, #0xdf0]
+710013e148  ldr x0,[x20]
+710013e14c  mov w1,#0x1
+710013e150  bl 0x7100193380
+710013e154  ldrb w8,[x19, #0x98]
+710013e158  cbnz w8,0x710013e174
+710013e15c  ldr x0,[x20]
+710013e160  add x1,x19,#0x60
+710013e164  mov x8,sp
+710013e168  bl 0x7100191a60
+710013e16c  ldr w8,[sp]
+710013e170  cbz w8,0x710013e198
+710013e174  ldr x8,[x19]
+710013e178  ldr x8,[x8, #0x40]
+710013e17c  mov x0,x19
+710013e180  blr x8
+710013e184  mov x0,xzr
+710013e188  ldp x29,x30,[sp, #0x20]
+710013e18c  ldp x20,x19,[sp, #0x10]
+710013e190  add sp,sp,#0x30
+710013e194  ret
+710013e198  adrp x8,0x71052a5000
+710013e19c  ldr x8,[x8, #0xdb8]
+710013e1a0  adrp x9,0x71043ac000
+710013e1a4  add x9,x9,#0xb68
+710013e1a8  mov w0,#0x5
+710013e1ac  str x9,[x19, #0x40]
+710013e1b0  stp x8,xzr,[x19, #0x30]
+710013e1b4  ldp x29,x30,[sp, #0x20]
+710013e1b8  ldp x20,x19,[sp, #0x10]
+710013e1bc  add sp,sp,#0x30
+710013e1c0  ret

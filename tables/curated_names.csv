@@ -1,0 +1,22 @@
+offset,name,source,note
+0x108ae0,NexMatchRandomMatchmakeJob_WaitNotification_step,13.0.4 NSO program user name (0x108ae0),checks the +0x168 deadline and sets the NexMatchRandomMatchmakeJob next step strings
+0x147ac0,nex_get_connection_error,old raw symbols.csv 0x147bc0 (13.0.4 0x147ac0),builds an error from the +0xd8/+0xdc state of the global net object and is called twice by nex_connection_loop (NEX link inferred)
+0x314030,GetPlayerEntry,old raw symbols.csv 0x314130 (13.0.4 0x314030),returns the 0x280 byte entry for index 0..15 or the default at +0x2800 and +0x28 is fighter_kind
+0x34af10,InitPlayerBattleEntry,old raw symbols.csv 0x34b010 (13.0.4 0x34af10),fills a 0x280 byte player entry from FighterParamAccessor2 params with kind at +0x28
+0x1754650,input_poll_all_players,old raw symbols.csv 0x17547f0 typed as image offset (13.0.4 0x17547f0),8 slot poll plus override copy +0x540 to +0x2b8 as in ssbu-decomp input_mapping.cpp
+0x18a71a0,quickplay_scene_dispatcher,old raw symbols.csv 0x18a72a0 (13.0.4 0x18a71a0),branches on outer state 4/5/7 at +0x2a8 and bumps the +0x2678/+0x2688 leave counters
+0x1cc6370,online_scene_state_handler,old raw symbols.csv 0x1cc6488 (13.0.4 0x1cc6370),state table handler registered in 0x1ccc7b0 and the raw name sat on stp x29 so the entry is 0x18 earlier
+0x1cc6ce0,return_to_searching_state,old raw symbols.csv 0x1cc6de8 (13.0.4 0x1cc6ce0),flag 0x232f check then error validate/format/dispatch and state 3 push at +0x148 (entry 8 before the raw stp)
+0x2367840,online_melee_event_handler,old raw symbols.csv 0x2367500 (13.0.4 0x23673f0),vtable event handler for type hash 0xbcd1970ce and the online part rests only on the Quickplay hook log
+0x3347920,css_state_tick,old raw symbols.csv 0x3347470 (13.0.4 0x3347370),vtable slot 3 of 0x5183aa0 that steps a state machine and bumps a tick counter at +0xb4
+0x3700d80,nex_connection_cleanup,old raw symbols.csv 0x37008d0 (13.0.4 0x37007d0),releases the NetSystem manager objects and is hooked at this entry by ssbu-anti-jp-error
+0x3701060,nex_error_info_init,old raw symbols.csv 0x3700bb0 (13.0.4 0x3700ab0),builds an error info from a Result or ErrorCode through ErrorResultVariant (NEX link inferred)
+0x370bc10,nex_connection_loop,old raw symbols.csv 0x370b778 (13.0.4 0x370b660),NetSystem thread entry looping over the NEX job runner 0xb68a0 and the entry is 0x18 before the raw stp
+0x3725030,scene_manager_update,old raw symbols.csv 0x3724a80 typed as image offset (13.0.4 0x3724a80),scene stack update and the same entry ssbu-less-lag hooks as run_scene_manager_impl
+0x37a2760,UI_SetTextString,old raw symbols.csv 0x37a22b0 (13.0.4 0x37a21b0),formats a message label with va args into UTF-16 and calls the text box setter 0x37a2270
+0x3957840,AtomicIncrement,old raw symbols.csv 0x3957390 (13.0.4 0x3957290),u32 atomic fetch add returning the old value inside the jemalloc code
+0x3957950,AtomicDecrement,old raw symbols.csv 0x39574a0 (13.0.4 0x39573a0),u32 atomic decrement inside the jemalloc code
+0x3957ca0,TimeSpan_Copy,old raw symbols.csv 0x39577f0 (13.0.4 0x39576f0),jemalloc nstime_copy
+0x3957cd0,TimeSpan_Compare,old raw symbols.csv 0x3957820 (13.0.4 0x3957720),jemalloc nstime_compare
+0x3957d10,TimeSpan_Add,old raw symbols.csv 0x3957860 (13.0.4 0x3957760),jemalloc nstime_add
+0x3957d50,TimeSpan_Sub,old raw symbols.csv 0x39578a0 (13.0.4 0x39577a0),jemalloc nstime_subtract

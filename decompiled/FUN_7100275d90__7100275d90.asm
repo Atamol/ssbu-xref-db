@@ -1,0 +1,75 @@
+// addr:      7100275d90
+// offset:    0x275d90
+// name:      FUN_7100275d90
+// mangled:   
+// size:      276
+
+7100275d90  sub sp,sp,#0x50
+7100275d94  stp x22,x21,[sp, #0x20]
+7100275d98  stp x20,x19,[sp, #0x30]
+7100275d9c  stp x29,x30,[sp, #0x40]
+7100275da0  add x29,sp,#0x40
+7100275da4  adrp x8,0x71052a4000
+7100275da8  ldr x8,[x8, #0xda8]
+7100275dac  adrp x22,0x71052a4000
+7100275db0  ldrb w8,[x8]
+7100275db4  ldr x22,[x22, #0xdb0]
+7100275db8  mov x20,x1
+7100275dbc  mov x19,x0
+7100275dc0  add x21,x22,#0x28
+7100275dc4  cbz w8,0x7100275e00
+7100275dc8  adrp x8,0x71052a4000
+7100275dcc  ldr x8,[x8, #0xdb8]
+7100275dd0  ldr x0,[x8]
+7100275dd4  bl 0x7101717960
+7100275dd8  ldr w8,[x0]
+7100275ddc  cbz w8,0x7100275e00
+7100275de0  ldr x10,[x22, #0xa0]
+7100275de4  ldp x9,x10,[x10]
+7100275de8  sub x10,x10,x9
+7100275dec  asr x10,x10,#0x3
+7100275df0  cmp x10,x8
+7100275df4  b.ls 0x7100275e8c
+7100275df8  ldr x8,[x9, x8, LSL #0x3]
+7100275dfc  add x21,x8,#0x20
+7100275e00  ldr x8,[x21]
+7100275e04  ldr x8,[x8, #0x10]
+7100275e08  ldr x0,[x8, #0x18]
+7100275e0c  ldr w1,[x19, #0xa8]
+7100275e10  bl 0x71001cd7d0
+7100275e14  cbz x0,0x7100275e54
+7100275e18  ldr w8,[x19, #0xf0]
+7100275e1c  str w8,[x20, #0xc]
+7100275e20  ldr x1,[x19, #0x268]
+7100275e24  ldr x8,[x19, #0x270]
+7100275e28  cmp x1,x8
+7100275e2c  b.eq 0x7100275e78
+7100275e30  sub x2,x8,x1
+7100275e34  ldr x8,[x20]
+7100275e38  mov x0,x20
+7100275e3c  ldp x29,x30,[sp, #0x40]
+7100275e40  ldr x3,[x8, #0xb0]
+7100275e44  ldp x20,x19,[sp, #0x30]
+7100275e48  ldp x22,x21,[sp, #0x20]
+7100275e4c  add sp,sp,#0x50
+7100275e50  br x3
+7100275e54  mov w8,#0x4
+7100275e58  movk w8,#0x8001, LSL #16
+7100275e5c  add x0,sp,#0x8
+7100275e60  add x1,sp,#0x4
+7100275e64  str w8,[sp, #0x4]
+7100275e68  bl 0x71001b4200
+7100275e6c  add x1,sp,#0x8
+7100275e70  mov x0,x19
+7100275e74  bl 0x7100275400
+7100275e78  ldp x29,x30,[sp, #0x40]
+7100275e7c  ldp x20,x19,[sp, #0x30]
+7100275e80  ldp x22,x21,[sp, #0x20]
+7100275e84  add sp,sp,#0x50
+7100275e88  ret
+7100275e8c  adrp x0,0x71042c4000
+7100275e90  add x0,x0,#0x35f
+7100275e94  mov w1,#0x47
+7100275e98  orr w2,wzr,#0xe0000003
+7100275e9c  mov w3,wzr
+7100275ea0  bl 0x71001b1300

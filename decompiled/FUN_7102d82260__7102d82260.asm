@@ -1,0 +1,78 @@
+// addr:      7102d82260
+// offset:    0x2d82260
+// name:      FUN_7102d82260
+// mangled:   
+// size:      288
+
+7102d82260  str x19,[sp, #-0x20]!
+7102d82264  stp x29,x30,[sp, #0x10]
+7102d82268  add x29,sp,#0x10
+7102d8226c  mov x19,x0
+7102d82270  ldr x0,[x0, #0x38]
+7102d82274  ldr x8,[x0]
+7102d82278  ldr x8,[x8, #0x40]
+7102d8227c  blr x8
+7102d82280  ldr x8,[x19, #0x8]
+7102d82284  ldr x9,[x8, #0x338]
+7102d82288  ldr x9,[x9]
+7102d8228c  ldr x0,[x9, #0x8]
+7102d82290  cbz x0,0x7102d822ac
+7102d82294  ldr x8,[x0]
+7102d82298  ldr x8,[x8, #0x58]
+7102d8229c  mov w1,#0x1b
+7102d822a0  mov w2,#0xffffffff
+7102d822a4  blr x8
+7102d822a8  ldr x8,[x19, #0x8]
+7102d822ac  ldr x8,[x8, #0x300]
+7102d822b0  ldr x9,[x8, #0x18]
+7102d822b4  ldp x8,x9,[x9]
+7102d822b8  cmp x8,x9
+7102d822bc  b.eq 0x7102d82364
+7102d822c0  mov x10,#0xdf99
+7102d822c4  movk x10,#0xb569, LSL #16
+7102d822c8  movk x10,#0x7, LSL #32
+7102d822cc  mov x11,x8
+7102d822d0  ldr x12,[x11], #0x8
+7102d822d4  ldr x13,[x12, #0xa0]
+7102d822d8  and x13,x13,#0xffffffffff
+7102d822dc  cmp x13,x10
+7102d822e0  b.eq 0x7102d822f0
+7102d822e4  cmp x9,x11
+7102d822e8  b.ne 0x7102d822d0
+7102d822ec  b 0x7102d82318
+7102d822f0  ldr x10,[x12, #0x130]
+7102d822f4  cbz x10,0x7102d82318
+7102d822f8  ldp x0,x1,[x10]
+7102d822fc  adrp x2,0x71042a1000
+7102d82300  add x2,x2,#0x67e
+7102d82304  bl 0x71025f5420
+7102d82308  ldr x8,[x19, #0x8]
+7102d8230c  ldr x8,[x8, #0x300]
+7102d82310  ldr x9,[x8, #0x18]
+7102d82314  ldp x8,x9,[x9]
+7102d82318  cmp x8,x9
+7102d8231c  b.eq 0x7102d82364
+7102d82320  mov x10,#0xa683
+7102d82324  movk x10,#0x958a, LSL #16
+7102d82328  movk x10,#0x7, LSL #32
+7102d8232c  ldr x11,[x8], #0x8
+7102d82330  ldr x12,[x11, #0xa0]
+7102d82334  and x12,x12,#0xffffffffff
+7102d82338  cmp x12,x10
+7102d8233c  b.eq 0x7102d8234c
+7102d82340  cmp x9,x8
+7102d82344  b.ne 0x7102d8232c
+7102d82348  b 0x7102d82364
+7102d8234c  ldr x8,[x11, #0x130]
+7102d82350  cbz x8,0x7102d82364
+7102d82354  ldp x0,x1,[x8]
+7102d82358  adrp x2,0x71043ee000
+7102d8235c  add x2,x2,#0xcfc
+7102d82360  bl 0x71025f55b0
+7102d82364  ldr x8,[x19, #0x38]
+7102d82368  ldp s0,s1,[x8, #0x9c]
+7102d8236c  fsub s0,s1,s0
+7102d82370  str s0,[x19, #0x20]
+7102d82374  ldp x29,x30,[sp, #0x10]
+7102d82378  ldr x19,[sp], #0x20
+7102d8237c  ret

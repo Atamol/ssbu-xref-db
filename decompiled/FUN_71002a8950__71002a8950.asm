@@ -1,0 +1,80 @@
+// addr:      71002a8950
+// offset:    0x2a8950
+// name:      FUN_71002a8950
+// mangled:   
+// size:      296
+
+71002a8950  sub sp,sp,#0x80
+71002a8954  stp x22,x21,[sp, #0x50]
+71002a8958  stp x20,x19,[sp, #0x60]
+71002a895c  stp x29,x30,[sp, #0x70]
+71002a8960  add x29,sp,#0x70
+71002a8964  adrp x8,0x71052a4000
+71002a8968  ldr x8,[x8, #0xda8]
+71002a896c  adrp x22,0x71052a4000
+71002a8970  ldrb w8,[x8]
+71002a8974  ldr x22,[x22, #0xdb0]
+71002a8978  mov x20,x1
+71002a897c  mov x19,x0
+71002a8980  add x21,x22,#0x28
+71002a8984  cbz w8,0x71002a89c0
+71002a8988  adrp x8,0x71052a4000
+71002a898c  ldr x8,[x8, #0xdb8]
+71002a8990  ldr x0,[x8]
+71002a8994  bl 0x7101717960
+71002a8998  ldr w8,[x0]
+71002a899c  cbz w8,0x71002a89c0
+71002a89a0  ldr x10,[x22, #0xa0]
+71002a89a4  ldp x9,x10,[x10]
+71002a89a8  sub x10,x10,x9
+71002a89ac  asr x10,x10,#0x3
+71002a89b0  cmp x10,x8
+71002a89b4  b.ls 0x71002a8a60
+71002a89b8  ldr x8,[x9, x8, LSL #0x3]
+71002a89bc  add x21,x8,#0x20
+71002a89c0  ldr x8,[x21]
+71002a89c4  ldr x8,[x8, #0x10]
+71002a89c8  ldr x0,[x8, #0x18]
+71002a89cc  ldr w1,[x19, #0xa0]
+71002a89d0  bl 0x71001cd7d0
+71002a89d4  cbz x0,0x71002a8a44
+71002a89d8  adrp x8,0x71052a5000
+71002a89dc  ldr x8,[x8, #0x110]
+71002a89e0  ldr w9,[x20]
+71002a89e4  cmp w9,#0x0
+71002a89e8  csel x8,x8,xzr,ge
+71002a89ec  cbz x8,0x71002a8a14
+71002a89f0  ldp x8,x9,[x20]
+71002a89f4  ldr x10,[x20, #0x10]
+71002a89f8  str x8,[sp, #0x20]
+71002a89fc  mov x8,x10
+71002a8a00  mov w1,#0x2
+71002a8a04  stp x9,x10,[sp, #0x28]
+71002a8a08  stp x9,x8,[sp, #0x40]
+71002a8a0c  ldr x8,[sp, #0x20]
+71002a8a10  b 0x71002a8a34
+71002a8a14  ldp x8,x9,[x20]
+71002a8a18  ldr x10,[x20, #0x10]
+71002a8a1c  str x8,[sp, #0x8]
+71002a8a20  mov x8,x10
+71002a8a24  orr w1,wzr,#0x3
+71002a8a28  stp x9,x10,[sp, #0x10]
+71002a8a2c  stp x9,x8,[sp, #0x40]
+71002a8a30  ldr x8,[sp, #0x8]
+71002a8a34  str x8,[sp, #0x38]
+71002a8a38  add x2,sp,#0x38
+71002a8a3c  mov w3,#0x1
+71002a8a40  bl 0x71001d0f00
+71002a8a44  mov x0,x19
+71002a8a48  bl 0x71001cd870
+71002a8a4c  ldp x29,x30,[sp, #0x70]
+71002a8a50  ldp x20,x19,[sp, #0x60]
+71002a8a54  ldp x22,x21,[sp, #0x50]
+71002a8a58  add sp,sp,#0x80
+71002a8a5c  ret
+71002a8a60  adrp x0,0x71042c4000
+71002a8a64  add x0,x0,#0x35f
+71002a8a68  mov w1,#0x47
+71002a8a6c  orr w2,wzr,#0xe0000003
+71002a8a70  mov w3,wzr
+71002a8a74  bl 0x71001b1300

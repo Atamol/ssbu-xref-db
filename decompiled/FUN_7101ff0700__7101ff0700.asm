@@ -1,0 +1,75 @@
+// addr:      7101ff0700
+// offset:    0x1ff0700
+// name:      FUN_7101ff0700
+// mangled:   
+// size:      276
+
+7101ff0700  sub sp,sp,#0x40
+7101ff0704  str x19,[sp, #0x20]
+7101ff0708  stp x29,x30,[sp, #0x30]
+7101ff070c  add x29,sp,#0x30
+7101ff0710  mov x19,x0
+7101ff0714  adrp x2,0x7104270000
+7101ff0718  add x2,x2,#0xe0f
+7101ff071c  add x0,sp,#0x8
+7101ff0720  orr w3,wzr,#0xfffffffd
+7101ff0724  mov x1,x19
+7101ff0728  bl 0x7103728630
+7101ff072c  adrp x1,0x71042cb000
+7101ff0730  add x1,x1,#0x362
+7101ff0734  adrp x2,0x7101fec000
+7101ff0738  add x2,x2,#0x930
+7101ff073c  add x0,sp,#0x8
+7101ff0740  bl 0x7103728bf0
+7101ff0744  adrp x1,0x71042ba000
+7101ff0748  add x1,x1,#0x5f8
+7101ff074c  adrp x2,0x7101fec000
+7101ff0750  add x2,x2,#0xd50
+7101ff0754  add x0,sp,#0x8
+7101ff0758  bl 0x7103728bf0
+7101ff075c  adrp x1,0x710445a000
+7101ff0760  add x1,x1,#0x6f9
+7101ff0764  adrp x2,0x7101fec000
+7101ff0768  add x2,x2,#0xf50
+7101ff076c  add x0,sp,#0x8
+7101ff0770  bl 0x7103728bf0
+7101ff0774  ldr x0,[sp, #0x8]
+7101ff0778  cbz x0,0x7101ff078c
+7101ff077c  ldr x8,[sp, #0x10]
+7101ff0780  cbz x8,0x7101ff078c
+7101ff0784  ldr w1,[sp, #0x18]
+7101ff0788  bl 0x71038f55d0
+7101ff078c  adrp x2,0x7104309000
+7101ff0790  add x2,x2,#0x247
+7101ff0794  add x0,sp,#0x8
+7101ff0798  orr w3,wzr,#0xfffffffd
+7101ff079c  mov x1,x19
+7101ff07a0  bl 0x7103728630
+7101ff07a4  adrp x1,0x71042cb000
+7101ff07a8  add x1,x1,#0x362
+7101ff07ac  adrp x2,0x7101ff0000
+7101ff07b0  add x2,x2,#0x290
+7101ff07b4  add x0,sp,#0x8
+7101ff07b8  bl 0x7103728bf0
+7101ff07bc  adrp x1,0x71042ba000
+7101ff07c0  add x1,x1,#0x5f8
+7101ff07c4  adrp x2,0x7101ff0000
+7101ff07c8  add x2,x2,#0x410
+7101ff07cc  add x0,sp,#0x8
+7101ff07d0  bl 0x7103728bf0
+7101ff07d4  adrp x1,0x710445a000
+7101ff07d8  add x1,x1,#0x6f9
+7101ff07dc  adrp x2,0x7101ff0000
+7101ff07e0  add x2,x2,#0x620
+7101ff07e4  add x0,sp,#0x8
+7101ff07e8  bl 0x7103728bf0
+7101ff07ec  ldr x0,[sp, #0x8]
+7101ff07f0  cbz x0,0x7101ff0804
+7101ff07f4  ldr x8,[sp, #0x10]
+7101ff07f8  cbz x8,0x7101ff0804
+7101ff07fc  ldr w1,[sp, #0x18]
+7101ff0800  bl 0x71038f55d0
+7101ff0804  ldp x29,x30,[sp, #0x30]
+7101ff0808  ldr x19,[sp, #0x20]
+7101ff080c  add sp,sp,#0x40
+7101ff0810  ret

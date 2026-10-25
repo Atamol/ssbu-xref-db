@@ -1,0 +1,31 @@
+// addr:      71000d5330
+// offset:    0xd5330
+// name:      FUN_71000d5330
+// mangled:   
+// size:      100
+
+71000d5330  str x19,[sp, #-0x20]!
+71000d5334  stp x29,x30,[sp, #0x10]
+71000d5338  add x29,sp,#0x10
+71000d533c  adrp x8,0x71052a4000
+71000d5340  ldr x8,[x8, #0xdf0]
+71000d5344  mov x19,x0
+71000d5348  ldr x0,[x8]
+71000d534c  bl 0x71001936e0
+71000d5350  adrp x8,0x71052a4000
+71000d5354  adrp x9,0x71052a4000
+71000d5358  adrp x10,0x71042c3000
+71000d535c  add x10,x10,#0xfbe
+71000d5360  ldr x8,[x8, #0xfc8]
+71000d5364  ldr x9,[x9, #0xfd0]
+71000d5368  adrp x11,0x71042d5000
+71000d536c  add x11,x11,#0x47a
+71000d5370  tst w0,#0x1
+71000d5374  csel x10,x11,x10,ne
+71000d5378  str x10,[x19, #0x40]
+71000d537c  mov x0,xzr
+71000d5380  csel x8,x9,x8,ne
+71000d5384  stp x8,xzr,[x19, #0x30]
+71000d5388  ldp x29,x30,[sp, #0x10]
+71000d538c  ldr x19,[sp], #0x20
+71000d5390  ret
